@@ -1,0 +1,37 @@
+{
+  "sharpness": {
+    "desktop-dpr2-builtin-1x": 4.73,
+    "desktop-dpr2-builtin-2x": 5.68,
+    "desktop-dpr2-hidpi-1x": 6.79,
+    "desktop-dpr2-hidpi-2x": 11.28,
+    "pixel7-builtin-2x-mipmaps1": 13.38,
+    "pixel7-builtin-2x-mipmaps0": 16.81
+  },
+  "network": {
+    "desktop-dpr2-builtin-1x": 65925,
+    "desktop-dpr2-builtin-2x": 190058,
+    "desktop-dpr2-hidpi-1x": 65925,
+    "desktop-dpr2-hidpi-2x": 190058
+  },
+  "reducedMotion": {
+    "default": {
+      "idle": "breathing",
+      "changedPx": 4509
+    },
+    "reduce": {
+      "idle": "off",
+      "changedPx": 0
+    }
+  },
+  "metrics": {
+    "desktop-dpr2-builtin-1x": "1280x720",
+    "desktop-dpr2-builtin-2x": "1280x720",
+    "desktop-dpr2-hidpi-1x": "2503x1408",
+    "desktop-dpr2-hidpi-2x": "2503x1408",
+    "pixel7-portrait-builtin": "1280x720",
+    "pixel7-portrait-hidpi": "792x446",
+    "pixel7-landscape-builtin": "1280x720",
+    "pixel7-landscape-hidpi": "505x284",
+    "fpsHeadless": "14 fps · canvas 2503×1408 · zoom 1.955 · idle off"
+  }
+}

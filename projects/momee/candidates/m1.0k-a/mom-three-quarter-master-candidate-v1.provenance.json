@@ -1,0 +1,30 @@
+{
+  "assetId": "ref.mom.master-candidate.v1",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0k-A2",
+  "file": {
+    "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png",
+    "sha256": "01af644ed2f98abc4dab93a42e5d1754d9ac12098dc852544d8b37f9a6b10508",
+    "bytes": 1180464,
+    "format": "PNG 1024×1536, 8-bit RGBA (colour type 6), non-interlaced",
+    "colourSpace": "sRGB chunk",
+    "metadata": "XMP (tiff:Orientation 1 only), eXIf (80 bytes); no C2PA (caBX), no generator tags"
+  },
+  "filenameNote": "The M1.0k-A2 brief names candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png; the only file present is mom-3.png (added after the M1.0k-A baseline). Identified by content; not renamed or moved. Update (M1.0k-A3, 2026-10-24): the owner later renamed mom-3.png to mom-three-quarter-master-candidate-v1.png; bytes and SHA-256 unchanged. This sidecar was renamed to match.",
+  "generation": {
+    "tool": "not recorded (owner states it is newly generated)",
+    "model": "not recorded",
+    "prompt": "not recorded (the M1.0k-A §4 draft prompt may have been used — unconfirmed)",
+    "seed": "not recorded",
+    "date": "not recorded (file mtime 2026-10-24 22:13 is a copy time)",
+    "attachedReferences": "not recorded"
+  },
+  "lineage": [
+    "ref.mom.accepted-sheet.v1-2 (identity reference, per brief)"
+  ],
+  "ownerDecision": "Supplied as a candidate for the Mom production master (M1.0k-A2 brief). Not visually accepted; not production-approved.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit, re-export or re-save; derivatives cite this SHA-256.",
+  "renamedFrom": "projects/momee/candidates/m1.0k-a/mom-3.png"
+}

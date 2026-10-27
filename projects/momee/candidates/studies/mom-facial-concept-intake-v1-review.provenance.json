@@ -1,0 +1,38 @@
+{
+  "milestone": "M1.0l-A2",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "review.mom-facial-concept-intake.v1",
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies)",
+    "krita": "5.3.4.1 via krita_mcp (layout only)"
+  },
+  "method": [
+    "analyse_l2.mjs: native-resolution crops of the nine thumbnails; frame-consistency (integer-shift alignment, mean abs RGB outside the feature band); identity/scale fit of a DOWNSCALED v2 master to the thumbnails.",
+    "sheet_l2.py lays out the review sheet; character images 1:1 or downscaled (concept sheet ×0.5).",
+    "No pixel of the concept sheet was extracted into a slot layer; reference crops are labelled reference-only."
+  ],
+  "determinism": "Re-running analyse_l2.mjs reproduced every crop and analysis.json byte-for-byte.",
+  "outputs": {
+    "projects/momee/source/studies/mom-facial-concept-intake-v1-review.kra": "c8271b1019dcdb2c323743604199f1990182e546fe17bc6824ea39097f7a9b9a",
+    "projects/momee/review/m1.0l-a2/mom-facial-concept-intake-v1-review.png": "954db85ad6d325b59d71610cf022ed1ae6a9e1e1af8cfef7e90f45049bdd64cc"
+  },
+  "constructionFiles": {
+    "projects/momee/candidates/m1.0l-a2-construction/analyse_l2.mjs": "9b1e246efde9247eadf8dea34bdd9d172ec64ba6eb270535e924dcaef65db846",
+    "projects/momee/candidates/m1.0l-a2-construction/analysis.json": "4b90e3685b02d8a0f62da512ede39d687d725de7cb69474b96efabd571c189cf",
+    "projects/momee/candidates/m1.0l-a2-construction/sheet_l2.py": "bdff092784351179e01f4ce69ef2d7bcdf9fb1f2fc94250990902da538baa3a7",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/master-v2-downscaled-x0.36.comparison.png": "789f2cde3bf432b55a9ea29e7ca3fe070dba60fbab238f9acc11e4f42e0ec25d",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-brow-raised.reference-only.png": "2cb0e4bc9a91ed78efa4f9ac593f1dbebb7bd438f1c312dc37426eb256f48719",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-closed.reference-only.png": "c7f1eadd7a654b64e31083662edad5ee91716c1a929316081bc9e71dc50fdfce",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-half-a.reference-only.png": "21f67e5e01a306dde6f92c9b17bb008cd58ef2ee3f22703ff8402bbccd97e7c7",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-half-b.reference-only.png": "6bf203d19145ed5b7eb4cc0e43ecb2822d04f52672d8eed664af9bedbdfa7182",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-open-a.reference-only.png": "18841a12517ad5e083fbfb195da4e08de1e555b74197280fc7c44c929a2eda93",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-open-b.reference-only.png": "2892638683df76d6df69ae690456bd2d63517a538ae7e53b160a2b65d641a6f9",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-neutral.reference-only.png": "d4bf572c795b576e9e70414bcb8981c6ec7c0f794347c9207a89f7929899fa93",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-small-open.reference-only.png": "6dc808df9ca057b4ad0c3775dea7eb06b38b897aae461238746653480a841e74",
+    "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-wide-open.reference-only.png": "77646688488b5e236ca2abcc3cf2ac89b0e5a31cce7d09b331389a307d1a3d35"
+  },
+  "generativeModelUsed": "None in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null
+}

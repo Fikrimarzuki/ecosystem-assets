@@ -1,0 +1,209 @@
+{
+  "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\optimized\\explorer-neutral-20k.glb",
+  "fileSizeBytes": 1482524,
+  "blender": "5.2.2 LTS",
+  "raw": {
+    "magic": "glTF",
+    "version": 2,
+    "declaredLength": 1482524,
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "extensionsUsed": [],
+    "extensionsRequired": [],
+    "meshes": 1,
+    "primitives": 1,
+    "primitiveAttributes": [
+      [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0"
+      ]
+    ],
+    "nodes": 1,
+    "skins": 0,
+    "animations": 0,
+    "materials": [
+      {
+        "name": "explorer_neutral.002",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "normalTexture": true,
+        "emissiveTexture": false,
+        "emissiveFactor": null,
+        "alphaMode": "OPAQUE",
+        "doubleSided": true,
+        "extensions": []
+      }
+    ],
+    "textures": 3,
+    "images": [
+      {
+        "name": "explorer-neutral-20k_normal",
+        "mimeType": "image/jpeg",
+        "bufferView": 4,
+        "uri": null,
+        "bytes": 354584
+      },
+      {
+        "name": "explorer-neutral-20k_basecolor",
+        "mimeType": "image/jpeg",
+        "bufferView": 5,
+        "uri": null,
+        "bytes": 349056
+      },
+      {
+        "name": "explorer-neutral-20k_metallicroughness",
+        "mimeType": "image/jpeg",
+        "bufferView": 6,
+        "uri": null,
+        "bytes": 186185
+      }
+    ],
+    "trianglesFromIndices": 20000
+  },
+  "blenderScene": {
+    "objects": [
+      [
+        "explorer_neutral",
+        "MESH"
+      ]
+    ],
+    "meshCount": 1,
+    "triangles": 20000,
+    "vertices": 14715,
+    "materialCount": 1,
+    "imageCount": 3,
+    "armatures": [],
+    "bones": 0,
+    "actions": [],
+    "boundsMinBlenderZUp": [
+      -0.5527,
+      -0.1934,
+      -0.9512
+    ],
+    "boundsMaxBlenderZUp": [
+      0.5479,
+      0.196,
+      0.947
+    ],
+    "dimensionsXYZ_BlenderZUp": [
+      1.1006,
+      0.3894,
+      1.8982
+    ]
+  },
+  "meshes": [
+    {
+      "name": "explorer_neutral",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 14715,
+      "faces": 20000,
+      "triangles": 20000,
+      "quads": 0,
+      "ngons": 0,
+      "materials": [
+        "explorer_neutral.002"
+      ],
+      "uvLayers": [
+        "UVMap"
+      ],
+      "uvLoopsOutsideUnitSquare": 0,
+      "colorAttributes": [],
+      "shapeKeys": 0,
+      "vertexGroups": 0,
+      "modifiers": [],
+      "nonManifoldEdges": 8734,
+      "boundaryEdges": 8734,
+      "looseVertices": 0,
+      "connectedIslands": 349,
+      "smoothShadedFaces": 20000
+    }
+  ],
+  "images": [
+    {
+      "name": "explorer-neutral-20k_basecolor",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "explorer-neutral-20k_metallicroughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "explorer-neutral-20k_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "explorer_neutral.002",
+      "users": 1,
+      "textureLinks": [
+        {
+          "image": "explorer-neutral-20k_basecolor",
+          "to": [
+            "Base Color"
+          ],
+          "via": []
+        },
+        {
+          "image": "explorer-neutral-20k_metallicroughness",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "SEPARATE_COLOR->Roughness",
+            "SEPARATE_COLOR->Metallic"
+          ]
+        },
+        {
+          "image": "explorer-neutral-20k_normal",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "NORMAL_MAP->Normal"
+          ]
+        }
+      ],
+      "emissionStrength": 0.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "roots": ["projects", "incoming", "references", "shared"],
+  "formats": ["svg", "png", "jpg", "jpeg", "webp", "gif", "avif", "ico", "glb", "gltf", "blend", "fbx", "kra", "webm"],
+  "excludeDirectories": ["node_modules", ".git", ".cache", "test-results", "playwright-report", "catalog-output"]
+}

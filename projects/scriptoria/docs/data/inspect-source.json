@@ -1,0 +1,219 @@
+{
+  "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\source\\explorer-neutral-meshy-original.glb",
+  "fileSizeBytes": 8983896,
+  "blender": "5.2.2 LTS",
+  "raw": {
+    "magic": "glTF",
+    "version": 2,
+    "declaredLength": 8983896,
+    "generator": "pygltflib@v1.16.5",
+    "extensionsUsed": [],
+    "extensionsRequired": [],
+    "meshes": 1,
+    "primitives": 1,
+    "primitiveAttributes": [
+      [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0"
+      ]
+    ],
+    "nodes": 1,
+    "skins": 0,
+    "animations": 0,
+    "materials": [
+      {
+        "name": null,
+        "pbr": {
+          "baseColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 1.0,
+          "roughnessFactor": 1.0,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "normalTexture": true,
+        "emissiveTexture": false,
+        "emissiveFactor": null,
+        "alphaMode": "OPAQUE",
+        "doubleSided": true,
+        "extensions": []
+      }
+    ],
+    "textures": 3,
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "bufferView": 4,
+        "uri": null,
+        "bytes": 2122872
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "bufferView": 5,
+        "uri": null,
+        "bytes": 1524685
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "bufferView": 6,
+        "uri": null,
+        "bytes": 1700590
+      }
+    ],
+    "trianglesFromIndices": 119246
+  },
+  "blenderScene": {
+    "objects": [
+      [
+        "Mesh_0",
+        "MESH"
+      ]
+    ],
+    "meshCount": 1,
+    "triangles": 119246,
+    "vertices": 68827,
+    "materialCount": 1,
+    "imageCount": 3,
+    "armatures": [],
+    "bones": 0,
+    "actions": [],
+    "boundsMinBlenderZUp": [
+      -0.5526,
+      -0.1927,
+      -0.9514
+    ],
+    "boundsMaxBlenderZUp": [
+      0.5482,
+      0.1956,
+      0.9469
+    ],
+    "dimensionsXYZ_BlenderZUp": [
+      1.1007,
+      0.3883,
+      1.8983
+    ]
+  },
+  "meshes": [
+    {
+      "name": "Mesh_0",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 68827,
+      "faces": 119246,
+      "triangles": 119246,
+      "quads": 0,
+      "ngons": 0,
+      "materials": [
+        "Material_0"
+      ],
+      "uvLayers": [
+        "UVMap"
+      ],
+      "uvLoopsOutsideUnitSquare": 0,
+      "colorAttributes": [],
+      "shapeKeys": 0,
+      "vertexGroups": 0,
+      "modifiers": [],
+      "nonManifoldEdges": 17712,
+      "boundaryEdges": 17712,
+      "looseVertices": 0,
+      "connectedIslands": 348,
+      "smoothShadedFaces": 119246
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "Image_1",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "Image_2",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0",
+      "users": 1,
+      "textureLinks": [
+        {
+          "image": "Image_0",
+          "to": [
+            "Base Color"
+          ],
+          "via": []
+        },
+        {
+          "image": "Image_1",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "SEPARATE_COLOR->Roughness",
+            "SEPARATE_COLOR->Metallic"
+          ]
+        },
+        {
+          "image": "Image_2",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "NORMAL_MAP->Normal"
+          ]
+        }
+      ],
+      "emissionStrength": 0.0
+    }
+  ]
+}

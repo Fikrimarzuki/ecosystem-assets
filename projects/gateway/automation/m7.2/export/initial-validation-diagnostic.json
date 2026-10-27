@@ -1,0 +1,384 @@
+{
+  "sourceHashes": {
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-assembled.blend": "e5d5bdadf31fafed416c3e919eec2f142a6d794109e0409f47b35c8c20cda193",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-working.blend": "e94b8f926330ac07f8c8dda5d828269acf015d3ed836da8b84464f7a581898f4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-idle.fbx": "ce33cb19f8db0127b312d414168c67c80ddce575ef60f8d04147562151208ef4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-walk.fbx": "cd11b0ba2434c0e575ce8f23a47eb3773367756984a1326c44946962274d7ff1",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\prepared\\m7.1\\astronaut-meshy-textures-1024.glb": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68"
+  },
+  "blender": "5.2.2 LTS",
+  "output": "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-animated-candidate.glb",
+  "fileBytes": 4237980,
+  "sha256": "63c9b16b613931d9a5285aaee3db35bcb1f0619fcbd464b04553455c1810a53e",
+  "triangleCount": 10357,
+  "gltfVertexCount": 11188,
+  "settings": {
+    "filepath": "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-animated-candidate.glb",
+    "export_format": "GLB",
+    "use_selection": true,
+    "export_yup": true,
+    "export_apply": false,
+    "export_materials": "EXPORT",
+    "export_image_format": "AUTO",
+    "export_animations": true,
+    "export_animation_mode": "ACTIONS",
+    "export_frame_range": false,
+    "export_frame_step": 1,
+    "export_force_sampling": true,
+    "export_anim_slide_to_zero": true,
+    "export_reset_pose_bones": true,
+    "export_current_frame": true,
+    "export_rest_position_armature": false,
+    "export_optimize_animation_size": true,
+    "export_skins": true,
+    "export_influence_nb": 4,
+    "export_all_influences": false,
+    "export_def_bones": false,
+    "export_leaf_bone": false,
+    "export_armature_object_remove": false,
+    "export_morph": false,
+    "export_cameras": false,
+    "export_lights": false,
+    "export_draco_mesh_compression_enable": false,
+    "export_use_gltfpack": false
+  },
+  "clips": {
+    "Idle": {
+      "start": 0.0,
+      "end": 8.333333015441895,
+      "channels": 123
+    },
+    "Walk": {
+      "start": 0.0,
+      "end": 1.0333333015441895,
+      "channels": 123
+    }
+  },
+  "images": [
+    {
+      "name": "normal",
+      "bytes": 1287000,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "846aaa38810c512dcd4f05a27c45874267202a4d7c5fa0328cddd3188fc7e2ae"
+    },
+    {
+      "name": "texture_0",
+      "bytes": 1312224,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "3d7f4fb3fe6b522d4ee95343d4789d6750ba46115e90e3f82b4718101102012e"
+    },
+    {
+      "name": "texture_0_metallic_roughness",
+      "bytes": 812580,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "5370b50c50c889b9905a2e137ef9bc21987cbf05f6d7b998368f72d1851a526f"
+    }
+  ],
+  "PBRBindings": {
+    "baseColor": {
+      "index": 1
+    },
+    "normal": {
+      "index": 0
+    },
+    "metallicRoughness": {
+      "index": 2
+    }
+  },
+  "constantGroundOffset": 0.009607551704849298,
+  "skinningReduction": {
+    "affectedVertices": 557,
+    "droppedWeight": {
+      "max": 0.08586308360099792,
+      "mean": 0.0061174098605937316,
+      "p95": 0.030646640807390213,
+      "p99": 0.06864161789417267
+    },
+    "normalization": "Top four positive weights retained and normalized, only in this temporary scene"
+  },
+  "checks": [
+    {
+      "name": "one mesh and material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one skin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "41 original joints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "valid inverse bind matrices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "triangles unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four-influence skin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite normalized weights and valid joints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "valid geometry accessors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two independent named clips",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "correct clip durations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three embedded 1024px PNG textures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original texture bytes unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all PBR texture slots linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no external URI or required decoder",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fresh Blender one mesh one armature",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "fresh Blender two named actions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fresh Blender valid armature modifier",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fresh Blender 41 named bones",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fresh Blender three material maps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vertex correspondence reliable",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle imported duration",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle joint positions preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle joint motion preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle export input deformation preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle no accumulated horizontal root drift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Walk imported duration",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Walk joint positions preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Walk joint motion preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Walk export input deformation preserved",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Walk no accumulated horizontal root drift",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "Idle reference grounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Walk floor clearance within 1mm",
+      "passed": false,
+      "detail": "A diagnostic clearance criterion, not a gait correction; existing source penetration is retained."
+    }
+  ],
+  "roundtrip": {
+    "Idle": {
+      "framesCompared": 501,
+      "jointComparisons": 20541,
+      "meshVsApprovedSource": {
+        "max": 0.33658623058917836,
+        "mean": 0.08121118787842484,
+        "p95": 0.2160731845819294,
+        "p99": 0.2856357547634235
+      },
+      "meshVsFourInfluenceExportInput": {
+        "max": 0.3365862308404659,
+        "mean": 0.0812122937462581,
+        "p95": 0.2159840293391647,
+        "p99": 0.28563575492788573
+      },
+      "jointHeadPositionError": {
+        "max": 0.0022674506071205503,
+        "mean": 0.00023177121750618984,
+        "p95": 0.0005773025800058751,
+        "p99": 0.0008457889395733514
+      },
+      "jointRelativeWorldRotationErrorDegrees": {
+        "max": 0.2099896574022986,
+        "mean": 0.05226062099855626,
+        "p95": 0.1244677802198929,
+        "p99": 0.16614036585855374
+      },
+      "worstMeshFrame": 28.0,
+      "worstImportedVertex": 9661,
+      "minimumGroundZ": 3.633870106559134e-08,
+      "groundMinimaRange": [
+        3.633870106559134e-08,
+        0.0004854268076776337
+      ],
+      "rootEndpointHorizontalDrift": 1.4911691720778806e-05,
+      "rootHorizontalRange": [
+        0.007791326497681439,
+        0.009156553922366584
+      ],
+      "referenceBoundsMin": [
+        -0.4443344398364175,
+        -0.3916107982776783,
+        4.160980020656221e-06
+      ],
+      "referenceBoundsMax": [
+        0.4531927388937902,
+        0.3742006170344574,
+        1.8910865590355157
+      ]
+    },
+    "Walk": {
+      "framesCompared": 63,
+      "jointComparisons": 2583,
+      "meshVsApprovedSource": {
+        "max": 0.7841043688554291,
+        "mean": 0.09247189359910474,
+        "p95": 0.2513214955380397,
+        "p99": 0.3403572791051516
+      },
+      "meshVsFourInfluenceExportInput": {
+        "max": 0.7841043688186017,
+        "mean": 0.09247349853280551,
+        "p95": 0.25137026904652765,
+        "p99": 0.3403572791943798
+      },
+      "jointHeadPositionError": {
+        "max": 0.12408153057331486,
+        "mean": 0.026372312379985934,
+        "p95": 0.05434430487207373,
+        "p99": 0.10597977649916657
+      },
+      "jointRelativeWorldRotationErrorDegrees": {
+        "max": 31.493880971387675,
+        "mean": 4.550768235462071,
+        "p95": 10.786432305555826,
+        "p99": 16.929917376717608
+      },
+      "worstMeshFrame": 24.0,
+      "worstImportedVertex": 8048,
+      "minimumGroundZ": -0.04512643837726234,
+      "groundMinimaRange": [
+        -0.04512643837726234,
+        0.00791105957602133
+      ],
+      "rootEndpointHorizontalDrift": 0.0013570669047272064,
+      "rootHorizontalRange": [
+        0.03042113350238651,
+        0.011731836944818497
+      ],
+      "referenceBoundsMin": [
+        -0.4198923780048105,
+        -0.41932804816781893,
+        0.005484350905009034
+      ],
+      "referenceBoundsMax": [
+        0.44477553327138253,
+        0.3715731275353971,
+        1.878679781590102
+      ]
+    }
+  },
+  "orientation": "Y-up / +Z-forward; Blender Z-up / -Y-forward; no rescaling or facing rotation",
+  "vertexCorrespondence": {
+    "maxReferenceDistance": 0.28756779432296753,
+    "meanReferenceDistance": 0.05068438701230552,
+    "importedVertices": 11188,
+    "sourceVertices": 11181,
+    "coincidentTrajectoryMaxDifference": 0.0
+  },
+  "sourceHashesUnchanged": true,
+  "technicalChecksPassedExceptGrounding": false,
+  "allChecksPassed": false,
+  "status": "CANDIDATE: review four-influence deformation and retained Walk ground penetration before final approval"
+}

@@ -1,0 +1,130 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Code\\porto-projects\\app-gateway-fe\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "../gateway-assets/automation/m7.3b/runtime-qa.config.ts",
+      "tests/astronaut-asset.spec.ts",
+      "--grep",
+      "animation enabled: demand",
+      "--output",
+      "../gateway-assets/automation/m7.3b/recheck-results"
+    ],
+    "configFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3b\\runtime-qa.config.ts",
+    "rootDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Code/porto-projects/gateway-assets/automation/m7.3b/recheck-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../gateway-assets/automation/m7.3b/test-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "astronaut-asset.spec.ts",
+      "file": "astronaut-asset.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "animation enabled: demand Idle/Walk follows actual movement, pauses, returns and re-enters without extra mixers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 37702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:21444) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-12T14:26:44.710Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be35ed9de44d997ef2e7-79b530e075dd85832ab8",
+          "file": "astronaut-asset.spec.ts",
+          "line": 228,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-12T14:26:43.886Z",
+    "duration": 41412.758,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

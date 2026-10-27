@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV monochrome glyph</title>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <polygon fill="#000000" points="106,386 106,160 166,126 256,254 346,126 406,160 406,386 340,386 340,234 256,338 172,234 172,386"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "milestone": "M1.0h",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "review.bedroom-refinement-comparison.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7"
+  },
+  "sourceMethod": "2560x3640 Krita document built by comparison_sheet.py: header/legend, before/after rooms, approved bedroom references, bed detail at 2x, pillow v2 vs v3 with a gameplay-scale strip, and gameplay-scale framing crops, each on its own named layer.",
+  "referenceExcerpts": [
+    { "file": "app-momee/assets/references/concepts/morning-routine-storyboard.png", "sha256": "ba2195e8dbf554a9490f20228839edf466f1c2427a501b89c77fd24d4bf693bd", "crops": ["1138,790 192x100", "0,0 505x405"] },
+    { "file": "app-momee/assets/references/concepts/morning-routine-gameplay.png", "sha256": "b2db837b4f872632fb73f48a87b29a93876735097bcfe80dad09e582edb21583", "crops": ["15,425 385x280"] },
+    { "file": "app-momee/assets/references/concepts/feature-concepts.png", "sha256": "d7f60c6b8fbffebad561ac7b1764f1de6de30943d5fc5bf607aa6026f640895d", "crops": ["513,855 190x145"] }
+  ],
+  "candidateInputs": [
+    { "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png", "sha256": "5b57cb8b923be23799f8b3181946d04552ce503f563b139633b444c98d352700" },
+    { "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.png", "sha256": "0ed49d332d017ea30d0e445b21db88e7f1c720732bbce09d5620800769778f1d" },
+    { "path": "room-only 2560x1440 renders of study.bedroom.composition.v1 and v2", "use": "Bed detail crops; regenerate from each KRA by hiding the Characters and Annotations groups" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-{unmade,made}.v{2,3}.@2x.png" }
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0h-construction/",
+    "files": {
+      "kpaint2.py": "53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339",
+      "comparison_sheet.py": "4d27d8851cfb8c4991edac5364c2f42c16cdb9ed4ac883fa4645448ae2776724"
+    }
+  },
+  "storageNote": "The KRA is 18,978,135 bytes, above the proposed 10 MiB ordinary-Git threshold.",
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Approved references are framed solid sage and labelled APPROVED REFERENCE; every candidate panel is framed dashed terracotta or carries a CANDIDATE · NOT APPROVED badge."
+}

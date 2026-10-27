@@ -1,0 +1,573 @@
+{
+  "file": "D:/Code/porto-projects/gateway-assets/planets/tools/exports/tools-v1.glb",
+  "bytes": 1229268,
+  "sha256": "dfb9803ef5b5e7673a4e78bd0201f6a8b9c868ae0bfdeb372d213c34fe16d558",
+  "repeatSha256": null,
+  "reproducible": null,
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "version": "2.0"
+  },
+  "extensionsUsed": [],
+  "extensionsRequired": [],
+  "counts": {
+    "nodes": 24,
+    "meshes": 12,
+    "meshNodes": 12,
+    "anchors": 12,
+    "materials": 2,
+    "accessors": 48,
+    "triangles": 18372,
+    "vertices": 34540,
+    "cameras": 0,
+    "images": 0,
+    "textures": 0,
+    "samplers": 0,
+    "animations": 0,
+    "skins": 0
+  },
+  "materials": [
+    {
+      "name": "ToolsDiorama",
+      "roughness": 0.7200000286102295,
+      "metallic": 0.18000000715255737,
+      "emissive": null,
+      "extensions": []
+    },
+    {
+      "name": "ToolsAccent",
+      "roughness": 0.7200000286102295,
+      "metallic": 0.18000000715255737,
+      "emissive": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "extensions": []
+    }
+  ],
+  "bounds": [
+    [
+      -4.5527,
+      -1.816,
+      -3.0111
+    ],
+    [
+      4.7087,
+      3.4263,
+      4.5012
+    ]
+  ],
+  "extent": 5.3176,
+  "center": [
+    0.078,
+    0.8052,
+    0.745
+  ],
+  "meshes": [
+    {
+      "name": "CONTROL_TOWER",
+      "triangles": 158,
+      "vertices": 284,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "role": "environment:control-tower",
+        "footprint_radius": 0.6,
+        "tools_layer": "TOOLS_BUILDINGS"
+      }
+    },
+    {
+      "name": "FORGE_STATION",
+      "triangles": 670,
+      "vertices": 1352,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "structure_id": "forge-station",
+        "footprint_radius": 1.15,
+        "tools_layer": "TOOLS_BUILDINGS"
+      }
+    },
+    {
+      "name": "REPLICATOR_BAY",
+      "triangles": 824,
+      "vertices": 1560,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "structure_id": "replicator-bay",
+        "footprint_radius": 1.25,
+        "tools_layer": "TOOLS_BUILDINGS"
+      }
+    },
+    {
+      "name": "TOOLS_ACCENTS_GLOW",
+      "triangles": 1380,
+      "vertices": 2512,
+      "materials": [
+        "ToolsAccent"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_ACCENTS"
+      }
+    },
+    {
+      "name": "TOOLS_BRIDGE_MAIN_BAY",
+      "triangles": 108,
+      "vertices": 216,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_PATHS"
+      }
+    },
+    {
+      "name": "TOOLS_BRIDGE_MAIN_DOCK",
+      "triangles": 108,
+      "vertices": 216,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_PATHS"
+      }
+    },
+    {
+      "name": "TOOLS_BRIDGE_MAIN_FORGE",
+      "triangles": 108,
+      "vertices": 216,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_PATHS"
+      }
+    },
+    {
+      "name": "TOOLS_CATWALK_MAIN_POWER",
+      "triangles": 276,
+      "vertices": 552,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_PATHS"
+      }
+    },
+    {
+      "name": "TOOLS_CATWALK_MAIN_SPARE",
+      "triangles": 120,
+      "vertices": 240,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_PATHS"
+      }
+    },
+    {
+      "name": "TOOLS_DECORATIONS_STATIC",
+      "triangles": 4540,
+      "vertices": 8658,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_DECORATIONS"
+      }
+    },
+    {
+      "name": "TOOLS_TERRAIN",
+      "triangles": 8588,
+      "vertices": 15912,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "tools_layer": "TOOLS_TERRAIN"
+      }
+    },
+    {
+      "name": "WORKSHOP_HALL",
+      "triangles": 1492,
+      "vertices": 2822,
+      "materials": [
+        "ToolsDiorama"
+      ],
+      "extras": {
+        "structure_id": "workshop-hall",
+        "footprint_radius": 1.25,
+        "tools_layer": "TOOLS_BUILDINGS"
+      }
+    }
+  ],
+  "structures": [
+    {
+      "environment": "control-tower",
+      "node": "CONTROL_TOWER",
+      "footprint_radius": 0.6,
+      "position": [
+        0.25,
+        -0.25,
+        2.8
+      ],
+      "radius": 2.8222
+    },
+    {
+      "structure_id": "forge-station",
+      "node": "FORGE_STATION",
+      "footprint_radius": 1.15,
+      "position": [
+        3.45,
+        0.55,
+        0.95
+      ],
+      "radius": 3.6204
+    },
+    {
+      "structure_id": "replicator-bay",
+      "node": "REPLICATOR_BAY",
+      "footprint_radius": 1.25,
+      "position": [
+        -2.8679,
+        -0.5,
+        1.6516
+      ],
+      "radius": 3.347
+    },
+    {
+      "structure_id": "workshop-hall",
+      "node": "WORKSHOP_HALL",
+      "footprint_radius": 1.25,
+      "position": [
+        -0.55,
+        0,
+        -0.35
+      ],
+      "radius": 0.6519
+    }
+  ],
+  "anchors": [
+    {
+      "name": "TOOLS_ANCHOR_focus_control_tower",
+      "role": "focus:control-tower",
+      "radius": null,
+      "extras": {
+        "role": "focus:control-tower"
+      },
+      "position": [
+        0.25,
+        1.65,
+        2.8
+      ],
+      "distance": 3.2596,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0.5062
+    },
+    {
+      "name": "TOOLS_ANCHOR_focus_forge_station",
+      "role": "focus:forge-station",
+      "radius": null,
+      "extras": {
+        "role": "focus:forge-station"
+      },
+      "position": [
+        3.45,
+        1.55,
+        0.95
+      ],
+      "distance": 3.8997,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0.3975
+    },
+    {
+      "name": "TOOLS_ANCHOR_focus_replicator_bay",
+      "role": "focus:replicator-bay",
+      "radius": null,
+      "extras": {
+        "role": "focus:replicator-bay"
+      },
+      "position": [
+        -2.8679,
+        0.3,
+        1.6516
+      ],
+      "distance": 3.3231,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0.0903
+    },
+    {
+      "name": "TOOLS_ANCHOR_focus_workshop_hall",
+      "role": "focus:workshop-hall",
+      "radius": null,
+      "extras": {
+        "role": "focus:workshop-hall"
+      },
+      "position": [
+        -0.55,
+        1.9,
+        -0.45
+      ],
+      "distance": 2.0285,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0.9366
+    },
+    {
+      "name": "TOOLS_ANCHOR_hub_control_tower",
+      "role": "hub-entrance:control-tower",
+      "radius": null,
+      "extras": {
+        "role": "hub-entrance:control-tower"
+      },
+      "position": [
+        0.25,
+        -0.25,
+        3.55
+      ],
+      "distance": 3.5676,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": -0.0701
+    },
+    {
+      "name": "TOOLS_ANCHOR_interaction_forge_station",
+      "role": "interaction:forge-station",
+      "radius": null,
+      "extras": {
+        "role": "interaction:forge-station"
+      },
+      "position": [
+        2.9945,
+        0.55,
+        1.7837
+      ],
+      "distance": 3.5287,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        -0.479,
+        0,
+        0.878
+      ],
+      "camera": false,
+      "upDotRadial": 0.1559
+    },
+    {
+      "name": "TOOLS_ANCHOR_interaction_replicator_bay",
+      "role": "interaction:replicator-bay",
+      "radius": null,
+      "extras": {
+        "role": "interaction:replicator-bay"
+      },
+      "position": [
+        -2.6799,
+        -0.5,
+        2.6847
+      ],
+      "distance": 3.8261,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0.179,
+        0,
+        0.984
+      ],
+      "camera": false,
+      "upDotRadial": -0.1307
+    },
+    {
+      "name": "TOOLS_ANCHOR_interaction_workshop_hall",
+      "role": "interaction:workshop-hall",
+      "radius": null,
+      "extras": {
+        "role": "interaction:workshop-hall"
+      },
+      "position": [
+        -0.55,
+        0,
+        0.75
+      ],
+      "distance": 0.9301,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0
+    },
+    {
+      "name": "TOOLS_ANCHOR_lander_arrival",
+      "role": "lander-arrival",
+      "radius": 0.3,
+      "extras": {
+        "role": "lander-arrival",
+        "radius": 0.3
+      },
+      "position": [
+        1.25,
+        0.3,
+        3.7
+      ],
+      "distance": 3.917,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0.0766
+    },
+    {
+      "name": "TOOLS_ANCHOR_landing",
+      "role": "landing",
+      "radius": 0.3,
+      "extras": {
+        "role": "landing",
+        "radius": 0.3
+      },
+      "position": [
+        1.25,
+        -0.25,
+        3.7
+      ],
+      "distance": 3.9134,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": -0.0639
+    },
+    {
+      "name": "TOOLS_ANCHOR_minigame_candidate",
+      "role": "minigame-candidate",
+      "radius": 0.35,
+      "extras": {
+        "role": "minigame-candidate",
+        "radius": 0.35
+      },
+      "position": [
+        0.35,
+        0,
+        1.05
+      ],
+      "distance": 1.1068,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": 0
+    },
+    {
+      "name": "TOOLS_ANCHOR_spawn",
+      "role": "spawn",
+      "radius": null,
+      "extras": {
+        "role": "spawn"
+      },
+      "position": [
+        0.9,
+        -0.25,
+        3.4
+      ],
+      "distance": 3.526,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "camera": false,
+      "upDotRadial": -0.0709
+    }
+  ],
+  "warnings": []
+}

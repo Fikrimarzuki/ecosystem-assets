@@ -1,0 +1,70 @@
+{
+ "crop": [
+  240,
+  150,
+  580,
+  480
+ ],
+ "areaPx": {
+  "attachmentFootprints": {
+   "eye-near": 6175,
+   "eye-far": 4463,
+   "brow-far": 1080,
+   "mouth": 1652
+  },
+  "neckExtensionBand": 1200,
+  "nearBrowRegion": 1341,
+  "faceRimInBase": 1003,
+  "hairInHeadArea": 60331
+ },
+ "nearBrowPolygon": [
+  [
+   348,
+   214
+  ],
+  [
+   370,
+   209
+  ],
+  [
+   400,
+   208
+  ],
+  [
+   425,
+   212
+  ],
+  [
+   442,
+   222
+  ],
+  [
+   436,
+   230
+  ],
+  [
+   410,
+   226
+  ],
+  [
+   380,
+   224
+  ],
+  [
+   352,
+   226
+  ]
+ ],
+ "projectionVsMasterDifferingPixels": 0,
+ "alphaDifferences": 0,
+ "alphaZeroPixelsWithHiddenRgbNotCarried": 1125,
+ "legend": {
+  "red": "skin/eyelid to paint beneath swappable attachments",
+  "hatchedRed": "neck extension to paint (hidden under the chin)",
+  "orange": "near brow: inside the hair sweep, not separable",
+  "yellow": "face rim and cheek contour pixels kept in base",
+  "purple": "hair: front and back not separable from the flat art",
+  "green": "visible neck (extracted)",
+  "peach": "head skin (extracted)"
+ }
+}

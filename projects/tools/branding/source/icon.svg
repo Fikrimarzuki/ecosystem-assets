@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Tools</title>
+  <defs>
+    <linearGradient id="tl-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161a24"/><stop offset="1" stop-color="#0a0c12"/></linearGradient>
+    <linearGradient id="tl-head" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe48f"/><stop offset="1" stop-color="#f7b733"/></linearGradient>
+    <linearGradient id="tl-stem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5b02a"/><stop offset="1" stop-color="#c47a08"/></linearGradient>
+  </defs>
+  <g id="bg">
+    <rect width="512" height="512" rx="112" fill="url(#tl-bg)"/>
+    <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#8f6b2c" stroke-width="12"/>
+  </g>
+  <g id="glyph">
+    <path fill="url(#tl-stem)" d="M204 231A5 5 0 0 1 209 226L303 226A5 5 0 0 1 308 231L308 382.5A5 5 0 0 1 304.7 387.2L210.7 421.5A5 5 0 0 1 204 416.8Z"/>
+    <path fill="url(#tl-head)" fill-rule="evenodd" d="M126.6 181.2A5 5 0 0 1 126.6 174.8L170.5 121.8A5 5 0 0 1 174.4 120L337.6 120A5 5 0 0 1 341.5 121.8L385.4 174.8A5 5 0 0 1 385.4 181.2L341.5 234.2A5 5 0 0 1 337.6 236L174.4 236A5 5 0 0 1 170.5 234.2ZM289.1 176.5A3 3 0 0 1 289.1 179.5L273.9 205.9A3 3 0 0 1 271.3 207.4L240.7 207.4A3 3 0 0 1 238.1 205.9L222.9 179.5A3 3 0 0 1 222.9 176.5L238.1 150.1A3 3 0 0 1 240.7 148.6L271.3 148.6A3 3 0 0 1 273.9 150.1Z"/>
+  </g>
+</svg>

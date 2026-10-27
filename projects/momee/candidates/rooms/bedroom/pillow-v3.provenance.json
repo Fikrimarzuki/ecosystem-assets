@@ -1,0 +1,34 @@
+{
+  "milestone": "M1.0h",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetIds": ["prop.bedroom.pillow.unmade.v3", "prop.bedroom.pillow.made.v3"],
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "New 320x224 sRGB RGBA/8 Krita document. The v2 shape designs were rescaled 1.24x about the new centre anchor and re-rendered with QPainter paths into named layers. Each state group holds a contact shadow, a 'Pillow paint' group (cream body; inherit-alpha clipped cool shade, core shadow, warm bounce light, window highlight and overlay fabric weave; made adds seam piping; unmade adds a folded corner and fold ridges) and a weighted warm taupe line layer. Shade layers softened with Krita's Gaussian blur. Saved with Krita's native KRA writer.",
+  "exportMethod": "Krita exportImage of each state group alone at 320x224 (@2x, alpha on); @1x by `sips -z 112 160` from the @2x file.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0h-construction/",
+    "files": {
+      "kpaint2.py": "53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339",
+      "pillow_v3.py": "be2b3322566634f79ed2d89a39dbd8d0f7d13d2d0f05a25623bc3dda027fd86d",
+      "preview.py": "51199b380d39638adfeca4f400fbd01b228ca7ec1bef5016b96b75bb0c72ad1d"
+    },
+    "note": "preview.py imports kpaint from projects/momee/candidates/m1.0g-construction/."
+  },
+  "inputs": [
+    "app-momee/docs/design/visual-style-bible.md",
+    "app-momee/assets/references/concepts/*.png (white pillows with cool lavender-blue shade; viewed only)",
+    "ecosystem-assets/projects/momee/source/bedroom/pillow-v2.kra (shape designs; file not modified)"
+  ],
+  "boundsChange": "v1/v2 canvas 128x96 @1x is replaced by 160x112 @1x for this size test. The Phaser pillow hit area (125x90 world units) is unchanged; a v3 sprite would overhang it slightly.",
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model. Shapes and colours were authored as code by the assistant.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Candidate size test. Owner decides between the v2 size (≈ 106 u) and v3 (≈ 131 u, ≈ 1.5x the Boy's head width), and whether the hit area should grow with it."
+}

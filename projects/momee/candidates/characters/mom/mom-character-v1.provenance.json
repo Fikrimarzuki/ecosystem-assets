@@ -1,0 +1,40 @@
+{
+  "milestone": "M1.0i",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "ownerDecision": "Produced after the owner chose 'Override stop, draw all' (2026-10-24): full set with the code-drawn method, accepting below-master fidelity as a layout/scale placeholder set.",
+  "assetIds": [
+    "char.mom.front.neutral.v1",
+    "char.mom.front.happy.v1",
+    "char.mom.front.talking.v1",
+    "char.mom.three-quarter.neutral.v1",
+    "char.mom.three-quarter.happy.v1",
+    "char.mom.three-quarter.talking.v1"
+  ],
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "Krita document at 4 px per world unit with two view groups (front, three-quarter facing right). Each view holds slot-ordered part groups (hair-back, arms with hands, legs/socks and shoes where visible, body-skin, outfit-bottom, outfit-top, head with ears, head-skin + clipped blush, face-eyes/*, face-brows/*, face-mouth/*, face-nose, hair-front), each with base, inherit-alpha clipped shade/light/details and a line layer. Shapes are hand-specified Bézier/Catmull-Rom paths drawn with QPainter; the ¾ view rotates facial features on a head sphere (25.8°) and compresses the far side of the body. Shading softened with Krita's Gaussian blur.",
+  "exportMethod": "Each view/expression rendered at 4 px/u by toggling layer visibility (Krita exportImage, alpha), then downsampled with `sips -z` to @2x (2 px/u) and @1x (1 px/u). The hidden contact-shadow layer is not exported.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0i-construction/",
+    "files": {
+      "chars_v1.py": "955b167fc8e1f4418d337268cecc9730fac85f7f99fd9af57a6dfa2662d2f609",
+      "charpaint.py": "7a1bd4348dbcb93bbe62b892d6d8cfe178446eb80f035e38dc1bbb1c680b6d9d"
+    },
+    "dependsOn": "projects/momee/candidates/m1.0h-construction/kpaint2.py (sha256 53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339, unchanged)"
+  },
+  "inputs": [
+    "app-momee/assets/references/calm-chibi-storybook/characters/character-master-v1.png (sha256 4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7; viewed and colour-sampled only)",
+    "app-momee/docs/design/visual-style-bible.md §4–§5, §7",
+    "projects/momee/m1.0i-character-foundation.md §3 (identity specification)"
+  ],
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model. Shapes and colours were authored as code by the assistant.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Below master fidelity (hair idiom, eye rendering, flat finish). Not on-model production art; not animation-ready."
+}

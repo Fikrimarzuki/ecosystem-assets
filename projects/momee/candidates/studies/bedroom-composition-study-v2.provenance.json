@@ -1,0 +1,40 @@
+{
+  "milestone": "M1.0h",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "study.bedroom.composition.v2",
+  "revisionOf": "study.bedroom.composition.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "2560x1440 sRGB RGBA/8 Krita document built by bedroom_study_v2.py, a revision of the M1.0g bedroom_study.py with the same layout and coordinates. Changes: palette value range and saturation raised slightly; window-relative daylight (wall glow, projected pane sunlight on the floor, screen light shafts, soft-light warm bounce); stronger contact shadows; mattress lowered to 80 u and 36 u thick with piping and a lit rounded edge; duvet top gradient, fold ridges, cuff shadow and cast shadow on the rail; carved headboard bevels and cylinder-shaded posts; recessed door with lit jamb, panel bevels and wall shadow; the global paper-grain overlay removed in favour of clipped wood-grain streaks and fabric weave on wood and fabric only; lighter weighted warm lines (1.0 / 0.85 / 0.6 u). Rebuilt in one pass from the final script before saving.",
+  "layoutSource": {
+    "file": "app-momee/apps/web/src/adventure/bedroom-layout.ts",
+    "sha256": "ac9caa0e45d98453659deea64e9c5daecb6c43ea3d3561748158cd2e028316d3",
+    "method": "Unchanged bedroom_layout_data.py (generated in M1.0g by a read-only import)."
+  },
+  "placedInputs": [
+    { "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "sha256": "122e2118d91822ea93b5e16f6092b100fc5317ec128a22fff0da6a4933d59a7e", "use": "Existing Boy candidate cutout, unmodified, 200 u at CHILD_START" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@2x.png", "sha256": "448f1e605f4bad1a8f0aa9ae41e70912c052315af0c47f9b8ea2869d69efe606", "use": "Placed at (170, 463), 160x112 u" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@2x.png", "sha256": "196bd27ca8da4199000270653b013fc1779543717c6db0ee96e7bb912a9dbee4", "use": "Hidden alternate layer" }
+  ],
+  "momPlaceholder": "Same flat dashed silhouette labelled 'MOM — PLACEHOLDER (not art)', 290 u, at MOM_SPOT. Not character art.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0h-construction/",
+    "files": {
+      "kpaint2.py": "53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339",
+      "bedroom_study_v2.py": "1c523b3d2397fbfbaac02aecfe44e3d71c12b242fd31b8ca81ea73b8d1ecbd40",
+      "bedroom_layout_data.py": "2f2c8260dc9096f459b3bee165068b49c5ef553760059d12172e6e1674b2eccd"
+    }
+  },
+  "exportMethod": "Krita exportImage (opaque PNG) with group visibility per render; the @1x renders were downsampled from 2560x1440 with `sips -z 720 1280`.",
+  "storageNote": "The KRA is 38,211,524 bytes, above the proposed 10 MiB ordinary-Git threshold. No Momee LFS rule exists; owner storage decision required before any commit.",
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Rendering refinement candidate. Gameplay coordinates, window position, door position and character zones are unchanged from v1."
+}

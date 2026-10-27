@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV glyph</title>
+  <defs>
+    <linearGradient id="cvb-main" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8bfad8"/><stop offset="1" stop-color="#38ddb0"/></linearGradient>
+    <linearGradient id="cvb-part" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d3a8"/><stop offset="1" stop-color="#14998a"/></linearGradient>
+  </defs>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="url(#cvb-part)" d="M336 386L406 386L406 273.4L336 372Z"/>
+    <path fill="url(#cvb-main)" d="M106 386L106 158L168 126L256 250L344 126L406 158L406 214.6L336 313.3L336 238L256 340L176 238L176 386Z"/>
+  </g>
+</svg>

@@ -1,0 +1,408 @@
+{
+ "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\rigged\\explorer-neutral-25k-rigged-v2.glb",
+ "triangles": 25000,
+ "restSelfIntersections": 1,
+ "poses": {
+  "rest": {
+   "newSelfIntersections": 0,
+   "newSelfIntersectionsByDominantBone": {},
+   "flippedFaces": 0,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.0,
+   "edgeStrain_max": 0.0,
+   "edgesOver50pctStrain": 0,
+   "problemTrisByDominantBone": {}
+  },
+  "shoulder-down-40": {
+   "newSelfIntersections": 479,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 196,
+    "thigh.L": 193,
+    "upper_arm.R": 51,
+    "spine": 38,
+    "hips": 1
+   },
+   "flippedFaces": 2,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.12,
+   "edgeStrain_max": 0.619,
+   "edgesOver50pctStrain": 6,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 1,
+    "neck": 1
+   }
+  },
+  "shoulder-up-45": {
+   "newSelfIntersections": 0,
+   "newSelfIntersectionsByDominantBone": {},
+   "flippedFaces": 0,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 3,
+   "edgeStrain_p99": 0.123,
+   "edgeStrain_max": 0.937,
+   "edgesOver50pctStrain": 18,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 1,
+    "neck": 1,
+    "shoulder.L": 1
+   }
+  },
+  "shoulder-swing": {
+   "newSelfIntersections": 2,
+   "newSelfIntersectionsByDominantBone": {
+    "shoulder.L": 2
+   },
+   "flippedFaces": 3,
+   "collapsedTris_areaUnder25pct": 2,
+   "stretchedTris_areaOver300pct": 2,
+   "edgeStrain_p99": 0.169,
+   "edgeStrain_max": 1.414,
+   "edgesOver50pctStrain": 72,
+   "problemTrisByDominantBone": {
+    "shoulder.L": 3,
+    "upper_arm.R": 1,
+    "shoulder.R": 1
+   }
+  },
+  "elbow-90": {
+   "newSelfIntersections": 141,
+   "newSelfIntersectionsByDominantBone": {
+    "upper_arm.R": 51,
+    "spine": 39,
+    "upper_arm.L": 26,
+    "forearm.R": 23,
+    "hips": 2
+   },
+   "flippedFaces": 21,
+   "collapsedTris_areaUnder25pct": 5,
+   "stretchedTris_areaOver300pct": 9,
+   "edgeStrain_p99": 0.244,
+   "edgeStrain_max": 3.621,
+   "edgesOver50pctStrain": 202,
+   "problemTrisByDominantBone": {
+    "forearm.R": 16,
+    "forearm.L": 6,
+    "upper_arm.L": 5,
+    "hand.R": 1,
+    "upper_arm.R": 1,
+    "shoulder.R": 1,
+    "neck": 1
+   }
+  },
+  "wrist-45": {
+   "newSelfIntersections": 311,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 165,
+    "thigh.L": 55,
+    "upper_arm.R": 51,
+    "spine": 38,
+    "hand.L": 1,
+    "hips": 1
+   },
+   "flippedFaces": 4,
+   "collapsedTris_areaUnder25pct": 4,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.178,
+   "edgeStrain_max": 0.771,
+   "edgesOver50pctStrain": 14,
+   "problemTrisByDominantBone": {
+    "hand.R": 2,
+    "hand.L": 2,
+    "forearm.R": 1,
+    "shoulder.R": 1,
+    "neck": 1,
+    "forearm.L": 1
+   }
+  },
+  "hip-flex": {
+   "newSelfIntersections": 130,
+   "newSelfIntersectionsByDominantBone": {
+    "spine": 46,
+    "hips": 42,
+    "chest": 26,
+    "thigh.L": 15,
+    "thigh.R": 1
+   },
+   "flippedFaces": 19,
+   "collapsedTris_areaUnder25pct": 10,
+   "stretchedTris_areaOver300pct": 10,
+   "edgeStrain_p99": 0.344,
+   "edgeStrain_max": 1.978,
+   "edgesOver50pctStrain": 234,
+   "problemTrisByDominantBone": {
+    "thigh.L": 23,
+    "spine": 8,
+    "chest": 3,
+    "thigh.R": 2,
+    "hips": 1
+   }
+  },
+  "knee-100": {
+   "newSelfIntersections": 111,
+   "newSelfIntersectionsByDominantBone": {
+    "spine": 41,
+    "hips": 27,
+    "shin.R": 20,
+    "chest": 11,
+    "thigh.L": 8,
+    "thigh.R": 4
+   },
+   "flippedFaces": 31,
+   "collapsedTris_areaUnder25pct": 18,
+   "stretchedTris_areaOver300pct": 11,
+   "edgeStrain_p99": 0.31,
+   "edgeStrain_max": 2.804,
+   "edgesOver50pctStrain": 176,
+   "problemTrisByDominantBone": {
+    "thigh.L": 24,
+    "thigh.R": 12,
+    "shin.R": 6,
+    "spine": 4,
+    "shin.L": 3,
+    "hips": 1,
+    "chest": 1
+   }
+  },
+  "ankle": {
+   "newSelfIntersections": 2,
+   "newSelfIntersectionsByDominantBone": {
+    "foot.L": 2
+   },
+   "flippedFaces": 1,
+   "collapsedTris_areaUnder25pct": 2,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.107,
+   "edgeStrain_max": 0.539,
+   "edgesOver50pctStrain": 6,
+   "problemTrisByDominantBone": {
+    "shin.R": 1,
+    "foot.L": 1
+   }
+  },
+  "idle": {
+   "newSelfIntersections": 500,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 209,
+    "thigh.L": 201,
+    "upper_arm.R": 51,
+    "spine": 38,
+    "hips": 1
+   },
+   "flippedFaces": 2,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.124,
+   "edgeStrain_max": 0.619,
+   "edgesOver50pctStrain": 6,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 1,
+    "neck": 1
+   }
+  },
+  "walk-contact": {
+   "newSelfIntersections": 95,
+   "newSelfIntersectionsByDominantBone": {
+    "thigh.L": 68,
+    "spine": 20,
+    "upper_arm.R": 6,
+    "chest": 1
+   },
+   "flippedFaces": 3,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 7,
+   "edgeStrain_p99": 0.218,
+   "edgeStrain_max": 0.846,
+   "edgesOver50pctStrain": 22,
+   "problemTrisByDominantBone": {
+    "thigh.R": 2,
+    "shoulder.R": 1,
+    "chest": 1,
+    "hips": 1,
+    "thigh.L": 1,
+    "neck": 1,
+    "forearm.L": 1
+   }
+  },
+  "stand-natural": {
+   "newSelfIntersections": 326,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 111,
+    "thigh.L": 111,
+    "upper_arm.R": 58,
+    "spine": 45,
+    "hips": 1
+   },
+   "flippedFaces": 3,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.128,
+   "edgeStrain_max": 0.619,
+   "edgesOver50pctStrain": 6,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 1,
+    "thigh.R": 1,
+    "neck": 1
+   }
+  },
+  "spine-twist-25": {
+   "newSelfIntersections": 11,
+   "newSelfIntersectionsByDominantBone": {
+    "thigh.R": 4,
+    "spine": 4,
+    "thigh.L": 2,
+    "chest": 1
+   },
+   "flippedFaces": 9,
+   "collapsedTris_areaUnder25pct": 3,
+   "stretchedTris_areaOver300pct": 3,
+   "edgeStrain_p99": 0.124,
+   "edgeStrain_max": 1.69,
+   "edgesOver50pctStrain": 46,
+   "problemTrisByDominantBone": {
+    "thigh.R": 4,
+    "thigh.L": 3,
+    "hips": 2,
+    "chest": 2,
+    "spine": 1
+   }
+  },
+  "spine-side-15": {
+   "newSelfIntersections": 6,
+   "newSelfIntersectionsByDominantBone": {
+    "thigh.R": 6
+   },
+   "flippedFaces": 4,
+   "collapsedTris_areaUnder25pct": 2,
+   "stretchedTris_areaOver300pct": 3,
+   "edgeStrain_p99": 0.102,
+   "edgeStrain_max": 0.58,
+   "edgesOver50pctStrain": 4,
+   "problemTrisByDominantBone": {
+    "thigh.R": 3,
+    "thigh.L": 2,
+    "hips": 1
+   }
+  },
+  "head-turn-45": {
+   "newSelfIntersections": 108,
+   "newSelfIntersectionsByDominantBone": {
+    "head": 92,
+    "neck": 12,
+    "shoulder.R": 3,
+    "chest": 1
+   },
+   "flippedFaces": 27,
+   "collapsedTris_areaUnder25pct": 4,
+   "stretchedTris_areaOver300pct": 10,
+   "edgeStrain_p99": 0.128,
+   "edgeStrain_max": 5.771,
+   "edgesOver50pctStrain": 168,
+   "problemTrisByDominantBone": {
+    "neck": 20,
+    "chest": 10,
+    "shoulder.L": 4,
+    "shoulder.R": 3
+   }
+  },
+  "head-nod-20": {
+   "newSelfIntersections": 63,
+   "newSelfIntersectionsByDominantBone": {
+    "head": 63
+   },
+   "flippedFaces": 6,
+   "collapsedTris_areaUnder25pct": 2,
+   "stretchedTris_areaOver300pct": 5,
+   "edgeStrain_p99": 0.052,
+   "edgeStrain_max": 3.404,
+   "edgesOver50pctStrain": 68,
+   "problemTrisByDominantBone": {
+    "neck": 8,
+    "chest": 2,
+    "shoulder.L": 2,
+    "shoulder.R": 1
+   }
+  },
+  "wrist-twist-60": {
+   "newSelfIntersections": 357,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 136,
+    "thigh.L": 131,
+    "upper_arm.R": 51,
+    "spine": 38,
+    "hips": 1
+   },
+   "flippedFaces": 3,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.179,
+   "edgeStrain_max": 0.768,
+   "edgesOver50pctStrain": 12,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 1,
+    "neck": 1,
+    "hand.L": 1
+   }
+  },
+  "forearm-twist-60": {
+   "newSelfIntersections": 319,
+   "newSelfIntersectionsByDominantBone": {
+    "hand.R": 148,
+    "thigh.L": 101,
+    "upper_arm.R": 46,
+    "spine": 24
+   },
+   "flippedFaces": 3,
+   "collapsedTris_areaUnder25pct": 4,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.207,
+   "edgeStrain_max": 2.035,
+   "edgesOver50pctStrain": 62,
+   "problemTrisByDominantBone": {
+    "upper_arm.L": 2,
+    "upper_arm.R": 1,
+    "forearm.R": 1,
+    "shoulder.R": 1,
+    "neck": 1
+   }
+  },
+  "run-stride": {
+   "newSelfIntersections": 289,
+   "newSelfIntersectionsByDominantBone": {
+    "thigh.L": 71,
+    "shin.R": 62,
+    "spine": 49,
+    "hips": 41,
+    "forearm.R": 23,
+    "chest": 21,
+    "upper_arm.L": 20,
+    "shin.L": 2
+   },
+   "flippedFaces": 71,
+   "collapsedTris_areaUnder25pct": 41,
+   "stretchedTris_areaOver300pct": 28,
+   "edgeStrain_p99": 0.457,
+   "edgeStrain_max": 3.623,
+   "edgesOver50pctStrain": 566,
+   "problemTrisByDominantBone": {
+    "thigh.L": 35,
+    "thigh.R": 20,
+    "forearm.R": 16,
+    "shin.R": 14,
+    "upper_arm.L": 10,
+    "spine": 9,
+    "forearm.L": 6,
+    "shin.L": 5,
+    "shoulder.R": 4,
+    "chest": 3,
+    "hand.R": 1,
+    "upper_arm.R": 1,
+    "foot.R": 1,
+    "hips": 1,
+    "neck": 1,
+    "shoulder.L": 1
+   }
+  }
+ }
+}

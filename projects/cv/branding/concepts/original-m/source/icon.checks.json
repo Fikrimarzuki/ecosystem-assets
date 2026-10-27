@@ -1,0 +1,12 @@
+{
+  "comment": "Per-icon expectations read by scripts/verify-icons.mjs. Structural proxies for small-size legibility; they do not replace looking at the contact sheet.",
+  "glyphComponents": 1,
+  "smallSize": [
+    { "size": 32, "scanY": 0.72, "runs": 2 },
+    { "size": 16, "scanY": 0.72, "runs": 2 }
+  ],
+  "colorProbes": [
+    { "svg": "favicon.svg", "at": [116, 256], "expect": "#5bf2c2" },
+    { "svg": "favicon.svg", "at": [396, 256], "expect": "#25c79f" }
+  ]
+}

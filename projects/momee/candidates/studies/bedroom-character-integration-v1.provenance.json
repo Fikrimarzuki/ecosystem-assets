@@ -1,0 +1,39 @@
+{
+  "milestone": "M1.0i",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "study.bedroom.characters.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "2560x1440 Krita document at 2 px/u: the M1.0h room-only render as the bottom layer, study contact shadows, and one group per character (character render placed by its feet anchor at the bedroom-layout.ts position; study-only clipped window rim light in screen mode and away-from-window falloff in multiply), plus labels.",
+  "placedInputs": [
+    {
+      "path": "room-only 2560x1440 render of study.bedroom.composition.v2 (characters and annotations hidden)",
+      "sha256": "b286497cff12c9220bcf31392b15c42705e67764db3c921edb7d6250197b9984",
+      "use": "background; regenerate from bedroom-composition-study-v2.kra"
+    },
+    {
+      "path": "4 px/u master render of char.boy.three-quarter.neutral.v1",
+      "use": "Boy at CHILD_START (520, 630), 200 u"
+    },
+    {
+      "path": "4 px/u master render of char.mom.three-quarter.neutral.v1, mirrored",
+      "use": "Mom at MOM_SPOT (840, 560), 290 u, facing the child"
+    }
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0i-construction/",
+    "files": {
+      "bedroom_chars.py": "214269367bd46fc1ac150df2d16aac96a4605e99e2b83dae16c734e4a873bbe0"
+    },
+    "dependsOn": "projects/momee/candidates/m1.0h-construction/kpaint2.py (sha256 53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339, unchanged)"
+  },
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Artwork-only study; no Phaser or gameplay change. Room layout unchanged."
+}

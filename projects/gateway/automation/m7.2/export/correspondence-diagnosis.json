@@ -1,0 +1,28 @@
+{
+  "importedVertex": 162,
+  "nearestSourceVertex": 162,
+  "distance": 3.74751607523649e-06,
+  "attributeErrors": [
+    0.0,
+    5.925599854417207e-05
+  ],
+  "importedUv": [
+    [
+      0.5700939893722534,
+      0.6240360140800476
+    ]
+  ],
+  "sourceUv": [
+    [
+      0.5700939893722534,
+      0.6240360140800476
+    ]
+  ],
+  "importedWeights": {
+    "mixamorig:Head": 1.0
+  },
+  "sourceWeights": {
+    "mixamorig:Neck": 5.925599854416556e-05,
+    "mixamorig:Head": 0.9999407440014558
+  }
+}

@@ -1,0 +1,2987 @@
+[
+  {
+    "name": "tools-entry-stationary",
+    "options": [
+      {
+        "distance": 0.68,
+        "pitch": -0.32,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.3580479346512293,
+          "y": 0.79890526121896,
+          "z": 0.8870718906392676
+        },
+        "blockedBootVertices": 506,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.32,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.056730643331874026,
+          "y": 0.79890526121896,
+          "z": 0.9929822496228027
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.32,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.5717026042096911,
+          "y": 0.79890526121896,
+          "z": 0.6496676017902265
+        },
+        "blockedBootVertices": 1686,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.30027973508995154,
+          "y": 0.9965267559005069,
+          "z": 0.8004195931265792
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.04757760317140589,
+          "y": 0.9965267559005069,
+          "z": 0.88924215418907
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.47946291523659834,
+          "y": 0.9965267559005069,
+          "z": 0.6013186067342153
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.32,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.28959759420320014,
+          "y": 0.7580116083388647,
+          "z": 0.7843963821347018
+        },
+        "blockedBootVertices": 91,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.32,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.04588507916548635,
+          "y": 0.7580116083388647,
+          "z": 0.8700591724890316
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.32,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.46240651811077954,
+          "y": 0.7580116083388647,
+          "z": 0.5923782073303303
+        },
+        "blockedBootVertices": 1126,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.24287331514628432,
+          "y": 0.9178525231548218,
+          "z": 0.7143099650288509
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.03848188491804889,
+          "y": 0.9178525231548218,
+          "z": 0.7861517423588067
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.38780088732371926,
+          "y": 0.9178525231548218,
+          "z": 0.5532724025056153
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.32,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.2527397185773383,
+          "y": 0.7359919490957365,
+          "z": 0.7291095698630123
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.32,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.0400451599989699,
+          "y": 0.7359919490957365,
+          "z": 0.8038698232631548
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.32,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.40355477944213486,
+          "y": 0.7359919490957365,
+          "z": 0.5615300718519246
+        },
+        "blockedBootVertices": 452,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.2119621659458481,
+          "y": 0.8754894747532989,
+          "z": 0.6679432422069971
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.03358419047393357,
+          "y": 0.8754894747532989,
+          "z": 0.7306415206040494
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.33844441075524584,
+          "y": 0.8754894747532989,
+          "z": 0.527401369459446
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tools-clear-angle-walking",
+    "options": [
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.39807449051443033,
+          "y": 0.9415267559005069,
+          "z": 1.0286526514820995
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.14537235859588468,
+          "y": 0.9415267559005069,
+          "z": 1.1174752125445904
+        },
+        "blockedBootVertices": 253,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.5772576706610771,
+          "y": 0.9415267559005069,
+          "z": 0.8295516650897357
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.39807449051443033,
+          "y": 0.9415267559005069,
+          "z": 1.0286526514820995
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.14537235859588468,
+          "y": 0.9415267559005069,
+          "z": 1.1174752125445904
+        },
+        "blockedBootVertices": 253,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.5772576706610771,
+          "y": 0.9415267559005069,
+          "z": 0.8295516650897357
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.3406680705707631,
+          "y": 0.8628525231548219,
+          "z": 0.9425430233843712
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.13627664034252768,
+          "y": 0.8628525231548219,
+          "z": 1.014384800714327
+        },
+        "blockedBootVertices": 250,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.48559564274819805,
+          "y": 0.8628525231548219,
+          "z": 0.7815054608611356
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.3406680705707631,
+          "y": 0.8628525231548219,
+          "z": 0.9425430233843712
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.13627664034252768,
+          "y": 0.8628525231548219,
+          "z": 1.014384800714327
+        },
+        "blockedBootVertices": 250,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.48559564274819805,
+          "y": 0.8628525231548219,
+          "z": 0.7815054608611356
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.3097569213703269,
+          "y": 0.8204894747532989,
+          "z": 0.8961763005625174
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.13137894589841237,
+          "y": 0.8204894747532989,
+          "z": 0.9588745789595697
+        },
+        "blockedBootVertices": 252,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.43623916617972464,
+          "y": 0.8204894747532989,
+          "z": 0.7556344278149664
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.3097569213703269,
+          "y": 0.8204894747532989,
+          "z": 0.8961763005625174
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": 0.13137894589841237,
+          "y": 0.8204894747532989,
+          "z": 0.9588745789595697
+        },
+        "blockedBootVertices": 252,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.43623916617972464,
+          "y": 0.8204894747532989,
+          "z": 0.7556344278149664
+        },
+        "blockedBootVertices": 1930,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "latest-entry",
+    "options": [
+      {
+        "distance": 0.68,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.08389185686656266,
+          "y": 0.9597771080805078,
+          "z": 0.9952069259086659
+        },
+        "blockedBootVertices": 94,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": false
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.42000000000000004,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.22132388113609963,
+          "y": 0.9597771080805078,
+          "z": 0.9601147687943862
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.36856794247749664,
+          "y": 0.9597771080805078,
+          "z": 0.8796749714688692
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.07314177746893322,
+          "y": 1.094026755900507,
+          "z": 0.9163730134586282
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.19296297241776028,
+          "y": 1.094026755900507,
+          "z": 0.8857776393373943
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.68,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.32133886932256417,
+          "y": 1.094026755900507,
+          "z": 0.8156455672223701
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.06785370775971979,
+          "y": 0.9067682491827637,
+          "z": 0.8775938371320091
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.42000000000000004,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.17901196268361,
+          "y": 0.9067682491827637,
+          "z": 0.8492104747601653
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.2981064240626811,
+          "y": 0.9067682491827637,
+          "z": 0.7841488739821736
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.05915879059987245,
+          "y": 1.0153525231548217,
+          "z": 0.8138311138268316
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.15607299239671787,
+          "y": 1.0153525231548217,
+          "z": 0.7890848553464218
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.55,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.2599064384226622,
+          "y": 1.0153525231548217,
+          "z": 0.7323603852533876
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.05921778131757363,
+          "y": 0.8782250174685937,
+          "z": 0.814263712406117
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.42000000000000004,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.15622862197842324,
+          "y": 0.8782250174685937,
+          "z": 0.7894927779725078
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.42000000000000004,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.2601656064547035,
+          "y": 0.8782250174685937,
+          "z": 0.7327117445662605
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0,
+        "position": {
+          "x": 0.0516294899780705,
+          "y": 0.972989474753299,
+          "z": 0.7586162447943257
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": -0.5,
+        "position": {
+          "x": -0.13620915700077196,
+          "y": 0.972989474753299,
+          "z": 0.7370195101205136
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "distance": 0.48,
+        "pitch": -0.65,
+        "yawOffset": 0.5,
+        "position": {
+          "x": 0.2268274371688688,
+          "y": 0.972989474753299,
+          "z": 0.6875145180393201
+        },
+        "blockedBootVertices": 0,
+        "probes": [
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": -0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0.065,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.01,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.15,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          },
+          {
+            "height": 0.25,
+            "side": 0,
+            "inside": false,
+            "visible": true
+          }
+        ]
+      }
+    ]
+  }
+]

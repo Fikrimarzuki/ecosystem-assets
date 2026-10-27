@@ -1,0 +1,9 @@
+const s=require('./survey.cjs'),{mesh,intersects,closest,stationParts}=require('./geometry.cjs');
+const {T,planets,model,resized,placed,transform,gap,specs,fs,path}=s,{Box3:B}=T;
+function run(spec){const locals=planets.map(p=>{const [w,d]=spec.sizes[p.id]??[2.72,2.32];return resized(p,w,d).map(q=>model([q]));}),records=planets.map((p,i)=>({a:i,b:-1,minimum:Infinity,time:0,parts:[]}));for(let i=0;i<6;i++)for(let j=i+1;j<6;j++)records.push({a:i,b:j,minimum:Infinity,time:0,parts:[]});
+ for(let time=0;time<600;time++){const parts=locals.map((ps,i)=>ps.map(p=>mesh(placed(p,transform(planets[i],time,spec.orbit??1)).v))),boxes=parts.map(ps=>ps.reduce((b,p)=>b.union(p.box),new B())),stationBox=stationParts.reduce((b,p)=>b.union(p.box),new B());
+  for(const r of records){const a=parts[r.a],b=r.b<0?stationParts:parts[r.b];if(gap(boxes[r.a],r.b<0?stationBox:boxes[r.b])>r.minimum)continue;for(let i=0;i<a.length;i++)for(let j=0;j<b.length;j++){if(gap(a[i].box,b[j].box)>r.minimum)continue;const d=intersects(a[i],b[j])?0:closest(a[i],b[j]);if(d<r.minimum)Object.assign(r,{minimum:d,time,parts:[i,j]});}}
+ }
+ const result={name:spec.name,records:records.map(r=>({...r,a:planets[r.a].id,b:r.b<0?'station':planets[r.b].id}))};console.log(JSON.stringify(result));return result;
+}
+const names=process.argv.slice(2),results=[];for(const name of names){results.push(run(specs.find(s=>s.name===name)));fs.writeFileSync(path.join(__dirname,'geometry-minima-'+names.join('_')+'.json'),JSON.stringify({method:'All six station/world pairs and all15 world pairs over600 phases,1second; actual nominal bob/yaw with selected1.025. Closed recipe triangles incl torus, triangle SAT and parity containment, nearest-surface vertex/face and edge/edge distances. Bounding gaps prune only distances greater than current best. Positive sampled minimum is NOT continuous clearance proof; unchanged recipe buildings.',results},null,2));}

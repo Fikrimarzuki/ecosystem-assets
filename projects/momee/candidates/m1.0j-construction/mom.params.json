@@ -1,0 +1,56 @@
+{
+ "name": "mom",
+ "sheet": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+ "crop": [
+  470,
+  162,
+  280,
+  532
+ ],
+ "tolerance": 12,
+ "shadowBand": 0.12,
+ "pockets": [
+  [
+   142,
+   444
+  ],
+  [
+   66,
+   94
+  ],
+  [
+   53,
+   142
+  ],
+  [
+   222,
+   168
+  ],
+  [
+   224,
+   112
+  ],
+  [
+   36,
+   202
+  ],
+  [
+   218,
+   198
+  ],
+  [
+   137,
+   469
+  ]
+ ],
+ "pocketNotes": [
+  "slit between the trouser legs",
+  "gap between left hair locks",
+  "gap between left hair locks",
+  "gap at right hair edge",
+  "gap at right hair edge",
+  "gap between left hair locks",
+  "gap at right hair edge",
+  "slit between the trouser legs (lower)"
+ ]
+}

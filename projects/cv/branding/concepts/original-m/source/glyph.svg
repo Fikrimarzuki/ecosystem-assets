@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV glyph</title>
+  <defs>
+    <linearGradient id="cv-deep" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2fd8ab"/><stop offset="1" stop-color="#14907f"/></linearGradient>
+    <linearGradient id="cv-light" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#86f9d6"/><stop offset="1" stop-color="#38ddb0"/></linearGradient>
+  </defs>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <polygon fill="url(#cv-deep)" points="106,386 106,160 166,126 256,254 346,126 406,160 406,386 340,386 340,234 256,338 172,234 172,386"/>
+    <polygon fill="url(#cv-light)" points="106,386 106,160 166,126 256,254 256,338 172,234 172,386"/>
+  </g>
+</svg>

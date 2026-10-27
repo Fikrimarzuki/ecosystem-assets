@@ -1,0 +1,38 @@
+{
+  "name": "ecosystem-assets",
+  "private": true,
+  "type": "module",
+  "description": "Creative source files and asset production for the developer ecosystem.",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.17.0",
+  "devDependencies": {
+    "playwright-core": "1.64.0",
+    "pngjs": "7.0.0",
+    "svgo": "4.1.0"
+  },
+  "scripts": {
+    "verify:momee": "node scripts/verify-momee.mjs",
+    "verify:momee:pilot": "node scripts/verify-momee.mjs && node scripts/verify-momee-pilot.mjs",
+    "test:momee": "node --test scripts/momee-approval.test.mjs scripts/momee-character-master.test.mjs",
+    "momee:master": "node scripts/momee-character-master.mjs",
+    "verify:collections": "node scripts/verify-collections.mjs",
+    "catalog:build": "node scripts/catalog.mjs build",
+    "catalog:validate": "node scripts/catalog.mjs validate",
+    "test:catalog": "node --test scripts/catalog.test.mjs",
+    "web:prepare": "node scripts/prepare-web.mjs",
+    "web:dev": "pnpm --filter @ecosystem-assets/web dev",
+    "web:build": "pnpm --filter @ecosystem-assets/web build && node scripts/verify-web-dist.mjs",
+    "web:preview": "pnpm --filter @ecosystem-assets/web preview",
+    "test:web-security": "node --test scripts/web-security.test.mjs",
+    "web:ui-check": "node scripts/verify-web-ui.mjs",
+    "build:icons": "node scripts/build-icons.mjs",
+    "verify:icons": "node scripts/verify-icons.mjs",
+    "build:logos": "node scripts/build-logos.mjs",
+    "verify:logos": "node scripts/build-logos.mjs --verify",
+    "contact-sheet": "node scripts/contact-sheet.mjs",
+    "compare-sheet": "node scripts/compare-sheet.mjs",
+    "pair-sheet": "node scripts/pair-sheet.mjs"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "milestone": "M1.0j-C",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "extract.boy.three-quarter.accepted-clean.v1",
+  "parent": "extract.boy.three-quarter.accepted.v1",
+  "input": {
+    "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png",
+    "sha256": "6be9428afa9e1849bf15247908dc17a722f9509d3e4c8a5524f6703c1df4ea22",
+    "note": "read-only; unchanged"
+  },
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies; app-momee scripts/assets png.mjs)",
+    "krita": "5.3.4.1 via krita_mcp 1.0.0 (review sheet only)"
+  },
+  "method": [
+    "Remove light remnants: 8-connected clusters (≤ 40 px) of panel-cream or very light, low-saturation pixels that touch transparent background and whose non-light figure neighbours (radius 2) are all dark (hair, outline). Alpha → 0.",
+    "Then remove detached components of ≤ 10 px no longer connected to the figure.",
+    "Recolour (alpha unchanged) semi-transparent pixels still close to the panel cream whose opaque neighbours are all dark, from the darkest neighbour.",
+    "Ambiguous light rims that blend gradually into the hair (Mom left hair ≈ (28,187); Boy crown tuft ≈ (172,26)) are left unchanged — they may be painted rim light.",
+    "Tiers re-made with the unchanged M1.0j-B tiers.mjs from the native canvas using the original bounds and anchor (verified: re-tiering the original native reproduces the M1.0j-B exports byte for byte)."
+  ],
+  "report": {
+    "in": "boy-three-quarter-accepted.v1.native.png",
+    "specks": [
+      {
+        "size": 1,
+        "at": [
+          176,
+          24
+        ]
+      },
+      {
+        "size": 5,
+        "at": [
+          189,
+          33
+        ]
+      },
+      {
+        "size": 5,
+        "at": [
+          187,
+          35
+        ]
+      },
+      {
+        "size": 32,
+        "at": [
+          231,
+          41
+        ]
+      },
+      {
+        "size": 3,
+        "at": [
+          117,
+          60
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          98,
+          67
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          278,
+          70
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          72,
+          73
+        ]
+      },
+      {
+        "size": 21,
+        "at": [
+          72,
+          92
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          65,
+          93
+        ]
+      },
+      {
+        "size": 7,
+        "at": [
+          279,
+          107
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          277,
+          139
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          131,
+          379
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          193,
+          410
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          130,
+          423
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          123,
+          452
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          120,
+          465
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          158,
+          468
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          157,
+          471
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          252,
+          471
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          280,
+          492
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          192,
+          495
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          98,
+          501
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          97,
+          503
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          192,
+          503
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          193,
+          506
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          282,
+          508
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          157,
+          513
+        ]
+      },
+      {
+        "size": 2,
+        "at": [
+          94,
+          515
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          95,
+          519
+        ]
+      }
+    ],
+    "removedPixels": 108,
+    "recolouredEdgePixels": 4,
+    "alphaChanged": 108,
+    "rgbChangedOpaque": 0,
+    "rgbChangedPartial": 4,
+    "after": {
+      "width": 306,
+      "height": 538,
+      "opaque": 73767,
+      "partial": 3826,
+      "clear": 87035,
+      "bounds": [
+        41,
+        16,
+        290,
+        529
+      ],
+      "bounds128": [
+        42,
+        17,
+        290,
+        529
+      ],
+      "edgeContact": 0
+    },
+    "haloAfter": 0,
+    "specksAfter": 0,
+    "straysAfter": 0
+  },
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-c-construction/",
+    "files": {
+      "edges.mjs": "895c6d081dbcd70fe81e0d2c45ff93f9ea8781c1a73274d295d81f2417a1f428",
+      "clean.mjs": "66aa21b2001c9c97a2a090947b62a593df16e85bf266072afddf3698afe5e794",
+      "boy.cleanup-report.json": "bb62c2eed06d323a849927058ed5fcbe742c948ab12edb75ad1fe8a50a07b86a",
+      "boy.clean-tiers-report.json": "d3b03ae4c24f59f12ad81e184f0dc3091afcf5ea464ded9e7f06f8159a94841b"
+    },
+    "tiering": "projects/momee/candidates/m1.0j-construction/tiers.mjs (unchanged)"
+  },
+  "externalArtworkUsed": "None beyond the accepted reference lineage.",
+  "generativeModelUsed": "None.",
+  "rightsStatus": "unverified (inherited)",
+  "approval": null
+}

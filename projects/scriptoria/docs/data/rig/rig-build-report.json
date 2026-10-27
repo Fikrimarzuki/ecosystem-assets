@@ -1,0 +1,352 @@
+{
+ "source": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\optimized\\explorer-neutral-25k.glb",
+ "trianglesBefore": 25000,
+ "trianglesAfter": 25000,
+ "weldedVertices": 12470,
+ "bones": 22,
+ "deformBones": 21,
+ "joints": {
+  "root": {
+   "head": [
+    0.0,
+    0.0,
+    -0.9512
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    -0.8012
+   ],
+   "deform": false,
+   "parent": null
+  },
+  "hips": {
+   "head": [
+    0.0,
+    0.0,
+    0.12
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    0.24
+   ],
+   "deform": true,
+   "parent": "root"
+  },
+  "spine": {
+   "head": [
+    0.0,
+    0.0,
+    0.24
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    0.36
+   ],
+   "deform": true,
+   "parent": "hips"
+  },
+  "chest": {
+   "head": [
+    0.0,
+    0.0,
+    0.36
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    0.54
+   ],
+   "deform": true,
+   "parent": "spine"
+  },
+  "neck": {
+   "head": [
+    0.0,
+    0.0,
+    0.54
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    0.66
+   ],
+   "deform": true,
+   "parent": "chest"
+  },
+  "head": {
+   "head": [
+    0.0,
+    0.0,
+    0.66
+   ],
+   "tail": [
+    0.0,
+    0.0,
+    0.95
+   ],
+   "deform": true,
+   "parent": "neck"
+  },
+  "shoulder.L": {
+   "head": [
+    0.03,
+    0.01,
+    0.5
+   ],
+   "tail": [
+    0.2184,
+    0.0401,
+    0.4188
+   ],
+   "deform": true,
+   "parent": "chest"
+  },
+  "upper_arm.L": {
+   "head": [
+    0.2184,
+    0.0401,
+    0.4188
+   ],
+   "tail": [
+    0.3286,
+    0.0045,
+    0.2532
+   ],
+   "deform": true,
+   "parent": "shoulder.L"
+  },
+  "forearm.L": {
+   "head": [
+    0.3286,
+    0.0045,
+    0.2532
+   ],
+   "tail": [
+    0.4163,
+    -0.0176,
+    0.1561
+   ],
+   "deform": true,
+   "parent": "upper_arm.L"
+  },
+  "hand.L": {
+   "head": [
+    0.4163,
+    -0.0176,
+    0.1561
+   ],
+   "tail": [
+    0.5024,
+    -0.0353,
+    0.0259
+   ],
+   "deform": true,
+   "parent": "forearm.L"
+  },
+  "thigh.L": {
+   "head": [
+    0.088,
+    0.0,
+    0.12
+   ],
+   "tail": [
+    0.175,
+    0.0012,
+    -0.36
+   ],
+   "deform": true,
+   "parent": "hips"
+  },
+  "shin.L": {
+   "head": [
+    0.175,
+    0.0012,
+    -0.36
+   ],
+   "tail": [
+    0.2695,
+    0.02,
+    -0.84
+   ],
+   "deform": true,
+   "parent": "thigh.L"
+  },
+  "foot.L": {
+   "head": [
+    0.2695,
+    0.02,
+    -0.84
+   ],
+   "tail": [
+    0.2695,
+    -0.1,
+    -0.92
+   ],
+   "deform": true,
+   "parent": "shin.L"
+  },
+  "toe.L": {
+   "head": [
+    0.2695,
+    -0.1,
+    -0.92
+   ],
+   "tail": [
+    0.2695,
+    -0.19,
+    -0.93
+   ],
+   "deform": true,
+   "parent": "foot.L"
+  },
+  "shoulder.R": {
+   "head": [
+    -0.03,
+    0.01,
+    0.5
+   ],
+   "tail": [
+    -0.2205,
+    0.0411,
+    0.4201
+   ],
+   "deform": true,
+   "parent": "chest"
+  },
+  "upper_arm.R": {
+   "head": [
+    -0.2205,
+    0.0411,
+    0.4201
+   ],
+   "tail": [
+    -0.3309,
+    0.005,
+    0.2533
+   ],
+   "deform": true,
+   "parent": "shoulder.R"
+  },
+  "forearm.R": {
+   "head": [
+    -0.3309,
+    0.005,
+    0.2533
+   ],
+   "tail": [
+    -0.4141,
+    -0.0142,
+    0.1543
+   ],
+   "deform": true,
+   "parent": "upper_arm.R"
+  },
+  "hand.R": {
+   "head": [
+    -0.4141,
+    -0.0142,
+    0.1543
+   ],
+   "tail": [
+    -0.5055,
+    -0.0353,
+    0.0273
+   ],
+   "deform": true,
+   "parent": "forearm.R"
+  },
+  "thigh.R": {
+   "head": [
+    -0.083,
+    0.0,
+    0.12
+   ],
+   "tail": [
+    -0.1787,
+    0.0012,
+    -0.36
+   ],
+   "deform": true,
+   "parent": "hips"
+  },
+  "shin.R": {
+   "head": [
+    -0.1787,
+    0.0012,
+    -0.36
+   ],
+   "tail": [
+    -0.2687,
+    0.02,
+    -0.84
+   ],
+   "deform": true,
+   "parent": "thigh.R"
+  },
+  "foot.R": {
+   "head": [
+    -0.2687,
+    0.02,
+    -0.84
+   ],
+   "tail": [
+    -0.2687,
+    -0.1,
+    -0.92
+   ],
+   "deform": true,
+   "parent": "shin.R"
+  },
+  "toe.R": {
+   "head": [
+    -0.2687,
+    -0.1,
+    -0.92
+   ],
+   "tail": [
+    -0.2687,
+    -0.19,
+    -0.93
+   ],
+   "deform": true,
+   "parent": "foot.R"
+  }
+ },
+ "unweightedVertices": 0,
+ "influencesPerVertex": {
+  "1": 4463,
+  "2": 4407,
+  "3": 835,
+  "4": 2765
+ },
+ "verticesAboveZ0.70NotMostlyHeadNeck": 26,
+ "verticesPerBone_weightOver0.05": {
+  "hips": 901,
+  "spine": 1752,
+  "chest": 2100,
+  "neck": 2600,
+  "head": 3998,
+  "shoulder.L": 1956,
+  "upper_arm.L": 511,
+  "forearm.L": 314,
+  "hand.L": 451,
+  "shoulder.R": 2083,
+  "upper_arm.R": 499,
+  "forearm.R": 257,
+  "hand.R": 432,
+  "thigh.L": 1591,
+  "shin.L": 992,
+  "foot.L": 357,
+  "toe.L": 149,
+  "thigh.R": 1595,
+  "shin.R": 959,
+  "foot.R": 399,
+  "toe.R": 152
+ },
+ "glb": "characters/explorer/rigged/explorer-neutral-25k-rigged.glb",
+ "glbSizeBytes": 1953288,
+ "blend": "characters/explorer/rigged/explorer-neutral-25k-rigged.blend"
+}

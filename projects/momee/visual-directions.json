@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "recordedIn": "M1.0m",
+  "recordedOn": "2026-10-26",
+  "purpose": "Logical archive: names each Momee visual direction and says which assets belong to it. No file was moved, renamed or edited, and no manifest entry changed.",
+  "directions": [
+    {
+      "id": "soft-storybook-adventure",
+      "title": "Soft Storybook Adventure",
+      "status": "active",
+      "visualDirectionStatus": "provisionally-accepted",
+      "productionApproval": "pending",
+      "rigReadiness": "not-ready",
+      "rights": "pending-verification",
+      "workspace": "projects/momee/styles/soft-storybook-adventure/",
+      "primaryReference": {
+        "path": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+        "present": true,
+        "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+        "width": 1536,
+        "height": 1024,
+        "manifestId": "ref.momee.soft-storybook-master-reference.v1",
+        "sourceType": "flattened concept illustration",
+        "note": "Registered in M1.1a. Its component pictures are illustrations, not editable layers."
+      },
+      "assets": [
+        "ref.momee.soft-storybook-master-reference.v1"
+      ]
+    },
+    {
+      "id": "calm-chibi-storybook",
+      "title": "Calm Chibi Storybook",
+      "status": "legacy-inactive",
+      "note": "Legacy does not mean invalid: its artwork, acceptance records and reports are preserved unchanged.",
+      "assets": {
+        "rule": "Every asset in projects/momee/manifest.json (52 entries at M1.0m, top-level \"theme\": \"calm-chibi-storybook\") and everything under incoming/momee/ belongs to this direction.",
+        "includes": [
+          "Mom v2 accepted master, tiers and working Krita file (visual acceptance recorded in M1.0k-A4)",
+          "Mom v1, v1.2 sheet and head-layer extraction (M1.0l-A1)",
+          "Boy accepted sheet, extraction and working files",
+          "M1.0i placeholders, bedroom and scale studies, review sheets",
+          "closed-eye and facial-concept references (reference only)",
+          "app-momee character-master-v1.png and the Boy cutout proof of concept"
+        ]
+      }
+    }
+  ],
+  "proposedSchemaChange": {
+    "status": "implemented in M1.1a",
+    "description": "Optional per-entry \"visualDirection\" (a direction id above) and an optional boolean visualAcceptance.provisional, both validated by scripts/lib/momee-approval.mjs and scripts/verify-momee.mjs with tests. Legacy entries are untouched and inherit the manifest's top-level theme."
+  }
+}

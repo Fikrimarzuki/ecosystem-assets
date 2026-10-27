@@ -1,0 +1,23 @@
+{
+  "adjustments": {
+    "Left": {
+      "firstChangedFrame": 1.125,
+      "lastChangedFrame": 31.875,
+      "deltaFirst": -4.194397308607571e-07,
+      "deltaLast": -4.194397308607571e-07
+    },
+    "Right": {
+      "firstChangedFrame": 1.125,
+      "lastChangedFrame": 31.875,
+      "deltaFirst": 4.464952173224542e-05,
+      "deltaLast": 4.4649521732245635e-05
+    }
+  },
+  "changedBakeFrames": [
+    1.125,
+    31.875
+  ],
+  "unchangedEndpointPoses": true,
+  "method": "Match first/last correction slopes; only the two adjacent sampled keys change",
+  "sourceHashesUnchanged": true
+}

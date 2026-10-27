@@ -1,0 +1,24 @@
+{
+  "freshBlenderVersion": "5.2.2 LTS",
+  "oneMeshOneArmature": true,
+  "triangles": 10357,
+  "vertices": 11181,
+  "bones": 41,
+  "idleDurationSeconds": 8.333333333333334,
+  "walkDurationSeconds": 1.0333333333333334,
+  "actionSerializationExact": true,
+  "skinGeometryUvRestObjectsAndPackedTexturesExact": true,
+  "idleWorldPoseErrorsAtFrames1_126_251": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "serializedWalkSampleCount": 993,
+  "serializedBootMinimumClearance": {
+    "Left": 0.0007143235997268422,
+    "Right": 0.0007018033335727935
+  },
+  "sourceInputsAndFirstCandidateUnchanged": true,
+  "newFileHashUnchangedAfterReadOnlyVerification": true,
+  "noExportPerformed": true
+}

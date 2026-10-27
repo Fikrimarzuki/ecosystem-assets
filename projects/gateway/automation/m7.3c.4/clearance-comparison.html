@@ -1,0 +1,23 @@
+<!doctype html><meta charset="utf-8"><title>M7.3c.4 exact environmental comparison</title>
+<style>body{margin:0;background:#10202b;color:white;font:18px system-ui}.labels{position:absolute;display:grid;grid-template-columns:1fr 1fr;width:100%;height:100%;pointer-events:none}.labels>div{text-align:center;padding-top:14px}small{display:block;color:#b5d1d5;font-size:14px}</style>
+<div class="labels"><div>Tools · original stop<small>0.05 center clearance</small></div><div>Tools · corrected stop<small>Bench-only movement margin</small></div><div>Latest · raised road edge<small>32.5 mm above deck</small></div><div>Latest · deck overlay<small>0.5 mm above deck</small></div></div>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module">
+import * as T from 'three';import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';import {clone} from 'three/addons/utils/SkeletonUtils.js';
+const [asset,before,after]=await Promise.all([new GLTFLoader().loadAsync('/astronaut.glb'),fetch('/baseline.json').then(r=>r.json()),fetch('/corrected.json').then(r=>r.json())]);
+const renderer=new T.WebGLRenderer({antialias:true});renderer.setSize(1440,900);renderer.setScissorTest(true);document.body.append(renderer.domElement);
+const evidence=[];
+for(let i=0;i<4;i++){
+ const world=i<2?'tools':'latest',name=i<2?'bench-wall-stop':'horizontal-road-edge',data=i%2?after:before,c=data.cases.find(c=>c.name===name);
+ const base=before.cases.find(c=>c.name===name),frame=base.frames.filter(f=>f.weight===1).sort((a,b)=>b.depth-a.depth)[0];
+ const scene=new T.Scene();scene.background=new T.Color('#10202b');scene.add(new T.HemisphereLight(0xffffff,0x334455,2));const light=new T.DirectionalLight(0xffffff,2);light.position.set(-1,2,-1);scene.add(light);
+ const ground=new T.Mesh(new T.PlaneGeometry(10,10),new T.MeshStandardMaterial({color:'#8198a6',roughness:1}));ground.rotation.x=-Math.PI/2;ground.position.y=.18;scene.add(ground);
+ for(const solid of data.navigation[world].solids){const mesh=new T.Mesh(new T.BoxGeometry(...solid.size),new T.MeshStandardMaterial({color:solid.color,roughness:1}));mesh.position.set(...solid.position);scene.add(mesh);scene.add(new T.BoxHelper(mesh,0x8db1ba));}
+ const model=clone(asset.scene),wrapper=new T.Group();wrapper.scale.setScalar(.3/1.891089441470219);wrapper.rotation.y=c.yaw+Math.PI;wrapper.position.set(c.x,c.y,c.z);wrapper.add(model);scene.add(wrapper);
+ const mixer=new T.AnimationMixer(model);const action=mixer.clipAction(asset.animations.find(a=>a.name==='Walk')).play();action.time=frame.walkTime;mixer.update(0);scene.updateMatrixWorld(true);
+ const camera=new T.PerspectiveCamera(40,720/450,.001,100);camera.position.set(c.x-.5,.47,c.z-.45);camera.lookAt(c.x,.32,c.z);
+ const col=i%2,row=i<2?1:0;renderer.setViewport(col*720,row*450,720,450);renderer.setScissor(col*720,row*450,720,450);renderer.render(scene,camera);
+ evidence.push({world,case:name,correction:!!(i%2),player:c,walkTime:frame.walkTime});
+}
+window.evidence=evidence;window.ready=true;
+</script>

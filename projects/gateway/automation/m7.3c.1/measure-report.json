@@ -1,0 +1,970 @@
+{
+  "scale": 0.15863871555793063,
+  "playerSpeed": 0.42,
+  "walkDuration": 1.0333333015441895,
+  "travelPerCycle": 0.43399998664855954,
+  "contactWindow": "Boot min <=0.01m asset, interval endpoints both near floor; centroid finite difference; no physical contact classifier",
+  "stride": {
+    "Left": [
+      {
+        "start": 0,
+        "end": 0.041666665384846355,
+        "samples": 10,
+        "meanBackwardSpeed": -0.32154356916331017,
+        "minBackwardSpeed": -0.33220861409272207,
+        "maxBackwardSpeed": -0.3112579398691821,
+        "meanResidualForwardSpeed": 0.7415435691633101
+      },
+      {
+        "start": 0.13749999576999294,
+        "end": 1.0333333015441895,
+        "samples": 215,
+        "meanBackwardSpeed": 0.049507729073143644,
+        "minBackwardSpeed": -0.30944334596026096,
+        "maxBackwardSpeed": 0.2330500718713932,
+        "meanResidualForwardSpeed": 0.37049227092685627
+      }
+    ],
+    "Right": [
+      {
+        "start": 0,
+        "end": 0.5541666496184564,
+        "samples": 133,
+        "meanBackwardSpeed": 0.0016215359440789672,
+        "minBackwardSpeed": -0.349575571553443,
+        "maxBackwardSpeed": 0.2189416925933902,
+        "meanResidualForwardSpeed": 0.4183784640559211
+      },
+      {
+        "start": 0.616666647695726,
+        "end": 1.0333333015441895,
+        "samples": 100,
+        "meanBackwardSpeed": 0.04699355231601921,
+        "minBackwardSpeed": -0.3196453917167935,
+        "maxBackwardSpeed": 0.22734890162262408,
+        "meanResidualForwardSpeed": 0.37300644768398056
+      }
+    ]
+  },
+  "backwardNearFloor": {
+    "Left": {
+      "samples": 128,
+      "criterion": "Near-floor at both endpoints and backward centroid speed >0.05 player units/s; excludes forward swing, not a full contact detector",
+      "meanBackwardSpeed": 0.18693407258078276,
+      "maxBackwardSpeed": 0.2330500718713932,
+      "meanBoneBackwardSpeed": 0.16950040484452877,
+      "meanResidualForwardSpeed": 0.23306592741921722
+    },
+    "Right": {
+      "samples": 130,
+      "criterion": "Near-floor at both endpoints and backward centroid speed >0.05 player units/s; excludes forward swing, not a full contact detector",
+      "meanBackwardSpeed": 0.17956682832238566,
+      "maxBackwardSpeed": 0.22734890162262408,
+      "meanBoneBackwardSpeed": 0.15455562397116854,
+      "meanResidualForwardSpeed": 0.24043317167761433
+    }
+  },
+  "soleVelocity": {
+    "Left": {
+      "criterion": "Same vertex Y <=2mm asset (0.317mm player) at both interval endpoints, all directions; hypothetical straight full-speed travel",
+      "intervalsWithContact": 161,
+      "vertexPairs": 478,
+      "meanForwardWorldSpeed": 0.3405302931037256,
+      "medianForwardWorldSpeed": 0.19563817683606888,
+      "minForwardWorldSpeed": 0.14315882262998136,
+      "maxForwardWorldSpeed": 0.9326812410335017,
+      "fractionForward": 1
+    },
+    "Right": {
+      "criterion": "Same vertex Y <=2mm asset (0.317mm player) at both interval endpoints, all directions; hypothetical straight full-speed travel",
+      "intervalsWithContact": 162,
+      "vertexPairs": 1185,
+      "meanForwardWorldSpeed": 0.22362627502732937,
+      "medianForwardWorldSpeed": 0.18640885216078915,
+      "minForwardWorldSpeed": 0.06490520109569142,
+      "maxForwardWorldSpeed": 0.9346940396533057,
+      "fractionForward": 1
+    }
+  },
+  "fpsResults": {
+    "15": {
+      "stopPhases": 24,
+      "maxStepPlayerMeters": 0.009621812681903853,
+      "maxLiftPlayerMeters": 0.009621812681903853,
+      "errors": 0
+    },
+    "20": {
+      "stopPhases": 24,
+      "maxStepPlayerMeters": 0.007950430112978297,
+      "maxLiftPlayerMeters": 0.009993001332124243,
+      "errors": 0
+    },
+    "30": {
+      "stopPhases": 24,
+      "maxStepPlayerMeters": 0.0064752290678384405,
+      "maxLiftPlayerMeters": 0.009993001332124243,
+      "errors": 0
+    },
+    "60": {
+      "stopPhases": 24,
+      "maxStepPlayerMeters": 0.003507034791857152,
+      "maxLiftPlayerMeters": 0.010319224818860362,
+      "errors": 0
+    }
+  },
+  "spawnFindings": [
+    {
+      "world": "latest",
+      "groundY": 0.18,
+      "spawn": {
+        "x": 0,
+        "y": 0.21250000000000002,
+        "z": 0.38
+      },
+      "pitch": -0.42000000000000004,
+      "yaw": 0.13552771930518506,
+      "camera": {
+        "x": 0.08389185686656266,
+        "y": 0.9597771080805078,
+        "z": 0.9952069259086659
+      },
+      "target": {
+        "x": 0,
+        "y": 0.6825,
+        "z": 0.38
+      },
+      "fov": 65,
+      "distance": 0.6800000000000002,
+      "pathHeightAboveDeck": 0.03250000000000003
+    },
+    {
+      "world": "games",
+      "groundY": 0.18,
+      "spawn": {
+        "x": 0.58,
+        "y": 0.22,
+        "z": 0.18
+      },
+      "pitch": -0.22,
+      "yaw": 0.05167808841425121,
+      "camera": {
+        "x": 0.6142788475633552,
+        "y": 0.718396143694991,
+        "z": 0.8427243357129599
+      },
+      "target": {
+        "x": 0.58,
+        "y": 0.57,
+        "z": 0.18
+      },
+      "fov": 65,
+      "distance": 0.6800000000000002,
+      "pathHeightAboveDeck": 0.04000000000000001
+    },
+    {
+      "world": "learning",
+      "groundY": 0.18,
+      "spawn": {
+        "x": 0,
+        "y": 0.225,
+        "z": 0.58
+      },
+      "pitch": -0.22,
+      "yaw": 0.25910201310271325,
+      "camera": {
+        "x": 0.17002533993665012,
+        "y": 0.7233961436949912,
+        "z": 1.2214592491467267
+      },
+      "target": {
+        "x": 0,
+        "y": 0.575,
+        "z": 0.58
+      },
+      "fov": 65,
+      "distance": 0.6800000000000003,
+      "pathHeightAboveDeck": 0.04500000000000001
+    },
+    {
+      "world": "tools",
+      "groundY": 0.18,
+      "spawn": {
+        "x": 0,
+        "y": 0.235,
+        "z": 0.35
+      },
+      "pitch": -0.32,
+      "yaw": 0.5880026132906346,
+      "camera": {
+        "x": 0.3580479346512293,
+        "y": 0.79890526121896,
+        "z": 0.8870718906392676
+      },
+      "target": {
+        "x": 0,
+        "y": 0.585,
+        "z": 0.35
+      },
+      "fov": 65,
+      "distance": 0.6799999999999999,
+      "pathHeightAboveDeck": 0.05499999999999999
+    },
+    {
+      "world": "after-hours",
+      "groundY": 0.18,
+      "spawn": {
+        "x": -0.4,
+        "y": 0.225,
+        "z": 0.65
+      },
+      "pitch": -0.22,
+      "yaw": 0.1566018802441614,
+      "camera": {
+        "x": -0.29650163306422006,
+        "y": 0.7233961436949912,
+        "z": 1.3054896433797274
+      },
+      "target": {
+        "x": -0.4,
+        "y": 0.575,
+        "z": 0.65
+      },
+      "fov": 65,
+      "distance": 0.6799999999999999,
+      "pathHeightAboveDeck": 0.04500000000000001
+    },
+    {
+      "world": "platforms",
+      "groundY": 0.18,
+      "spawn": {
+        "x": -0.6,
+        "y": 0.23249999999999998,
+        "z": 0
+      },
+      "pitch": -0.22,
+      "yaw": 0.8319965489953046,
+      "camera": {
+        "x": -0.10940798006149616,
+        "y": 0.8158961436949912,
+        "z": 0.44687588266666883
+      },
+      "target": {
+        "x": -0.6,
+        "y": 0.6675,
+        "z": 0
+      },
+      "fov": 65,
+      "distance": 0.6800000000000002,
+      "pathHeightAboveDeck": 0.05249999999999999
+    }
+  ],
+  "cameraEvidence": [
+    {
+      "name": "tools-entry-stationary",
+      "world": "tools",
+      "localCamera": [
+        0.3580479346512302,
+        0.7989052612189593,
+        0.8870718906392678
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6800000000000004,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052612189594,
+      "modelGroundClearance": 0.0000047476040020144605,
+      "modelHeight": 0.30004503501317714,
+      "maxVisualRadius": 0.07515320547720908,
+      "projectedBoundsNDC": {
+        "minX": -0.09245937274327891,
+        "maxX": 0.09706758295133346,
+        "minY": -0.7126773363097406,
+        "maxY": -0.0893393471125068
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 26,
+          "part": {
+            "shape": "box",
+            "position": [
+              0.48,
+              0.34,
+              0.64
+            ],
+            "size": [
+              0.65,
+              0.26,
+              0.38
+            ],
+            "color": "#718c94"
+          },
+          "blockedBootVertices": 506
+        }
+      ]
+    },
+    {
+      "name": "tools-clear-angle-stationary",
+      "world": "tools",
+      "localCamera": [
+        0.3003860013337496,
+        0.9962213060517591,
+        0.8005789924889113
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.6799677498385613,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.8162213060517591,
+      "modelGroundClearance": 0.000010359335589071872,
+      "modelHeight": 0.29997377808679065,
+      "maxVisualRadius": 0.07514758285050338,
+      "projectedBoundsNDC": {
+        "minX": -0.08503325108374922,
+        "maxX": 0.09595964317007441,
+        "minY": -0.5468568801653865,
+        "maxY": -0.0480962237770916
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-clear-angle-walking",
+      "world": "tools",
+      "localCamera": [
+        0.3973756574872631,
+        0.946516243277588,
+        1.0135903095349938
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.6728821843007687,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.766516243277588,
+      "modelGroundClearance": 0.00011555879609922992,
+      "modelHeight": 0.29541684413552627,
+      "maxVisualRadius": 0.08222029860577067,
+      "projectedBoundsNDC": {
+        "minX": -0.08973167102623399,
+        "maxX": 0.08678000152244625,
+        "minY": -0.5408687209691042,
+        "maxY": -0.08095683400017346
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 235,
+      "maxBoxPenetration": 0.018508859531792266,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 26,
+          "part": {
+            "shape": "box",
+            "position": [
+              0.48,
+              0.34,
+              0.64
+            ],
+            "size": [
+              0.65,
+              0.26,
+              0.38
+            ],
+            "color": "#718c94"
+          },
+          "blockedBootVertices": 1930
+        }
+      ]
+    },
+    {
+      "name": "tools-turning",
+      "world": "tools",
+      "localCamera": [
+        0.5966646695438254,
+        0.9415267559005069,
+        1.4494017944569881
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.680199192743184,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.761526755900507,
+      "modelGroundClearance": 0.0001689605142076167,
+      "modelHeight": 0.29322688352931137,
+      "maxVisualRadius": 0.09681301885532576,
+      "projectedBoundsNDC": {
+        "minX": -0.0821572478892131,
+        "maxX": 0.09400749719079107,
+        "minY": -0.5713910383454697,
+        "maxY": -0.06455784046930016
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-reentry",
+      "world": "tools",
+      "localCamera": [
+        0.3580479346512302,
+        0.7989052612189593,
+        0.8870718906392678
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6800000000000004,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052612189594,
+      "modelGroundClearance": 0.000004701738759882446,
+      "modelHeight": 0.30004460429364055,
+      "maxVisualRadius": 0.07515327749461939,
+      "projectedBoundsNDC": {
+        "minX": -0.09245823996270203,
+        "maxX": 0.09706861689120544,
+        "minY": -0.71267730489212,
+        "maxY": -0.08933951396617965
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 26,
+          "part": {
+            "shape": "box",
+            "position": [
+              0.48,
+              0.34,
+              0.64
+            ],
+            "size": [
+              0.65,
+              0.26,
+              0.38
+            ],
+            "color": "#718c94"
+          },
+          "blockedBootVertices": 506
+        }
+      ]
+    },
+    {
+      "name": "tools-near-project",
+      "world": "tools",
+      "localCamera": [
+        0.32000049576782885,
+        0.7989052606735318,
+        0.8300007335189363
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6946436851282926,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052606735319,
+      "modelGroundClearance": 0.0000016313147808144635,
+      "modelHeight": 0.2935629380092767,
+      "maxVisualRadius": 0.09623100135806915,
+      "projectedBoundsNDC": {
+        "minX": -0.0964127951328076,
+        "maxX": 0.08760709808994395,
+        "minY": -0.7359038964720915,
+        "maxY": -0.09620961271043076
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-project-details",
+      "world": "tools",
+      "localCamera": [
+        0.31145311748734894,
+        0.7989052606229134,
+        0.8171796663688697
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6800000000000054,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052606229135,
+      "modelGroundClearance": 0.000014364592981902513,
+      "modelHeight": 0.29998129544175567,
+      "maxVisualRadius": 0.07514774867640142,
+      "projectedBoundsNDC": {
+        "minX": -0.08983718617373337,
+        "maxX": 0.09962848388458534,
+        "minY": -0.7126489030425152,
+        "maxY": -0.08921678161992884
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-details-frozen",
+      "world": "tools",
+      "localCamera": [
+        0.31145311748734894,
+        0.7989052606229134,
+        0.8171796663688697
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6800000000000054,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052606229135,
+      "modelGroundClearance": 0.000014364592981902513,
+      "modelHeight": 0.29998129544175567,
+      "maxVisualRadius": 0.07514774867640142,
+      "projectedBoundsNDC": {
+        "minX": -0.08983718617373337,
+        "maxX": 0.09962848388458534,
+        "minY": -0.7126489030425152,
+        "maxY": -0.08921678161992884
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-forward-after-resume",
+      "world": "tools",
+      "localCamera": [
+        0.30377030998591437,
+        0.7989052606229132,
+        0.8056554553599933
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6917811566859697,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052606229133,
+      "modelGroundClearance": 0.000136436617020258,
+      "modelHeight": 0.2994127417852168,
+      "maxVisualRadius": 0.07119959655422603,
+      "projectedBoundsNDC": {
+        "minX": -0.09107498130739068,
+        "maxX": 0.09493541072830305,
+        "minY": -0.7051698676532316,
+        "maxY": -0.08808239661575977
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-unobstructed-walk-0",
+      "world": "tools",
+      "localCamera": [
+        0.17550179652248854,
+        0.9963305845298445,
+        0.8837527578597539
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.6802162394432957,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.8163305845298445,
+      "modelGroundClearance": 0.00017976797156768476,
+      "modelHeight": 0.28732230961287886,
+      "maxVisualRadius": 0.09351381236765233,
+      "projectedBoundsNDC": {
+        "minX": -0.08408776658924283,
+        "maxX": 0.08631132447873431,
+        "minY": -0.578576460584582,
+        "maxY": -0.08716031101122877
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "tools-unobstructed-walk-1",
+      "world": "tools",
+      "localCamera": [
+        -0.3168672186626056,
+        1.003421501892637,
+        0.5499699890068812
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.47342166676085695,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.823421501892637,
+      "modelGroundClearance": 0.000017075373332176014,
+      "modelHeight": 0.29998784894370073,
+      "maxVisualRadius": 0.07514909997401573,
+      "projectedBoundsNDC": {
+        "minX": -0.1004388198682901,
+        "maxX": 0.09071724923068611,
+        "minY": -0.16717592874099496,
+        "maxY": 0.18432635514013415
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 575,
+      "maxBoxPenetration": 0.024097308401828638,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 5,
+          "part": {
+            "shape": "box",
+            "position": [
+              0,
+              0.21,
+              0.35
+            ],
+            "size": [
+              2.1,
+              0.05,
+              0.38
+            ],
+            "color": "#283e48",
+            "navigationRole": "path"
+          },
+          "blockedBootVertices": 789
+        }
+      ]
+    },
+    {
+      "name": "tools-unobstructed-walk-2",
+      "world": "tools",
+      "localCamera": [
+        -0.3170893728092077,
+        1.03,
+        0.5496432599401329
+      ],
+      "pitch": -0.65,
+      "distanceToPivot": 0.5,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.8500000000000001,
+      "modelGroundClearance": 0.00005556338713136322,
+      "modelHeight": 0.30012569055339106,
+      "maxVisualRadius": 0.07514910747942156,
+      "projectedBoundsNDC": {
+        "minX": -0.09961339488781117,
+        "maxX": 0.11772414995485246,
+        "minY": -0.12594562415056332,
+        "maxY": 0.18054215328489076
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 575,
+      "maxBoxPenetration": 0.02409635050817263,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 5,
+          "part": {
+            "shape": "box",
+            "position": [
+              0,
+              0.21,
+              0.35
+            ],
+            "size": [
+              2.1,
+              0.05,
+              0.38
+            ],
+            "color": "#283e48",
+            "navigationRole": "path"
+          },
+          "blockedBootVertices": 789
+        }
+      ]
+    },
+    {
+      "name": "tools-stable-wall-stop",
+      "world": "tools",
+      "localCamera": [
+        0.26141780837946804,
+        0.7989052606230238,
+        0.7652323806060686
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6803398767166685,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052606230239,
+      "modelGroundClearance": 0.000005567213459817255,
+      "modelHeight": 0.30005580820868016,
+      "maxVisualRadius": 0.07515047622989217,
+      "projectedBoundsNDC": {
+        "minX": -0.093798737254287,
+        "maxX": 0.09369262370050452,
+        "minY": -0.7099776053969286,
+        "maxY": -0.08905625474212894
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "simulated-spawn-latest",
+      "world": "latest",
+      "localCamera": [
+        0.08389185686656266,
+        0.9597771080805078,
+        0.9952069259086659
+      ],
+      "pitch": -0.42000000000000004,
+      "distanceToPivot": 0.6800000000000002,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.7797771080805078,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.2999999638967241,
+      "maxVisualRadius": 0.07515279427124943,
+      "projectedBoundsNDC": {
+        "minX": -0.08505710210061389,
+        "maxX": 0.0896941755707621,
+        "minY": -0.8305085923974065,
+        "maxY": -0.2926330181302442
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": [
+        {
+          "partIndex": 35,
+          "part": {
+            "shape": "box",
+            "position": [
+              -0.01,
+              0.62,
+              0.76
+            ],
+            "size": [
+              0.36,
+              0.04,
+              0.04
+            ],
+            "color": "#b79465"
+          },
+          "blockedBootVertices": 94
+        }
+      ]
+    },
+    {
+      "name": "simulated-spawn-games",
+      "world": "games",
+      "localCamera": [
+        0.6142788475633552,
+        0.718396143694991,
+        0.8427243357129599
+      ],
+      "pitch": -0.22,
+      "distanceToPivot": 0.6800000000000002,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.5383961436949911,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.2999999638967241,
+      "maxVisualRadius": 0.07515279427124942,
+      "projectedBoundsNDC": {
+        "minX": -0.09371353670948768,
+        "maxX": 0.09876654384245848,
+        "minY": -0.7594696115385232,
+        "maxY": -0.09885789581028322
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "simulated-spawn-learning",
+      "world": "learning",
+      "localCamera": [
+        0.17002533993665012,
+        0.7233961436949912,
+        1.2214592491467267
+      ],
+      "pitch": -0.22,
+      "distanceToPivot": 0.6800000000000003,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.5433961436949912,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.2999999638967241,
+      "maxVisualRadius": 0.07515279427124943,
+      "projectedBoundsNDC": {
+        "minX": -0.09371353670948797,
+        "maxX": 0.09876654384245813,
+        "minY": -0.7594696115385231,
+        "maxY": -0.09885789581028331
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "simulated-spawn-tools",
+      "world": "tools",
+      "localCamera": [
+        0.3580479346512293,
+        0.79890526121896,
+        0.8870718906392676
+      ],
+      "pitch": -0.32,
+      "distanceToPivot": 0.6799999999999999,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6189052612189601,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.2999999638967241,
+      "maxVisualRadius": 0.07515279427124945,
+      "projectedBoundsNDC": {
+        "minX": -0.09225951682284236,
+        "maxX": 0.09727542106492837,
+        "minY": -0.7126733007423476,
+        "maxY": -0.08941241197590255
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [
+        {
+          "distance": 0.45,
+          "blockedBootVertices": 0,
+          "cameraInsideBench": false
+        },
+        {
+          "distance": 0.55,
+          "blockedBootVertices": 91,
+          "cameraInsideBench": false
+        },
+        {
+          "distance": 0.68,
+          "blockedBootVertices": 506,
+          "cameraInsideBench": false
+        },
+        {
+          "distance": 0.85,
+          "blockedBootVertices": 964,
+          "cameraInsideBench": false
+        }
+      ],
+      "blockers": [
+        {
+          "partIndex": 26,
+          "part": {
+            "shape": "box",
+            "position": [
+              0.48,
+              0.34,
+              0.64
+            ],
+            "size": [
+              0.65,
+              0.26,
+              0.38
+            ],
+            "color": "#718c94"
+          },
+          "blockedBootVertices": 506
+        }
+      ]
+    },
+    {
+      "name": "simulated-spawn-after-hours",
+      "world": "after-hours",
+      "localCamera": [
+        -0.29650163306422006,
+        0.7233961436949912,
+        1.3054896433797274
+      ],
+      "pitch": -0.22,
+      "distanceToPivot": 0.6799999999999999,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.5433961436949912,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.2999999638967241,
+      "maxVisualRadius": 0.07515279427124946,
+      "projectedBoundsNDC": {
+        "minX": -0.093713536709488,
+        "maxX": 0.0987665438424581,
+        "minY": -0.7594696115385232,
+        "maxY": -0.09885789581028312
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    },
+    {
+      "name": "simulated-spawn-platforms",
+      "world": "platforms",
+      "localCamera": [
+        -0.10940798006149616,
+        0.8158961436949912,
+        0.44687588266666883
+      ],
+      "pitch": -0.22,
+      "distanceToPivot": 0.6800000000000002,
+      "cameraInsideObstacle": false,
+      "cameraInsideBench": false,
+      "groundClearance": 0.6358961436949913,
+      "modelGroundClearance": 3.315034813322626e-8,
+      "modelHeight": 0.29999996389672406,
+      "maxVisualRadius": 0.0751527942712494,
+      "projectedBoundsNDC": {
+        "minX": -0.09127083066876558,
+        "maxX": 0.09618483367743003,
+        "minY": -0.9166223014797952,
+        "maxY": -0.2729626037345258
+      },
+      "bootTotal": 1930,
+      "bootOutsideFrustum": 0,
+      "bootVerticesInsideUnrotatedBoxes": 0,
+      "maxBoxPenetration": 0,
+      "distanceProbe": [],
+      "blockers": []
+    }
+  ]
+}

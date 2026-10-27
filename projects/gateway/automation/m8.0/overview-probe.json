@@ -1,0 +1,45 @@
+{
+  "method": "Hypothetical enlargement of the three island-base parts only; existing transforms, buildings and overview projection. 5-second orbit samples, fixed authored rotation; no bob/yaw, labels, station or rendered occlusion. Projected AABB risk estimate, not production layout validation.",
+  "output": [
+    {
+      "enlarged": false,
+      "width": 1440,
+      "height": 900,
+      "maxProjectedAABBOverlapFraction": 0,
+      "pair": "",
+      "worstTime": 0,
+      "clippedWorldSamples": 0,
+      "worldSamples": 720
+    },
+    {
+      "enlarged": false,
+      "width": 768,
+      "height": 700,
+      "maxProjectedAABBOverlapFraction": 0,
+      "pair": "",
+      "worstTime": 0,
+      "clippedWorldSamples": 0,
+      "worldSamples": 720
+    },
+    {
+      "enlarged": true,
+      "width": 1440,
+      "height": 900,
+      "maxProjectedAABBOverlapFraction": 0.0992493357325041,
+      "pair": "learning/platforms",
+      "worstTime": 385,
+      "clippedWorldSamples": 0,
+      "worldSamples": 720
+    },
+    {
+      "enlarged": true,
+      "width": 768,
+      "height": 700,
+      "maxProjectedAABBOverlapFraction": 0.09924933573250408,
+      "pair": "learning/platforms",
+      "worstTime": 385,
+      "clippedWorldSamples": 28,
+      "worldSamples": 720
+    }
+  ]
+}

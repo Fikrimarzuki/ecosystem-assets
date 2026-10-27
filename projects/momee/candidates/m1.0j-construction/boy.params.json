@@ -1,0 +1,53 @@
+{
+ "name": "boy",
+ "sheet": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+ "crop": [
+  396,
+  100,
+  314,
+  545
+ ],
+ "tolerance": 12,
+ "shadowBand": 0.12,
+ "pockets": [
+  [
+   161,
+   440
+  ],
+  [
+   112,
+   352
+  ],
+  [
+   103,
+   41
+  ],
+  [
+   118,
+   320
+  ],
+  [
+   248,
+   61
+  ],
+  [
+   107,
+   31,
+   20
+  ],
+  [
+   253,
+   65,
+   20
+  ]
+ ],
+ "pocketNotes": [
+  "between the legs",
+  "between the near arm and the body",
+  "gap between crown tufts",
+  "armpit gap",
+  "gap between right tuft tips",
+  "slightly darker paper blotch between crown tufts (tolerance 20)",
+  "paper between right hair-tip and tuft (tolerance 20)"
+ ]
+}

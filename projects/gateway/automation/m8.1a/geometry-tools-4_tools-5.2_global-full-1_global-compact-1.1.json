@@ -1,0 +1,318 @@
+{
+  "method": "Actual triangulated recipe parts, closed-solid intersection: triangle SAT plus ray-parity containment. Whole transformed actual AABBs broad phase, 1-second full orbit. Separate .025/yaw-extreme conservative contract from actual nominal sampled transforms. Distances are exact triangle-surface distances at critical AABB-minimum snapshots, NOT claimed global triangle minima or continuous proofs.",
+  "results": [
+    {
+      "name": "tools-4",
+      "station": {
+        "broadFrames": 0,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worlds": {
+        "broadFrames": 0,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worstSnapshots": [
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "games",
+          "time": 38,
+          "surfaceDistanceAtAABBMinimum": 3.5311960333811325,
+          "parts": [
+            13,
+            0
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "latest",
+          "time": 256,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.1870391807336604,
+          "parts": [
+            31,
+            27
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "tools",
+          "time": 315,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.8997734481394084,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "tools",
+          "time": 352,
+          "surfaceDistanceAtAABBMinimum": 3.424924306883818,
+          "parts": [
+            31,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tools-5.2",
+      "station": {
+        "broadFrames": 23,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worlds": {
+        "broadFrames": 39,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worstSnapshots": [
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "games",
+          "time": 38,
+          "surfaceDistanceAtAABBMinimum": 3.5311960333811325,
+          "parts": [
+            13,
+            0
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "latest",
+          "time": 256,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.1870391807336604,
+          "parts": [
+            31,
+            27
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "tools",
+          "time": 310,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.3046321367049187,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "tools",
+          "time": 356,
+          "surfaceDistanceAtAABBMinimum": 2.8645796475133514,
+          "parts": [
+            31,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "global-full-1",
+      "station": {
+        "broadFrames": 379,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worlds": {
+        "broadFrames": 1190,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worstSnapshots": [
+        {
+          "kind": "station",
+          "a": "learning",
+          "time": 7,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.1749286602304063,
+          "parts": [
+            0,
+            26
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "games",
+          "time": 8,
+          "surfaceDistanceAtAABBMinimum": 1.7102528298288573,
+          "parts": [
+            2,
+            0
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "tools",
+          "b": "after-hours",
+          "time": 101,
+          "surfaceDistanceAtAABBMinimum": 2.6396832945335684,
+          "parts": [
+            15,
+            0
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "platforms",
+          "time": 102,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 2.3055023568997677,
+          "parts": [
+            0,
+            26
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "after-hours",
+          "b": "platforms",
+          "time": 193,
+          "surfaceDistanceAtAABBMinimum": 1.6015137567658784,
+          "parts": [
+            2,
+            1
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "after-hours",
+          "time": 208,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.4249693307829303,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "tools",
+          "time": 210,
+          "surfaceDistanceAtAABBMinimum": 3.456865909908181,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "latest",
+          "time": 273,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.6763849662515824,
+          "parts": [
+            13,
+            27
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "tools",
+          "time": 310,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.3046321367049187,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "learning",
+          "b": "platforms",
+          "time": 390,
+          "surfaceDistanceAtAABBMinimum": 3.5488302326006673,
+          "parts": [
+            21,
+            0
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "games",
+          "b": "learning",
+          "time": 401,
+          "surfaceDistanceAtAABBMinimum": 1.7829916649984334,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "games",
+          "time": 508,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 3.1156723273454574,
+          "parts": [
+            0,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "global-compact-1.1",
+      "station": {
+        "broadFrames": 0,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worlds": {
+        "broadFrames": 4,
+        "actualFrames": 0,
+        "first": null
+      },
+      "worstSnapshots": [
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "games",
+          "time": 22,
+          "surfaceDistanceAtAABBMinimum": 3.534257175804807,
+          "parts": [
+            2,
+            0
+          ]
+        },
+        {
+          "kind": "station",
+          "a": "latest",
+          "time": 263,
+          "b": "station",
+          "surfaceDistanceAtAABBMinimum": 4.196941338100551,
+          "parts": [
+            31,
+            27
+          ]
+        },
+        {
+          "kind": "world",
+          "a": "latest",
+          "b": "tools",
+          "time": 360,
+          "surfaceDistanceAtAABBMinimum": 4.4456288258772485,
+          "parts": [
+            31,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

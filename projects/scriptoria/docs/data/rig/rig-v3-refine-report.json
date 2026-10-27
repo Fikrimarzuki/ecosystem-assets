@@ -1,0 +1,56 @@
+{
+ "jointBlends": {
+  "upper_arm.L->forearm.L": {
+   "window_m": [
+    -0.06,
+    0.05
+   ],
+   "vertices": 244
+  },
+  "upper_arm.R->forearm.R": {
+   "window_m": [
+    -0.06,
+    0.05
+   ],
+   "vertices": 252
+  },
+  "thigh.L->shin.L": {
+   "window_m": [
+    -0.07,
+    0.06
+   ],
+   "vertices": 199
+  },
+  "thigh.R->shin.R": {
+   "window_m": [
+    -0.07,
+    0.06
+   ],
+   "vertices": 200
+  }
+ },
+ "groin": {
+  "max_abs_x": 0.13,
+  "z_min": -0.08,
+  "z_max": 0.16,
+  "iterations": 6,
+  "factor": 0.5,
+  "groups": [
+   "hips",
+   "thigh.L",
+   "thigh.R"
+  ],
+  "vertices": 544
+ },
+ "verticesChanged": 1439,
+ "unweightedVertices": 0,
+ "influencesPerVertex": {
+  "1": 4141,
+  "2": 4960,
+  "3": 1995,
+  "4": 1374
+ },
+ "bones": 22,
+ "deformBones": 21,
+ "glbSizeBytes": 1953288
+}

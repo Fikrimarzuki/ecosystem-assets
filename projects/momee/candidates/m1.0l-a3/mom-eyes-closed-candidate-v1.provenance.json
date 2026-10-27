@@ -1,0 +1,30 @@
+{
+  "assetId": "ref.mom.eyes-closed-candidate.v1",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0l-A3",
+  "file": {
+    "path": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.png",
+    "sha256": "499872619181049b8160cacaa541cccfde25f095870a674ac620eb681598b162",
+    "bytes": 2390731,
+    "format": "PNG 1536×1024, 8-bit RGBA, non-interlaced",
+    "colourSpace": "sRGB chunk",
+    "metadata": "XMP Core 6.0.0 (tiff:Orientation 1) and eXIf (1536×1024); no C2PA, no generator tags"
+  },
+  "identification": "Only file in candidates/m1.0l-a3/ and the only new file since M1.0l-A2 (2026-10-24 23:43 local); filename matches the brief.",
+  "generation": {
+    "platform": "ChatGPT",
+    "provider": "OpenAI",
+    "method": "Reference-guided image generation",
+    "source": "Owner statement in the M1.0l-A3 brief (2026-10-24)",
+    "model": "not recorded",
+    "prompt": "not recorded",
+    "generationTimestamp": "not recorded (file time is a save/copy time)",
+    "inputImages": "not recorded"
+  },
+  "printedClaimsVerified": "seven of eight printed claims are false (see review/m1.0l-a3 sheet and candidates/m1.0l-a3-construction/analysis.json)",
+  "visualAcceptance": "Pending",
+  "productionApproval": "Pending",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit or re-save; crops in candidates/m1.0l-a3-construction/reference-crops are reference-only copies."
+}

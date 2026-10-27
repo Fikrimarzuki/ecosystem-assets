@@ -1,0 +1,242 @@
+[
+  {
+    "groundY": 0.00016896051420700609,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00016524452770316778,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00017973427584827562,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00022217667310964195,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.0001789698303238385,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.0001703257500689226,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00031749916634571385,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00017925558356357563,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00018660510871226776,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00016867092585526322,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00015800060440374075,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00011983483716448973,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.2088608841276383e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 2.0282666735038646e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 2.1306980883206705e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 2.0037598127187195e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.9589442646017474e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.5217297232306137e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.5443444147722474e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 9.99107050225767e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 8.436978244041882e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 6.04090860267803e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 2.6089573683663048e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 9.135616247935019e-07,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 8.574312208597945e-05,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00016896051420722813,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00016524288857544533,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00017973304650276134,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.5863871558607912e-06,
+    "visual": "model",
+    "lift": 0.019900456872125005
+  },
+  {
+    "groundY": 4.062899389367658e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 4.507011574172992e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 6.027119449969476e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.586387036178749e-06,
+    "visual": "model",
+    "lift": 2.5198759310877315e-05
+  },
+  {
+    "groundY": 0.000168960514206562,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00016524288857611147,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00017973304650231725,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.5863871538623897e-06,
+    "visual": "model",
+    "lift": 0.019900456872114492
+  },
+  {
+    "groundY": 4.062899388701524e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 4.852063409055418e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 6.427934124753065e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00017381838911711966,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.0001389255278649859,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.0001400036690284434,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 0.00014122375910563534,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.586406013220909e-06,
+    "visual": "model",
+    "lift": 0.007090950464975387
+  },
+  {
+    "groundY": 4.062899388923569e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 5.520646706447252e-06,
+    "visual": "model",
+    "lift": 0
+  },
+  {
+    "groundY": 1.009966411813501e-05,
+    "visual": "model",
+    "lift": 0
+  }
+]

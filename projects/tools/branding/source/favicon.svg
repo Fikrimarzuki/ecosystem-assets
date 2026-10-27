@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Tools favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#10131b"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#8f6b2c" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="#f2a51f" d="M202 233A3 3 0 0 1 205 230L307 230A3 3 0 0 1 310 233L310 383.9A3 3 0 0 1 308 386.7L206 422.6A3 3 0 0 1 202 419.8Z"/>
+    <path fill="#ffd166" fill-rule="evenodd" d="M125.5 181.9A3 3 0 0 1 125.5 178.1L171.1 121.1A3 3 0 0 1 173.4 120L338.6 120A3 3 0 0 1 340.9 121.1L386.5 178.1A3 3 0 0 1 386.5 181.9L340.9 238.9A3 3 0 0 1 338.6 240L173.4 240A3 3 0 0 1 171.1 238.9ZM293.4 179A2 2 0 0 1 293.4 181L275.6 211.9A2 2 0 0 1 273.8 212.9L238.2 212.9A2 2 0 0 1 236.4 211.9L218.6 181A2 2 0 0 1 218.6 179L236.4 148.1A2 2 0 0 1 238.2 147.1L273.8 147.1A2 2 0 0 1 275.6 148.1Z"/>
+  </g>
+</svg>

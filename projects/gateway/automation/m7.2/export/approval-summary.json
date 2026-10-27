@@ -1,0 +1,23 @@
+{
+  "output": "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-animated-candidate.glb",
+  "sha256": "63c9b16b613931d9a5285aaee3db35bcb1f0619fcbd464b04553455c1810a53e",
+  "bytes": 4237980,
+  "triangles": 10357,
+  "sourceFilesUnchanged": true,
+  "technicalValidationPassedExceptGroundClearance": true,
+  "groundClearancePassed": false,
+  "readyForUnconditionalFinalApproval": false,
+  "reviewStatus": "Ready for owner inspection; retain as candidate until ground-contact and skinning approximation are accepted",
+  "visualInspection": {
+    "fullBody": "Original source, four-influence input and reimported candidate front/back poses inspected; helmet, backpack, shoulders and knees remain coherent",
+    "closeups": "Neck and wrist show small local shape/shading differences; no obvious tearing in reviewed stills",
+    "boots": "Retained Walk sole/heel floor intersection visible at source frame 23.5"
+  },
+  "remainingIssues": [
+    "Retained Walk boot penetration up to 45.126 mm; diagnostic 1 mm floor-clearance criterion fails",
+    "Owner playback and closeup approval of the four-influence candidate is still needed (maximum vertex approximation 9.3 mm)",
+    "Existing redistribution/attribution provenance unresolved for public release",
+    "Actual GPU/device rendering and Idle/Walk blending were not tested in Gateway"
+  ],
+  "verificationScope": "Blender 5.2.2 background export, fresh-scene import, 564 sampled poses, binary checks, matching stills and offline Three CPU loader/mixer; no runtime changes or publication"
+}

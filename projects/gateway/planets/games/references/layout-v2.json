@@ -1,0 +1,319 @@
+{
+ "version": 2,
+ "planet": {
+  "radius": 4.2,
+  "squash": 0.92,
+  "up": "+Y",
+  "longitude": "from +Z toward +X"
+ },
+ "structures": [
+  {
+   "node": "KINGDOM_CASTLE",
+   "structure_id": "kingdom-castle",
+   "environment": false,
+   "lon": 10,
+   "lat": 60,
+   "footprint": 0.8969999999999999,
+   "height": 2.875,
+   "triangles": 1378
+  },
+  {
+   "node": "ARCADE_HALL",
+   "structure_id": "arcade-hall",
+   "environment": false,
+   "lon": 62,
+   "lat": 16,
+   "footprint": 0.95,
+   "height": 1.4,
+   "triangles": 344
+  },
+  {
+   "node": "SCRIPTORIUM",
+   "structure_id": "scriptorium",
+   "environment": false,
+   "lon": 308,
+   "lat": 20,
+   "footprint": 0.85,
+   "height": 2.4,
+   "triangles": 462
+  },
+  {
+   "node": "PORTAL_PLAZA",
+   "structure_id": "portal-plaza",
+   "environment": true,
+   "lon": 0,
+   "lat": -6,
+   "footprint": 0.95,
+   "height": 1.5,
+   "triangles": 784
+  }
+ ],
+ "anchors": {
+  "ANCHOR_interaction_kingdom_castle": {
+   "origin": [
+    0.3458,
+    3.0036,
+    3.0515
+   ],
+   "role": "interaction:kingdom-castle",
+   "radius": null
+  },
+  "ANCHOR_interaction_arcade_hall": {
+   "origin": [
+    3.3561,
+    0.905,
+    2.5713
+   ],
+   "role": "interaction:arcade-hall",
+   "radius": null
+  },
+  "ANCHOR_interaction_scriptorium": {
+   "origin": [
+    -2.5058,
+    1.4133,
+    3.3517
+   ],
+   "role": "interaction:scriptorium",
+   "radius": null
+  },
+  "ANCHOR_hub_portal_plaza": {
+   "origin": [
+    0.0,
+    -0.2071,
+    4.2196
+   ],
+   "role": "hub-entrance:portal-plaza",
+   "radius": null
+  },
+  "ANCHOR_landing": {
+   "origin": [
+    -2.1087,
+    -0.1355,
+    3.6524
+   ],
+   "role": "landing",
+   "radius": 0.3
+  },
+  "ANCHOR_spawn": {
+   "origin": [
+    -1.868,
+    -0.1755,
+    3.7897
+   ],
+   "role": "spawn",
+   "radius": null
+  },
+  "ANCHOR_lander_arrival": {
+   "origin": [
+    -2.3835,
+    -0.1564,
+    4.1284
+   ],
+   "role": "lander-arrival",
+   "radius": 0.3
+  },
+  "ANCHOR_minigame_candidate": {
+   "origin": [
+    2.0448,
+    2.3253,
+    2.8144
+   ],
+   "role": "minigame-candidate",
+   "radius": 0.35
+  }
+ },
+ "routes": [
+  {
+   "id": "GAMES_ROAD_PLAZA_VILLAGE",
+   "waypoints": [
+    [
+     0,
+     -2
+    ],
+    [
+     16,
+     0
+    ],
+    [
+     30,
+     4
+    ],
+    [
+     40,
+     8
+    ],
+    [
+     52,
+     12
+    ],
+    [
+     60,
+     14
+    ]
+   ],
+   "width": 0.3
+  },
+  {
+   "id": "GAMES_ROAD_VILLAGE_CASTLE",
+   "waypoints": [
+    [
+     66,
+     20
+    ],
+    [
+     72,
+     30
+    ],
+    [
+     60,
+     40
+    ],
+    [
+     44,
+     46
+    ],
+    [
+     30,
+     52
+    ],
+    [
+     14,
+     55
+    ]
+   ],
+   "width": 0.28
+  },
+  {
+   "id": "GAMES_ROAD_PLAZA_SCRIPTORIUM",
+   "waypoints": [
+    [
+     356,
+     -4
+    ],
+    [
+     342,
+     2
+    ],
+    [
+     330,
+     10
+    ],
+    [
+     316,
+     16
+    ]
+   ],
+   "width": 0.24
+  },
+  {
+   "id": "GAMES_TRAIL_CASTLE_GREEN",
+   "waypoints": [
+    [
+     18,
+     54
+    ],
+    [
+     28,
+     46
+    ],
+    [
+     36,
+     40
+    ]
+   ],
+   "width": 0.2
+  },
+  {
+   "id": "GAMES_TRAIL_LANDING",
+   "waypoints": [
+    [
+     340,
+     -1
+    ],
+    [
+     334,
+     -1
+    ]
+   ],
+   "width": 0.2
+  },
+  {
+   "id": "GAMES_TRAIL_FOREST",
+   "waypoints": [
+    [
+     88,
+     20
+    ],
+    [
+     100,
+     12
+    ],
+    [
+     116,
+     8
+    ],
+    [
+     134,
+     16
+    ],
+    [
+     152,
+     6
+    ],
+    [
+     170,
+     12
+    ],
+    [
+     184,
+     4
+    ],
+    [
+     196,
+     8
+    ],
+    [
+     210,
+     -2
+    ]
+   ],
+   "width": 0.2
+  }
+ ],
+ "decorations": {
+  "trees": 50,
+  "fantasy_trees": 22,
+  "mushrooms": 13,
+  "glow_mushrooms": 6,
+  "rocks": 14,
+  "cairns": 7,
+  "crystals": 4,
+  "crystal_clusters": 5,
+  "flower_clusters": 29,
+  "cottages": 3,
+  "cabinets": 2,
+  "lanterns": 6,
+  "floating": 3,
+  "arcade_props": 1,
+  "ruins": 1
+ },
+ "stats": {
+  "triangles": 16218,
+  "terrain_triangles": 5120,
+  "meshes": 14,
+  "anchors": 8,
+  "extent": 6.9345,
+  "bounds": [
+   [
+    -5.0326,
+    -4.0426,
+    -5.5524
+   ],
+   [
+    4.9923,
+    6.0311,
+    5.722
+   ]
+  ]
+ }
+}

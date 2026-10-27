@@ -1,0 +1,51 @@
+{
+  "milestone": "M1.0l-A1",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "working.mom.head-pilot.v1",
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies)",
+    "krita": "5.3.4.1 via krita_mcp (layer assembly only; nothing painted)"
+  },
+  "inputs": {
+    "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png": "b3047c20cd3736dacbd49792e3aeed38dbd4669abfc11caf8fa293837080167a"
+  },
+  "method": [
+    "candidates/m1.0l-a1-construction/extract_l1.mjs: features by hand-read polygons placed in flat skin (masks.json); head skin by colour flood from face/ear seeds plus an ear-outline polygon and enclosed pixels; visible neck by colour flood inside a collar-bounded polygon; chin outline to head; everything else to base. Each pixel copied unchanged to exactly one layer.",
+    "candidates/m1.0l-a1-construction/working_l1.py: Krita working copy; layer PNGs imported unchanged (verified on reopen, 0 px differences); empty hidden TO-PAINT placeholders.",
+    "Krita's own projection of the visible layers compared with the master: 0 differing visible pixels, 0 alpha differences."
+  ],
+  "determinism": "Re-running extract_l1.mjs reproduced all 9 output PNGs byte-for-byte.",
+  "notPainted": "No pixel was painted, generated, recoloured, resampled or mirrored. Holes revealed by moving or swapping layers are documented, not filled.",
+  "upstreamGeneration": {
+    "platform": "ChatGPT",
+    "provider": "OpenAI",
+    "method": "AI image generation, reference-guided",
+    "detail": "see candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.provenance.json"
+  },
+  "outputs": {
+    "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra": "31cd8669a87ee9740d994ebe693d8df797db6a3d7b6230191a53d43f14c9face"
+  },
+  "constructionFiles": {
+    "projects/momee/candidates/m1.0l-a1-construction/extract-report.json": "6f1fd6ca04f99d4ca5c07c53559c98e74add03e9305861485363472852620ee0",
+    "projects/momee/candidates/m1.0l-a1-construction/extract_l1.mjs": "baafc9994a73ca47cb961a2cf57909378707839da599c5fcc65064b9afaf38fc",
+    "projects/momee/candidates/m1.0l-a1-construction/masks.json": "2885793587091dc32f1d4d675ecd0ab19cdb3e8fbe6d8685cc34b5eafc75fb9c",
+    "projects/momee/candidates/m1.0l-a1-construction/review-data.json": "cceb8e936f566900ac6f08526372ac873f4c21971b2372afda931a12a91c0c76",
+    "projects/momee/candidates/m1.0l-a1-construction/review_l1.mjs": "8419000d369ab286914196e54fedd351026194de3a729874ba8171b00d3a8f69",
+    "projects/momee/candidates/m1.0l-a1-construction/sheet-data.json": "61fbdba0986dc3815aa31fc9961ffddd6ac4561003629186edc58f69ea42750d",
+    "projects/momee/candidates/m1.0l-a1-construction/sheet_l1.py": "278b1e2aa5547c2ed2cfff6fbcd382ee9b94ebb4f6d5aa9d0c2eaa66feb7d6af",
+    "projects/momee/candidates/m1.0l-a1-construction/working_l1.py": "ca702f10e0f6e7d470dc971083ca623f2081ca4376a6926489de508c828b19e0",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/base.png": "b73aaa2bcbb179265a4ffaefebee90f467a6ae165fe1c775e95c233906d40989",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/body-skin__neck-visible.png": "2a02849d7389d509ccee058d5972d2a40c9a38cbba8d46add4d2254d402c5991",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/composite.png": "097b7b42fcc0ec5582fccdd0bf0397173e144813201af413bd9acef7e44e7220",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/face-brows__neutral__brow-far.png": "d71d4ea4c426432d17a29c8d9234bbb63792210f518c4a9e45f0de0f78f0020f",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-far.png": "a1877a07888bded5fc995a4776e71b4931c4ab1e7c58664805dddda3efe0ba78",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-near.png": "66c61fddad9fbad1b92241c4a9c422d52f77ee630f60ca245061a4fdb68b0a3f",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/face-mouth__neutral.png": "76e18f1e348476de1987231d9689d10e94d43446e60c09403de17bdc732f751c",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/head-skin__base.png": "79fdafc78d28f975350d7c3df97fad4d0d3b75640a226e7e4be5a1c106040f8f",
+    "projects/momee/candidates/m1.0l-a1-construction/layers/label-map.png": "87290ebb10ac408f0c9b28e709e06851deb19b2b2e5515dc9f53613a01c173ec"
+  },
+  "generativeModelUsed": "None in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null
+}

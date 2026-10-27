@@ -1,0 +1,116 @@
+{
+  "method": "Full 600-second cycle,5-second phases, all six frozen destinations,513 equal arc-distance samples; origin scale1.4; destination geometry scale1.025. Rocket-part OBBs vs world/station local part AABBs; signed SAT separation is a directional conservative gap, not exact surface distance. Actual contact uses rendered closed triangles only where OBBs overlap. Entire route incl launch and parking tested against station. Finite samples, excludes engine flame, endpoints use flight tangent attitude. Front variants modify lift +globalZ, retain initial pad/tangent, route joins, end parking; no production changes.",
+  "results": [
+    {
+      "name": "tools-full-orbit-1.05",
+      "phaseStep": 5,
+      "samplesPerRoute": 513,
+      "frontShift": 0,
+      "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+      "worldOBBHits": 468,
+      "stationOBBHits": 0,
+      "worldActualHits": 0,
+      "stationActualHits": 0,
+      "firstWorld": {
+        "destination": "learning",
+        "phase": 350,
+        "sample": 41,
+        "obstacle": "tools",
+        "part": 1
+      },
+      "firstStation": null,
+      "firstActual": null,
+      "minWorldSAT": -0.6923786514078597,
+      "minStationSAT": 0.00404354548454302,
+      "closestWorld": {
+        "destination": "platforms",
+        "phase": 360,
+        "sample": 50,
+        "obstacle": "tools",
+        "part": 1
+      },
+      "closestStation": {
+        "destination": "latest",
+        "phase": 0,
+        "sample": 0,
+        "obstacle": "station",
+        "part": 13
+      },
+      "maxTurn": 0.22026977266969938,
+      "maxLength": 40.09699796051008,
+      "minLength": 32.959413804395496
+    },
+    {
+      "name": "tools-full-orbit-1.1",
+      "phaseStep": 5,
+      "samplesPerRoute": 513,
+      "frontShift": 0,
+      "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+      "worldOBBHits": 80,
+      "stationOBBHits": 0,
+      "worldActualHits": 0,
+      "stationActualHits": 0,
+      "firstWorld": {
+        "destination": "after-hours",
+        "phase": 355,
+        "sample": 61,
+        "obstacle": "tools",
+        "part": 1
+      },
+      "firstStation": null,
+      "firstActual": null,
+      "minWorldSAT": -0.3673162469588839,
+      "minStationSAT": 0.00404354548454302,
+      "closestWorld": {
+        "destination": "after-hours",
+        "phase": 355,
+        "sample": 61,
+        "obstacle": "tools",
+        "part": 1
+      },
+      "closestStation": {
+        "destination": "latest",
+        "phase": 0,
+        "sample": 0,
+        "obstacle": "station",
+        "part": 13
+      },
+      "maxTurn": 0.22158669808852724,
+      "maxLength": 40.31139178836885,
+      "minLength": 33.09978585958293
+    },
+    {
+      "name": "global-compact-1.1",
+      "phaseStep": 5,
+      "samplesPerRoute": 513,
+      "frontShift": 0,
+      "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+      "worldOBBHits": 0,
+      "stationOBBHits": 0,
+      "worldActualHits": 0,
+      "stationActualHits": 0,
+      "firstWorld": null,
+      "firstStation": null,
+      "firstActual": null,
+      "minWorldSAT": 0.14705705596657254,
+      "minStationSAT": 0.00404354548454302,
+      "closestWorld": {
+        "destination": "after-hours",
+        "phase": 45,
+        "sample": 509,
+        "obstacle": "after-hours",
+        "part": 2
+      },
+      "closestStation": {
+        "destination": "latest",
+        "phase": 0,
+        "sample": 0,
+        "obstacle": "station",
+        "part": 13
+      },
+      "maxTurn": 0.2245938056532515,
+      "maxLength": 41.07669805126696,
+      "minLength": 32.684251677045076
+    }
+  ]
+}

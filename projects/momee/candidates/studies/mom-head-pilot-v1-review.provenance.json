@@ -1,0 +1,33 @@
+{
+  "milestone": "M1.0l-A1",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "review.mom-head-pilot.v1",
+  "toolVersions": {
+    "node": "24.21.0",
+    "krita": "5.3.4.1 via krita_mcp (layout only)"
+  },
+  "method": [
+    "review_l1.mjs computes the missing-artwork panels, difference map and area counts; sheet_l1.py lays out the sheet; all character images 1:1 (head crop x 240–580, y 150–480).",
+    "Section PNGs are exact crops of the full sheet export."
+  ],
+  "outputs": {
+    "projects/momee/source/studies/mom-head-pilot-v1-review.kra": "2413ce13666c7e68053fc00f62309a8c80dfb2c00d0d1a1086623da1b033d760",
+    "projects/momee/review/m1.0l-a1/mom-head-pilot-v1-review.png": "893b967934adfb66190561354f3c2f94a76b836b9a14a25031a167288c0d6ec0",
+    "projects/momee/review/m1.0l-a1/head-closeup.png": "612e542983c95b3599c926477689901c20af71d10912a7a4125a7421c934397c",
+    "projects/momee/review/m1.0l-a1/layer-inventory.png": "df2e5bf7ae766b4f0edde5905e6fe993a2c00dcdc3a2c9d559001910faeb8623",
+    "projects/momee/review/m1.0l-a1/extracted-layers.png": "132402226c43664ff58fefcd6b7b349d115c222f67822c30963423bbb2619f0d",
+    "projects/momee/review/m1.0l-a1/neutral-reconstruction.png": "bcf00cd1a404ec9cf5cdc01d77db8c29587fc11ba191c264b69bdef41907a8a5",
+    "projects/momee/review/m1.0l-a1/missing-artwork-map.png": "93a511717b8b0ed6e796cb0360ac84eddc92cd62f78ab4f7151c9cde07bc684a",
+    "projects/momee/review/m1.0l-a1/facial-animation-requirements.png": "1e2903acee432cb7e7fcf5ad4975d4b28c144412328dd547eccbad39354c364e"
+  },
+  "constructionFiles": {
+    "projects/momee/candidates/m1.0l-a1-construction/review-panels/difference-head.png": "2f5420a3dcad6032b47917a4aa59bbbd4564225992e34af4e35f8a0d2adc7a9d",
+    "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-1-attachment-footprints.png": "1f29a84d9b4e44c366cab02fa0f3a90afc73fb2cc5441c51d430fda388149e14",
+    "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-2-neck-extension.png": "7cf6ce359e8b92289513905e45d7302b10eefbe12d10e89e5da762a850a765c3",
+    "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-3-not-separable.png": "47b92f9f3f62238210b08dc35bac6cf62c87680daa0cddcdc670ada2960ef511"
+  },
+  "generativeModelUsed": "None in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null
+}

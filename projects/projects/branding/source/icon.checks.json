@@ -1,0 +1,94 @@
+{
+  "comment": "Per-icon expectations read by scripts/verify-icons.mjs. Structural proxies for small-size legibility; they do not replace looking at the contact sheet.",
+  "glyphComponents": 4,
+  "opticalShift": [
+    8,
+    8
+  ],
+  "smallSize": [
+    {
+      "size": 32,
+      "scanY": 0.367,
+      "runs": 2
+    },
+    {
+      "size": 32,
+      "scanY": 0.254,
+      "runs": 2
+    },
+    {
+      "size": 32,
+      "scanX": 0.32,
+      "runs": 2
+    },
+    {
+      "size": 32,
+      "scanX": 0.54,
+      "runs": 2
+    },
+    {
+      "size": 32,
+      "scanX": 0.755,
+      "runs": 2
+    },
+    {
+      "size": 16,
+      "scanY": 0.367,
+      "runs": 2
+    },
+    {
+      "size": 16,
+      "scanY": 0.254,
+      "runs": 2
+    },
+    {
+      "size": 16,
+      "scanX": 0.32,
+      "runs": 2
+    },
+    {
+      "size": 16,
+      "scanX": 0.54,
+      "runs": 2
+    },
+    {
+      "size": 16,
+      "scanX": 0.755,
+      "runs": 2
+    }
+  ],
+  "colorProbes": [
+    {
+      "svg": "favicon.svg",
+      "at": [
+        164,
+        166
+      ],
+      "expect": "#5ee6b0"
+    },
+    {
+      "svg": "favicon.svg",
+      "at": [
+        164,
+        376
+      ],
+      "expect": "#3fd09a"
+    },
+    {
+      "svg": "favicon.svg",
+      "at": [
+        287,
+        140
+      ],
+      "expect": "#a6f1a0"
+    },
+    {
+      "svg": "favicon.svg",
+      "at": [
+        287,
+        291
+      ],
+      "expect": "#2fc98f"
+    }
+  ]
+}
