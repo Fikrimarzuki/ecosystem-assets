@@ -1,0 +1,28 @@
+{
+  "milestone": "M1.0j-C",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "study.character-scale.accepted.v1",
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies; app-momee scripts/assets png.mjs)",
+    "krita": "5.3.4.1 via krita_mcp 1.0.0 (review sheet only)"
+  },
+  "method": "scale_renders.mjs composes the room-only @1x render with the cleaned native figures and their separated ground shadows (premultiplied area-average, uniform downscale only, depth by feet y), crops camera frames from candidates/m1.0g-construction/frames.json (camera-framing.ts sha256 3c7714d2… unchanged), and measures each character from its own mask at alpha ≥ 50%. sheet_jc.py lays the renders out 1:1 in Krita.",
+  "inputs": [
+    "projects/momee/review/m1.0h/bedroom-composition-study-v2.room-only.@1x.png",
+    "cleaned native figures (M1.0j-C)",
+    "ground shadows from the M1.0j-B extraction (re-run of extract2.mjs; native offset Boy (18, 9), Mom (−11, 10))"
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-c-construction/",
+    "files": {
+      "scale_renders.mjs": "1f38743a9e4e998ca1c29e71202dd753d40022ea1a607d3090df9c673d803005",
+      "scale.config.json": "2a23fada5417e87dcc200c721a8e936471919ff51ebfaa5a8e5aa6e51400941a",
+      "scale-report.json": "825eac43c0fcb8e6943733daa050f6daaf734dcd77eb584973aacdf3df6a28de",
+      "sheet_jc.py": "f520bf96724bc7a03a7d71bad0854512efc606abae890ed7795dd25366adfd3a"
+    }
+  },
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null
+}

@@ -1,0 +1,12 @@
+ M projects/momee/styles/soft-storybook-adventure/characters/mom/exports/README.md
+ D projects/momee/styles/soft-storybook-adventure/characters/mom/exports/mom-head-v1.png
+ M projects/momee/styles/soft-storybook-adventure/characters/mom/review/README.md
+ D projects/momee/styles/soft-storybook-adventure/characters/mom/review/mom-head-v1-comparison.png
+ M projects/momee/styles/soft-storybook-adventure/characters/mom/review/mom-head-v1-review.md
+ M projects/momee/styles/soft-storybook-adventure/characters/mom/source/README.md
+ D projects/momee/styles/soft-storybook-adventure/characters/mom/source/construction/build_mom_head.py
+ D projects/momee/styles/soft-storybook-adventure/characters/mom/source/construction/mom-head-template.svg
+ D projects/momee/styles/soft-storybook-adventure/characters/mom/source/mom-head-v1.svg
+ M projects/momee/styles/soft-storybook-adventure/docs/mom-art-direction-feasibility-v1.md
+ M scripts/catalog.test.mjs
+?? projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/

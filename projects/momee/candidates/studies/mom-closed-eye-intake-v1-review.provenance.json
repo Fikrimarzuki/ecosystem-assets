@@ -1,0 +1,44 @@
+{
+  "milestone": "M1.0l-A3",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "review.mom-closed-eye-intake.v1",
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies)",
+    "krita": "5.3.4.1 via krita_mcp (layout only)"
+  },
+  "method": [
+    "analyse_l3.mjs: panel crops; panel 2 and panel 3 fitted to the master by DOWNSCALING THE PANEL (×0.81) plus integer offset; residuals inside/outside the A1 eye masks; panel 3 vs panel 2 at sheet scale; darkest-lash colour.",
+    "calibrate_l3.mjs: in-memory calibration only — the residual a true enlarged master copy would leave (0.98); nothing saved as an asset.",
+    "composite_l3.mjs: A1 eye masks filled from the fitted panel 3 on a COPY of the master; seam, skin, alignment metrics. The master and A1 layers were never written.",
+    "sheet_l3.py: review layout; 1:1 or downscaled except ×3 nearest-neighbour inspection zooms labelled display-only."
+  ],
+  "notPainted": "No skin, eyelid or lash was painted, recoloured, blended or feathered.",
+  "determinism": "Re-running analyse_l3.mjs and composite_l3.mjs reproduced all 12 outputs byte-for-byte.",
+  "outputs": {
+    "projects/momee/source/studies/mom-closed-eye-intake-v1-review.kra": "9f2485730e214ad791bfde83515a05949cee9a4c00283e1a14f1d23434dbe378",
+    "projects/momee/review/m1.0l-a3/mom-closed-eye-intake-v1-review.png": "210a442d22879054ddfa784b0aa9b01113db1fe5ef788897a48c497352e1b85b",
+    "projects/momee/review/m1.0l-a3/closed-eye-composite-test.failed.head-1x.png": "0f6f371850c54c4489a62b373641e1ca41a30df4df5e7351823fabc677ec6fac"
+  },
+  "constructionFiles": {
+    "projects/momee/candidates/m1.0l-a3-construction/analyse_l3.mjs": "f8ba39afadb7dfb16c12a0bd6cf0b8a9aaa34503ecb79761911896ed5050c366",
+    "projects/momee/candidates/m1.0l-a3-construction/analysis.json": "1f09981af9aece439828e9f4ed1c9ce7ca2fa323e232bb5962f40c4179b6fd05",
+    "projects/momee/candidates/m1.0l-a3-construction/calibrate_l3.mjs": "ea122949760113ed6fee40321e23c472f8a381f84d0811494e1e4370873a85c6",
+    "projects/momee/candidates/m1.0l-a3-construction/composite-test.failed.master-canvas.png": "3f8f0e017018eae172d27edf5cb76204fe4229a053921623a802346f3045d7a6",
+    "projects/momee/candidates/m1.0l-a3-construction/composite.json": "308c500f2531a8b3354ca04f1cd10313f9fbfb1594cf49af9f0f971571e042d2",
+    "projects/momee/candidates/m1.0l-a3-construction/composite_l3.mjs": "4e02cf8af29d115cf3979349bee0edef99a78cb145a65438bb7f727a2a7cf818",
+    "projects/momee/candidates/m1.0l-a3-construction/sheet-data.json": "80182cb967083bf98db43443bbcbeb7742f59ee20c84965d73958951ee5daa62",
+    "projects/momee/candidates/m1.0l-a3-construction/sheet_l3.py": "26baec4b2594b587bc9708031cbbf01bd0efd7ee97469c81bb28359f2932bc6a",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p2-open-closeup.reference-only.png": "1c4ab770405ebeff41cdc4ad73d62eb2ddb037b5aecacd8a64e5f7eab9ccd3fb",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p3-closed-closeup.reference-only.png": "bc2cb9a49635f8c23e71c6b99e58d23400bf49a3ddb051048438540298da0e93",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p3-fitted-x0.81-on-master-canvas.reference-only.png": "52c510bed59296e14f2551c4665f5206cd3d2fd7203c4d39777723fa2d1f6299",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p4-closed-crop.reference-only.png": "518dc8f7fda455abaf85a8b71ebdfc2cd123f4f3f31b0643b46d598b395f7bc7",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p4-open-crop.reference-only.png": "9377a965aeb042a860a160eef0151fe415a296ef01e11b3c0f49430b4cfb5ca6",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p6-overlay.reference-only.png": "1fe94124d3f77545d740e4de1d0a4d1ad1cfe81bb9ac22cd785af28fd582dba6",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p9-closed-detail.reference-only.png": "178ef4f8c9d42518447a626f81431d78caa6f06b2f21846c0356e4822248b533",
+    "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p9-open-detail.reference-only.png": "4eb86b59d1359dced4f9e63c33afc1909c1227fbb6ebd8964e3f7452f49d41c6"
+  },
+  "generativeModelUsed": "None in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null
+}

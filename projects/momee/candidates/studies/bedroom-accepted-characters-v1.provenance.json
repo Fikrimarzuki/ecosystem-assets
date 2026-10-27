@@ -1,0 +1,25 @@
+{
+  "milestone": "M1.0j-B",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita",
+  "assetId": "study.bedroom.accepted-characters.v1",
+  "toolVersions": {
+    "node": "24.21.0 (extraction and tiering; app-momee scripts/assets png.mjs and the keyImage algorithm, no new dependencies)",
+    "krita": "5.3.4.1 (git bd6e8d0) via krita_mcp 1.0.0, PyQt5 5.15.11 (layered working source, study, sheet)"
+  },
+  "inputs": [
+    "room-only 2560x1440 render of study.bedroom.composition.v2 (sha256 b286497cff12c9220bcf31392b15c42705e67764db3c921edb7d6250197b9984; regenerable from bedroom-composition-study-v2.kra)",
+    "native extractions and separated ground shadows of both characters (Boy downscaled ×0.778; Mom enlarged ×1.128 for this study only)"
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-construction/",
+    "files": {
+      "sheets_j.py": "b7a383651bcfcaac1873db6c2e4724e76841a36b76f9851d4387a864258a631c"
+    },
+    "entry": "sheets_j.py: bedroom()"
+  },
+  "labelling": "APPROVED MASTER REFERENCE (sage solid) · OWNER-ACCEPTED VISUAL DIRECTION (blue solid) · EXTRACTION CANDIDATE · NOT APPROVED (terracotta dashed) · TECHNICAL PLACEHOLDER (grey dashed)",
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null
+}

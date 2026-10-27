@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Playground favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#110e30"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#6a5fa8" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="#c39bff" d="M156 143A22 22 0 0 1 178 121L204.6 121A20 20 0 0 1 214.7 123.8L374.6 217.8A26 26 0 0 1 374.9 262.4L283.2 318.4A10 10 0 0 1 268 309.8L268 269.1L316 239.8L216 200.5L216 381A10 10 0 0 1 206 391L178 391A22 22 0 0 1 156 369Z"/>
+  </g>
+</svg>

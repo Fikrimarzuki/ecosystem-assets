@@ -1,0 +1,223 @@
+{
+  "coordinates": "Source pixels; top-left x,y,width,height. Alpha bbox uses max-exclusive coordinates.",
+  "normalization": "Crown to blouse cut: bbox of alpha>=128, used only for crop/scale, never alpha thresholding. Original B is opaque and uses manual crown-to-blouse crop. Uniform scale to exactly 256 or 144px figure height; ceil canvas width, centred fractional placement. Chromium high-quality canvas interpolation; RGBA PNG derivatives.",
+  "detail_note": "Manual face and eye crop boxes; enlarged evidence, not recovered detail. Original B is only 294x351; its clipped sides/bottom and low-resolution face limit comparisons.",
+  "items": [
+    {
+      "id": "original-b",
+      "label": "Original B",
+      "source": "../m1.1f-painted-redesign/inputs/b-portrait.png",
+      "figure": [
+        0,
+        14,
+        294,
+        337
+      ],
+      "face": [
+        62,
+        104,
+        188,
+        155
+      ],
+      "eyes": [
+        71,
+        142,
+        159,
+        60
+      ],
+      "source_size": [
+        294,
+        351
+      ]
+    },
+    {
+      "id": "retained-m11e",
+      "label": "Retained M1.1e",
+      "source": "../m1.1f-painted-redesign/inputs/gate-a-painted.png",
+      "face": [
+        260,
+        277,
+        548,
+        568
+      ],
+      "eyes": [
+        293,
+        457,
+        467,
+        137
+      ],
+      "figure": [
+        1,
+        17,
+        1022,
+        1259
+      ],
+      "source_size": [
+        1024,
+        1280
+      ]
+    },
+    {
+      "id": "m11f-a",
+      "label": "M1.1f A",
+      "source": "../m1.1f-painted-redesign/candidate-a-refined-b/mom-a-v1.png",
+      "face": [
+        336,
+        327,
+        366,
+        424
+      ],
+      "eyes": [
+        363,
+        475,
+        310,
+        88
+      ],
+      "figure": [
+        117,
+        168,
+        785,
+        922
+      ],
+      "source_size": [
+        1024,
+        1280
+      ]
+    },
+    {
+      "id": "m11f-b",
+      "label": "M1.1f B",
+      "source": "../m1.1f-painted-redesign/candidate-b-premium-painted/mom-b-v1.png",
+      "face": [
+        340,
+        330,
+        370,
+        424
+      ],
+      "eyes": [
+        378,
+        475,
+        296,
+        88
+      ],
+      "figure": [
+        135,
+        170,
+        751,
+        925
+      ],
+      "source_size": [
+        1024,
+        1280
+      ]
+    },
+    {
+      "id": "m11f-c",
+      "label": "M1.1f C",
+      "source": "../m1.1f-painted-redesign/candidate-c-gouache-adventure/mom-c-v1.png",
+      "face": [
+        341,
+        336,
+        360,
+        420
+      ],
+      "eyes": [
+        375,
+        480,
+        294,
+        88
+      ],
+      "figure": [
+        127,
+        178,
+        768,
+        935
+      ],
+      "source_size": [
+        1024,
+        1280
+      ]
+    },
+    {
+      "id": "m11g-a",
+      "label": "M1.1g A / Classic",
+      "source": "candidate-a-classic-storybook/generation-01-original.png",
+      "face": [
+        265,
+        274,
+        574,
+        584
+      ],
+      "eyes": [
+        334,
+        479,
+        476,
+        166
+      ],
+      "figure": [
+        40,
+        66,
+        1044,
+        1248
+      ],
+      "source_size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "m11g-b",
+      "label": "M1.1g B / Cinema",
+      "source": "candidate-b-cinematic-2d/generation-01-original.png",
+      "face": [
+        283,
+        277,
+        556,
+        572
+      ],
+      "eyes": [
+        357,
+        469,
+        440,
+        133
+      ],
+      "figure": [
+        32,
+        68,
+        1068,
+        1278
+      ],
+      "source_size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "m11g-c",
+      "label": "M1.1g C / Gouache",
+      "source": "candidate-c-handcrafted-gouache/generation-01-original.png",
+      "face": [
+        272,
+        277,
+        564,
+        571
+      ],
+      "eyes": [
+        336,
+        480,
+        471,
+        164
+      ],
+      "figure": [
+        22,
+        72,
+        1078,
+        1278
+      ],
+      "source_size": [
+        1122,
+        1402
+      ]
+    }
+  ]
+}

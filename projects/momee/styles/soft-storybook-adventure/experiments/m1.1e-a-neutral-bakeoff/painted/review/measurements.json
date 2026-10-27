@@ -1,0 +1,101 @@
+{
+  "source": {
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "transparent_pixels": 320825,
+    "partial_alpha_pixels": 1252022,
+    "opaque_pixels": 197,
+    "alpha_bbox_threshold_1": {
+      "empty": false,
+      "minX": 0,
+      "minY": 16,
+      "maxX": 1122,
+      "maxY": 1402,
+      "centroid": [
+        569.4131749318609,
+        792.6664341461038
+      ],
+      "farthest": 882.3448872181444,
+      "pixels": 1252219
+    },
+    "alpha_bbox_threshold_128": {
+      "empty": false,
+      "minX": 1,
+      "minY": 19,
+      "maxX": 1121,
+      "maxY": 1398,
+      "centroid": [
+        569.351918689692,
+        792.0605575647515
+      ],
+      "farthest": 867.3456635044646,
+      "pixels": 1231283
+    },
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "derived": {
+    "dimensions": [
+      1024,
+      1280
+    ],
+    "transparent_pixels": 265009,
+    "partial_alpha_pixels": 1045694,
+    "opaque_pixels": 17,
+    "alpha_bbox_threshold_1": {
+      "empty": false,
+      "minX": 0,
+      "minY": 14,
+      "maxX": 1024,
+      "maxY": 1280,
+      "centroid": [
+        519.5970717530943,
+        723.5567298230582
+      ],
+      "farthest": 805.3387486021022,
+      "pixels": 1045711
+    },
+    "alpha_bbox_threshold_128": {
+      "empty": false,
+      "minX": 1,
+      "minY": 17,
+      "maxX": 1023,
+      "maxY": 1276,
+      "centroid": [
+        519.6282057782254,
+        723.0152987152023
+      ],
+      "farthest": 791.9283427179507,
+      "pixels": 1025609
+    },
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "derivation": {
+    "source": "generations/generation-01-original.png",
+    "output": "mom-neutral-painted-v1.png",
+    "method": "Full-frame bilinear scale only, premultiplied-alpha interpolation; no crop, repaint, matte removal, defringe, sharpening or retouch",
+    "scale_xy": [
+      0.9126559714795008,
+      0.912981455064194
+    ],
+    "aspect_ratio_change_percent": -0.035650623885907784,
+    "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+  },
+  "eye_crop_xywh": [
+    295,
+    390,
+    458,
+    205
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "units": "source pixels (full-canvas layers; original alignment)",
+  "source": {
+    "file": "boy-3quarter-candidate-v1.png",
+    "sha256": "4ad863ae134e7aadc8f08d18cea8016b8d07b0c305b6640fc10fe8a90da9e97b"
+  },
+  "status": "technical working layers, NOT approved art",
+  "groups": {
+    "root": {
+      "pivot": [
+        640,
+        1205
+      ],
+      "note": "Feet origin on the ground line (sole bottoms), between the feet"
+    },
+    "legs": {
+      "parent": "root",
+      "pivot": [
+        640,
+        1205
+      ],
+      "note": "Static in idle"
+    },
+    "torso": {
+      "parent": "root",
+      "pivot": [
+        640,
+        800
+      ],
+      "note": "Waist (shirt-hem centre); breathing scale ≤ 2%"
+    },
+    "head": {
+      "parent": "torso",
+      "pivot": [
+        636,
+        512
+      ],
+      "note": "Base of the neck under the chin; gentle bob/tilt"
+    }
+  },
+  "drawOrder": [
+    "leg-skin",
+    "shoes",
+    "outfit-bottom",
+    "body-skin",
+    "outfit-top",
+    "hair-back",
+    "head-skin",
+    "face-blush",
+    "face-eyes",
+    "face-brows-mouth",
+    "hair-front"
+  ],
+  "layers": [
+    {
+      "order": 1,
+      "slot": "leg-skin",
+      "group": "legs",
+      "file": "01-leg-skin.png",
+      "px": 12565,
+      "bbox": [
+        492,
+        961,
+        761,
+        1044
+      ],
+      "sha256": "ccb661185c492e6ca295262d19e7a4dab4b74489f265a62930e394b2fb45e0bc",
+      "note": "Skin-tone slot. Missing: skin under shorts hems and sock tops (only visible pixels)."
+    },
+    {
+      "order": 2,
+      "slot": "shoes",
+      "group": "legs",
+      "file": "02-shoes.png",
+      "px": 40142,
+      "bbox": [
+        433,
+        997,
+        865,
+        1208
+      ],
+      "sha256": "e364220a914c55e9f989487c20f076152a86eaa19ff52e6c28be478c66f3bf8d",
+      "note": "Socks + shoes, both feet. Clean boundaries."
+    },
+    {
+      "order": 3,
+      "slot": "outfit-bottom",
+      "group": "legs",
+      "file": "03-outfit-bottom.png",
+      "px": 45319,
+      "bbox": [
+        478,
+        793,
+        786,
+        976
+      ],
+      "sha256": "c3b6b03698c6e1a56fb3bfe7af129babff78937bf3bc691d6136c7e22cfed1e6",
+      "note": "Shorts. Missing: waistband under the shirt hem (gap appears when the torso moves)."
+    },
+    {
+      "order": 4,
+      "slot": "body-skin",
+      "group": "torso",
+      "file": "04-body-skin.png",
+      "px": 32507,
+      "bbox": [
+        388,
+        472,
+        857,
+        892
+      ],
+      "sha256": "c2994f7fc565591e6ce3885b348522dc6abfa6e17ce0169602d298455d1a873b",
+      "note": "Skin-tone slot: neck, both arms, both hands. Missing: neck under the chin; arms under the sleeves."
+    },
+    {
+      "order": 5,
+      "slot": "outfit-top",
+      "group": "torso",
+      "file": "05-outfit-top.png",
+      "px": 71740,
+      "bbox": [
+        435,
+        510,
+        788,
+        809
+      ],
+      "sha256": "9c89d4982fb4fd158ccac2cef523ed10e7ce301ab4b90ae1621775442f34f6b1",
+      "note": "Shirt incl. sleeves and collar."
+    },
+    {
+      "order": 6,
+      "slot": "hair-back",
+      "group": "head",
+      "file": "06-hair-back.png",
+      "px": 1811,
+      "bbox": [
+        492,
+        468,
+        588,
+        509
+      ],
+      "sha256": "91ed4aa21c03ef9f2de3082caa9574c7260e1861635e404ddeec99fe571e9d7e",
+      "note": "Nape strands behind the jaw."
+    },
+    {
+      "order": 7,
+      "slot": "head-skin",
+      "group": "head",
+      "file": "07-head-skin.png",
+      "px": 63023,
+      "bbox": [
+        426,
+        174,
+        819,
+        499
+      ],
+      "sha256": "ea7731aa56d2ba84cdf3f95b9711234386499d8196c6e390fd9b114480b62528",
+      "note": "Skin-tone slot: face, ears, nose shading; blush removed (unmixed into face-blush). Missing: eyelid skin under the eyes (holes), forehead under fringe edges."
+    },
+    {
+      "order": 8,
+      "slot": "face-blush",
+      "group": "head",
+      "file": "08-face-blush.png",
+      "px": 7117,
+      "bbox": [
+        533,
+        361,
+        807,
+        445
+      ],
+      "sha256": "1c2f7ebb9c24c34bccaefb1c66c8d3e7177b5136f4527e1c41a4509d7fc9881a",
+      "note": "Unmixed blush, constant colour #fd8e6a with per-pixel alpha; recomposes exactly over head-skin."
+    },
+    {
+      "order": 9,
+      "slot": "face-eyes",
+      "group": "head",
+      "file": "09-face-eyes.png",
+      "px": 9628,
+      "bbox": [
+        556,
+        286,
+        780,
+        397
+      ],
+      "sha256": "93be4383cbfdf883b64ba7132a7c1eac1fc270f7af315f346a7042c9db0d67cc",
+      "note": "Open frame only (refined iris). Missing: half and closed blink frames."
+    },
+    {
+      "order": 10,
+      "slot": "face-brows-mouth",
+      "group": "head",
+      "file": "10-face-brows-mouth.png",
+      "px": 274,
+      "bbox": [
+        652,
+        419,
+        725,
+        437
+      ],
+      "sha256": "479e17b48b0288243ffe3603b9d73c9c6215c663a557702eb50224c67ddd42b9",
+      "note": "Mouth line only since M0.3c.2: the far brow moved to hair-front (partition seam fix). A separately painted brow is needed for expressions."
+    },
+    {
+      "order": 11,
+      "slot": "hair-front",
+      "group": "head",
+      "file": "11-hair-front.png",
+      "px": 105985,
+      "bbox": [
+        328,
+        27,
+        856,
+        426
+      ],
+      "sha256": "2d08edb53da3b3d92e0adc7d254dfbd83d6db41b37621111122b7ba41c0b4100",
+      "note": "Fringe, top, side locks, tufts, rim highlights, and (since M0.3c.2) the far brow; recoloured toward reference cocoa."
+    }
+  ],
+  "missing": [
+    {
+      "slot": "shadow",
+      "group": "root",
+      "note": "Contact shadow not present in the candidate (by design); to be painted separately"
+    }
+  ]
+}

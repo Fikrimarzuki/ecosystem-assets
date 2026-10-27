@@ -1,0 +1,153 @@
+{
+ "views": [
+  {
+   "view": "full bedroom @1x (1 px/u)",
+   "character": "boy",
+   "expectedPx": 200,
+   "measuredPx": 199,
+   "soleRow": 629,
+   "feetY": 630
+  },
+  {
+   "view": "full bedroom @1x (1 px/u)",
+   "character": "mom",
+   "expectedPx": 290,
+   "measuredPx": 290,
+   "soleRow": 559,
+   "feetY": 560
+  },
+  {
+   "view": "phone-portrait-390x844-overview",
+   "character": "boy",
+   "cameraZoom": 0.938,
+   "renderScale": 0.938,
+   "visible": true,
+   "expectedPx": 187.6,
+   "measuredPx": 186,
+   "deviceCssPx": 187.6,
+   "clippedByFrame": [
+    "left"
+   ]
+  },
+  {
+   "view": "phone-portrait-390x844-overview",
+   "character": "mom",
+   "cameraZoom": 0.938,
+   "renderScale": 0.938,
+   "visible": true,
+   "expectedPx": 272,
+   "measuredPx": 272,
+   "deviceCssPx": 272,
+   "clippedByFrame": [
+    "right"
+   ]
+  },
+  {
+   "view": "phone-landscape-844x390-overview",
+   "character": "boy",
+   "cameraZoom": 0.85,
+   "renderScale": 0.85,
+   "visible": true,
+   "expectedPx": 170,
+   "measuredPx": 169,
+   "deviceCssPx": 170,
+   "clippedByFrame": []
+  },
+  {
+   "view": "phone-landscape-844x390-overview",
+   "character": "mom",
+   "cameraZoom": 0.85,
+   "renderScale": 0.85,
+   "visible": true,
+   "expectedPx": 246.5,
+   "measuredPx": 246,
+   "deviceCssPx": 246.5,
+   "clippedByFrame": []
+  },
+  {
+   "view": "phone-portrait-390x844-child-and-mom",
+   "character": "boy",
+   "cameraZoom": 1.172,
+   "renderScale": 1,
+   "visible": true,
+   "expectedPx": 200,
+   "measuredPx": 199,
+   "deviceCssPx": 234.4,
+   "clippedByFrame": []
+  },
+  {
+   "view": "phone-portrait-390x844-child-and-mom",
+   "character": "mom",
+   "cameraZoom": 1.172,
+   "renderScale": 1,
+   "visible": true,
+   "expectedPx": 290,
+   "measuredPx": 290,
+   "deviceCssPx": 339.9,
+   "clippedByFrame": []
+  },
+  {
+   "view": "phone-landscape-844x390-child-and-mom",
+   "character": "boy",
+   "cameraZoom": 0.85,
+   "renderScale": 0.85,
+   "visible": true,
+   "expectedPx": 170,
+   "measuredPx": 169,
+   "deviceCssPx": 170,
+   "clippedByFrame": []
+  },
+  {
+   "view": "phone-landscape-844x390-child-and-mom",
+   "character": "mom",
+   "cameraZoom": 0.85,
+   "renderScale": 0.85,
+   "visible": true,
+   "expectedPx": 246.5,
+   "measuredPx": 246,
+   "deviceCssPx": 246.5,
+   "clippedByFrame": []
+  },
+  {
+   "view": "desktop-1280x800-overview",
+   "character": "boy",
+   "cameraZoom": 1.1,
+   "renderScale": 1,
+   "visible": true,
+   "expectedPx": 200,
+   "measuredPx": 199,
+   "deviceCssPx": 220,
+   "clippedByFrame": []
+  },
+  {
+   "view": "desktop-1280x800-overview",
+   "character": "mom",
+   "cameraZoom": 1.1,
+   "renderScale": 1,
+   "visible": true,
+   "expectedPx": 290,
+   "measuredPx": 290,
+   "deviceCssPx": 319,
+   "clippedByFrame": []
+  }
+ ],
+ "lineup": {
+  "boy": {
+   "tier": "boy-three-quarter-accepted-clean.v1.@1x.png",
+   "heightPx": 199,
+   "soleRowInTier": 215,
+   "anchorRow": 216,
+   "headTopToChinNativePx": 208,
+   "heads": 2.47
+  },
+  "mom": {
+   "tier": "mom-three-quarter-accepted-clean.v1.@1x.png",
+   "heightPx": 290,
+   "soleRowInTier": 303,
+   "anchorRow": 304,
+   "headTopToChinNativePx": 152,
+   "heads": 3.38
+  },
+  "ratio": 1.457
+ }
+}

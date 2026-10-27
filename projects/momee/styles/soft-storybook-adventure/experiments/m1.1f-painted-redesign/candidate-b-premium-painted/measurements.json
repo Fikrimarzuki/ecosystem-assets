@@ -1,0 +1,51 @@
+{
+  "file": "candidate-b-premium-painted/mom-b-v1.png",
+  "sha256": "e1ad3c628943bde102dd11da9c0686ac6acbd3ba9cc9805d471d7bf25b6927b1",
+  "size": {
+    "width": 1024,
+    "height": 1280
+  },
+  "png_header": {
+    "bit_depth": 8,
+    "colour_type": 6,
+    "colour_type_6_means": "RGBA"
+  },
+  "alpha_histogram_summary": {
+    "fully_transparent": 782701,
+    "fully_opaque": 4,
+    "partial": 528015
+  },
+  "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+  "opaque_bounding_box": {
+    "x": 266,
+    "y": 1048,
+    "width": 595,
+    "height": 39
+  },
+  "opaque_margins_px": {
+    "left": 266,
+    "right": 163,
+    "top": 1048,
+    "bottom": 193
+  },
+  "nontransparent_bounding_box": {
+    "x": 132,
+    "y": 166,
+    "width": 756,
+    "height": 938
+  },
+  "nontransparent_margins_px": {
+    "left": 132,
+    "right": 136,
+    "top": 166,
+    "bottom": 176
+  },
+  "touches_edge": {
+    "left": false,
+    "right": false,
+    "top": false,
+    "bottom": false
+  },
+  "anything_touches_edge": false,
+  "minimum_six_percent_empty_left_right_top": true
+}

@@ -1,0 +1,162 @@
+{
+  "originals_verified": 9,
+  "source_hashes_unchanged": true,
+  "before_entries": 12,
+  "after_entries": 13,
+  "only_status_addition": "?? projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/",
+  "deliverables": [
+    {
+      "file": "candidate-a-refined-b/mom-a-v1.png",
+      "sha256": "aba391f7441c555f0d84a20c83e39f5d558208a8db777e9abf0335e62769ead4",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "png_header": {
+        "bit_depth": 8,
+        "colour_type": 6,
+        "colour_type_6_means": "RGBA"
+      },
+      "alpha_histogram_summary": {
+        "fully_transparent": 770825,
+        "fully_opaque": 9,
+        "partial": 539886
+      },
+      "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+      "opaque_bounding_box": {
+        "x": 185,
+        "y": 174,
+        "width": 616,
+        "height": 913
+      },
+      "opaque_margins_px": {
+        "left": 185,
+        "right": 223,
+        "top": 174,
+        "bottom": 193
+      },
+      "nontransparent_bounding_box": {
+        "x": 115,
+        "y": 166,
+        "width": 790,
+        "height": 956
+      },
+      "nontransparent_margins_px": {
+        "left": 115,
+        "right": 119,
+        "top": 166,
+        "bottom": 158
+      },
+      "touches_edge": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "anything_touches_edge": false,
+      "minimum_six_percent_empty_left_right_top": true
+    },
+    {
+      "file": "candidate-b-premium-painted/mom-b-v1.png",
+      "sha256": "e1ad3c628943bde102dd11da9c0686ac6acbd3ba9cc9805d471d7bf25b6927b1",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "png_header": {
+        "bit_depth": 8,
+        "colour_type": 6,
+        "colour_type_6_means": "RGBA"
+      },
+      "alpha_histogram_summary": {
+        "fully_transparent": 782701,
+        "fully_opaque": 4,
+        "partial": 528015
+      },
+      "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+      "opaque_bounding_box": {
+        "x": 266,
+        "y": 1048,
+        "width": 595,
+        "height": 39
+      },
+      "opaque_margins_px": {
+        "left": 266,
+        "right": 163,
+        "top": 1048,
+        "bottom": 193
+      },
+      "nontransparent_bounding_box": {
+        "x": 132,
+        "y": 166,
+        "width": 756,
+        "height": 938
+      },
+      "nontransparent_margins_px": {
+        "left": 132,
+        "right": 136,
+        "top": 166,
+        "bottom": 176
+      },
+      "touches_edge": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "anything_touches_edge": false,
+      "minimum_six_percent_empty_left_right_top": true
+    },
+    {
+      "file": "candidate-c-gouache-adventure/mom-c-v1.png",
+      "sha256": "85ba02c8f4fc91cba00d1e81d2abbdf3dafa077489c670d7378f08c8402b69bf",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "png_header": {
+        "bit_depth": 8,
+        "colour_type": 6,
+        "colour_type_6_means": "RGBA"
+      },
+      "alpha_histogram_summary": {
+        "fully_transparent": 758065,
+        "fully_opaque": 22,
+        "partial": 552633
+      },
+      "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+      "opaque_bounding_box": {
+        "x": 212,
+        "y": 444,
+        "width": 581,
+        "height": 662
+      },
+      "opaque_margins_px": {
+        "left": 212,
+        "right": 231,
+        "top": 444,
+        "bottom": 174
+      },
+      "nontransparent_bounding_box": {
+        "x": 102,
+        "y": 173,
+        "width": 797,
+        "height": 949
+      },
+      "nontransparent_margins_px": {
+        "left": 102,
+        "right": 125,
+        "top": 173,
+        "bottom": 158
+      },
+      "touches_edge": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "anything_touches_edge": false,
+      "minimum_six_percent_empty_left_right_top": true
+    }
+  ]
+}

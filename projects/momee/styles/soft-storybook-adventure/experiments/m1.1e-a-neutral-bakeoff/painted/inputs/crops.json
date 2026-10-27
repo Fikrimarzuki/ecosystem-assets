@@ -1,0 +1,70 @@
+[
+  {
+    "path": "inputs/candidate-b-portrait.png",
+    "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53",
+    "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+    "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "crop_xywh": [
+      541,
+      191,
+      294,
+      351
+    ],
+    "method": "pngjs lossless pixel crop; no resampling"
+  },
+  {
+    "path": "inputs/candidate-b-eye.png",
+    "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b",
+    "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+    "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "crop_xywh": [
+      541,
+      730,
+      112,
+      109
+    ],
+    "method": "pngjs lossless pixel crop; no resampling"
+  },
+  {
+    "path": "inputs/master-mom-figure.png",
+    "sha256": "7b0403d389aec0b47844ddce7cdc2c126efb4f22f2859c9d71dd73d2c5510c33",
+    "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+    "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "crop_xywh": [
+      600,
+      27,
+      181,
+      376
+    ],
+    "method": "pngjs lossless pixel crop; no resampling"
+  },
+  {
+    "path": "inputs/master-mom-neutral-bust.png",
+    "sha256": "ba01d583eba6ca3db2076b7afd4359bf7f0fbf0482f6941a13fd7c8e61e1ef96",
+    "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+    "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "crop_xywh": [
+      986,
+      66,
+      104,
+      106
+    ],
+    "method": "pngjs lossless pixel crop; no resampling"
+  }
+]

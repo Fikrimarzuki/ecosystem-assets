@@ -1,0 +1,85 @@
+{
+  "call": 1,
+  "captured_at_utc": "2026-11-16T16:33:58.593Z",
+  "tool": "Codex built-in image_gen",
+  "model": "not recorded",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Asset: experimental Momee Mom painted character portrait for owner review.\nReference roles, in order: (1) b-portrait.png is Candidate B, the main identity and soft storybook shape reference; (2) b-eye.png gives warm brown eye/lid colour and softness, but DO NOT copy its round eye opening or bright highlight; (3) gate-a-painted.png is the retained painted Mom, a guide to the more mature oval face and almond eyes, NOT a framing example; (4) family-master.png provides the family identity and warm palette only.\nReinterpret this same Mom as an adult woman with natural adult head, neck and shoulder proportions: softly elongated oval face, sufficient lower-face length, soft rounded chin, warm light-peach skin, thin gently arched brown brows, subtle nose, a warm calm small CLOSED-MOUTH smile. Eyes OPEN, natural adult-sized horizontal ALMOND openings, visible upper-lid creases, brown irises partly occluded by the upper lids, softly tapered lashes with NO spikes or curls. No sparkle highlights, no bright dots or white circles in the eyes; quiet matte eye colour. Never a child, doll, anime or chibi character.\nIdentity must remain unmistakable: long loose wavy reddish-brown hair, side part to viewer's right of centre, swept fringe, asymmetric overlapping wave masses and warm copper highlights following the waves; coral-peach collared button blouse. No jewellery or hair accessories.\nComposition: ONE head-and-shoulders bust, front facing or very slight three-quarter turn, top of hair through upper chest. Entire hair silhouette and both shoulders visible. End the bust cleanly below the collar at upper chest; leave empty space below it. Requested output 1024 x 1280 pixels, portrait RGBA.\nCRITICAL TRANSPARENCY AND MARGIN: genuine fully transparent background, a FULLY OPAQUE FIGURE with clean antialiased outer edge, no translucent face/hair/clothing. Isolate the whole bust with at least 6% EMPTY transparent margin at LEFT, RIGHT and TOP, preferably 8–10%, and a small empty margin below. NO hair or clothing touching ANY canvas edge. The reference Gate A touches edges: DO NOT repeat that framing. No background colour, paper rectangle, scenery, glow outside the silhouette, cast shadow, text, labels, multiple portraits, frames or watermark.\n\nCandidate: B: Premium Painted Storybook\nStyle/medium: A high-end picture-book PAINTING. Richer soft light and form, subtle visible brush texture and elegant warm rim light kept INSIDE the opaque silhouette. Few hard outlines: soft COLOURED painted edges and warm chromatic shadows model cheek, jaw, neck and hair volume. Rich luminous auburn waves, gentle painterly skin, tasteful depth. Elegant hand-painted illustration, NOT photorealism, NOT 3D render, NOT cel shading. Keep the same simple calm adult Mom face, not a glamour makeover.",
+  "prompt_file": "candidate-b-premium-painted/generations/prompt-01.txt",
+  "prompt_file_sha256": "50d33b1d309c1fd7ae428ed43c08b30b711f7637efa888d9793094800344145f",
+  "inputs": [
+    {
+      "file": "inputs/b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+    },
+    {
+      "file": "inputs/b-eye.png",
+      "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b"
+    },
+    {
+      "file": "inputs/gate-a-painted.png",
+      "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+    },
+    {
+      "file": "inputs/family-master.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+    }
+  ],
+  "output": {
+    "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-a9775759-9850-42ba-b80a-807495cb0d0d.png",
+    "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+    "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6",
+    "byte_for_byte_copy_verified": true
+  },
+  "measurements": {
+    "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+    "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 586276,
+      "fully_opaque": 313,
+      "partial": 986455
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 93,
+      "y": 60,
+      "width": 961,
+      "height": 1262
+    },
+    "opaque_margins_px": {
+      "left": 93,
+      "right": 68,
+      "top": 60,
+      "bottom": 80
+    },
+    "nontransparent_bounding_box": {
+      "x": 0,
+      "y": 37,
+      "width": 1102,
+      "height": 1349
+    },
+    "nontransparent_margins_px": {
+      "left": 0,
+      "right": 20,
+      "top": 37,
+      "bottom": 16
+    },
+    "touches_edge": {
+      "left": true,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": true,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

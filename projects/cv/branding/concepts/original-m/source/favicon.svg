@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#0b1b36"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <polygon fill="#25c79f" points="106,386 106,160 166,126 256,254 346,126 406,160 406,386 340,386 340,234 256,338 172,234 172,386"/>
+    <polygon fill="#5bf2c2" points="106,386 106,160 166,126 256,254 256,338 172,234 172,386"/>
+  </g>
+</svg>

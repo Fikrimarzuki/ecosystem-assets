@@ -1,0 +1,45 @@
+{
+  "milestone": "M1.0g",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "study.bedroom.composition.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "node": "24.21.0 (layout data extraction)",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "2560x1440 sRGB RGBA/8 Krita document at 2 px per world unit (1280x720 world). Built entirely by bedroom_study.py: per-object groups (base, inherit-alpha clipped soft shade and warm light, line), a gentle one-point perspective (vanishing point 680,60; depth 800 u), pass-through light and paper-grain groups, and hidden annotation layers. The whole document was rebuilt from the final script before saving. Blender was not needed.",
+  "layoutSource": {
+    "file": "app-momee/apps/web/src/adventure/bedroom-layout.ts",
+    "sha256": "ac9caa0e45d98453659deea64e9c5daecb6c43ea3d3561748158cd2e028316d3",
+    "method": "Read-only import by layout2py.mts into bedroom_layout_data.py (interactable bounds, floor band, CHILD_START, MOM_SPOT, SLEEPER_HEAD, camera targets)."
+  },
+  "placedInputs": [
+    { "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "sha256": "122e2118d91822ea93b5e16f6092b100fc5317ec128a22fff0da6a4933d59a7e", "use": "Existing Boy candidate cutout, scaled uniformly to 200 u with soles at CHILD_START; pixels not edited" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png", "sha256": "9bc90ae0e62243d141bf605e885708ad9454cdb45c8020876d5295245f2a6ae7", "use": "Placed at the fluffed pose centre (170, 463)" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png", "sha256": "cdc6bfea98075eefd8066e51ff38caa1949b4abf63bb7f78a608cfa505ac1d4e", "use": "Hidden alternate layer at the same centre" }
+  ],
+  "visualReferences": [
+    "app-momee/assets/references/calm-chibi-storybook/characters/character-master-v1.png (palette, line, shading; viewed only)",
+    "app-momee/assets/references/concepts/morning-routine-storyboard.png, morning-routine-gameplay.png, feature-concepts.png (bedroom furniture, bedding and light; viewed only)"
+  ],
+  "momPlaceholder": "A flat, dashed-edge silhouette labelled 'MOM — PLACEHOLDER (not art)', 290 u, about 3.1 heads, at MOM_SPOT. It is not character art.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0g-construction/",
+    "files": {
+      "kpaint.py": "3a71e030f31637cf615d4b8a3e4ffcc118c3266887d60270822b1d83145ab80f",
+      "bedroom_study.py": "c2b01ebcdbc2025fb9db4dad6324e89c041bd13bc4ac1436eb32437a80902dbc",
+      "bedroom_layout_data.py": "2f2c8260dc9096f459b3bee165068b49c5ef553760059d12172e6e1674b2eccd",
+      "layout2py.mts": "d2002df9927c0de44026cb0c74cb84d6a4a840229dee2362a626095d8c16025e"
+    }
+  },
+  "exportMethod": "Krita exportImage (opaque PNG) with layer-group visibility set per render; the @1x room-only and annotated renders were downsampled from 2560x1440 with `sips -z 720 1280`.",
+  "storageNote": "The KRA is 39,139,356 bytes, above the README's proposed 10 MiB ordinary-Git threshold. No Momee LFS rule exists. Owner storage decision required before any commit.",
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model in this milestone. The placed Boy candidate was generated earlier (M0.3c.1, ChatGPT Image Generation; see its generation-log.json).",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Composition and calibration study only. Not a room background, atlas or production asset."
+}

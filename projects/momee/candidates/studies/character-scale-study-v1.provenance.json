@@ -1,0 +1,41 @@
+{
+  "milestone": "M1.0g",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "study.character-scale.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "node": "24.21.0 (camera framing numbers from camera-framing.ts)"
+  },
+  "sourceMethod": "2560x1900 Krita document built by scale_study.py: three groups (A height line-up, B bed/pillow/child, C reach and camera framing), each with named panel, artwork and measurement layers.",
+  "measurements": {
+    "boyCutoutAlphaBox": "x 330..864, y 28..1206 of 1254x1254 (refined cutout)",
+    "boyChinY": 496,
+    "boyHeads": 2.52,
+    "workingHeights": "child 200 u, adult 290 u (asset-pipeline.md §9); ratio 1.45",
+    "cameraFrames": "frames.json from camera-framing.ts frameCamera()/frameZoom() (read-only import), sha256 of camera-framing.ts 3c7714d2cd8492c5de872ff84526d902549d2927489be0440c6b0047e3693dd8"
+  },
+  "placedInputs": [
+    { "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "sha256": "122e2118d91822ea93b5e16f6092b100fc5317ec128a22fff0da6a4933d59a7e", "use": "Existing Boy candidate, unmodified, scaled uniformly to 200 u" },
+    { "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png", "sha256": "5b57cb8b923be23799f8b3181946d04552ce503f563b139633b444c98d352700", "use": "Panel C background" },
+    { "path": "room-only 2560x1440 render of study.bedroom.composition.v1 (characters and annotations hidden)", "use": "Panel B crop; regenerate from the KRA by hiding the Characters and Annotations groups" },
+    { "path": "projects/momee/exports/rooms/bedroom/pillow-*.v2.@2x.png", "use": "Panel B pillow tiers" }
+  ],
+  "momPlaceholder": "Flat dashed silhouette labelled MOM — PLACEHOLDER (not character art), 290 u.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0g-construction/",
+    "files": {
+      "kpaint.py": "3a71e030f31637cf615d4b8a3e4ffcc118c3266887d60270822b1d83145ab80f",
+      "scale_study.py": "285e9dd132c42a9269df8ce54e64e8196fb9593067a22ddadd0fe8975cd631d1",
+      "frame.mts": "7b905d91b2a6fe036b205f781557bf1af6225240d243dde814fd20a3772e1653",
+      "frames.json": "488e70471c10091e595c1669c83171add545cbbf85b74244266dc99eaed0dec2"
+    }
+  },
+  "storageNote": "The KRA is 13,914,069 bytes, above the proposed 10 MiB ordinary-Git threshold; owner storage decision required before any commit.",
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Not character approval and not a substitute for the D2 height line-up."
+}

@@ -1,0 +1,261 @@
+{
+  "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\rigged\\explorer-neutral-25k-rigged-v2.glb",
+  "fileSizeBytes": 1953288,
+  "blender": "5.2.2 LTS",
+  "raw": {
+    "magic": "glTF",
+    "version": 2,
+    "declaredLength": 1953288,
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "extensionsUsed": [],
+    "extensionsRequired": [],
+    "meshes": 1,
+    "primitives": 1,
+    "primitiveAttributes": [
+      [
+        "JOINTS_0",
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "WEIGHTS_0"
+      ]
+    ],
+    "nodes": 24,
+    "skins": 1,
+    "animations": 0,
+    "materials": [
+      {
+        "name": "explorer_neutral.001",
+        "pbr": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        },
+        "normalTexture": true,
+        "emissiveTexture": false,
+        "emissiveFactor": null,
+        "alphaMode": "OPAQUE",
+        "doubleSided": true,
+        "extensions": []
+      }
+    ],
+    "textures": 3,
+    "images": [
+      {
+        "name": "explorer-neutral-25k_normal",
+        "mimeType": "image/jpeg",
+        "bufferView": 6,
+        "uri": null,
+        "bytes": 340706
+      },
+      {
+        "name": "explorer-neutral-25k_basecolor",
+        "mimeType": "image/jpeg",
+        "bufferView": 7,
+        "uri": null,
+        "bytes": 349410
+      },
+      {
+        "name": "explorer-neutral-25k_metallicroughness",
+        "mimeType": "image/jpeg",
+        "bufferView": 8,
+        "uri": null,
+        "bytes": 185306
+      }
+    ],
+    "trianglesFromIndices": 25000
+  },
+  "blenderScene": {
+    "objects": [
+      [
+        "explorer_rig",
+        "ARMATURE"
+      ],
+      [
+        "explorer_neutral",
+        "MESH"
+      ],
+      [
+        "Icosphere",
+        "MESH"
+      ]
+    ],
+    "meshCount": 2,
+    "triangles": 25080,
+    "vertices": 17729,
+    "materialCount": 1,
+    "imageCount": 3,
+    "armatures": [
+      "explorer_rig"
+    ],
+    "bones": 22,
+    "actions": [],
+    "boundsMinBlenderZUp": [
+      -0.9511,
+      -1.0,
+      -1.0
+    ],
+    "boundsMaxBlenderZUp": [
+      0.9511,
+      1.0,
+      1.0
+    ],
+    "dimensionsXYZ_BlenderZUp": [
+      1.9021,
+      2.0,
+      2.0
+    ]
+  },
+  "meshes": [
+    {
+      "name": "explorer_neutral",
+      "parent": "explorer_rig",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 17687,
+      "faces": 25000,
+      "triangles": 25000,
+      "quads": 0,
+      "ngons": 0,
+      "materials": [
+        "explorer_neutral.001"
+      ],
+      "uvLayers": [
+        "UVMap"
+      ],
+      "uvLoopsOutsideUnitSquare": 0,
+      "colorAttributes": [],
+      "shapeKeys": 0,
+      "vertexGroups": 22,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "nonManifoldEdges": 9724,
+      "boundaryEdges": 9724,
+      "looseVertices": 0,
+      "connectedIslands": 326,
+      "smoothShadedFaces": 25000
+    },
+    {
+      "name": "Icosphere",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerDeg": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 42,
+      "faces": 80,
+      "triangles": 80,
+      "quads": 0,
+      "ngons": 0,
+      "materials": [],
+      "uvLayers": [
+        "UVMap"
+      ],
+      "uvLoopsOutsideUnitSquare": 0,
+      "colorAttributes": [],
+      "shapeKeys": 0,
+      "vertexGroups": 0,
+      "modifiers": [],
+      "nonManifoldEdges": 0,
+      "boundaryEdges": 0,
+      "looseVertices": 0,
+      "connectedIslands": 1,
+      "smoothShadedFaces": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "explorer-neutral-25k_basecolor",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "explorer-neutral-25k_metallicroughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "explorer-neutral-25k_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "materials": [
+    {
+      "name": "explorer_neutral.001",
+      "users": 1,
+      "textureLinks": [
+        {
+          "image": "explorer-neutral-25k_basecolor",
+          "to": [
+            "Base Color"
+          ],
+          "via": []
+        },
+        {
+          "image": "explorer-neutral-25k_metallicroughness",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "SEPARATE_COLOR->Roughness",
+            "SEPARATE_COLOR->Metallic"
+          ]
+        },
+        {
+          "image": "explorer-neutral-25k_normal",
+          "to": [
+            "Color"
+          ],
+          "via": [
+            "NORMAL_MAP->Normal"
+          ]
+        }
+      ],
+      "emissionStrength": 0.0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "global-full-1@2",
+  "phaseStep": 5,
+  "samplesPerRoute": 513,
+  "frontShift": 2,
+  "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+  "worldOBBHits": 11141,
+  "stationOBBHits": 543,
+  "worldActualHits": 2529,
+  "stationActualHits": 112,
+  "firstWorld": {
+    "destination": "learning",
+    "phase": 0,
+    "sample": 462,
+    "obstacle": "games",
+    "part": 0
+  },
+  "firstStation": {
+    "destination": "platforms",
+    "phase": 0,
+    "sample": 468,
+    "obstacle": "station",
+    "part": 27
+  },
+  "firstActual": {
+    "destination": "learning",
+    "phase": 0,
+    "sample": 482,
+    "obstacle": "games",
+    "part": 0
+  },
+  "minWorldSAT": -1.4016902499782888,
+  "minStationSAT": -0.473588206886228,
+  "closestWorld": {
+    "destination": "platforms",
+    "phase": 80,
+    "sample": 512,
+    "obstacle": "learning",
+    "part": 1
+  },
+  "closestStation": {
+    "destination": "platforms",
+    "phase": 0,
+    "sample": 494,
+    "obstacle": "station",
+    "part": 3
+  },
+  "maxTurn": 0.2296075260988048,
+  "maxLength": 42.00147109924521,
+  "minLength": 33.13557267275821
+}

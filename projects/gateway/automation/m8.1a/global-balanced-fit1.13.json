@@ -1,0 +1,193 @@
+{
+  "name": "global-balanced-1.1-zoom1.13",
+  "sizes": {
+    "latest": [
+      3.6,
+      3.04
+    ],
+    "games": [
+      3.6,
+      3.04
+    ],
+    "learning": [
+      4,
+      3.4
+    ],
+    "tools": [
+      4,
+      3.4
+    ],
+    "after-hours": [
+      4,
+      3.4
+    ],
+    "platforms": [
+      4.4,
+      3.72
+    ]
+  },
+  "orbit": 1.1,
+  "station": [
+    {
+      "world": "latest",
+      "gap": 0.428831122335561,
+      "time": 260
+    },
+    {
+      "world": "games",
+      "gap": 1.036723863716551,
+      "time": 518
+    },
+    {
+      "world": "learning",
+      "gap": 1.1218937072152866,
+      "time": 15
+    },
+    {
+      "world": "tools",
+      "gap": 1.1127639926772237,
+      "time": 316
+    },
+    {
+      "world": "after-hours",
+      "gap": 1.3711660237289385,
+      "time": 216
+    },
+    {
+      "world": "platforms",
+      "gap": 0.5183828884526508,
+      "time": 113
+    }
+  ],
+  "pairs": [
+    {
+      "a": "latest",
+      "b": "games",
+      "gap": 0.3065472408795518,
+      "time": 27
+    },
+    {
+      "a": "latest",
+      "b": "learning",
+      "gap": 6.614309796374043,
+      "time": 88
+    },
+    {
+      "a": "latest",
+      "b": "tools",
+      "gap": 0.3566796574203965,
+      "time": 357
+    },
+    {
+      "a": "latest",
+      "b": "after-hours",
+      "gap": 6.808965533100925,
+      "time": 189
+    },
+    {
+      "a": "latest",
+      "b": "platforms",
+      "gap": 8.280369884004676,
+      "time": 139
+    },
+    {
+      "a": "games",
+      "b": "learning",
+      "gap": 1.0926269570675935,
+      "time": 265
+    },
+    {
+      "a": "games",
+      "b": "tools",
+      "gap": 7.515877269064255,
+      "time": 285
+    },
+    {
+      "a": "games",
+      "b": "after-hours",
+      "gap": 10.067715452722215,
+      "time": 344
+    },
+    {
+      "a": "games",
+      "b": "platforms",
+      "gap": 6.77079947364754,
+      "time": 302
+    },
+    {
+      "a": "learning",
+      "b": "tools",
+      "gap": 9.788269038226472,
+      "time": 446
+    },
+    {
+      "a": "learning",
+      "b": "after-hours",
+      "gap": 7.819860573508319,
+      "time": 401
+    },
+    {
+      "a": "learning",
+      "b": "platforms",
+      "gap": 0.6643974368774647,
+      "time": 213
+    },
+    {
+      "a": "tools",
+      "b": "after-hours",
+      "gap": 1.6119052632483386,
+      "time": 117
+    },
+    {
+      "a": "tools",
+      "b": "platforms",
+      "gap": 7.098949307418006,
+      "time": 79
+    },
+    {
+      "a": "after-hours",
+      "b": "platforms",
+      "gap": 1.2987803687856787,
+      "time": 174
+    }
+  ],
+  "views": [
+    {
+      "w": 1150,
+      "h": 740,
+      "clip": 0,
+      "maxOverlap": 0.015508509760346002,
+      "pair": "latest/tools",
+      "phase": 368,
+      "stationOverlap": 0.000761689705049507,
+      "labelOverlap": 0,
+      "labelClip": 0,
+      "zoomRequired": 1.0269870259296114
+    },
+    {
+      "w": 688,
+      "h": 570,
+      "clip": 0,
+      "maxOverlap": 0.015508509760346055,
+      "pair": "latest/tools",
+      "phase": 368,
+      "stationOverlap": 0.0007616897050495213,
+      "labelOverlap": 0,
+      "labelClip": 0,
+      "zoomRequired": 1.046455434269047
+    },
+    {
+      "w": 592,
+      "h": 570,
+      "clip": 0,
+      "maxOverlap": 0.015508509760346042,
+      "pair": "latest/tools",
+      "phase": 368,
+      "stationOverlap": 0.0007616897050495305,
+      "labelOverlap": 0,
+      "labelClip": 0,
+      "zoomRequired": 1.0961052793751935
+    }
+  ],
+  "zoom": 1.13
+}

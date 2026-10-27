@@ -1,0 +1,73 @@
+{
+  "call": 3,
+  "captured_at_utc": "2026-11-16T16:37:28.400Z",
+  "tool": "Codex built-in image_gen",
+  "model": "not recorded",
+  "transparent_background": true,
+  "prompt": "Correct only the opacity failure in the supplied Mom portrait. Re-create the identical figure as a solid opaque cutout. This is a technical contract repair, not a style revision.\nThe previous outputs have nearly every face/hair/clothing pixel at alpha around 252–253, and that fails. REQUIRED: alpha channel 255 over the entire continuous interior of face, eyes, neck, hair and blouse. Fully solid opaque colour and brush texture, no transparency within the painted surface. Alpha 0 in empty space. Partial alpha only along the outer antialiased contour; never global opacity below 100%. No background image, rectangle, checkerboard painted into pixels, shadow or halo.\nPreserve the same adult Mom identity and this exact painted technique, quiet natural almond eyes with upper-lid creases and no sparkle highlights, soft lashes without spikes, warm closed-mouth smile, side-parted long auburn waves, coral collared blouse. Keep the fully visible head-and-shoulders bust isolated in a 1024x1280 portrait canvas, with 8–10% empty transparent margin around it. Do not change anatomy, expression, colours, clothing or add any object.",
+  "prompt_file": "candidate-a-refined-b/generations/prompt-03.txt",
+  "prompt_file_sha256": "80d87c0e1277d87ca3edad73b900845b0749d5d029ccfcaa69d70637e9583c19",
+  "inputs": [
+    {
+      "file": "candidate-a-refined-b/generations/generation-01-original.png",
+      "sha256": "f4b7abb266381128bccbd6245c717836f5085818cbd18946a812d9c4f11a0554"
+    }
+  ],
+  "output": {
+    "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-39a5016f-ab4e-410e-bd89-4337e0e6d5a0.png",
+    "file": "candidate-a-refined-b/generations/generation-03-original.png",
+    "sha256": "365ba4175a3b963aa0322d196c1a50eb57ca3b4765885fd2cb948a9367c0f68b",
+    "byte_for_byte_copy_verified": true
+  },
+  "measurements": {
+    "file": "candidate-a-refined-b/generations/generation-03-original.png",
+    "sha256": "365ba4175a3b963aa0322d196c1a50eb57ca3b4765885fd2cb948a9367c0f68b",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 565118,
+      "fully_opaque": 694,
+      "partial": 1007232
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 33,
+      "y": 59,
+      "width": 1043,
+      "height": 1255
+    },
+    "opaque_margins_px": {
+      "left": 33,
+      "right": 46,
+      "top": 59,
+      "bottom": 88
+    },
+    "nontransparent_bounding_box": {
+      "x": 15,
+      "y": 41,
+      "width": 1090,
+      "height": 1361
+    },
+    "nontransparent_margins_px": {
+      "left": 15,
+      "right": 17,
+      "top": 41,
+      "bottom": 0
+    },
+    "touches_edge": {
+      "left": false,
+      "right": false,
+      "top": false,
+      "bottom": true
+    },
+    "anything_touches_edge": true,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

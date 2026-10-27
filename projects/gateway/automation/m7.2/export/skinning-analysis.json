@@ -1,0 +1,144 @@
+{
+  "sourceHashes": {
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-assembled.blend": "e5d5bdadf31fafed416c3e919eec2f142a6d794109e0409f47b35c8c20cda193",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-working.blend": "e94b8f926330ac07f8c8dda5d828269acf015d3ed836da8b84464f7a581898f4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-idle.fbx": "ce33cb19f8db0127b312d414168c67c80ddce575ef60f8d04147562151208ef4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-walk.fbx": "cd11b0ba2434c0e575ce8f23a47eb3773367756984a1326c44946962274d7ff1",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\prepared\\m7.1\\astronaut-meshy-textures-1024.glb": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68"
+  },
+  "blender": "5.2.2 LTS",
+  "units": "Blender world units (nominal meters; no rescale)",
+  "originalInfluenceCounts": {
+    "1": 1010,
+    "2": 3645,
+    "3": 3457,
+    "4": 2512,
+    "5": 522,
+    "6": 35
+  },
+  "clips": {
+    "Idle": {
+      "sampleCount": 501,
+      "frameRange": [
+        1,
+        251
+      ],
+      "durationSeconds": 8.333333333333334,
+      "allVertexErrors": {
+        "max": 0.008771993609274473,
+        "mean": 1.8996556530277065e-05,
+        "p95": 0.0,
+        "p99": 0.0005108851766568743
+      },
+      "affectedVertexErrors": {
+        "max": 0.008771993609274473,
+        "mean": 0.00038132944087078613,
+        "p95": 0.001809729984380331,
+        "p99": 0.003737974976362671
+      },
+      "worstFrame": 56.0,
+      "worstVertex": 4251,
+      "worstVertexWeights": [
+        [
+          "mixamorig:Spine2",
+          0.11216533184051514
+        ],
+        [
+          "mixamorig:Neck",
+          0.5185296535491943
+        ],
+        [
+          "mixamorig:Head",
+          0.25378525257110596
+        ],
+        [
+          "mixamorig:RightShoulder",
+          0.08535569161176682
+        ],
+        [
+          "mixamorig:RightArm",
+          0.03016408532857895
+        ]
+      ],
+      "sourceGroundMinimum": -0.009607551704849298,
+      "fourInfluenceGroundMinimum": -0.009607551704849298,
+      "sourceRootEndpointHorizontalDrift": 0.0,
+      "sourceRootHorizontalRange": [
+        0.007791326497681439,
+        0.009156553182947391
+      ]
+    },
+    "Walk": {
+      "sampleCount": 63,
+      "frameRange": [
+        1,
+        32
+      ],
+      "durationSeconds": 1.0333333333333334,
+      "allVertexErrors": {
+        "max": 0.009300559824676063,
+        "mean": 2.1880352673746845e-05,
+        "p95": 0.0,
+        "p99": 0.0006418632993761939
+      },
+      "affectedVertexErrors": {
+        "max": 0.009300559824676063,
+        "mean": 0.0004392176359877262,
+        "p95": 0.0020520421376628165,
+        "p99": 0.004075150536574494
+      },
+      "worstFrame": 12.0,
+      "worstVertex": 9542,
+      "worstVertexWeights": [
+        [
+          "mixamorig:RightArm",
+          0.06906573474407196
+        ],
+        [
+          "mixamorig:RightForeArm",
+          0.3074798285961151
+        ],
+        [
+          "mixamorig:RightHand",
+          0.4163869023323059
+        ],
+        [
+          "mixamorig:RightHandThumb1",
+          0.09737734496593475
+        ],
+        [
+          "mixamorig:RightHandIndex1",
+          0.10969017446041107
+        ]
+      ],
+      "sourceGroundMinimum": -0.054733332251685196,
+      "fourInfluenceGroundMinimum": -0.054733332251685196,
+      "sourceRootEndpointHorizontalDrift": 1.1567372243161682e-08,
+      "sourceRootHorizontalRange": [
+        0.03042113035917282,
+        0.011731836944818497
+      ]
+    }
+  },
+  "fourInfluenceReduction": {
+    "affectedVertices": 557,
+    "droppedWeight": {
+      "max": 0.08586308360099792,
+      "mean": 0.0061174098605937316,
+      "p95": 0.030646640807390213,
+      "p99": 0.06864161789417267
+    },
+    "normalization": "Top four positive weights retained and normalized, only in this temporary scene"
+  },
+  "proposedConstantGroundOffset": 0.009607551704849298,
+  "captures": [
+    [
+      "Idle",
+      56.0
+    ],
+    [
+      "Walk",
+      12.0
+    ]
+  ]
+}

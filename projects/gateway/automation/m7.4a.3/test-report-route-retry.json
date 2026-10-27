@@ -1,0 +1,225 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Code\\porto-projects\\app-gateway-fe\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "../gateway-assets/automation/m7.4a.3/focused.config.cjs",
+      "tests/universe-exploration-layout.spec.ts",
+      "--grep",
+      "HUD preserves character"
+    ],
+    "configFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3\\focused.config.cjs",
+    "rootDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Code/porto-projects/gateway-assets/automation/m7.4a.3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "D:\\Code\\porto-projects\\app-gateway-fe\\tests",
+        "snapshotDir": "D:\\Code\\porto-projects\\app-gateway-fe\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3001",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "reducedMotion": "reduce",
+          "channel": "chrome",
+          "headless": false
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3/test-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "universe-exploration-layout.spec.ts",
+      "file": "universe-exploration-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "exploration HUD preserves character safe area at 1440px",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 32400,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\nExpected: \u001b[32m\"inspecting\"\u001b[39m\nReceived: \u001b[31m\"overview-paused\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\u001b[22m\n\u001b[2m    43 × locator resolved to <div data-ready=\"true\" data-motion=\"reduced\" data-inspection=\"false\" data-active-landmarks=\"\" data-focused-landmark=\"\" data-focus-phase=\"planet\" data-state=\"overview-paused\" data-exploration-mode=\"click\" data-orbit-seconds=\"0.000000\" data-travel-seconds=\"0.000000\" data-pause-reasons=\"reduced-motion\" class=\"universe-module__jsSY4G__scene\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"overview-paused\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\nExpected: \u001b[32m\"inspecting\"\u001b[39m\nReceived: \u001b[31m\"overview-paused\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\u001b[22m\n\u001b[2m    43 × locator resolved to <div data-ready=\"true\" data-motion=\"reduced\" data-inspection=\"false\" data-active-landmarks=\"\" data-focused-landmark=\"\" data-focus-phase=\"planet\" data-state=\"overview-paused\" data-exploration-mode=\"click\" data-orbit-seconds=\"0.000000\" data-travel-seconds=\"0.000000\" data-pause-reasons=\"reduced-motion\" class=\"universe-module__jsSY4G__scene\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"overview-paused\"\u001b[22m\n\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-exploration-layout.spec.ts:195:112",
+                    "location": {
+                      "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-exploration-layout.spec.ts",
+                      "column": 112,
+                      "line": 195
+                    },
+                    "snippet": "  193 |     await page.screenshot({ path: test.info().outputPath(`hud-tools-${width}.png`) });\n  194 |     await leave(\"Tools\");\n> 195 |     await nativeClick(page, universe.getByRole(\"button\", { name: \"Tools\", exact: true })); await expect(scene).toHaveAttribute(\"data-state\", \"inspecting\");\n      |                                                                                                                ^\n  196 |     // Keep reduced motion on this FPS entry: HUD layout has no motion-dependent positioning.\n  197 |     await nativeClick(page, universe.getByRole(\"button\", { name: \"Explore in First Person\" }));\n  198 |     await expect.poll(() => page.evaluate(() => !!document.pointerLockElement)).toBe(true); await check(\"fps-reduced\", false);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-exploration-layout.spec.ts",
+                        "column": 112,
+                        "line": 195
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\nExpected: \u001b[32m\"inspecting\"\u001b[39m\nReceived: \u001b[31m\"overview-paused\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Project Universe' }).locator('[data-ready=\"true\"]')\u001b[22m\n\u001b[2m    43 × locator resolved to <div data-ready=\"true\" data-motion=\"reduced\" data-inspection=\"false\" data-active-landmarks=\"\" data-focused-landmark=\"\" data-focus-phase=\"planet\" data-state=\"overview-paused\" data-exploration-mode=\"click\" data-orbit-seconds=\"0.000000\" data-travel-seconds=\"0.000000\" data-pause-reasons=\"reduced-motion\" class=\"universe-module__jsSY4G__scene\">…</div>\u001b[22m\n\u001b[2m       - unexpected value \"overview-paused\"\u001b[22m\n\n\n  193 |     await page.screenshot({ path: test.info().outputPath(`hud-tools-${width}.png`) });\n  194 |     await leave(\"Tools\");\n> 195 |     await nativeClick(page, universe.getByRole(\"button\", { name: \"Tools\", exact: true })); await expect(scene).toHaveAttribute(\"data-state\", \"inspecting\");\n      |                                                                                                                ^\n  196 |     // Keep reduced motion on this FPS entry: HUD layout has no motion-dependent positioning.\n  197 |     await nativeClick(page, universe.getByRole(\"button\", { name: \"Explore in First Person\" }));\n  198 |     await expect.poll(() => page.evaluate(() => !!document.pointerLockElement)).toBe(true); await check(\"fps-reduced\", false);\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-exploration-layout.spec.ts:195:112"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T08:14:46.854Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3\\test-results\\universe-exploration-layou-d8a22-aracter-safe-area-at-1440px\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-exploration-layout.spec.ts",
+                    "column": 112,
+                    "line": 195
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "585acffa9a65f563df42-c31682f7fd119c183c63",
+          "file": "universe-exploration-layout.spec.ts",
+          "line": 141,
+          "column": 7
+        },
+        {
+          "title": "exploration HUD preserves character safe area at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12568,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T08:15:20.233Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "hud-measurements",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJuYW1lIjogImxhdGVzdC1lbnRyeSIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDMzMS4xMzkxNDEzNDI5MzQxLAogICAgICAgICJ5IjogNDQyLjI2ODA0OTYzMDQzNjUsCiAgICAgICAgInJpZ2h0IjogNDI2LjMyNjg3MzUyMTcwNjY2LAogICAgICAgICJib3R0b20iOiA2MTUuMTcyMDY4Mjc3NTU3CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjYuNjc5Njg3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogOTkuNjQwNjI1LAogICAgICAgICAgImhlaWdodCI6IDQ0LjUKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb250U2l6ZSI6IDEyLAogICAgICAib3ZlcmZsb3ciOiBmYWxzZSwKICAgICAgInBvaW50ZXJFdmVudHMiOiAibm9uZSIKICAgIH0KICB9LAogIHsKICAgICJuYW1lIjogImxhdGVzdC1zZXR0bGVkIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAxMiwKICAgICAgICAieSI6IDEwMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogMzIwLjI1NTUxNzQyMTA3MDM1LAogICAgICAgICJ5IjogNDE1LjEyNTQ4OTQxOTA0MjE0LAogICAgICAgICJyaWdodCI6IDQzNC41NDQ2MjU4NjU1NTA2NCwKICAgICAgICAiYm90dG9tIjogNjY5LjIyOTExMDYwMjA1OTcKICAgICAgfSwKICAgICAgIm92ZXJsYXBwaW5nVmVydGljZXMiOiAwLAogICAgICAib3ZlcmxhcHBpbmdCb290VmVydGljZXMiOiAwLAogICAgICAiY29udHJvbHMiOiBbCiAgICAgICAgewogICAgICAgICAgIngiOiAxMiwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAxNDAuODkwNjI1LAogICAgICAgICAgImhlaWdodCI6IDcxLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogNTE3LjI4MTI1LAogICAgICAgICAgInkiOiAxMiwKICAgICAgICAgICJ3aWR0aCI6IDIyMy43MTg3NSwKICAgICAgICAgICJoZWlnaHQiOiA0My41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDMyNi42Nzk2ODc1LAogICAgICAgICAgInkiOiAzNzQsCiAgICAgICAgICAid2lkdGgiOiA5OS42NDA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNDQuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0sCiAgewogICAgIm5hbWUiOiAibGF0ZXN0LW1vdmluZyIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDIzMi41NTEyMjkzMTQyOTE0NSwKICAgICAgICAieSI6IDYxNy45NDc0MTk3NjkyMzI1LAogICAgICAgICJyaWdodCI6IDUwNy40MzEzMTUwNzMyMDIsCiAgICAgICAgImJvdHRvbSI6IDExNDQuMTAxNjk3MDU5OTA4CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjYuNjc5Njg3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogOTkuNjQwNjI1LAogICAgICAgICAgImhlaWdodCI6IDQ0LjUKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb250U2l6ZSI6IDEyLAogICAgICAib3ZlcmZsb3ciOiBmYWxzZSwKICAgICAgInBvaW50ZXJFdmVudHMiOiAibm9uZSIKICAgIH0KICB9LAogIHsKICAgICJuYW1lIjogInRvb2xzLWVudHJ5IiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAxMiwKICAgICAgICAieSI6IDEwMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogMzI3LjE3ODM1NTEwODE0MjA2LAogICAgICAgICJ5IjogMzcyLjY1MTcwMDA1OTc0NjMsCiAgICAgICAgInJpZ2h0IjogNDI5Ljk0NDQ1ODAzMDQ2NzA1LAogICAgICAgICJib3R0b20iOiA1NjEuNDU4OTY1NzM5MjU2NwogICAgICB9LAogICAgICAib3ZlcmxhcHBpbmdWZXJ0aWNlcyI6IDAsCiAgICAgICJvdmVybGFwcGluZ0Jvb3RWZXJ0aWNlcyI6IDAsCiAgICAgICJjb250cm9scyI6IFsKICAgICAgICB7CiAgICAgICAgICAieCI6IDEyLAogICAgICAgICAgInkiOiAxMiwKICAgICAgICAgICJ3aWR0aCI6IDE0MC44OTA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNzEuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiA1MTcuMjgxMjUsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMjIzLjcxODc1LAogICAgICAgICAgImhlaWdodCI6IDQzLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMzIyLjIxMDkzNzUsCiAgICAgICAgICAieSI6IDM3NCwKICAgICAgICAgICJ3aWR0aCI6IDEwOC41NzgxMjUsCiAgICAgICAgICAiaGVpZ2h0IjogNDQuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0sCiAgewogICAgIm5hbWUiOiAidG9vbHMtYmVuY2giLAogICAgImxheW91dCI6IHsKICAgICAgImh1ZCI6IHsKICAgICAgICAieCI6IDEyLAogICAgICAgICJ5IjogMTAyLAogICAgICAgICJ3aWR0aCI6IDMwMCwKICAgICAgICAiaGVpZ2h0IjogNTguMzc1CiAgICAgIH0sCiAgICAgICJjaGFyYWN0ZXIiOiB7CiAgICAgICAgIngiOiAzMjIuNTk2MjA1NzkwOTg4NywKICAgICAgICAieSI6IDM4MC43MjQ5NTU4NjczODEzNywKICAgICAgICAicmlnaHQiOiA0MjUuNTE5OTk4OTE1MTQ4NzMsCiAgICAgICAgImJvdHRvbSI6IDU2Ni43NzIyOTIxNTM3ODU3CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjIuMjEwOTM3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogMTA4LjU3ODEyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJmcHMtcmVkdWNlZCIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IG51bGwsCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0KXQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "585acffa9a65f563df42-2be8be1aecf2c14455a6",
+          "file": "universe-exploration-layout.spec.ts",
+          "line": 141,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-13T08:14:46.130Z",
+    "duration": 47133.403,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

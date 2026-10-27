@@ -1,0 +1,10 @@
+# Editable 3D sources and binary diagnostic samples from the imported collections.
+# Small web models and raster images remain in ordinary Git.
+/projects/gateway/**/*.blend filter=lfs diff=lfs merge=lfs -text
+/projects/scriptoria/**/*.blend filter=lfs diff=lfs merge=lfs -text
+/projects/gateway/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+/projects/gateway/**/*.npz filter=lfs diff=lfs merge=lfs -text
+/projects/gateway/**/*.webm filter=lfs diff=lfs merge=lfs -text
+
+# Momee layered Krita sources (editable binaries; PNG and other assets stay in ordinary Git).
+/projects/momee/**/*.kra filter=lfs diff=lfs merge=lfs -text

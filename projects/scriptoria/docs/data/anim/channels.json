@@ -1,0 +1,41 @@
+{
+ "Idle": {
+  "keys": 106,
+  "varyingChannels": 18,
+  "varyingNonRotation": [
+   [
+    "hips",
+    "translation",
+    0.024
+   ]
+  ],
+  "rootVarying": [],
+  "constantChannelsDifferingFromRest": []
+ },
+ "Walk": {
+  "keys": 31,
+  "varyingChannels": 18,
+  "varyingNonRotation": [
+   [
+    "hips",
+    "translation",
+    0.0396
+   ]
+  ],
+  "rootVarying": [],
+  "constantChannelsDifferingFromRest": []
+ },
+ "Run": {
+  "keys": 23,
+  "varyingChannels": 18,
+  "varyingNonRotation": [
+   [
+    "hips",
+    "translation",
+    0.059
+   ]
+  ],
+  "rootVarying": [],
+  "constantChannelsDifferingFromRest": []
+ }
+}

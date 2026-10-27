@@ -1,0 +1,73 @@
+{
+  "call": 2,
+  "captured_at_utc": "2026-11-16T16:35:56.620Z",
+  "tool": "Codex built-in image_gen",
+  "model": "not recorded",
+  "transparent_background": true,
+  "prompt": "Edit this exact portrait only to correct the transparency contract. Preserve the character identity, adult facial anatomy, almond eye shapes, lid creases, matte brown eyes without sparkle dots, calm closed-mouth smile, reddish-brown side-parted wavy hair, coral collared blouse, painted technique, colours, pose and framing. Do not polish or redesign.\nThe supplied PNG has a transparent background, but its figure is incorrectly translucent: most interior pixels have alpha 252 or 253 rather than 255. Make the WHOLE figure fully opaque: interior face, eyes, hair, neck and clothing must have alpha exactly 255 (100% opacity). Only the 1–2 pixel antialiased outer boundary may have partial alpha. Background remains genuinely transparent with alpha 0. No overlay, no translucent paint, no edge glow or external shadow.\nKeep the entire bust within the canvas with at least 6% empty transparent margin on left, right and top and a small margin below; no hair or blouse may touch an edge. One portrait, top of hair through upper chest, requested 1024x1280 RGBA. No text.",
+  "prompt_file": "candidate-b-premium-painted/generations/prompt-02.txt",
+  "prompt_file_sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f",
+  "inputs": [
+    {
+      "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+      "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6"
+    }
+  ],
+  "output": {
+    "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-c65f311b-bf69-4f51-aef5-e03c15214193.png",
+    "file": "candidate-b-premium-painted/generations/generation-02-original.png",
+    "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552",
+    "byte_for_byte_copy_verified": true
+  },
+  "measurements": {
+    "file": "candidate-b-premium-painted/generations/generation-02-original.png",
+    "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 588028,
+      "fully_opaque": 437,
+      "partial": 984579
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 110,
+      "y": 65,
+      "width": 928,
+      "height": 1257
+    },
+    "opaque_margins_px": {
+      "left": 110,
+      "right": 84,
+      "top": 65,
+      "bottom": 80
+    },
+    "nontransparent_bounding_box": {
+      "x": 42,
+      "y": 53,
+      "width": 1062,
+      "height": 1283
+    },
+    "nontransparent_margins_px": {
+      "left": 42,
+      "right": 18,
+      "top": 53,
+      "bottom": 66
+    },
+    "touches_edge": {
+      "left": false,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": false,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

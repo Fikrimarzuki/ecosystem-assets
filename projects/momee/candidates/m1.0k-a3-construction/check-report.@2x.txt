@@ -1,0 +1,15 @@
+PASS  canvas: 400×624 (spec 400×624)
+PASS  alpha channel: RGBA
+PASS  transparent background: 60.5% clear
+PASS  anti-aliased edges: 8380 partial-alpha pixels
+PASS  nothing cropped at the canvas edge: 0 pixels within 2 px of the border
+PASS  figure height: 580 px (spec 580 ±1%)
+PASS  soles on the ground line: sole row 607 (spec 607)
+PASS  feet centred on the anchor: feet centre x 200.0 (spec 200 ±8)
+PASS  no detached stray pixels: 0
+PASS  no baked floor shadow: 21 of 1159 bottom-band pixels look like a soft grey shadow
+PASS  head proportion: 3.43 heads (spec 3.2–3.5)
+PASS  facing (left, as accepted): IoU as drawn 0.884 vs mirrored 0.800
+INFO  silhouette agreement with accepted pose: IoU 0.884 (spec ≥ 0.90 for the same pose; a different pose needs owner judgement)
+INFO  palette (10 height bands, CIEDE2000): max ΔE00 6.7, mean 2.8 (spec ≤ 5)
+INFO  detail beyond the accepted extraction: mean residual 2.66 levels after reduction to 1.77 px/u (an enlarged cutout scores near its interpolation floor; compare with the recorded baseline)

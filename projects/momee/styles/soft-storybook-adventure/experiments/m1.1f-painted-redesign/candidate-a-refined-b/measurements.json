@@ -1,0 +1,51 @@
+{
+  "file": "candidate-a-refined-b/mom-a-v1.png",
+  "sha256": "aba391f7441c555f0d84a20c83e39f5d558208a8db777e9abf0335e62769ead4",
+  "size": {
+    "width": 1024,
+    "height": 1280
+  },
+  "png_header": {
+    "bit_depth": 8,
+    "colour_type": 6,
+    "colour_type_6_means": "RGBA"
+  },
+  "alpha_histogram_summary": {
+    "fully_transparent": 770825,
+    "fully_opaque": 9,
+    "partial": 539886
+  },
+  "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+  "opaque_bounding_box": {
+    "x": 185,
+    "y": 174,
+    "width": 616,
+    "height": 913
+  },
+  "opaque_margins_px": {
+    "left": 185,
+    "right": 223,
+    "top": 174,
+    "bottom": 193
+  },
+  "nontransparent_bounding_box": {
+    "x": 115,
+    "y": 166,
+    "width": 790,
+    "height": 956
+  },
+  "nontransparent_margins_px": {
+    "left": 115,
+    "right": 119,
+    "top": 166,
+    "bottom": 158
+  },
+  "touches_edge": {
+    "left": false,
+    "right": false,
+    "top": false,
+    "bottom": false
+  },
+  "anything_touches_edge": false,
+  "minimum_six_percent_empty_left_right_top": true
+}

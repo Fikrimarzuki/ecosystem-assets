@@ -1,0 +1,496 @@
+[
+  {
+    "test": "exploration HUD preserves character safe area at 1440px",
+    "status": "passed",
+    "samples": [
+      {
+        "name": "latest-entry",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 654.445403808422,
+            "y": 568.5876847519806,
+            "right": 776.8203279056439,
+            "bottom": 790.9430918359794
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 662.6796875,
+              "y": 474,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "latest-settled",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 640.1871161026379,
+            "y": 533.7322562125705,
+            "right": 787.128801372041,
+            "bottom": 860.437417646433
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 662.6796875,
+              "y": 474,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "latest-moving",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 478.88752331075267,
+            "y": 873.3825774973826,
+            "right": 923.8826068139301,
+            "bottom": 1754.3367088118466
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 662.6796875,
+              "y": 474,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "tools-entry",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 649.1230736390986,
+            "y": 479.11466680817506,
+            "right": 781.2433211322125,
+            "bottom": 721.8757113206726
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 658.2109375,
+              "y": 474,
+              "width": 108.578125,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "tools-bench",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 643.2240237549485,
+            "y": 489.49049817605504,
+            "right": 775.5561008247387,
+            "bottom": 728.7071507493145
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 658.2109375,
+              "y": 474,
+              "width": 108.578125,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "fps-reduced",
+        "layout": {
+          "hud": {
+            "x": 24,
+            "y": 112,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": null,
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 24,
+              "y": 22,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 1177.28125,
+              "y": 22,
+              "width": 223.71875,
+              "height": 43.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      }
+    ]
+  },
+  {
+    "test": "exploration HUD preserves character safe area at 768px",
+    "status": "passed",
+    "samples": [
+      {
+        "name": "latest-entry",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 331.1090074632062,
+            "y": 442.2686759945486,
+            "right": 426.2971296747903,
+            "bottom": 615.1724561631129
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 326.6796875,
+              "y": 374,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "latest-settled",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 320.2563632903439,
+            "y": 415.12518830154124,
+            "right": 434.54462224535087,
+            "bottom": 669.2291091813254
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 326.6796875,
+              "y": 374,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "latest-moving",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 236.19015985354727,
+            "y": 616.7471299002641,
+            "right": 506.54677147592724,
+            "bottom": 1159.746350675117
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 326.6796875,
+              "y": 374,
+              "width": 99.640625,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "tools-entry",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 327.2060474299172,
+            "y": 372.6449220587432,
+            "right": 429.9663459363521,
+            "bottom": 561.4589002827786
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 322.2109375,
+              "y": 374,
+              "width": 108.578125,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "tools-bench",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": {
+            "x": 322.59557910430004,
+            "y": 380.72525071644316,
+            "right": 425.51937302779976,
+            "bottom": 566.7722899359707
+          },
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            },
+            {
+              "x": 322.2109375,
+              "y": 374,
+              "width": 108.578125,
+              "height": 44.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      },
+      {
+        "name": "fps-reduced",
+        "layout": {
+          "hud": {
+            "x": 12,
+            "y": 102,
+            "width": 300,
+            "height": 58.375
+          },
+          "character": null,
+          "overlappingVertices": 0,
+          "overlappingBootVertices": 0,
+          "controls": [
+            {
+              "x": 12,
+              "y": 12,
+              "width": 140.890625,
+              "height": 71.5
+            },
+            {
+              "x": 517.28125,
+              "y": 12,
+              "width": 223.71875,
+              "height": 43.5
+            }
+          ],
+          "fontSize": 12,
+          "overflow": false,
+          "pointerEvents": "none"
+        }
+      }
+    ]
+  }
+]

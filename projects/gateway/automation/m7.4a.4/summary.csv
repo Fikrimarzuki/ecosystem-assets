@@ -1,0 +1,9 @@
+route,mesh_samples,framing_failures,max_projected_overshoot_px,final_tail_failures
+latest-normal,55,0,0,0
+latest-crossbar,90,12,24076.147502799435,0
+latest-directions,82,0,0,0
+latest-collision-hold,98,5,1511.5797483458134,0
+tools-entry-normal,53,0,0,0
+tools-bench,107,0,0,0
+latest-crossbar-turns,98,15,8932.290088684611,0
+latest-blocked-and-exit,131,11,24631.831757190008,0

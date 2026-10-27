@@ -1,0 +1,158 @@
+{
+  "milestone": "M1.0j-B",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetIds": [
+    "extract.mom.three-quarter.accepted.v1-2",
+    "working.mom.accepted-layered.v1"
+  ],
+  "input": {
+    "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+    "sha256": "c06cd9abccb81155abd8491b35917125a8e171ffc28b19132f2811f2343e69f7",
+    "crop": [
+      470,
+      162,
+      280,
+      532
+    ],
+    "note": "read-only; the sheet file is byte-identical after extraction"
+  },
+  "toolVersions": {
+    "node": "24.21.0 (extraction and tiering; app-momee scripts/assets png.mjs and the keyImage algorithm, no new dependencies)",
+    "krita": "5.3.4.1 (git bd6e8d0) via krita_mcp 1.0.0, PyQt5 5.15.11 (layered working source, study, sheet)"
+  },
+  "method": [
+    "Crop the main ¾ figure panel region.",
+    "Flatten the sheet's own alpha (if any) over the panel colour measured as the median of the crop's 3 px border ring [254, 251, 243].",
+    "Key the panel background with app-momee's keyImage algorithm (border flood fill at tolerance 12, speck removal, 2 px edge band unmixed per pixel against the best 7×7 figure colour, unexplained pixels kept opaque).",
+    "Clear owner-reviewable enclosed background gaps from explicit seeds listed in candidates/m1.0j-construction/mom.params.json (pocketNotes).",
+    "Separate the baked ground shadow: flood only from the outer background into near-neutral warm darkening of the panel colour in the bottom 12% band; move it to its own layer.",
+    "Never alter opaque figure pixels (verified: 0 of 69481 changed).",
+    "Native canvas = whole-pixel translation onto a padded canvas with the feet anchor centred (no resampling).",
+    "Tiers = one uniform premultiplied area-average downscale onto the M1.0i canvases/anchors (Boy 160×224 / 320×448 at (80,216)/(160,432); Mom 200×312 at (100,304)). Never enlarged."
+  ],
+  "parameters": {
+    "name": "mom",
+    "sheet": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+    "crop": [
+      470,
+      162,
+      280,
+      532
+    ],
+    "tolerance": 12,
+    "shadowBand": 0.12,
+    "pockets": [
+      [
+        142,
+        444
+      ],
+      [
+        66,
+        94
+      ],
+      [
+        53,
+        142
+      ],
+      [
+        222,
+        168
+      ],
+      [
+        224,
+        112
+      ],
+      [
+        36,
+        202
+      ],
+      [
+        218,
+        198
+      ],
+      [
+        137,
+        469
+      ]
+    ],
+    "pocketNotes": [
+      "slit between the trouser legs",
+      "gap between left hair locks",
+      "gap between left hair locks",
+      "gap at right hair edge",
+      "gap at right hair edge",
+      "gap between left hair locks",
+      "gap at right hair edge",
+      "slit between the trouser legs (lower)"
+    ]
+  },
+  "report": {
+    "name": "mom",
+    "crop": [
+      470,
+      162,
+      280,
+      532
+    ],
+    "background": [
+      254,
+      251,
+      243
+    ],
+    "veilPixels": 0,
+    "tolerance": 12,
+    "borderPx": 73808,
+    "pocketPx": [
+      63,
+      57,
+      56,
+      50,
+      47,
+      36,
+      27,
+      63
+    ],
+    "shadowPx": 2265,
+    "specks": 2,
+    "unmixed": 3856,
+    "fallbackOpaque": 82,
+    "unexplainedOpaque": 676,
+    "cleared": 11,
+    "figureBounds": [
+      27,
+      6,
+      237,
+      519
+    ],
+    "figureHeightPx": 514,
+    "figureWidthPx": 211,
+    "feetAnchorPx": [
+      134,
+      519
+    ],
+    "opaquePixels": 69481,
+    "opaqueChanged": 0,
+    "edgePartialPixels": 2994
+  },
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-construction/",
+    "files": {
+      "extract2.mjs": "19a341fde3b70a6e1a604dc18ba19888e4faa15d36815fd6ee90e1554e8a2849",
+      "tiers.mjs": "fceb6cfa5a1c90e882696db2408b9515cbb932a657451c566c2116de5f326e2c",
+      "working_kra.py": "5a2740ac58359c8cfbb858dc029c602aaf7f9509285682bb720576296f73ce63",
+      "mom.params.json": "0fcc184d17b36d270cf1bd8e28e334c4bc34f17cb6dc2b386944de07156b3ca5",
+      "mom.extract-report.json": "bf767fb075282922c59862e760aed5f761eed22a58dc561499151125c2b00c97",
+      "mom.tiers-report.json": "c1a3be3424ccd976a756edfba205c0c4413bc653591a7b47fb7a1a227c8c3e9a"
+    }
+  },
+  "knownLimitations": [
+    "Ground shadow is approximated as one warm tone with alpha from darkening; faint paper variation inside cleared gaps is not reproduced (recomposite error only in cleared background).",
+    "A few 1 px light flecks remain at thin hair-tip edges; faint light halo along edges on very dark backgrounds (invisible on the room's light colours). Manual cleanup layer provided.",
+    "Native resolution 1.77 px/u at 290 u: below the @2x tier (2 px/u); no @2x export produced."
+  ],
+  "externalArtworkUsed": "The accepted reference sheet only.",
+  "generativeModelUsed": "None in M1.0j-B (no pixels generated or repainted).",
+  "rightsStatus": "unverified (inherits the reference sheet's unverified rights)",
+  "approval": null
+}

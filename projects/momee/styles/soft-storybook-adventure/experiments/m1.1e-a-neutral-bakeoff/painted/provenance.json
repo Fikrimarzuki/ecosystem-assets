@@ -1,0 +1,318 @@
+{
+  "tool": "Codex built-in image_gen",
+  "codex_cli_version": "codex-cli 0.167.1",
+  "model": "not recorded",
+  "date": "2026-11-15",
+  "rights": "unverified",
+  "status": "experimental candidate for owner review",
+  "visual_review_status": "not visually successful yet",
+  "deliverables_complete": false,
+  "generation_calls_used": 1,
+  "generation_calls_cap": 6,
+  "edit_calls_used": 0,
+  "prompts": [
+    {
+      "call": 1,
+      "verbatim": "Use case: illustration-story\nAsset type: Momee M1.1e-A Gate A experimental painted neutral Mom bust.\nPrimary request: Reconstruct the Mom in reference image 1 (Candidate B portrait) as one painted head-and-shoulders portrait, Candidate B one step more mature.\nInput images: image 1 is the primary Candidate B style, pose and framing reference; image 2 is B's enlarged eye-design reference tile, not a high-resolution source; image 3 is Mom's master identity neutral bust; image 4 is Mom's master full figure for identity only. These are reference images, not edit targets. The main Candidate B portrait is only 294 px wide; fine facial detail must be informed reconstruction.\nScene/backdrop: genuine transparent alpha background, no background wash, no checkerboard drawn in.\nSubject: one warm adult mother, front-facing relaxed neutral expression, eyes open, a calm small closed warm smile. Long, loose, wavy reddish-brown hair with a side part toward viewer's right and a swept fringe, asymmetrical overlapping wave masses; coral-peach pointed blouse collar.\nStyle/medium: same warm simplified Soft Storybook Adventure painted illustration as Candidate B. Smooth soft painted shading, subtle warm gradients, soft thin brown outlines with varied weight and a stronger silhouette, broad hair gloss that follows the waves. No paper-grain texture.\nComposition/framing: exactly B's main portrait pose and framing, top of hair down to upper chest, full crown visible with a small clear margin, shoulders at the bottom, centred bust. Request 1024 x 1280 PNG, transparent background.\nFace and eyes: eyes about 10–15 percent smaller relative to the face than B, more almond-shaped with a flatter lower lid, brown irises partly hidden beneath the upper lid, visible delicate upper-lid crease; soft lashes with no spikes or curls. One subdued soft eye reflection, no anime sparkle. Slightly longer oval face and softer jaw than B, natural adult proportions, soft cheeks, minimal nose mark. Keep the warm gentle Mom identity.\nConstraints: one portrait only. No text, watermark, border, expression frames, layer separation, rig, animation, props, jewelry or added accessories. Avoid doll-like proportions, circular sticker eyes, sharp lashes, mirrored hair curtains, plastic circular highlights, flat generic vector fills, heavy makeup, realism or a dramatic age change. Preserve genuine transparent alpha.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-portrait.png",
+        "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-eye.png",
+        "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/master-mom-neutral-bust.png",
+        "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/master-mom-figure.png"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "inputs/candidate-b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "crop_xywh": [
+        541,
+        191,
+        294,
+        351
+      ],
+      "method": "pngjs lossless pixel crop; no resampling"
+    },
+    {
+      "path": "inputs/candidate-b-eye.png",
+      "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "crop_xywh": [
+        541,
+        730,
+        112,
+        109
+      ],
+      "method": "pngjs lossless pixel crop; no resampling"
+    },
+    {
+      "path": "inputs/master-mom-figure.png",
+      "sha256": "7b0403d389aec0b47844ddce7cdc2c126efb4f22f2859c9d71dd73d2c5510c33",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+      "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "crop_xywh": [
+        600,
+        27,
+        181,
+        376
+      ],
+      "method": "pngjs lossless pixel crop; no resampling"
+    },
+    {
+      "path": "inputs/master-mom-neutral-bust.png",
+      "sha256": "ba01d583eba6ca3db2076b7afd4359bf7f0fbf0482f6941a13fd7c8e61e1ef96",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+      "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "crop_xywh": [
+        986,
+        66,
+        104,
+        106
+      ],
+      "method": "pngjs lossless pixel crop; no resampling"
+    }
+  ],
+  "read_only_consulted": [
+    {
+      "path": "projects/momee/styles/soft-storybook-adventure/docs/mom-visual-spec-v1.md",
+      "sha256": "15bad5a371cd87fdc99e7ffb4a87fe879ad22c2370955a82910c6ccbf91c7e30"
+    },
+    {
+      "path": "projects/momee/styles/soft-storybook-adventure/characters/mom/exports/mom-head-v1.png",
+      "sha256": "127c31422f2d4c07c17a2c5eebd0cbfe2d41b8f4556808f30829ef651d8396f1"
+    },
+    {
+      "path": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1c-eye-component/eye-component-test-comparison.png",
+      "sha256": "b6c855fed1b3735b9e221d0ef760339f4934821dfa30ea6edded294fe5ef6704"
+    },
+    {
+      "path": ".agents/skills/momee-character-art/references/style-guide.md",
+      "sha256": "03db75ff05578f146a98d7b83ac9bb8e65b68a00e7c0913565aaeb40cb70adca"
+    },
+    {
+      "path": ".agents/skills/momee-character-art/references/facial-design.md",
+      "sha256": "8316294745a7de570f2e2e353637d8e85b8e48a4d39572bf0003fd83539c9f26"
+    },
+    {
+      "path": ".agents/skills/momee-character-art/references/visual-review.md",
+      "sha256": "330e6591918e3b05036e28b50518bf78b3626fb35701fa3d1c0d67719aa55cb5"
+    },
+    {
+      "path": ".agents/skills/momee-character-art/scripts/compare-sheet.mjs",
+      "sha256": "e4872a9f7d019e7d2e14c0a9928d6f58fcca8bcacc179f5c3e2e3601563a2a5d"
+    }
+  ],
+  "generated_outputs": [
+    {
+      "id": "generation-01",
+      "source_path": "/Users/mfm/.codex/generated_images/01a1dca5-4092-73a1-8a06-0453c2931cf2/exec-ae267bf9-59f6-473f-919e-036e351d7669.png",
+      "path": "generations/generation-01-original.png",
+      "sha256": "69cddba99205a6329d9af87007c7e625590cf5972a9f39dd56cc0921d54c03e9",
+      "copy_verified": true,
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "model": "not recorded"
+    }
+  ],
+  "selection": {
+    "output": "generation-01",
+    "derived_contract_output": "mom-neutral-painted-v1.png",
+    "reason": "Sole output retains warm Mom identity cues, loose side-parted reddish-brown waves, coral collar and closed neutral smile, with a longer adult face and flatter eye openings. Storage selection is provisional; primary comparison sheets were blocked and no visual-gate pass is claimed.",
+    "rejected_outputs": [],
+    "rejected_identity_drift": "None: no rejected outputs.",
+    "selected_identity_drift": "More tapered chin, stronger lip and nose modeling, pointed outer lashes and brighter textured hair gloss than B. Requested exact eye-size reduction is unverified."
+  },
+  "derivation": {
+    "source": "generations/generation-01-original.png",
+    "output": "mom-neutral-painted-v1.png",
+    "method": "Full-frame bilinear scale only, premultiplied-alpha interpolation; no crop, repaint, matte removal, defringe, sharpening or retouch",
+    "scale_xy": [
+      0.9126559714795008,
+      0.912981455064194
+    ],
+    "aspect_ratio_change_percent": -0.035650623885907784,
+    "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+  },
+  "outputs": [
+    {
+      "path": "README.md",
+      "sha256": "c5fd5d5d9539aec90f196d788dfa08189f236c00559d5f23b1e7a8f4e4862f34",
+      "bytes": 9186,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "derive-and-inspect.mjs",
+      "sha256": "8d67435703f3ffb14eaaecb6baf0bdee2412fa244f860ca9f17b6b06cfee3ff6",
+      "bytes": 2974,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "generations/generation-01-original.png",
+      "sha256": "69cddba99205a6329d9af87007c7e625590cf5972a9f39dd56cc0921d54c03e9",
+      "bytes": 2059776,
+      "kind": "unmodified generated original"
+    },
+    {
+      "path": "generations/generation-01.json",
+      "sha256": "edc18b2cd3d13ab6fbf592954e512f81073b1e43b9b12d2f8bf186367576e6f1",
+      "bytes": 392,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "generations/prompt-01.txt",
+      "sha256": "167f2392793496a38e95a8ef69c6f9304f301e7a99c7f6b627c0595c2e9bddae",
+      "bytes": 2398,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "inputs/candidate-b-eye.png",
+      "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b",
+      "bytes": 19251,
+      "kind": "derived image"
+    },
+    {
+      "path": "inputs/candidate-b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53",
+      "bytes": 174828,
+      "kind": "derived image"
+    },
+    {
+      "path": "inputs/crops.json",
+      "sha256": "ce14260f087a0d565519519d6f2cba9329aac4709c798259f981f05dc71afb91",
+      "bytes": 2100,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "inputs/master-mom-figure.png",
+      "sha256": "7b0403d389aec0b47844ddce7cdc2c126efb4f22f2859c9d71dd73d2c5510c33",
+      "bytes": 111985,
+      "kind": "derived image"
+    },
+    {
+      "path": "inputs/master-mom-neutral-bust.png",
+      "sha256": "ba01d583eba6ca3db2076b7afd4359bf7f0fbf0482f6941a13fd7c8e61e1ef96",
+      "bytes": 23753,
+      "kind": "derived image"
+    },
+    {
+      "path": "mom-neutral-painted-v1.png",
+      "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78",
+      "bytes": 1539972,
+      "kind": "derived image"
+    },
+    {
+      "path": "review/alpha-dark.png",
+      "sha256": "e780f349d01a553bfda338f9f2b5c2689bb7c1679d293875fd1c1ca41ed715cb",
+      "bytes": 1475763,
+      "kind": "derived image"
+    },
+    {
+      "path": "review/alpha-histogram.json",
+      "sha256": "3f502a1b305024b3af81603b4a280a3fdc996dab449c9b189f81f06423a026f3",
+      "bytes": 3171,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "review/alpha-white.png",
+      "sha256": "6de33180cc8a275530b434cb03a6d5f95da41d65d25153de3edad8db0c671dbc",
+      "bytes": 1504491,
+      "kind": "derived image"
+    },
+    {
+      "path": "review/candidate-eyes.png",
+      "sha256": "1781196c26160bcde89da4304867485ce0a4b774a3f6f4a6682670f25ca3b06b",
+      "bytes": 133522,
+      "kind": "derived image"
+    },
+    {
+      "path": "review/compare-sheet-attempts.json",
+      "sha256": "690f8c9ed09e4b575099d40692396065149f44c271b53bf55a2944832130bfd0",
+      "bytes": 5996,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "review/measurements.json",
+      "sha256": "b8baa9bbbeba65d86111a708a4db2aa241ac9047789dced15a6910ba9128920b",
+      "bytes": 2127,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "session-end.json",
+      "sha256": "141659ac3e7186fbc02a2cc9e9fa17bdf3d98bfb3cc47b54a7a2b4806ebc00ab",
+      "bytes": 343,
+      "kind": "documentation or reproducibility record"
+    },
+    {
+      "path": "session-start.json",
+      "sha256": "d2a48aa4d758c958f036938c5079daf6b6a1019d80876b3fbfc62d472e246c2b",
+      "bytes": 292,
+      "kind": "documentation or reproducibility record"
+    }
+  ],
+  "review": {
+    "primary_heights": [
+      256,
+      144
+    ],
+    "secondary_height": 720,
+    "eye_detail_height": 360,
+    "comparison_columns": [
+      "B portrait crop",
+      "Mom v1",
+      "painted candidate"
+    ],
+    "comparison_sheets_created": 0,
+    "attempts": "review/compare-sheet-attempts.json",
+    "blockers": [
+      "Existing Chromium cannot launch from shell sandbox: bootstrap_check_in MachPortRendezvousServer Permission denied (1100).",
+      "Alternate Node tool probe failed loading a module: requested module ./index.js does not provide export default."
+    ],
+    "no_installation_attempted": true,
+    "alpha": "Transparent corners; most interior alpha is 253. Thin warm/light hair rim seen on white/dark diagnostics; no broad white matte halo. No alpha correction or defringing. Primary-size fringe review blocked."
+  },
+  "git_status": {
+    "start": {
+      "ecosystem-assets": "?? projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/\n",
+      "app-momee": "",
+      "ecosystem-skills": ""
+    },
+    "end": {
+      "ecosystem-assets": "?? projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/\n",
+      "app-momee": "",
+      "ecosystem-skills": ""
+    }
+  },
+  "safety": {
+    "arm_was_absent": true,
+    "writes_outside_arm": "Only the built-in tool default generated_images original, explicitly requested by workflow; task-authored files stayed in painted.",
+    "sibling_svg_written": false,
+    "manifest_written": false,
+    "installs": false,
+    "cli_fallback": false,
+    "other_api_calls": false,
+    "git_mutations": false
+  }
+}

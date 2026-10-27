@@ -1,0 +1,101 @@
+{
+  "milestone": "M7.1",
+  "status": "Local preparation only; licensing unverified; not approved for publication or runtime integration",
+  "source": {
+    "path": "D:\\Code\\porto-projects\\app-gateway-fe\\public\\models\\astronaut\\astronau-meshy-optimized.glb",
+    "sha256": "617b433793e29abcd3e2a98e49e19da13bc984aaa439bb82e4aae9477029928a",
+    "bytes": 15912208
+  },
+  "candidate": {
+    "path": "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\prepared\\m7.1\\astronaut-meshy-textures-1024.glb",
+    "sha256": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68",
+    "bytes": 3833488
+  },
+  "tools": {
+    "node": "v24.15.0",
+    "sharp": "0.34.5",
+    "vips": "8.17.3"
+  },
+  "metrics": {
+    "meshes": 1,
+    "materials": 1,
+    "textures": 3,
+    "vertices": 11181,
+    "triangles": 10357,
+    "animations": 0,
+    "skins": 0,
+    "bounds": {
+      "min": [
+        -0.6439319849014282,
+        -0.9510710835456848,
+        -0.3759309947490692
+      ],
+      "max": [
+        0.6403000354766846,
+        0.9470850825309753,
+        0.3710640072822571
+      ]
+    }
+  },
+  "textures": [
+    {
+      "name": "normal",
+      "mimeType": "image/png",
+      "source": {
+        "bytes": 3783121,
+        "width": 2048,
+        "height": 2048
+      },
+      "candidate": {
+        "bytes": 1287000,
+        "width": 1024,
+        "height": 1024
+      },
+      "filtering": "Lanczos3 channel filter + unit-vector renormalization"
+    },
+    {
+      "name": "texture_0",
+      "mimeType": "image/png",
+      "source": {
+        "bytes": 4418632,
+        "width": 2048,
+        "height": 2048
+      },
+      "candidate": {
+        "bytes": 1312224,
+        "width": 1024,
+        "height": 1024
+      },
+      "filtering": "Lanczos3 linear-light color filter"
+    },
+    {
+      "name": "texture_0_metallic_roughness",
+      "mimeType": "image/png",
+      "source": {
+        "bytes": 7288762,
+        "width": 4096,
+        "height": 4096
+      },
+      "candidate": {
+        "bytes": 812580,
+        "width": 1024,
+        "height": 1024
+      },
+      "filtering": "Lanczos3 channel filter"
+    }
+  ],
+  "geometryBufferHashes": [
+    "274c188758d41998e54a9f4d3264d32d3a7e8176b8d6e5219071adc349edb7dc",
+    "96ba2fd714ebbe4959df3a315ca3f795e262ea7161b1b86998ccc5512cc86d2d",
+    "2a10c17c229d9e37f85637fa1143618a953db16d5a7e02ff6e2317a4ff402c55",
+    "69e9374fd0ca4ee9f8dbb3ecc94511f5c73b43d74051e85189d5bae99865f949"
+  ],
+  "verification": {
+    "originalHashUnchanged": true,
+    "geometryBytesIdentical": true,
+    "materialDefinitionsIdentical": true,
+    "semanticJsonIdentical": true,
+    "imagesDecoded": true,
+    "glbChunksAndBufferRangesValid": true
+  }
+}

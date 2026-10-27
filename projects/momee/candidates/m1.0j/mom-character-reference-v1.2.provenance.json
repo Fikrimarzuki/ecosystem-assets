@@ -1,0 +1,35 @@
+{
+  "assetId": "ref.mom.accepted-sheet.v1-2",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0j-B",
+  "file": {
+    "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+    "sha256": "c06cd9abccb81155abd8491b35917125a8e171ffc28b19132f2811f2343e69f7",
+    "bytes": 2053859,
+    "format": "PNG, 1536x1024, 8-bit RGB (colour type 2, no alpha), non-interlaced",
+    "colourSpace": "sRGB (sRGB chunk; sips reports sRGB IEC61966-2.1)"
+  },
+  "metadata": {
+    "pngChunks": "IHDR, sRGB (perceptual), eXIf (80 bytes: Orientation 1, PixelXDimension 1536, PixelYDimension 1024), iTXt XMP (tiff:Orientation 1 only), IDAT, IEND",
+    "c2pa": "none (no caBX chunk)",
+    "generatorMetadata": "none present"
+  },
+  "content": "Reference sheet titled 'MOMEE · Mom Character — 3/4 View Candidate (v1.2)': v1.1 vs v1.2 comparison, final ¾ candidate (main figure), ¾ expressions (neutral/happy/talking), close-ups (face, eye, hair, clothing), height comparison with a Boy figure (2.5 vs 3.3 heads), turnaround (front, ¾, side, back), bedroom integration mock-up, and 'Key changes from v1.1' / 'Key style traits' text panels.",
+  "generation": {
+    "tool": "not recorded",
+    "model": "not recorded",
+    "prompt": "not recorded",
+    "seed": "not recorded",
+    "date": "not recorded (file mtime is a copy time, not a creation time)",
+    "attachedReferences": "not recorded",
+    "observation": "Sheet layout and labels match the M1.0i review-sheet conventions and quote M1.0i outputs (scale 200u/290u, 2.5/3.09 heads, 'Comparison with procedural v1'), so it was most likely produced with an image tool from M1.0i material. This is an inference, not a recorded fact."
+  },
+  "lineage": [
+    "ref.character-master-v1 (the sheet states 'Consistent with approved master')",
+    "Mom v1.1 (shown on the sheet; no file in the workspace)"
+  ],
+  "ownerDecision": "Mom v1.2 accepted as the Mom visual direction (owner, M1.0j-B brief, 2026-10-24). Not production approval.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit, re-export or re-save. Derivatives live elsewhere and cite this SHA-256."
+}

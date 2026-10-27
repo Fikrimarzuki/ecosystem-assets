@@ -1,0 +1,12 @@
+{
+  "savedIdleCurvesIdentical": true,
+  "savedSkinGeometryUvWeightsIdentical": true,
+  "savedBoneRestMatricesIdentical": true,
+  "savedTextureBytesIdentical": true,
+  "textureSha256": {
+    "texture_0": "3d7f4fb3fe6b522d4ee95343d4789d6750ba46115e90e3f82b4718101102012e",
+    "texture_0_metallic_roughness": "5370b50c50c889b9905a2e137ef9bc21987cbf05f6d7b998368f72d1851a526f",
+    "normal": "846aaa38810c512dcd4f05a27c45874267202a4d7c5fa0328cddd3188fc7e2ae"
+  },
+  "fileHashesUnchanged": true
+}

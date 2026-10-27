@@ -1,0 +1,1754 @@
+[
+  {
+    "file": "projects/momee/.DS_Store",
+    "sha256": "1ca0a53f5cef884006990be673e1aa1f4dab3468108ba2f701365b67cf12e5a3"
+  },
+  {
+    "file": "projects/momee/README.md",
+    "sha256": "713344c2ff143123903ee71b56e9b1c04cb88ed2cc9aed1cd44117a4858db28a"
+  },
+  {
+    "file": "projects/momee/candidates/.DS_Store",
+    "sha256": "b55a447ce95e755beca6f47cff4a2806ad00d97f9563cc1b9555ed8c8e041bdd"
+  },
+  {
+    "file": "projects/momee/candidates/characters/.DS_Store",
+    "sha256": "e7939c58cef809df23ee2395f8340ca6e31aa74d58b44226749b485a8800fa28"
+  },
+  {
+    "file": "projects/momee/candidates/characters/boy/boy-accepted-clean-v1.provenance.json",
+    "sha256": "d9a85fc7ec07022c5781d0cfc88d60b24107a504e283d176e4ec2bf9fdc1410e"
+  },
+  {
+    "file": "projects/momee/candidates/characters/boy/boy-accepted-extract-v1.provenance.json",
+    "sha256": "de5f038037102babcae6d9e2be635e34febfe1752cda7e10040c0d163466dd66"
+  },
+  {
+    "file": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json",
+    "sha256": "ac8218acbccc66d043f510c79dbe2604266119507cbf084d577a459f191bc73f"
+  },
+  {
+    "file": "projects/momee/candidates/characters/boy/boy-front-head-probe-v1.provenance.json",
+    "sha256": "36793f0859046fe6c96e91b003b5838e80089e5e5dfe3da58813558490575f3e"
+  },
+  {
+    "file": "projects/momee/candidates/characters/mom/mom-accepted-clean-v1.provenance.json",
+    "sha256": "3f181b28ed5ad2dd4ff5191bb04955908693203a6eb981982983d5de887804e7"
+  },
+  {
+    "file": "projects/momee/candidates/characters/mom/mom-accepted-extract-v1.provenance.json",
+    "sha256": "b9520b7e1569eb868b601a5fb03f09037479e797c96761c469a27dc9c8ac38ad"
+  },
+  {
+    "file": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json",
+    "sha256": "233f90e26e524e520998ea60af6e974c49358116df836f5982a74ea0364984a0"
+  },
+  {
+    "file": "projects/momee/candidates/characters/mom/mom-head-pilot-v1.provenance.json",
+    "sha256": "bae8dd2427868a38587482dbddd17c0913868f0e29787337382c99b04d21d8fd"
+  },
+  {
+    "file": "projects/momee/candidates/characters/mom/mom-master-candidate-v2.provenance.json",
+    "sha256": "6dbf7ab1a3dbda819614dd8c5219c8d0d008866995fe7917e2e7df2c62dd6d2b"
+  },
+  {
+    "file": "projects/momee/candidates/icons/morning-flower-v1.provenance.json",
+    "sha256": "80bf00eafb94cf08e27d45f9b4ffbe2aa4e21fa9b929731cdaec1bd054bdf61c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/bedroom_layout_data.py",
+    "sha256": "2f2c8260dc9096f459b3bee165068b49c5ef553760059d12172e6e1674b2eccd"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/bedroom_study.py",
+    "sha256": "c2b01ebcdbc2025fb9db4dad6324e89c041bd13bc4ac1436eb32437a80902dbc"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/calibration_sheet.py",
+    "sha256": "76a06bd3ef83b56bfb5b57491af3bd9229a69d0c15910b1afec826836873d3ad"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/frame.mts",
+    "sha256": "7b905d91b2a6fe036b205f781557bf1af6225240d243dde814fd20a3772e1653"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/frames.json",
+    "sha256": "488e70471c10091e595c1669c83171add545cbbf85b74244266dc99eaed0dec2"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/kpaint.py",
+    "sha256": "3a71e030f31637cf615d4b8a3e4ffcc118c3266887d60270822b1d83145ab80f"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/layout2py.mts",
+    "sha256": "d2002df9927c0de44026cb0c74cb84d6a4a840229dee2362a626095d8c16025e"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/pillow_v2.py",
+    "sha256": "4c785bd97c58938953c38c94898e9aaeee193fcaa3158b640ffc104921c3a548"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/preview.py",
+    "sha256": "51199b380d39638adfeca4f400fbd01b228ca7ec1bef5016b96b75bb0c72ad1d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/scale_study.py",
+    "sha256": "285e9dd132c42a9269df8ce54e64e8196fb9593067a22ddadd0fe8975cd631d1"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0g-construction/shots.mjs",
+    "sha256": "d08eb000e4b1d4168ca36f8f47c2a9a00ee97411330a48d183e626dceb4a8f3c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/bedroom_layout_data.py",
+    "sha256": "2f2c8260dc9096f459b3bee165068b49c5ef553760059d12172e6e1674b2eccd"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/bedroom_study_v2.py",
+    "sha256": "1c523b3d2397fbfbaac02aecfe44e3d71c12b242fd31b8ca81ea73b8d1ecbd40"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/comparison_sheet.py",
+    "sha256": "4d27d8851cfb8c4991edac5364c2f42c16cdb9ed4ac883fa4645448ae2776724"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/kpaint2.py",
+    "sha256": "53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/pillow_v3.py",
+    "sha256": "be2b3322566634f79ed2d89a39dbd8d0f7d13d2d0f05a25623bc3dda027fd86d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0h-construction/preview.py",
+    "sha256": "51199b380d39638adfeca4f400fbd01b228ca7ec1bef5016b96b75bb0c72ad1d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/bedroom_chars.py",
+    "sha256": "214269367bd46fc1ac150df2d16aac96a4605e99e2b83dae16c734e4a873bbe0"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/boy_head_probe.py",
+    "sha256": "474d368ab4866d11bb413953f378da792828a820d885d68f62b759c5617f79c7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/charpaint.py",
+    "sha256": "7a1bd4348dbcb93bbe62b892d6d8cfe178446eb80f035e38dc1bbb1c680b6d9d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/chars_v1.py",
+    "sha256": "955b167fc8e1f4418d337268cecc9730fac85f7f99fd9af57a6dfa2662d2f609"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/fidelity_sheet.py",
+    "sha256": "de40e9711b51119d85b0a05b68e818d05da74f74bc9581dc6c62ee0b6cb6eb8c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0i-construction/review_sheet.py",
+    "sha256": "379f9f320869c435677b0bca7eb2d0b52f38e81ea7aa2f08fb1207f7f1b35aae"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+    "sha256": "7d1a5aa47c1af41b205a638f56f5a5901146bd600f25f194fb50d0e2221f3c03"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j/character-reference-v1.provenance.json",
+    "sha256": "361207e0c1e75395132ac379e942280d9da8690fa149f59e1b90ad64c7342c1e"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+    "sha256": "c06cd9abccb81155abd8491b35917125a8e171ffc28b19132f2811f2343e69f7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.provenance.json",
+    "sha256": "fc6c8d11821c0eba77b73f931f9ddc9758035a9bc9c101fe719adb76e6a9d9db"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/analyse.mjs",
+    "sha256": "c2cd35852b5230ab665ea14f49e0cb8431727498b6c3e63433fa4287427a5151"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/boy.clean-tiers-report.json",
+    "sha256": "d3b03ae4c24f59f12ad81e184f0dc3091afcf5ea464ded9e7f06f8159a94841b"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/boy.cleanup-report.json",
+    "sha256": "bb62c2eed06d323a849927058ed5fcbe742c948ab12edb75ad1fe8a50a07b86a"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/clean.mjs",
+    "sha256": "66aa21b2001c9c97a2a090947b62a593df16e85bf266072afddf3698afe5e794"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/edges.mjs",
+    "sha256": "895c6d081dbcd70fe81e0d2c45ff93f9ea8781c1a73274d295d81f2417a1f428"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/mom.clean-tiers-report.json",
+    "sha256": "c5e6100112354df2a4b6f0d13f38d771552229b8628492d437e7c98df982e0b5"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/mom.cleanup-report.json",
+    "sha256": "a590c8226305370fdb8c2b7c1b8a1f5a5705e9d69ff9a6b6936ee21bb4068191"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/scale-report.json",
+    "sha256": "825eac43c0fcb8e6943733daa050f6daaf734dcd77eb584973aacdf3df6a28de"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/scale.config.json",
+    "sha256": "2a23fada5417e87dcc200c721a8e936471919ff51ebfaa5a8e5aa6e51400941a"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/scale_renders.mjs",
+    "sha256": "1f38743a9e4e998ca1c29e71202dd753d40022ea1a607d3090df9c673d803005"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-c-construction/sheet_jc.py",
+    "sha256": "f520bf96724bc7a03a7d71bad0854512efc606abae890ed7795dd25366adfd3a"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/boy.extract-report.json",
+    "sha256": "80427756feb1f3d4dcb52cb6697ccf00e90620dc94ad479a183c1a536927adc0"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/boy.params.json",
+    "sha256": "be7677e5c522811227d82e920625391e88ebf531751b8b9cc9a2a181d795a5e3"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/boy.tiers-report.json",
+    "sha256": "69ee5cac5eeb4c7e15764b269404923da14be2de5072c0e5da290f3826aeee68"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/extract2.mjs",
+    "sha256": "19a341fde3b70a6e1a604dc18ba19888e4faa15d36815fd6ee90e1554e8a2849"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/mom.extract-report.json",
+    "sha256": "bf767fb075282922c59862e760aed5f761eed22a58dc561499151125c2b00c97"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/mom.params.json",
+    "sha256": "0fcc184d17b36d270cf1bd8e28e334c4bc34f17cb6dc2b386944de07156b3ca5"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/mom.tiers-report.json",
+    "sha256": "c1a3be3424ccd976a756edfba205c0c4413bc653591a7b47fb7a1a227c8c3e9a"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/sheets_j.py",
+    "sha256": "b7a383651bcfcaac1873db6c2e4724e76841a36b76f9851d4387a864258a631c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/tiers.mjs",
+    "sha256": "fceb6cfa5a1c90e882696db2408b9515cbb932a657451c566c2116de5f326e2c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0j-construction/working_kra.py",
+    "sha256": "5a2740ac58359c8cfbb858dc029c602aaf7f9509285682bb720576296f73ce63"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png",
+    "sha256": "01af644ed2f98abc4dab93a42e5d1754d9ac12098dc852544d8b37f9a6b10508"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.provenance.json",
+    "sha256": "bb7af7eff3a9f75ad163072ac40a163b6b91d0c88bd4bf4c307a83b119e88611"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png",
+    "sha256": "9c4f58d72da49f5acf6b2438db2e52042da5bdd19078890ad32b3596cb3fda1b"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.provenance.json",
+    "sha256": "9ed167ada096f87136689e6fd97a725af757a14672b74c97538ecaef53fefbfa"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/check-report.txt",
+    "sha256": "93d35ec1400ff780728d12a31c8e13637c2cc72f9a5e16052580db5b79b13cf3"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/deglow-report.json",
+    "sha256": "b2fbd423bdecd0e94db5671d6409aef1198bfcaa15b0555eb7f34252cdbf0a25"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/deglow.mjs",
+    "sha256": "2c6652bb28c936b8347fa0dec6cf0b201eaca5ffe1ee1e87773c0003b5708b26"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/identity-measurements.json",
+    "sha256": "705cf509bc1f7ec67d73bb851111b399c55c80a03a7d4d9d8fbd2e4aa1587380"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/palette.mjs",
+    "sha256": "a2f076e7292e665b09d678b20a2cbc408b40283706badc1efffdb1986903335f"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/place-report.txt",
+    "sha256": "ac8277c78c133cc0e2332e2c2ba93c190739c3e8ab0a073278abbdf6c1e5d628"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/scale-report.json",
+    "sha256": "00233eb51b44429b08bc15370178f76bbae76c5cadb179fcfe5e49f51f5f7832"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/scale.config.json",
+    "sha256": "3788baa44b978a6420cc434cfaf59ad01c90664681f040ffea968b075d0064ec"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a2-construction/sheet_k2.py",
+    "sha256": "48f7df5dd88edcbfab3f09fa2ebd072af9b57c2d6385390051644724c073f8c9"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/check-report.@1x.txt",
+    "sha256": "d0bd3d84512084065e97bdab91fe171fdcda876e89ec5a989824b3f331865aa1"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/check-report.@2x.txt",
+    "sha256": "540310bae0360ef2a70304e96d9de9be3de2d11b66f341d414a529de06ab509a"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/check-report.txt",
+    "sha256": "09e5c799842e5b8f8e7ff17eaaa40b0726b00dc36066ecd16080c53912c786f8"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/deglow-report.json",
+    "sha256": "4798dd4dee4577bab3f15d20dc3348f55c19669d641f3af4e96572a967d2ada7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/edge-qc.txt",
+    "sha256": "81b5c98962c290c24cc44e2f0125c9f4141b4475e38b22b40c6a95a79e10ab13"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/edgeqc_k3.mjs",
+    "sha256": "733ceba0af4713bb07d7026cf02c00245fc02f6f7f4fa9999099935204524037"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/headfacing.mjs",
+    "sha256": "4b2b42c6449de3aea84c9e3f02e294d4faa3d8e993051ec113bebb567b0627f5"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/identity-measurements.json",
+    "sha256": "fd5abd46e1e4a067d5956b790b822ba535041f51732305c3d8110580fc9fb238"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/place-report.txt",
+    "sha256": "dbedb26451c3a2fef4fcaf0166350e5671c8fc98ae8a66b7f9bb8c30e65880f0"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/scale-report.json",
+    "sha256": "ff6d432c228fdb347306a62a6f4acc8ac9d730f179f2ced5beb3fd383a70bb80"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/scale.config.json",
+    "sha256": "a21888c646b5ebe6b6159c689b611a069eebd9c1fb90b4a408653c98bdc4d175"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/sheet_k3.py",
+    "sha256": "7ba68ce524982d6b836b40dcb5785538bfd0da834aec889250a8fe654c7a591e"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/spec8.json",
+    "sha256": "870bc51e41d12da95398ea8d936404c76e8cfda1e17db13747bdc21111109f7d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/tiers-report.txt",
+    "sha256": "5e4c9f9bbf49510fc173d70d85dfc7755fc410ef92c4e9a547a97478ed29e892"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/tiers_k3.mjs",
+    "sha256": "96066761cbc6efa77f9f9ad6098241b7980dbe424ba8f5dd79177900a3a8ea67"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0k-a3-construction/working_k3.py",
+    "sha256": "18137dc8811c5ca335a3af86319ba2f57c8f20b6e078e7fa980fd17ee4f03527"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/extract-report.json",
+    "sha256": "6f1fd6ca04f99d4ca5c07c53559c98e74add03e9305861485363472852620ee0"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/extract_l1.mjs",
+    "sha256": "baafc9994a73ca47cb961a2cf57909378707839da599c5fcc65064b9afaf38fc"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/base.png",
+    "sha256": "b73aaa2bcbb179265a4ffaefebee90f467a6ae165fe1c775e95c233906d40989"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/body-skin__neck-visible.png",
+    "sha256": "2a02849d7389d509ccee058d5972d2a40c9a38cbba8d46add4d2254d402c5991"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/composite.png",
+    "sha256": "097b7b42fcc0ec5582fccdd0bf0397173e144813201af413bd9acef7e44e7220"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/face-brows__neutral__brow-far.png",
+    "sha256": "d71d4ea4c426432d17a29c8d9234bbb63792210f518c4a9e45f0de0f78f0020f"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-far.png",
+    "sha256": "a1877a07888bded5fc995a4776e71b4931c4ab1e7c58664805dddda3efe0ba78"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-near.png",
+    "sha256": "66c61fddad9fbad1b92241c4a9c422d52f77ee630f60ca245061a4fdb68b0a3f"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/face-mouth__neutral.png",
+    "sha256": "76e18f1e348476de1987231d9689d10e94d43446e60c09403de17bdc732f751c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/head-skin__base.png",
+    "sha256": "79fdafc78d28f975350d7c3df97fad4d0d3b75640a226e7e4be5a1c106040f8f"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/layers/label-map.png",
+    "sha256": "87290ebb10ac408f0c9b28e709e06851deb19b2b2e5515dc9f53613a01c173ec"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/masks.json",
+    "sha256": "2885793587091dc32f1d4d675ecd0ab19cdb3e8fbe6d8685cc34b5eafc75fb9c"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review-data.json",
+    "sha256": "cceb8e936f566900ac6f08526372ac873f4c21971b2372afda931a12a91c0c76"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review-panels/difference-head.png",
+    "sha256": "2f5420a3dcad6032b47917a4aa59bbbd4564225992e34af4e35f8a0d2adc7a9d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-1-attachment-footprints.png",
+    "sha256": "1f29a84d9b4e44c366cab02fa0f3a90afc73fb2cc5441c51d430fda388149e14"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-2-neck-extension.png",
+    "sha256": "7cf6ce359e8b92289513905e45d7302b10eefbe12d10e89e5da762a850a765c3"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review-panels/missing-3-not-separable.png",
+    "sha256": "47b92f9f3f62238210b08dc35bac6cf62c87680daa0cddcdc670ada2960ef511"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/review_l1.mjs",
+    "sha256": "8419000d369ab286914196e54fedd351026194de3a729874ba8171b00d3a8f69"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/sheet-data.json",
+    "sha256": "61fbdba0986dc3815aa31fc9961ffddd6ac4561003629186edc58f69ea42750d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/sheet_l1.py",
+    "sha256": "278b1e2aa5547c2ed2cfff6fbcd382ee9b94ebb4f6d5aa9d0c2eaa66feb7d6af"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a1-construction/working_l1.py",
+    "sha256": "ca702f10e0f6e7d470dc971083ca623f2081ca4376a6926489de508c828b19e0"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/analyse_l2.mjs",
+    "sha256": "9b1e246efde9247eadf8dea34bdd9d172ec64ba6eb270535e924dcaef65db846"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/analysis.json",
+    "sha256": "4b90e3685b02d8a0f62da512ede39d687d725de7cb69474b96efabd571c189cf"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/master-v2-downscaled-x0.36.comparison.png",
+    "sha256": "789f2cde3bf432b55a9ea29e7ca3fe070dba60fbab238f9acc11e4f42e0ec25d"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-brow-raised.reference-only.png",
+    "sha256": "2cb0e4bc9a91ed78efa4f9ac593f1dbebb7bd438f1c312dc37426eb256f48719"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-closed.reference-only.png",
+    "sha256": "c7f1eadd7a654b64e31083662edad5ee91716c1a929316081bc9e71dc50fdfce"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-half-a.reference-only.png",
+    "sha256": "21f67e5e01a306dde6f92c9b17bb008cd58ef2ee3f22703ff8402bbccd97e7c7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-half-b.reference-only.png",
+    "sha256": "6bf203d19145ed5b7eb4cc0e43ecb2822d04f52672d8eed664af9bedbdfa7182"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-open-a.reference-only.png",
+    "sha256": "18841a12517ad5e083fbfb195da4e08de1e555b74197280fc7c44c929a2eda93"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-eyes-open-b.reference-only.png",
+    "sha256": "2892638683df76d6df69ae690456bd2d63517a538ae7e53b160a2b65d641a6f9"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-neutral.reference-only.png",
+    "sha256": "d4bf572c795b576e9e70414bcb8981c6ec7c0f794347c9207a89f7929899fa93"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-small-open.reference-only.png",
+    "sha256": "6dc808df9ca057b4ad0c3775dea7eb06b38b897aae461238746653480a841e74"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/reference-crops/thumb-mouth-wide-open.reference-only.png",
+    "sha256": "77646688488b5e236ca2abcc3cf2ac89b0e5a31cce7d09b331389a307d1a3d35"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a2-construction/sheet_l2.py",
+    "sha256": "bdff092784351179e01f4ce69ef2d7bcdf9fb1f2fc94250990902da538baa3a7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.png",
+    "sha256": "499872619181049b8160cacaa541cccfde25f095870a674ac620eb681598b162"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.provenance.json",
+    "sha256": "d06b2080bad80bd26c2c72cb97bbb87a8cb0f81734d7cedd89d41361c23e8849"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/analyse_l3.mjs",
+    "sha256": "f8ba39afadb7dfb16c12a0bd6cf0b8a9aaa34503ecb79761911896ed5050c366"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/analysis.json",
+    "sha256": "1f09981af9aece439828e9f4ed1c9ce7ca2fa323e232bb5962f40c4179b6fd05"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/calibrate_l3.mjs",
+    "sha256": "ea122949760113ed6fee40321e23c472f8a381f84d0811494e1e4370873a85c6"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/composite-test.failed.master-canvas.png",
+    "sha256": "3f8f0e017018eae172d27edf5cb76204fe4229a053921623a802346f3045d7a6"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/composite.json",
+    "sha256": "308c500f2531a8b3354ca04f1cd10313f9fbfb1594cf49af9f0f971571e042d2"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/composite_l3.mjs",
+    "sha256": "4e02cf8af29d115cf3979349bee0edef99a78cb145a65438bb7f727a2a7cf818"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p2-open-closeup.reference-only.png",
+    "sha256": "1c4ab770405ebeff41cdc4ad73d62eb2ddb037b5aecacd8a64e5f7eab9ccd3fb"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p3-closed-closeup.reference-only.png",
+    "sha256": "bc2cb9a49635f8c23e71c6b99e58d23400bf49a3ddb051048438540298da0e93"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p3-fitted-x0.81-on-master-canvas.reference-only.png",
+    "sha256": "52c510bed59296e14f2551c4665f5206cd3d2fd7203c4d39777723fa2d1f6299"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p4-closed-crop.reference-only.png",
+    "sha256": "518dc8f7fda455abaf85a8b71ebdfc2cd123f4f3f31b0643b46d598b395f7bc7"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p4-open-crop.reference-only.png",
+    "sha256": "9377a965aeb042a860a160eef0151fe415a296ef01e11b3c0f49430b4cfb5ca6"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p6-overlay.reference-only.png",
+    "sha256": "1fe94124d3f77545d740e4de1d0a4d1ad1cfe81bb9ac22cd785af28fd582dba6"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p9-closed-detail.reference-only.png",
+    "sha256": "178ef4f8c9d42518447a626f81431d78caa6f06b2f21846c0356e4822248b533"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/reference-crops/p9-open-detail.reference-only.png",
+    "sha256": "4eb86b59d1359dced4f9e63c33afc1909c1227fbb6ebd8964e3f7452f49d41c6"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/sheet-data.json",
+    "sha256": "80182cb967083bf98db43443bbcbeb7742f59ee20c84965d73958951ee5daa62"
+  },
+  {
+    "file": "projects/momee/candidates/m1.0l-a3-construction/sheet_l3.py",
+    "sha256": "26baec4b2594b587bc9708031cbbf01bd0efd7ee97469c81bb28359f2932bc6a"
+  },
+  {
+    "file": "projects/momee/candidates/rooms/bedroom/pillow-v1.provenance.json",
+    "sha256": "9db5a13fcdbbe0f2326ab6c8ca7eda0e4f3b700d3d2ff8bfcaf186dbea7a591e"
+  },
+  {
+    "file": "projects/momee/candidates/rooms/bedroom/pillow-v2.provenance.json",
+    "sha256": "9b8a440a6fc5f2a0b24655d20bd1363201b4b28bd8d304bed576215e66864b09"
+  },
+  {
+    "file": "projects/momee/candidates/rooms/bedroom/pillow-v3.provenance.json",
+    "sha256": "67d285655df5e3f357d3e80d84d7f6f40030a2eb682b539202a2184e7e6c94bd"
+  },
+  {
+    "file": "projects/momee/candidates/studies/accepted-characters-review-sheet-v1.provenance.json",
+    "sha256": "efd6cac3e46d05ca4752cdc29d0921468c5325b6c1bf6287547d021ed7ad189e"
+  },
+  {
+    "file": "projects/momee/candidates/studies/bedroom-accepted-characters-v1.provenance.json",
+    "sha256": "d3a7a77301facb8106d925a232c3479ff68a391ad9f4d8e4301079ab1b6052b5"
+  },
+  {
+    "file": "projects/momee/candidates/studies/bedroom-character-integration-v1.provenance.json",
+    "sha256": "751b8afc9518088f9fb622bd2a682ae9228bd6325d127b572e5edf70029857df"
+  },
+  {
+    "file": "projects/momee/candidates/studies/bedroom-composition-study-v1.provenance.json",
+    "sha256": "b316c4b8997e3c84c3f59977cbe4c1f08004b1d43c4d9b315e333c4274ff366e"
+  },
+  {
+    "file": "projects/momee/candidates/studies/bedroom-composition-study-v2.provenance.json",
+    "sha256": "f411346856fea4caac42b59c3d6b30370f65fd37125df05f6a8c681ba3970a89"
+  },
+  {
+    "file": "projects/momee/candidates/studies/bedroom-refinement-comparison-v1.provenance.json",
+    "sha256": "ff29e343ee9866f4a45f7ded7badf211eb487b6c9664e93c67f76bf4869c4af5"
+  },
+  {
+    "file": "projects/momee/candidates/studies/character-fidelity-assessment-v1.provenance.json",
+    "sha256": "40a5a6fc593e621fac005768208821821cec975f8f9fef4aad74fa1a3c14b2a0"
+  },
+  {
+    "file": "projects/momee/candidates/studies/character-review-sheet-v1.provenance.json",
+    "sha256": "4869a107c2b7ecf689f88b5d9ba37b1beb6e93583a43fc18778678825c8fd7d6"
+  },
+  {
+    "file": "projects/momee/candidates/studies/character-scale-accepted-v1.provenance.json",
+    "sha256": "a44b6874602e86517dd53091c31d7b5734d1de139dc66019281ea3f19504e6fc"
+  },
+  {
+    "file": "projects/momee/candidates/studies/character-scale-study-v1.provenance.json",
+    "sha256": "16597e2164487b7d29587ed912e85afe78bd83fbd8040737b38ff7def1cb8b11"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-closed-eye-intake-v1-review.provenance.json",
+    "sha256": "76302161412f337c35a19fb24a3f84572e6240a739f6e9a548136373058df3e4"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-facial-animation-concept-v1.provenance.json",
+    "sha256": "8d122d29c6629b68ee9e7adfdeb1c432046500f4f0b659cb50ec0ab06ee7552d"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-facial-concept-intake-v1-review.provenance.json",
+    "sha256": "43ce6c6d9a1583cb6d330e138d5c2b26143118f69d8b33df296abd823ee30cdc"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-head-pilot-v1-review.provenance.json",
+    "sha256": "00dd4d2f19af2e4d593d9607066c971a999e484c4414c96361b3f7b1f620d385"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-master-candidate-v2-review.provenance.json",
+    "sha256": "836a937733508212ef6a0e7790a4f6019fd7a3a4f6831e02e02f3ace37e67338"
+  },
+  {
+    "file": "projects/momee/candidates/studies/mom-master-intake-review-v1.provenance.json",
+    "sha256": "18d813d60aa9583d7732a7aec3858143b53d8a426d3a42ff3f715d1d08af4e15"
+  },
+  {
+    "file": "projects/momee/candidates/studies/visual-calibration-sheet-v1.provenance.json",
+    "sha256": "50a866d7539397bf245091d87c998a5139a6162b4ff462ecf8e6835e13a3b325"
+  },
+  {
+    "file": "projects/momee/character-master-spec.md",
+    "sha256": "efc990067cce83c93dbd8688c653577f8f003cb6a33bcaf22f9186dbe6c84cfd"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-happy.v1.@1x.png",
+    "sha256": "8b398ac3cf50ec8fee9bd2da8c219c7244cf576e04211fcf4d12e2d483d30fe1"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-happy.v1.@2x.png",
+    "sha256": "659ae1777f1513508fd50a99d785730136151af3f43fba282cb3d5cde8a954d3"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-neutral.v1.@1x.png",
+    "sha256": "84ac9a7a4b967eb6161ca47b24865ec0e66204fb0019b2103973198986fdc595"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-neutral.v1.@2x.png",
+    "sha256": "e979766f0da68bba77cd93e1efadbf02b714a4acecd0ca7eb40252eadbb90554"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-talking.v1.@1x.png",
+    "sha256": "4a6f507b3acf3e388ea0deafa00fc924c682ebf9c6ea1c16be055e1041639e8d"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-front-talking.v1.@2x.png",
+    "sha256": "bb96bd0bac2c49b19920f23313e6eaf0b953d4bdebbc135bae42ae6df5f67009"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-accepted-clean.v1.@1x.png",
+    "sha256": "efadedb3f82cc930bcf6531f0ae5759850c2cd6b3198dd780843f5fca95a21ba"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-accepted-clean.v1.@2x.png",
+    "sha256": "27f4dbfd419f2e7bc7bbb0c43ec9252356c0134d8e1769ac2243cc9911cc371f"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-accepted.v1.@1x.png",
+    "sha256": "a9d54d361cc5889235ac594c18f8f7a77c380af43cdc4b1eaeccefbdf00c8cc3"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-accepted.v1.@2x.png",
+    "sha256": "dec2efc74d9073d9d498ddcb62f64ebccf484d5cec9ec929f9ec836b76dcb62d"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-happy.v1.@1x.png",
+    "sha256": "ab358a362e75126fbcfbb6ea8c6f26879ae65a06eddfcc7c30f50aa1012f1dcc"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-happy.v1.@2x.png",
+    "sha256": "4ddcd3f4d57d8114d51dd80270f95a5dd0da84f27d59baf8c4388a1388238d72"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-neutral.v1.@1x.png",
+    "sha256": "06a0d79aa41e22d44187ce477fec737ec778479fac07aa4592c1cf5912d50685"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-neutral.v1.@2x.png",
+    "sha256": "117d0abfbf5a7157b98173f697a9b6681f284adb98b2d0f7e98de3398a8a0423"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-talking.v1.@1x.png",
+    "sha256": "6e1f40ae8933d8b3394766da7c117f07f5391daf333432a49882c8b5b8058492"
+  },
+  {
+    "file": "projects/momee/exports/characters/boy/boy-three-quarter-talking.v1.@2x.png",
+    "sha256": "0d9af1a40c563e6799eac06d55b695b648b8cd3aa705dae5a12b3045c5695618"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-happy.v1.@1x.png",
+    "sha256": "8917cf49ec83bb46b162ee53f464e3995db5657f2f88f664ff95fc85c3f4fc0f"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-happy.v1.@2x.png",
+    "sha256": "eea4288841894fb13040f55681aced1e8096ac558fe862b78e974c07d9e6796f"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-neutral.v1.@1x.png",
+    "sha256": "782928eed449cca971c57c32b605974ad459233607639f10d9ee5c59d48ba158"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-neutral.v1.@2x.png",
+    "sha256": "1a21d82ec255b68fa262f1b4de7e2f064cd91576dda0f1a120fd6d12ace7b030"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-talking.v1.@1x.png",
+    "sha256": "136eb805dacb0f966e30df168fd14b75e57eb399e6928f5e09cd7e50a81b429c"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-front-talking.v1.@2x.png",
+    "sha256": "fe8b50984f7eaf1d2322bec78696d90ad1d91065ca2676e3bd84500454619a18"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-accepted-clean.v1.@1x.png",
+    "sha256": "9ae0b9a4d0f6e3620338f71a9abb53a953981c522d8659101098c40151b687ae"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-accepted.v1.@1x.png",
+    "sha256": "6324e56f02447589562b003e4968a421f228235b010eb83d0c7bd9bb5b06726a"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-happy.v1.@1x.png",
+    "sha256": "6d271a44ebb2f7b1a968bd623cb8eea2cc67424d64d9cd162b7a269492f208d0"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-happy.v1.@2x.png",
+    "sha256": "2c2e11bb7947cbce981f10e8192adb02836e7fddf1ab618b6d1e8201b5e7ab7c"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@1x.png",
+    "sha256": "692d96f901187f66266551e1691181903e71601b5175ccefe1936f943e230cbc"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@2x.png",
+    "sha256": "fdd9834eea41b02e6e37cc34cb9533cca548a4f4153faf71eec6bb9bd2dc7e54"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-neutral.v1.@1x.png",
+    "sha256": "63a89ed54e4b98d1640e2952376136f619109f14a0f465f1138c19ca7b1e5c14"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-neutral.v1.@2x.png",
+    "sha256": "35f4d9053f821b7390359af5d92b81b41a51bc100347d159e5ab67da87153d4f"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-talking.v1.@1x.png",
+    "sha256": "1226f4872e218b14880b5acb90e3e64f5953b8be9cd494f3c25abc0c2d34d3cd"
+  },
+  {
+    "file": "projects/momee/exports/characters/mom/mom-three-quarter-talking.v1.@2x.png",
+    "sha256": "d78cb7a63e47229dcf960d8b32c421f9f605437889f119b924a23d1b39e2c559"
+  },
+  {
+    "file": "projects/momee/exports/icons/morning-flower.v1.@2x.png",
+    "sha256": "2b6346d6c955b9f394ec23254e6bdb0ff9fb73b947b471cc60ea8c5958ad2318"
+  },
+  {
+    "file": "projects/momee/exports/icons/morning-flower.v1.svg",
+    "sha256": "1d73de8366f6925095e5a9f25d9fe0d49ea6112fc4da9f52d4bf7a8f9ef30ec3"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v1.@1x.png",
+    "sha256": "42bcf58b885eb4186ac3497d633eba8a9409c5a195ff2b2f243132467fcb2aea"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v1.@2x.png",
+    "sha256": "14eda24ff480fbc50a253405b7ccefbfbf2d7a783214db9ffef6e6d434d80479"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@1x.png",
+    "sha256": "6909e46cdd4a928f88eb3cae5d1fae373ee936a966533a3655a7411bb355ce8b"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png",
+    "sha256": "9bc90ae0e62243d141bf605e885708ad9454cdb45c8020876d5295245f2a6ae7"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@1x.png",
+    "sha256": "edea621f71c5a8934e346a7b776c8f957b26d2298d9e139e3d9c01f480d4a673"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@2x.png",
+    "sha256": "448f1e605f4bad1a8f0aa9ae41e70912c052315af0c47f9b8ea2869d69efe606"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v1.@1x.png",
+    "sha256": "bb36a7a0d12a541afe4a25146b3dc197de51a9e3d30411d95cfa664c63bffe72"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v1.@2x.png",
+    "sha256": "9a012a5d7b471e7ee2f65edca0cd45256b45f17238c58b7abbf9fe6b633ae51c"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@1x.png",
+    "sha256": "21ce0e78eb5a4800bbfdd252d71099507b71096c44828cab0358739be9d7888b"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png",
+    "sha256": "cdc6bfea98075eefd8066e51ff38caa1949b4abf63bb7f78a608cfa505ac1d4e"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@1x.png",
+    "sha256": "483278d3ee0b0e0d9b7a7f07d09d4f6ed26bde432dfbc91015ec02e505b649be"
+  },
+  {
+    "file": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@2x.png",
+    "sha256": "196bd27ca8da4199000270653b013fc1779543717c6db0ee96e7bb912a9dbee4"
+  },
+  {
+    "file": "projects/momee/m1.0f-art-pipeline-pilot.md",
+    "sha256": "90eef73186f135b16f579cbb1edbc8d01be3015a1dd207922b8f37af8e49bd1d"
+  },
+  {
+    "file": "projects/momee/m1.0g-visual-calibration.md",
+    "sha256": "247ea5ec1470fe4837494f1b19f148de0e76b1595715c8ebec4cb1418fb687de"
+  },
+  {
+    "file": "projects/momee/m1.0h-bedroom-refinement.md",
+    "sha256": "1a1be6a0051540d0d5fa1eeaff332700bfcea95b0a6550d12c8baf77814742d0"
+  },
+  {
+    "file": "projects/momee/m1.0i-character-foundation.md",
+    "sha256": "7758876fc209d3d2b170b825b7085c05537264077a4b471817852fa66b1f8fec"
+  },
+  {
+    "file": "projects/momee/m1.0j-b-character-asset-preparation.md",
+    "sha256": "8cb2b229a46e731345f5cb063f9416014e6d6f8893db41f0baca450192506a6e"
+  },
+  {
+    "file": "projects/momee/m1.0j-c-character-master-readiness.md",
+    "sha256": "fddadb2bfb1a12bea258d1d0524c30d33b25daf8a3b9921464f100be4ef0837f"
+  },
+  {
+    "file": "projects/momee/m1.0k-a-mom-master-feasibility.md",
+    "sha256": "ef5289b986caba7034dbaa99e78770f4ef5dcb70454a2d6b74fd3ef45f9625ad"
+  },
+  {
+    "file": "projects/momee/m1.0k-a2-mom-master-intake.md",
+    "sha256": "d90acc9e35fdcf50332d1032f1770c5f797d838ad879bb7447b2efcccda60e3a"
+  },
+  {
+    "file": "projects/momee/m1.0k-a3-revised-mom-master.md",
+    "sha256": "eee8f0eb6ee8387883f0ebd94983c52d0333f9457a5f438f6f3b0ada723f1544"
+  },
+  {
+    "file": "projects/momee/m1.0k-a4-mom-visual-acceptance.md",
+    "sha256": "4fc5112c7fa0bc66c781568cd7706994bbbb02a7bf9f36b7d04fec5f3189982e"
+  },
+  {
+    "file": "projects/momee/m1.0l-a-mom-animation-handoff.md",
+    "sha256": "75157547c670815689315e67241b2a209e6004a8dde77adcb798b8d31fb06031"
+  },
+  {
+    "file": "projects/momee/m1.0l-a1-mom-head-layers.md",
+    "sha256": "42f2cded5ad87864e0789efc385f75bd74febea781b92373cbd3b8e9644c04a9"
+  },
+  {
+    "file": "projects/momee/m1.0l-a2-mom-facial-concept-intake.md",
+    "sha256": "efaaf2f62f4895b9117bc24c2a2f11565328e96788f6e888c465cc63af0365c3"
+  },
+  {
+    "file": "projects/momee/m1.0l-a3-mom-closed-eye-validation.md",
+    "sha256": "ddca757263fe88a04db630d0395711c6b70871918bb0139bbc73b4951a2d45cc"
+  },
+  {
+    "file": "projects/momee/manifest.json",
+    "sha256": "4d6f6aa2f254284f752ad1ad4b73aff10324685714f95dfc645b9bc3c1b0524d"
+  },
+  {
+    "file": "projects/momee/pillow-pilot.md",
+    "sha256": "126cf4cfceb3de3765e103c78cd92e328d32b5ed03b201cc3878aab88b30531b"
+  },
+  {
+    "file": "projects/momee/recovery.json",
+    "sha256": "7798b7e5c34c59b55c355d722fafa2b1c8ae4b355c49f900786363286955dc1c"
+  },
+  {
+    "file": "projects/momee/review/.DS_Store",
+    "sha256": "463b837cce726d2f3e84412c1b239b55b4b66ae256dc0bff266d17c5bcded11e"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/bedroom-composition-study-v1.annotated.@1x.png",
+    "sha256": "74d758a30ccb87ac12bf75e58391ce14aa77eef7aefbc0134d3fcf18c0f2c669"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png",
+    "sha256": "5b57cb8b923be23799f8b3181946d04552ce503f563b139633b444c98d352700"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/bedroom-composition-study-v1.room-only.@1x.png",
+    "sha256": "fb4415611a6eb4fcd5211905c62092b72aa73d265372c864cab7d1bff6940289"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/character-scale-study-v1.png",
+    "sha256": "7a894fdd81f4ccbcfbff17b3689d267b2a36d8686be19b4b7c85732c9c870f62"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/inputs/placeholder-bedroom-free-play-1280x800.png",
+    "sha256": "8abf9df0e83a2baa559f01321944cd5e0edf7058f7e0155b53a177abae718e4b"
+  },
+  {
+    "file": "projects/momee/review/m1.0g/visual-calibration-sheet-v1.png",
+    "sha256": "bbd050328ce00fb11fd6a637259d6e9797d18272aadfc2599052654f220bc298"
+  },
+  {
+    "file": "projects/momee/review/m1.0h/bedroom-composition-study-v2.annotated.@1x.png",
+    "sha256": "fb941aef8b57a81f8b6a19912c5730ce8b4b07ada16ed205c6358257f767f11e"
+  },
+  {
+    "file": "projects/momee/review/m1.0h/bedroom-composition-study-v2.png",
+    "sha256": "0ed49d332d017ea30d0e445b21db88e7f1c720732bbce09d5620800769778f1d"
+  },
+  {
+    "file": "projects/momee/review/m1.0h/bedroom-composition-study-v2.room-only.@1x.png",
+    "sha256": "93341d6e449cb8097862665357d736631148db3c24df4c0cbb4e0c0dde49778e"
+  },
+  {
+    "file": "projects/momee/review/m1.0h/bedroom-composition-study-v2.unmade-pillow.@1x.png",
+    "sha256": "95512c027438a9b7bba3e03d7cf3423ba8a6307c748ecf5277dfe15f33ee4ad1"
+  },
+  {
+    "file": "projects/momee/review/m1.0h/bedroom-refinement-comparison-v1.png",
+    "sha256": "f1753aa2e44e2f51e7c9c4e027b457e27dd74d4ead7a149d7c794a7cce75dece"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/bedroom-character-integration-v1.png",
+    "sha256": "538a3fdeaa19a85294b238fbcc45ee26895352339c6bde9481f1fbbd762029a7"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/boy-front-head-probe-v1.happy.png",
+    "sha256": "f5251fe0e260816e21a51df84efeaec2b0a3bd60b493565b338aa9cd1bbd0ef2"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/boy-front-head-probe-v1.neutral.png",
+    "sha256": "b6ec855cd598c98b61867b712763e830d66cab864436313c9390898a7a92d097"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/boy-front-head-probe-v1.talking.png",
+    "sha256": "044a79d48c1bcbd1a95ad253a0ae18cb837e27c43c4c82651c9d6602bce5f0bd"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/character-fidelity-assessment-v1.png",
+    "sha256": "6632cc25217fca80e8f19e6e27c1224463ba547149c4943078c3bedcc4ee9a01"
+  },
+  {
+    "file": "projects/momee/review/m1.0i/character-review-sheet-v1.png",
+    "sha256": "2ffeeb84026afc5e313c57d80e121e1b15ddbcdf1670948661747ebd997c117f"
+  },
+  {
+    "file": "projects/momee/review/m1.0j/accepted-characters-review-sheet-v1.png",
+    "sha256": "183e2b2e84c82d34e5af739c5345c713933cceedb313cc93e269b4b46fdfb059"
+  },
+  {
+    "file": "projects/momee/review/m1.0j/bedroom-accepted-characters-v1.png",
+    "sha256": "00df294aa42e060c72021d78105df4e54941a6752fd46a6738628bc06915b454"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/bedroom-full.@1x.png",
+    "sha256": "aa11051414115f7deaab73d7e89baf7f5d0f8537d8b68650e836eb921c939341"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/character-scale-quality-v1.png",
+    "sha256": "aa1c020f0441e9d75c390ae625e798d69bb2f756753cc4cb4976030fb143c25d"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/desktop-1280x800-overview.png",
+    "sha256": "86e36d7bde50eeeca3510c4cd371b67ef46c6f947290bed8ce9a085311efca1b"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/lineup.@1x.png",
+    "sha256": "b658caf000abb67efd1e398f89c1a73705c0195633913024db3bca533e828bc5"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/phone-landscape-844x390-child-and-mom.png",
+    "sha256": "e568bc6d605067fe912af69fa9856dfe2e5016eaf7e0b52ad611e996bd88dd53"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/phone-landscape-844x390-overview.png",
+    "sha256": "5e750fdeb8c9ea93c3ea1ac5c93ede1321a40b9974cdc173966ff5c420b40cfe"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/phone-portrait-390x844-child-and-mom.png",
+    "sha256": "1e1d4243feef011f5776e913fbe37f00ee43eed99a334b4fd693dc0bf70d4a67"
+  },
+  {
+    "file": "projects/momee/review/m1.0j-c/phone-portrait-390x844-overview.png",
+    "sha256": "349960ecd828b2c07f4ecb6884b1f45493467adb49d148f2f58a1a79331af95a"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/bedroom-full.@1x.png",
+    "sha256": "b186465561951b4abe27132b5759a46452dd6599e0eee9054128ec4e10497f53"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/desktop-1280x800-overview.png",
+    "sha256": "76e6660c0cd212539a4f10fc41f524137b6f85723bd1d1f860c0c82d40547a47"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/mom-master-candidate-v1.placed-800x1248.png",
+    "sha256": "4c875806b826d08b0b0f359225c92d99391a75ebbb1d6397a04952bbca7b0505"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/mom-master-intake-review-v1.png",
+    "sha256": "2714f4a53f22912f2e9ba6ef6127926c5aec4e40c6d157a61aae006c244a75d2"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/phone-landscape-844x390-child-and-mom.png",
+    "sha256": "43b18fa44548cf67519827023ee38b1a644bc77d36bb3633a86f976e35ecd2ba"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/phone-landscape-844x390-overview.png",
+    "sha256": "b678a70cb4dbfbd7e82935f7fc058b7b40bf7016b0f1b6d648302e3b1bba7b63"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/phone-portrait-390x844-child-and-mom.png",
+    "sha256": "828b55879a3f68a983215ca4f33d62967f0d12d1233477fe0dc3fe161b994883"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a2/phone-portrait-390x844-overview.png",
+    "sha256": "b000b0bd2a72b931aa4e6f59f6699e88547c23abf1b795151190a12c840735dc"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/bedroom-full.@1x.png",
+    "sha256": "83864a085b98cb719478cccaec876baacdea724dcdb7c53e32240d9ccadf7daf"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/desktop-1280x800-overview.png",
+    "sha256": "1e6510490d10ebfa469033994daf671d2baffa782435d02b5daddaff42c8526a"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/mom-master-candidate-v2-review.png",
+    "sha256": "d30d42bd671a6f74b5eb109314706675600228586e1c5671de6287a1ae2c58f1"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/phone-landscape-844x390-child-and-mom.png",
+    "sha256": "296b08c2c998d467bd394b6e935cfbb8ba86dd703449d3c1e265373edf90271a"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/phone-landscape-844x390-overview.png",
+    "sha256": "8a478b49ba3a5e40d7e4dac40c5354f5869ab9a6487d589a8ed62ff0082a0837"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/phone-portrait-390x844-child-and-mom.png",
+    "sha256": "500c49f6b104d2dfe6482a69c6af4dd7a31d5a8202cf9967c9903c39e47ae3cd"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/phone-portrait-390x844-overview.png",
+    "sha256": "aa395242ddbc2a6c3cd20609c9d9e7e0533c0c9a54e91263408e63c475596b37"
+  },
+  {
+    "file": "projects/momee/review/m1.0k-a3/silhouette-diff-vs-accepted.@1x.png",
+    "sha256": "b503fc3c1b1d6eeae18d4f5e090595697d4f073bbdc010cb4e6d2b5f32aef2bf"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/extracted-layers.png",
+    "sha256": "132402226c43664ff58fefcd6b7b349d115c222f67822c30963423bbb2619f0d"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/facial-animation-requirements.png",
+    "sha256": "1e2903acee432cb7e7fcf5ad4975d4b28c144412328dd547eccbad39354c364e"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/head-closeup.png",
+    "sha256": "612e542983c95b3599c926477689901c20af71d10912a7a4125a7421c934397c"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/layer-inventory.png",
+    "sha256": "df2e5bf7ae766b4f0edde5905e6fe993a2c00dcdc3a2c9d559001910faeb8623"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/missing-artwork-map.png",
+    "sha256": "93a511717b8b0ed6e796cb0360ac84eddc92cd62f78ab4f7151c9cde07bc684a"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/mom-head-pilot-v1-review.png",
+    "sha256": "893b967934adfb66190561354f3c2f94a76b836b9a14a25031a167288c0d6ec0"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a1/neutral-reconstruction.png",
+    "sha256": "bcf00cd1a404ec9cf5cdc01d77db8c29587fc11ba191c264b69bdef41907a8a5"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a2/mom-facial-animation-concept-v1.png",
+    "sha256": "b1a34b9612f44e04b1e43cbd7305db1c58e8a219cb04700bdc12fdace28c130c"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a2/mom-facial-concept-intake-v1-review.png",
+    "sha256": "954db85ad6d325b59d71610cf022ed1ae6a9e1e1af8cfef7e90f45049bdd64cc"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a3/closed-eye-composite-test.failed.head-1x.png",
+    "sha256": "0f6f371850c54c4489a62b373641e1ca41a30df4df5e7351823fabc677ec6fac"
+  },
+  {
+    "file": "projects/momee/review/m1.0l-a3/mom-closed-eye-intake-v1-review.png",
+    "sha256": "210a442d22879054ddfa784b0aa9b01113db1fe5ef788897a48c497352e1b85b"
+  },
+  {
+    "file": "projects/momee/source/.DS_Store",
+    "sha256": "7bf444565f5777d8761d7510ffbf168033f1e29d7b332eb717690b80e31f9ce4"
+  },
+  {
+    "file": "projects/momee/source/bedroom/bedroom-composition-study-v1.kra",
+    "sha256": "7915e4b0b0e054e5200ff59837336260bc6504373b36870f2f3f079f350357b0"
+  },
+  {
+    "file": "projects/momee/source/bedroom/bedroom-composition-study-v2.kra",
+    "sha256": "438ccd9b273e5b48bd13bd16bae9d495292703cb621dfdff2e4e37196d9d910c"
+  },
+  {
+    "file": "projects/momee/source/bedroom/pillow-v1.kra",
+    "sha256": "b05f4a525ec9d5853c4f1e50fddc7191e2633da6c24fe239a7eed8ea5044e1eb"
+  },
+  {
+    "file": "projects/momee/source/bedroom/pillow-v2.kra",
+    "sha256": "93c9333f665c10df6d76951df280cf9c3ec6abc3b8e29f92353e66531c1dd936"
+  },
+  {
+    "file": "projects/momee/source/bedroom/pillow-v3.kra",
+    "sha256": "4df38379d22a62d3d6b84f758dc22eeb469340656e086314fd2cb5528efa1ebe"
+  },
+  {
+    "file": "projects/momee/source/characters/.DS_Store",
+    "sha256": "e7939c58cef809df23ee2395f8340ca6e31aa74d58b44226749b485a8800fa28"
+  },
+  {
+    "file": "projects/momee/source/characters/boy/boy-accepted-working-v1.kra",
+    "sha256": "3f1ecccddb33fee355cb3cbcc142ce0e71c69f8dd2609a57d054871dcc504c8c"
+  },
+  {
+    "file": "projects/momee/source/characters/boy/boy-character-v1.kra",
+    "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c"
+  },
+  {
+    "file": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+    "sha256": "85e412c725ffad79222cf2b55297f86215fdffd30594527eaea6d59883ae8e46"
+  },
+  {
+    "file": "projects/momee/source/characters/boy/boy-three-quarter-accepted-clean.v1.native.png",
+    "sha256": "7999af8cb82f49191c77cbf123df382ca67dc9da390c4bcb083090b8e09df5ca"
+  },
+  {
+    "file": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png",
+    "sha256": "6be9428afa9e1849bf15247908dc17a722f9509d3e4c8a5524f6703c1df4ea22"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-accepted-working-v1.kra",
+    "sha256": "780c078ca1d46d1b1a00256d889bd03d318869e1bcdd76aebeb628399a6c2101"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-character-v1.kra",
+    "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra",
+    "sha256": "31cd8669a87ee9740d994ebe693d8df797db6a3d7b6230191a53d43f14c9face"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-master-candidate-v2-working.kra",
+    "sha256": "e0d7318c70aeb96453aa764788523f2350ab49ef86f9e49478c78127c0799550"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png",
+    "sha256": "d6e92d967aa44b3e851493313a92e09779215eb195da230cbbd36899411b61cd"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png",
+    "sha256": "52de109c857d35d1df55633b3a1abb6847f182a1fc092d5562416981ce9d0a15"
+  },
+  {
+    "file": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+    "sha256": "b3047c20cd3736dacbd49792e3aeed38dbd4669abfc11caf8fa293837080167a"
+  },
+  {
+    "file": "projects/momee/source/icons/morning-flower-v1.svg",
+    "sha256": "dc4d3c2a594517a5eceacb2bdfb65e9d40b5cadccbab10f4c87b8f9510cc4817"
+  },
+  {
+    "file": "projects/momee/source/studies/accepted-characters-review-sheet-v1.kra",
+    "sha256": "95c444315790c16ca8be6c6de49b9fa6537584117b706345dafe58c80f562e9a"
+  },
+  {
+    "file": "projects/momee/source/studies/bedroom-accepted-characters-v1.kra",
+    "sha256": "4cc3266e6c1d7c4b90c88e6d2eef2144dec00db263fd632910b27c32122a4225"
+  },
+  {
+    "file": "projects/momee/source/studies/bedroom-character-integration-v1.kra",
+    "sha256": "c8f89f10c3aaa048471bcb1f32703dc1b66dbdf2d4b4d8aee855fa388c268666"
+  },
+  {
+    "file": "projects/momee/source/studies/bedroom-refinement-comparison-v1.kra",
+    "sha256": "4ec70d1d37ce41c9a34ff56d5920081b527eb153eb9a4abdc5f4ca716d276b62"
+  },
+  {
+    "file": "projects/momee/source/studies/character-fidelity-assessment-v1.kra",
+    "sha256": "043ff2f7bd0c2f8a8fd3fe07d9e48a46a76070739533608cf13ce25ad27e42e9"
+  },
+  {
+    "file": "projects/momee/source/studies/character-review-sheet-v1.kra",
+    "sha256": "76f6b9413d1dea4318408a653ff8cc21b59174fa5c24872db2f41b7dfe15804a"
+  },
+  {
+    "file": "projects/momee/source/studies/character-scale-quality-v1.kra",
+    "sha256": "b6801b8444d9758e35492612ec240e04e90099240bc07624f190cd8c62c3b91b"
+  },
+  {
+    "file": "projects/momee/source/studies/character-scale-quality-v1.kra~",
+    "sha256": "1e2e007647de876fd1f5a7dc46eebffa3e974b42260fb99264e07ad76cd6859b"
+  },
+  {
+    "file": "projects/momee/source/studies/character-scale-study-v1.kra",
+    "sha256": "0f0664fabdfd26fb15615d69f2e8e481e835f33f068c4de471bf05baa9edd96e"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-closed-eye-intake-v1-review.kra",
+    "sha256": "9f2485730e214ad791bfde83515a05949cee9a4c00283e1a14f1d23434dbe378"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-facial-concept-intake-v1-review.kra",
+    "sha256": "c8271b1019dcdb2c323743604199f1990182e546fe17bc6824ea39097f7a9b9a"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-head-pilot-v1-review.kra",
+    "sha256": "2413ce13666c7e68053fc00f62309a8c80dfb2c00d0d1a1086623da1b033d760"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-master-candidate-v2-review.kra",
+    "sha256": "046314b4041fc960b5a34bad7ef544adc2ebacb2d807a399f915f862c774bccf"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-master-intake-review-v1.kra",
+    "sha256": "d5474f19b856c058818ef85a343cb59751fa184105139dc581d971293a7b2a1c"
+  },
+  {
+    "file": "projects/momee/source/studies/mom-master-intake-review-v1.kra~",
+    "sha256": "3e317af342b89a3f4cc07928d4da86e0c413eba105fd3c365bd8daf8f92af1db"
+  },
+  {
+    "file": "projects/momee/source/studies/visual-calibration-sheet-v1.kra",
+    "sha256": "eecc2e77145ead8a603cc1277336673e1b38915dfdb228d62c34bd9c020fe472"
+  },
+  {
+    "file": "projects/momee/styles/.DS_Store",
+    "sha256": "4873ad391c008ee6d3c20d8af5ea9ec5e0225399b6ef591a5d32573031071da2"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/.DS_Store",
+    "sha256": "7c07ecc45338802cfa63e9d70a81e36165787824e1f472727af2ee0287666378"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/README.md",
+    "sha256": "9b047db12174e39b48ea75e79f198944052ddc3b3060dda189ec38c445e73552"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/.DS_Store",
+    "sha256": "e7939c58cef809df23ee2395f8340ca6e31aa74d58b44226749b485a8800fa28"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/mom/.DS_Store",
+    "sha256": "1e0cd77836c4219953a1a8337999770dd5476a8350f7a5436066e32167594dac"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/mom/exports/README.md",
+    "sha256": "f7ecbdb64eedf23dd8c35572ebcdd5f0d48b3c7beb119efe54fb51cf3799f445"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/mom/review/README.md",
+    "sha256": "09d775231e09c1ee5a288429bef79bcc032b06e321b32624273a143a38523e64"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/mom/review/mom-head-v1-review.md",
+    "sha256": "ddbab44d7e05d97f5d98c40eca42bb7f62b812a256afae68d46eef6acf82377c"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/characters/mom/source/README.md",
+    "sha256": "127e2a822b00534e2420fec28e3f3ebe81195dc749f0e423821f6b5764be63b7"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/docs/m1.1-mom-svg-prototype.md",
+    "sha256": "205653c87c470fbd98940bb6c9c6fcaed58867d007a9be482ce962b2d2e6e1d6"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/docs/m1.1b-mom-head-upper-body-prototype.md",
+    "sha256": "2e0ae53eb87cbf995a6a61a473fbfd3b7e9ed077c9bdea7a2a303ca29b93233c"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/docs/m1.1d-0-illustration-skills.md",
+    "sha256": "8a6ae356a7d1d35cb3c13e9dbe3640d80ce1df6c5093e9a6e75736f0573c5300"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/docs/mom-art-direction-feasibility-v1.md",
+    "sha256": "8ba95244b511b2ea0ba72169470e87a090a8f5c63a1bf6b96fdd4487cb5917d4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/docs/mom-visual-spec-v1.md",
+    "sha256": "15bad5a371cd87fdc99e7ffb4a87fe879ad22c2370955a82910c6ccbf91c7e30"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/.DS_Store",
+    "sha256": "82909e43b99327612f6b12cc5572f34e77c8f48b400f6fbd73c4258411feba7c"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1c-eye-component/README.md",
+    "sha256": "5cd885a8f43dd16e61e70dcb546ae5d6bdbdadf6ee6d8a21df3050fd1df7576b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1c-eye-component/eye-component-test-comparison.png",
+    "sha256": "b6c855fed1b3735b9e221d0ef760339f4934821dfa30ea6edded294fe5ef6704"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1c-eye-component/eye-component-test.png",
+    "sha256": "d46ff32d3770343abda2005c48a96b4f672bf9a8b6343ac8f62cbaad2e6ab104"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1c-eye-component/eye-component-test.svg",
+    "sha256": "27d7bbc9948b71fe68525d08f8aff58203513af6ba3f8ab23b800ffd49633d6e"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/CLEANUP-2026-11-16.md",
+    "sha256": "9b425c6607401e692a884b3ba380f696618a1bd38a5bba7444c2d3732b5e6839"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/SVG-ARM-RECORD.md",
+    "sha256": "7a07cc324484dab1d277c4b26e38b031ee6a1b187a4cf6fb0d43bdcb43673b93"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/comparison/README.md",
+    "sha256": "a9885a3ac0f3927f6f49c4fc8a991eae0ff4e1ab1c8b1b013ead5ef241f02e3f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/README.md",
+    "sha256": "c5fd5d5d9539aec90f196d788dfa08189f236c00559d5f23b1e7a8f4e4862f34"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/derive-and-inspect.mjs",
+    "sha256": "8d67435703f3ffb14eaaecb6baf0bdee2412fa244f860ca9f17b6b06cfee3ff6"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/generations/generation-01-original.png",
+    "sha256": "69cddba99205a6329d9af87007c7e625590cf5972a9f39dd56cc0921d54c03e9"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/generations/generation-01.json",
+    "sha256": "edc18b2cd3d13ab6fbf592954e512f81073b1e43b9b12d2f8bf186367576e6f1"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/generations/prompt-01.txt",
+    "sha256": "167f2392793496a38e95a8ef69c6f9304f301e7a99c7f6b627c0595c2e9bddae"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-eye.png",
+    "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-portrait.png",
+    "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/crops.json",
+    "sha256": "ce14260f087a0d565519519d6f2cba9329aac4709c798259f981f05dc71afb91"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/master-mom-figure.png",
+    "sha256": "7b0403d389aec0b47844ddce7cdc2c126efb4f22f2859c9d71dd73d2c5510c33"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/master-mom-neutral-bust.png",
+    "sha256": "ba01d583eba6ca3db2076b7afd4359bf7f0fbf0482f6941a13fd7c8e61e1ef96"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png",
+    "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/provenance.json",
+    "sha256": "4b2ed5fb5912f71ef72b29652466cce1d345dcc12ffabf011699ee01541408bf"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/alpha-dark.png",
+    "sha256": "e780f349d01a553bfda338f9f2b5c2689bb7c1679d293875fd1c1ca41ed715cb"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/alpha-histogram.json",
+    "sha256": "3f502a1b305024b3af81603b4a280a3fdc996dab449c9b189f81f06423a026f3"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/alpha-white.png",
+    "sha256": "6de33180cc8a275530b434cb03a6d5f95da41d65d25153de3edad8db0c671dbc"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/candidate-eyes.png",
+    "sha256": "1781196c26160bcde89da4304867485ce0a4b774a3f6f4a6682670f25ca3b06b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/compare-sheet-attempts.json",
+    "sha256": "690f8c9ed09e4b575099d40692396065149f44c271b53bf55a2944832130bfd0"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/eye-detail.png",
+    "sha256": "cebce8b4bc8ade6bfdaf9895ef34096c2dd78bb6282556863ddd4272ee92213d"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/measurements.json",
+    "sha256": "b8baa9bbbeba65d86111a708a4db2aa241ac9047789dced15a6910ba9128920b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/sheet-144.png",
+    "sha256": "ac3ea912da92d8e87cef560206d0fa6157765918c754e354bca1ee752cdbf140"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/sheet-256.png",
+    "sha256": "b75ed1414a6bdaea707edff6aee29ac342e1d6ec2db63b1b78234078d144fe35"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/sheet-720.png",
+    "sha256": "717abbb01881f072975cea64ae07d34d365ad374c3299621feee4af62ae41b5e"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/session-end.json",
+    "sha256": "141659ac3e7186fbc02a2cc9e9fa17bdf3d98bfb3cc47b54a7a2b4806ebc00ab"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/session-start.json",
+    "sha256": "d2a48aa4d758c958f036938c5079daf6b6a1019d80876b3fbfc62d472e246c2b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/README.md",
+    "sha256": "4601083fa8637d905df054d8d132d29ed3c7118b4e155b34adf7e4da6ee2622d"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/README.md",
+    "sha256": "2b7860de8c108c922a9b53220a98064744b2159e24570ab343258cb4501ada63"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/derivation.json",
+    "sha256": "fb1f2d0e434e35fae0e11d81cf68a19ed913762adf0b25d8b985c97ab825e358"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/generation-01-original.png",
+    "sha256": "f4b7abb266381128bccbd6245c717836f5085818cbd18946a812d9c4f11a0554"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/generation-02-original.png",
+    "sha256": "3e0179e0b450d8bd9d0f506f06fb3fb08d2d413158efa1631c4d780ce3714731"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/generation-03-original.png",
+    "sha256": "365ba4175a3b963aa0322d196c1a50eb57ca3b4765885fd2cb948a9367c0f68b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/prompt-01.txt",
+    "sha256": "88fb43b0a49d41328e2657b11f14c30db6232cd53eb1891d9964d54635ace3a3"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/prompt-02.txt",
+    "sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/prompt-03.txt",
+    "sha256": "80d87c0e1277d87ca3edad73b900845b0749d5d029ccfcaa69d70637e9583c19"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/record-01.json",
+    "sha256": "eeed6a4e6b4fb6318cd980c002b54f1280476618e572f84bce7afcffa28b0785"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/record-02.json",
+    "sha256": "933f237a534a27651a7e47ddec41c1f2d8bd0abc4067bf37d60173c38cae9d25"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/generations/record-03.json",
+    "sha256": "5d5262157a605dba037baa467dcb9171c98cf40caa45f59743812cd94961473a"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/measurements.json",
+    "sha256": "f5b939a3111ab4f8e13a7bcfe1c60d70a3ab150b6efc928a9cd577043c08b789"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/mom-a-thumbnail-144.png",
+    "sha256": "6cced033d5951b2e8767b58cab6d7f784a3bb7ab1c67d0aa60789fb73b58c35d"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/mom-a-v1.png",
+    "sha256": "aba391f7441c555f0d84a20c83e39f5d558208a8db777e9abf0335e62769ead4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-a-refined-b/provenance.json",
+    "sha256": "ddf5d42974e30514f2a51efe458dbd59bd9c5944a1fae4165e6574f978a01d33"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/README.md",
+    "sha256": "75943ab0e26f6719132fcccf4687ca31aa917be775af80d614bc6ea4f07a7a92"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/derivation.json",
+    "sha256": "4951cf10c5a3008d011ca5e79612196221f11ba0f2d84eee20cb482abca9a1e9"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/generation-01-original.png",
+    "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/generation-02-original.png",
+    "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/generation-03-original.png",
+    "sha256": "7bc1ddec2f8308432b65a1bb584c3333b6d1720e755f15a71ead88e0a326a291"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/prompt-01.txt",
+    "sha256": "50d33b1d309c1fd7ae428ed43c08b30b711f7637efa888d9793094800344145f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/prompt-02.txt",
+    "sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/prompt-03.txt",
+    "sha256": "80d87c0e1277d87ca3edad73b900845b0749d5d029ccfcaa69d70637e9583c19"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/record-01.json",
+    "sha256": "53013afd2d0470ced126793626bd8128fb416b00ea47d3b6b87d32feb24b78f3"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/record-02.json",
+    "sha256": "8292f64c676b54ad2b7be56e36984373e56be035d748cf0e063a8ea3eed5e122"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/generations/record-03.json",
+    "sha256": "4f9ae5e681186b6a47a2ecde99e047282c002cdbc8c81670816d504ee95ac825"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/measurements.json",
+    "sha256": "468932fbd32eddac916c5da2704ae39c3f8d44adc85e6d6351284e3b13a33c48"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/mom-b-thumbnail-144.png",
+    "sha256": "691877ffb9ebc52be76ba4f2d666596fee88edfbe84591ac231463e266708ba0"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/mom-b-v1.png",
+    "sha256": "e1ad3c628943bde102dd11da9c0686ac6acbd3ba9cc9805d471d7bf25b6927b1"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-b-premium-painted/provenance.json",
+    "sha256": "41a4284c07abdff477d1195e565bfbbc7e4ad69cac31c6c018a9bc285d27cad4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/README.md",
+    "sha256": "79840af1d62dd05668609621733891831252d9a810672a3173a078a4ddd441b4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/derivation.json",
+    "sha256": "c5206b65980625d56474df4a6025367977f90d9824f98e1629950dae3d1a492f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/generation-01-original.png",
+    "sha256": "5082eb4358fd4eb20284f7b3f82a48c0e971bedd5d7c8ac57b24669cd90b0821"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/generation-02-original.png",
+    "sha256": "65e9ba341c83efd009b0bd3fba665a806bac7f50ba71fce36a841958866be310"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/generation-03-original.png",
+    "sha256": "400f59d13f35bba8aae8c1ef8309bfb3fa7bbb44965a41dd1f3e9d3fe69645b0"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/prompt-01.txt",
+    "sha256": "efe9b08fa662de7cde3cfd0f42e7e27cb440ba9e4292f674266b3a79dfeaeaaa"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/prompt-02.txt",
+    "sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/prompt-03.txt",
+    "sha256": "80d87c0e1277d87ca3edad73b900845b0749d5d029ccfcaa69d70637e9583c19"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/record-01.json",
+    "sha256": "ae4ef3a5154fa223b8214abe92ec28fea9486a91a878c956ea77e933f91aca6b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/record-02.json",
+    "sha256": "0c6a8e249fe7cb53374b33ddf312a67f049df44ec15fd04d02c41d1fe09dab4a"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/generations/record-03.json",
+    "sha256": "6b13297638eda79b74adc45b13d1dec0eab41731eb9e31de8d174b629c840ae4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/measurements.json",
+    "sha256": "4b28fd8604cfa3b6e8512a626a8d925eaabb301c297ddf6c5e7e5e3c47f03ac1"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/mom-c-thumbnail-144.png",
+    "sha256": "a2f1950d598b3d93e02a5a0ac6b8a5dec1ddc68625941b7e23e3090bd10b563d"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/mom-c-v1.png",
+    "sha256": "85ba02c8f4fc91cba00d1e81d2abbdf3dafa077489c670d7378f08c8402b69bf"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/candidate-c-gouache-adventure/provenance.json",
+    "sha256": "0ff41b646faba4d6c4ed6b67419b3160cdfc24b842d843513ba7bfbab9f9d2c6"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/capture.mjs",
+    "sha256": "0f803bb7d9e41ff0493d6369d5780d088c7cb475921e88a3a0dc30e074aee209"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/README.md",
+    "sha256": "5d9c8efa8a1519022fbccc6ad3a004dcad8f50d4a59079b083764d0d71df77b5"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-1280.png",
+    "sha256": "9a2174b7b807549a06c9dba8f847cf1529e58385dc10cc3315e30a63086d92c4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-144-figure-crop.png",
+    "sha256": "4637d27c917ee37420275850f724f09cadfa7436d23497474979a5e667c20501"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-144.png",
+    "sha256": "3a0e2cebe761fa8f3ef9f7f32ac41ea9a02da39519d707b5d6dfa380a1a50934"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-256-figure-crop.png",
+    "sha256": "3e6474b3e0244a20a958d0cf87c163d8ffa780f7b0ac78317c2017b00357f1c5"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-256.png",
+    "sha256": "14aa23a1c6df812015eb695c4ca330307c9c6422fe4cb8695a83ddf26a937001"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/comparison/m1.1f-joint-eyes.png",
+    "sha256": "9ca0309307f3470a69b52246915f41926b06c5712b80ebc62090aed368a4ca80"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/derive.mjs",
+    "sha256": "6e0e8a25b84a433a7b05af642414907e57c05372f5d57e4f99da60e277ce7e9f"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/git-status-after.txt",
+    "sha256": "c26aba2111cae5bce3638c134d69a67cda98da02be5e5f49d22f7491cfc9785b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/git-status-before.txt",
+    "sha256": "b0bcda1c9e20155c4e9167ff9f0c292e82aa9ffdab3c304d2f9de3d7bcc92c90"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/b-eye.png",
+    "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/b-portrait.png",
+    "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/crops.json",
+    "sha256": "c76e08bbdcab44443cd51ba8ac28fc2edbbe5763f8f743a201638ca9e627ea14"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/family-master.png",
+    "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/gate-a-painted.png",
+    "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/inputs/sources.json",
+    "sha256": "706ae3e0c3b55b0bdf2bc26778d28fc72ff0d51ea5a2be630221a67b06f05ec6"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/measure.mjs",
+    "sha256": "973a5716b54cb9aa0203ee150b9eca66e36ddc69a26c2da6afef3e477eac0f66"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/tool-calls.json",
+    "sha256": "8b328663f9090285dafe56a3a115347ae4fed1701de368b868df87a36f88b6f4"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/verification.json",
+    "sha256": "bf15713c8fa054007af4ddf5904ff4cb39cd78fb4035396b4ca8417585eeeb13"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1f-painted-redesign/write-records.mjs",
+    "sha256": "38831b3b982356834c477eb9e56cb82247bd7e889cd19f08362299d80006ce42"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/references/README.md",
+    "sha256": "ef864426a27875ad24eb55afce75b30a77489c801fd634e3cfa4afb1e81f0967"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+    "sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+    "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+  },
+  {
+    "file": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.provenance.json",
+    "sha256": "b798439361d30b5ac5d9f15c2b2672cbf64647335cf2d12846df284f25042826"
+  },
+  {
+    "file": "projects/momee/visual-directions.json",
+    "sha256": "214cfa5f905d6ca476a06178af68c696eece31c49bc4ea2c292f35f3ae750c3a"
+  },
+  {
+    "file": "../app-momee/docs/design/visual-style-bible.md",
+    "sha256": "29825cb2bedf245a704c6b7f537acd244fe2691ebc9346a7317fe8560f37538a"
+  },
+  {
+    "file": "../app-momee/package.json",
+    "sha256": "eb5136efac1b5862360e87ba5d10e622aaa8b0d785b637cd1a518e4c3b955ccc"
+  }
+]

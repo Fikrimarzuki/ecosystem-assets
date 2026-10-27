@@ -1,0 +1,405 @@
+{
+  "tool": "Codex built-in image_gen",
+  "codex_cli_version": "codex-cli 0.167.1",
+  "model": "not recorded",
+  "date": "2026-11-16",
+  "date_basis": "UTC date of generation/capture; per-call capture timestamps are recorded, not claimed as exact generation start times.",
+  "rights": "unverified",
+  "status": "experimental candidate for owner review",
+  "style": "B: Premium Painted Storybook",
+  "source_inputs": [
+    {
+      "id": "exploration",
+      "file": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481"
+    },
+    {
+      "id": "painted",
+      "file": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png",
+      "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+    },
+    {
+      "id": "family",
+      "file": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+    },
+    {
+      "id": "identity-spec",
+      "file": "projects/momee/styles/soft-storybook-adventure/docs/mom-visual-spec-v1.md",
+      "sha256": "15bad5a371cd87fdc99e7ffb4a87fe879ad22c2370955a82910c6ccbf91c7e30"
+    }
+  ],
+  "reference_images": [
+    {
+      "file": "inputs/b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "crop": {
+        "x": 541,
+        "y": 191,
+        "width": 294,
+        "height": 351
+      },
+      "operations": "integer crop only; pngjs RGBA encoding"
+    },
+    {
+      "file": "inputs/b-eye.png",
+      "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "crop": {
+        "x": 541,
+        "y": 730,
+        "width": 112,
+        "height": 109
+      },
+      "operations": "integer crop only; pngjs RGBA encoding"
+    },
+    {
+      "file": "inputs/gate-a-painted.png",
+      "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78",
+      "source": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png",
+      "source_sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1280
+      },
+      "operations": "full image, byte-for-byte copy"
+    },
+    {
+      "file": "inputs/family-master.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+      "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 1024
+      },
+      "operations": "full image, byte-for-byte copy"
+    }
+  ],
+  "generations": [
+    {
+      "call": 1,
+      "captured_at_utc": "2026-11-16T16:33:58.593Z",
+      "tool": "Codex built-in image_gen",
+      "model": "not recorded",
+      "transparent_background": true,
+      "prompt": "Use case: illustration-story. Asset: experimental Momee Mom painted character portrait for owner review.\nReference roles, in order: (1) b-portrait.png is Candidate B, the main identity and soft storybook shape reference; (2) b-eye.png gives warm brown eye/lid colour and softness, but DO NOT copy its round eye opening or bright highlight; (3) gate-a-painted.png is the retained painted Mom, a guide to the more mature oval face and almond eyes, NOT a framing example; (4) family-master.png provides the family identity and warm palette only.\nReinterpret this same Mom as an adult woman with natural adult head, neck and shoulder proportions: softly elongated oval face, sufficient lower-face length, soft rounded chin, warm light-peach skin, thin gently arched brown brows, subtle nose, a warm calm small CLOSED-MOUTH smile. Eyes OPEN, natural adult-sized horizontal ALMOND openings, visible upper-lid creases, brown irises partly occluded by the upper lids, softly tapered lashes with NO spikes or curls. No sparkle highlights, no bright dots or white circles in the eyes; quiet matte eye colour. Never a child, doll, anime or chibi character.\nIdentity must remain unmistakable: long loose wavy reddish-brown hair, side part to viewer's right of centre, swept fringe, asymmetric overlapping wave masses and warm copper highlights following the waves; coral-peach collared button blouse. No jewellery or hair accessories.\nComposition: ONE head-and-shoulders bust, front facing or very slight three-quarter turn, top of hair through upper chest. Entire hair silhouette and both shoulders visible. End the bust cleanly below the collar at upper chest; leave empty space below it. Requested output 1024 x 1280 pixels, portrait RGBA.\nCRITICAL TRANSPARENCY AND MARGIN: genuine fully transparent background, a FULLY OPAQUE FIGURE with clean antialiased outer edge, no translucent face/hair/clothing. Isolate the whole bust with at least 6% EMPTY transparent margin at LEFT, RIGHT and TOP, preferably 8–10%, and a small empty margin below. NO hair or clothing touching ANY canvas edge. The reference Gate A touches edges: DO NOT repeat that framing. No background colour, paper rectangle, scenery, glow outside the silhouette, cast shadow, text, labels, multiple portraits, frames or watermark.\n\nCandidate: B: Premium Painted Storybook\nStyle/medium: A high-end picture-book PAINTING. Richer soft light and form, subtle visible brush texture and elegant warm rim light kept INSIDE the opaque silhouette. Few hard outlines: soft COLOURED painted edges and warm chromatic shadows model cheek, jaw, neck and hair volume. Rich luminous auburn waves, gentle painterly skin, tasteful depth. Elegant hand-painted illustration, NOT photorealism, NOT 3D render, NOT cel shading. Keep the same simple calm adult Mom face, not a glamour makeover.",
+      "prompt_file": "candidate-b-premium-painted/generations/prompt-01.txt",
+      "prompt_file_sha256": "50d33b1d309c1fd7ae428ed43c08b30b711f7637efa888d9793094800344145f",
+      "inputs": [
+        {
+          "file": "inputs/b-portrait.png",
+          "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+        },
+        {
+          "file": "inputs/b-eye.png",
+          "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b"
+        },
+        {
+          "file": "inputs/gate-a-painted.png",
+          "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78"
+        },
+        {
+          "file": "inputs/family-master.png",
+          "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+        }
+      ],
+      "output": {
+        "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-a9775759-9850-42ba-b80a-807495cb0d0d.png",
+        "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+        "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6",
+        "byte_for_byte_copy_verified": true
+      },
+      "measurements": {
+        "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+        "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6",
+        "size": {
+          "width": 1122,
+          "height": 1402
+        },
+        "png_header": {
+          "bit_depth": 8,
+          "colour_type": 6,
+          "colour_type_6_means": "RGBA"
+        },
+        "alpha_histogram_summary": {
+          "fully_transparent": 586276,
+          "fully_opaque": 313,
+          "partial": 986455
+        },
+        "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+        "opaque_bounding_box": {
+          "x": 93,
+          "y": 60,
+          "width": 961,
+          "height": 1262
+        },
+        "opaque_margins_px": {
+          "left": 93,
+          "right": 68,
+          "top": 60,
+          "bottom": 80
+        },
+        "nontransparent_bounding_box": {
+          "x": 0,
+          "y": 37,
+          "width": 1102,
+          "height": 1349
+        },
+        "nontransparent_margins_px": {
+          "left": 0,
+          "right": 20,
+          "top": 37,
+          "bottom": 16
+        },
+        "touches_edge": {
+          "left": true,
+          "right": false,
+          "top": false,
+          "bottom": false
+        },
+        "anything_touches_edge": true,
+        "minimum_six_percent_empty_left_right_top": false
+      }
+    },
+    {
+      "call": 2,
+      "captured_at_utc": "2026-11-16T16:35:56.620Z",
+      "tool": "Codex built-in image_gen",
+      "model": "not recorded",
+      "transparent_background": true,
+      "prompt": "Edit this exact portrait only to correct the transparency contract. Preserve the character identity, adult facial anatomy, almond eye shapes, lid creases, matte brown eyes without sparkle dots, calm closed-mouth smile, reddish-brown side-parted wavy hair, coral collared blouse, painted technique, colours, pose and framing. Do not polish or redesign.\nThe supplied PNG has a transparent background, but its figure is incorrectly translucent: most interior pixels have alpha 252 or 253 rather than 255. Make the WHOLE figure fully opaque: interior face, eyes, hair, neck and clothing must have alpha exactly 255 (100% opacity). Only the 1–2 pixel antialiased outer boundary may have partial alpha. Background remains genuinely transparent with alpha 0. No overlay, no translucent paint, no edge glow or external shadow.\nKeep the entire bust within the canvas with at least 6% empty transparent margin on left, right and top and a small margin below; no hair or blouse may touch an edge. One portrait, top of hair through upper chest, requested 1024x1280 RGBA. No text.",
+      "prompt_file": "candidate-b-premium-painted/generations/prompt-02.txt",
+      "prompt_file_sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f",
+      "inputs": [
+        {
+          "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+          "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6"
+        }
+      ],
+      "output": {
+        "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-c65f311b-bf69-4f51-aef5-e03c15214193.png",
+        "file": "candidate-b-premium-painted/generations/generation-02-original.png",
+        "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552",
+        "byte_for_byte_copy_verified": true
+      },
+      "measurements": {
+        "file": "candidate-b-premium-painted/generations/generation-02-original.png",
+        "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552",
+        "size": {
+          "width": 1122,
+          "height": 1402
+        },
+        "png_header": {
+          "bit_depth": 8,
+          "colour_type": 6,
+          "colour_type_6_means": "RGBA"
+        },
+        "alpha_histogram_summary": {
+          "fully_transparent": 588028,
+          "fully_opaque": 437,
+          "partial": 984579
+        },
+        "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+        "opaque_bounding_box": {
+          "x": 110,
+          "y": 65,
+          "width": 928,
+          "height": 1257
+        },
+        "opaque_margins_px": {
+          "left": 110,
+          "right": 84,
+          "top": 65,
+          "bottom": 80
+        },
+        "nontransparent_bounding_box": {
+          "x": 42,
+          "y": 53,
+          "width": 1062,
+          "height": 1283
+        },
+        "nontransparent_margins_px": {
+          "left": 42,
+          "right": 18,
+          "top": 53,
+          "bottom": 66
+        },
+        "touches_edge": {
+          "left": false,
+          "right": false,
+          "top": false,
+          "bottom": false
+        },
+        "anything_touches_edge": false,
+        "minimum_six_percent_empty_left_right_top": false
+      }
+    },
+    {
+      "call": 3,
+      "captured_at_utc": "2026-11-16T16:38:17.287Z",
+      "tool": "Codex built-in image_gen",
+      "model": "not recorded",
+      "transparent_background": true,
+      "prompt": "Correct only the opacity failure in the supplied Mom portrait. Re-create the identical figure as a solid opaque cutout. This is a technical contract repair, not a style revision.\nThe previous outputs have nearly every face/hair/clothing pixel at alpha around 252–253, and that fails. REQUIRED: alpha channel 255 over the entire continuous interior of face, eyes, neck, hair and blouse. Fully solid opaque colour and brush texture, no transparency within the painted surface. Alpha 0 in empty space. Partial alpha only along the outer antialiased contour; never global opacity below 100%. No background image, rectangle, checkerboard painted into pixels, shadow or halo.\nPreserve the same adult Mom identity and this exact painted technique, quiet natural almond eyes with upper-lid creases and no sparkle highlights, soft lashes without spikes, warm closed-mouth smile, side-parted long auburn waves, coral collared blouse. Keep the fully visible head-and-shoulders bust isolated in a 1024x1280 portrait canvas, with 8–10% empty transparent margin around it. Do not change anatomy, expression, colours, clothing or add any object.",
+      "prompt_file": "candidate-b-premium-painted/generations/prompt-03.txt",
+      "prompt_file_sha256": "80d87c0e1277d87ca3edad73b900845b0749d5d029ccfcaa69d70637e9583c19",
+      "inputs": [
+        {
+          "file": "candidate-b-premium-painted/generations/generation-01-original.png",
+          "sha256": "8ed596e7387a76295d579b07dfbd7eb66873e0ca690a3bce31e714b3e071b2f6"
+        }
+      ],
+      "output": {
+        "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-90eadd79-a053-427f-b7be-55179a2d0681.png",
+        "file": "candidate-b-premium-painted/generations/generation-03-original.png",
+        "sha256": "7bc1ddec2f8308432b65a1bb584c3333b6d1720e755f15a71ead88e0a326a291",
+        "byte_for_byte_copy_verified": true
+      },
+      "measurements": {
+        "file": "candidate-b-premium-painted/generations/generation-03-original.png",
+        "sha256": "7bc1ddec2f8308432b65a1bb584c3333b6d1720e755f15a71ead88e0a326a291",
+        "size": {
+          "width": 1122,
+          "height": 1402
+        },
+        "png_header": {
+          "bit_depth": 8,
+          "colour_type": 6,
+          "colour_type_6_means": "RGBA"
+        },
+        "alpha_histogram_summary": {
+          "fully_transparent": 584930,
+          "fully_opaque": 412,
+          "partial": 987702
+        },
+        "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+        "opaque_bounding_box": {
+          "x": 52,
+          "y": 227,
+          "width": 1003,
+          "height": 1095
+        },
+        "opaque_margins_px": {
+          "left": 52,
+          "right": 67,
+          "top": 227,
+          "bottom": 80
+        },
+        "nontransparent_bounding_box": {
+          "x": 37,
+          "y": 23,
+          "width": 1069,
+          "height": 1341
+        },
+        "nontransparent_margins_px": {
+          "left": 37,
+          "right": 16,
+          "top": 23,
+          "bottom": 38
+        },
+        "touches_edge": {
+          "left": false,
+          "right": false,
+          "top": false,
+          "bottom": false
+        },
+        "anything_touches_edge": false,
+        "minimum_six_percent_empty_left_right_top": false
+      }
+    }
+  ],
+  "selected_output": {
+    "call": 2,
+    "file": "candidate-b-premium-painted/generations/generation-02-original.png",
+    "sha256": "6e2587b67ee7996af8fba87ea23d426c47a35ec8fb179330b22cc355deb11552",
+    "why": "Generation 02 keeps the richer brushed finish and the original adult identity, and has fewer widely scattered boundary particles than the other B attempts. It is retained only for review; opacity is unresolved."
+  },
+  "rejected_outputs": [
+    {
+      "call": 1,
+      "output": "candidate-b-premium-painted/generations/generation-01-original.png",
+      "identity_drift": "No material identity drift observed in the separately viewed generated portrait: adult Mom, auburn side-parted waves, coral blouse and closed smile remain.",
+      "reason": "Interior alpha remains partial rather than fully opaque; boundary spill and/or insufficient original empty margins persist. Correction did not meet the opacity contract."
+    },
+    {
+      "call": 3,
+      "output": "candidate-b-premium-painted/generations/generation-03-original.png",
+      "identity_drift": "No material identity drift observed in the separately viewed generated portrait: adult Mom, auburn side-parted waves, coral blouse and closed smile remain.",
+      "reason": "Interior alpha remains partial rather than fully opaque; boundary spill and/or insufficient original empty margins persist. Correction did not meet the opacity contract."
+    }
+  ],
+  "derivation": {
+    "selected": 2,
+    "source": "generations/generation-02-original.png",
+    "source_size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1122,
+      "height": 1402
+    },
+    "pad": {
+      "canvas_width": 1400,
+      "canvas_height": 1750,
+      "left": 139,
+      "top": 174,
+      "right": 139,
+      "bottom": 174,
+      "rgba": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scale": {
+      "uniform_factor": 0.7314285714285714,
+      "width": 1024,
+      "height": 1280,
+      "filter": "bilinear, premultiplied-alpha interpolation, round to nearest 8-bit"
+    },
+    "deliverable": "mom-b-v1.png",
+    "thumbnail": {
+      "file": "mom-b-thumbnail-144.png",
+      "width": 144,
+      "height": 180,
+      "filter": "same bilinear scaler"
+    },
+    "other_modifications": "none; no repainting, retouching or alpha cleanup"
+  },
+  "deliverable": {
+    "file": "candidate-b-premium-painted/mom-b-v1.png",
+    "sha256": "e1ad3c628943bde102dd11da9c0686ac6acbd3ba9cc9805d471d7bf25b6927b1",
+    "size": {
+      "width": 1024,
+      "height": 1280
+    }
+  },
+  "additional_outputs": [
+    {
+      "file": "candidate-b-premium-painted/mom-b-thumbnail-144.png",
+      "sha256": "691877ffb9ebc52be76ba4f2d666596fee88edfbe84591ac231463e266708ba0",
+      "purpose": "individual 144 px width visual inspection; no comparison sheet"
+    }
+  ],
+  "contract": {
+    "size_rgba": "pass",
+    "left_right_top_empty_margin": "pass after padding and scaling",
+    "edge_contact": "none on deliverable",
+    "fully_opaque_figure": "FAIL; only 4 pixels have alpha 255; broad figure interiors have partial alpha",
+    "clean_edge": "partly; coloured boundary flecks remain",
+    "overall": "not visually successful yet"
+  },
+  "review_limitations": "References, originals, deliverable and individual thumbnail were inspected separately. No comparison sheet was built per user instruction; same-displayed-height proportion comparison remains unverified."
+}

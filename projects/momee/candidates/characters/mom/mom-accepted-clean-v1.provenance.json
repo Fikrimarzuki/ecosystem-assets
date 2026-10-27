@@ -1,0 +1,98 @@
+{
+  "milestone": "M1.0j-C",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "extract.mom.three-quarter.accepted-clean.v1",
+  "parent": "extract.mom.three-quarter.accepted.v1-2",
+  "input": {
+    "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png",
+    "sha256": "52de109c857d35d1df55633b3a1abb6847f182a1fc092d5562416981ce9d0a15",
+    "note": "read-only; unchanged"
+  },
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies; app-momee scripts/assets png.mjs)",
+    "krita": "5.3.4.1 via krita_mcp 1.0.0 (review sheet only)"
+  },
+  "method": [
+    "Remove light remnants: 8-connected clusters (≤ 40 px) of panel-cream or very light, low-saturation pixels that touch transparent background and whose non-light figure neighbours (radius 2) are all dark (hair, outline). Alpha → 0.",
+    "Then remove detached components of ≤ 10 px no longer connected to the figure.",
+    "Recolour (alpha unchanged) semi-transparent pixels still close to the panel cream whose opaque neighbours are all dark, from the darkest neighbour.",
+    "Ambiguous light rims that blend gradually into the hair (Mom left hair ≈ (28,187); Boy crown tuft ≈ (172,26)) are left unchanged — they may be painted rim light.",
+    "Tiers re-made with the unchanged M1.0j-B tiers.mjs from the native canvas using the original bounds and anchor (verified: re-tiering the original native reproduces the M1.0j-B exports byte for byte)."
+  ],
+  "report": {
+    "in": "mom-three-quarter-accepted.v1.native.png",
+    "specks": [
+      {
+        "size": 3,
+        "at": [
+          60,
+          89
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          58,
+          92
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          214,
+          110
+        ]
+      },
+      {
+        "size": 1,
+        "at": [
+          57,
+          303
+        ]
+      }
+    ],
+    "removedPixels": 6,
+    "recolouredEdgePixels": 0,
+    "alphaChanged": 6,
+    "rgbChangedOpaque": 0,
+    "rgbChangedPartial": 0,
+    "after": {
+      "width": 246,
+      "height": 538,
+      "opaque": 69477,
+      "partial": 2992,
+      "clear": 59879,
+      "bounds": [
+        16,
+        16,
+        226,
+        529
+      ],
+      "bounds128": [
+        16,
+        17,
+        226,
+        529
+      ],
+      "edgeContact": 0
+    },
+    "haloAfter": 0,
+    "specksAfter": 0,
+    "straysAfter": 0
+  },
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-c-construction/",
+    "files": {
+      "edges.mjs": "895c6d081dbcd70fe81e0d2c45ff93f9ea8781c1a73274d295d81f2417a1f428",
+      "clean.mjs": "66aa21b2001c9c97a2a090947b62a593df16e85bf266072afddf3698afe5e794",
+      "mom.cleanup-report.json": "a590c8226305370fdb8c2b7c1b8a1f5a5705e9d69ff9a6b6936ee21bb4068191",
+      "mom.clean-tiers-report.json": "c5e6100112354df2a4b6f0d13f38d771552229b8628492d437e7c98df982e0b5"
+    },
+    "tiering": "projects/momee/candidates/m1.0j-construction/tiers.mjs (unchanged)"
+  },
+  "externalArtworkUsed": "None beyond the accepted reference lineage.",
+  "generativeModelUsed": "None.",
+  "rightsStatus": "unverified (inherited)",
+  "approval": null
+}

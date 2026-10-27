@@ -1,0 +1,288 @@
+{
+  "source": "boy-3quarter-candidate-v1.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "islandsRemovedPx": 10,
+  "key": {
+    "background": [
+      120.9,
+      120.4,
+      120.1
+    ],
+    "tolerance": 10,
+    "backgroundPx": 1189337,
+    "edgePx": 13759,
+    "edgeAlphaZeroed": 175,
+    "edgeKeptOpaque": 2261,
+    "internalBackgroundColouredPxKept": 82,
+    "recompositeOverGrey": {
+      "maxAbs": 16.3,
+      "meanAbs": 0.7,
+      "pxOver10": 274,
+      "worst": [
+        {
+          "err": 16,
+          "x": 760,
+          "y": 792,
+          "alpha": 31
+        },
+        {
+          "err": 15,
+          "x": 452,
+          "y": 1128,
+          "alpha": 0
+        },
+        {
+          "err": 15,
+          "x": 760,
+          "y": 793,
+          "alpha": 19
+        },
+        {
+          "err": 15,
+          "x": 730,
+          "y": 544,
+          "alpha": 86
+        },
+        {
+          "err": 15,
+          "x": 807,
+          "y": 871,
+          "alpha": 40
+        },
+        {
+          "err": 14,
+          "x": 761,
+          "y": 791,
+          "alpha": 14
+        },
+        {
+          "err": 14,
+          "x": 690,
+          "y": 68,
+          "alpha": 0
+        },
+        {
+          "err": 14,
+          "x": 403,
+          "y": 401,
+          "alpha": 0
+        }
+      ]
+    }
+  },
+  "skinComponents": [
+    {
+      "px": 62626,
+      "centroid": [
+        640,
+        386
+      ]
+    },
+    {
+      "px": 967,
+      "centroid": [
+        806,
+        365
+      ]
+    },
+    {
+      "px": 16070,
+      "centroid": [
+        456,
+        773
+      ]
+    },
+    {
+      "px": 8902,
+      "centroid": [
+        798,
+        777
+      ]
+    },
+    {
+      "px": 397,
+      "centroid": [
+        819,
+        859
+      ]
+    },
+    {
+      "px": 6170,
+      "centroid": [
+        541,
+        1005
+      ]
+    },
+    {
+      "px": 5509,
+      "centroid": [
+        717,
+        1002
+      ]
+    }
+  ],
+  "classification": {
+    "pendingAfterColour": 24515,
+    "resolvedByNeighbour": 21826,
+    "resolvedByBfs": 2689
+  },
+  "refinement": {
+    "hairAndBrowPxRecoloured": 105949,
+    "irisPxDarkened": 3863,
+    "hairTransform": "hue −14°, saturation ×0.55, value ×0.88 (weighted; transitions fade out above value 0.42)",
+    "irisTransform": "saturation ×0.75, value ×0.42 for brown iris pixels (value 0.15–0.75)"
+  },
+  "blush": {
+    "px": 7117,
+    "colour": "#fd8e6a",
+    "recompositeMaxAbs": 0.49
+  },
+  "layers": [
+    {
+      "order": 1,
+      "slot": "leg-skin",
+      "file": "layers/01-leg-skin.png",
+      "px": 12565,
+      "bbox": [
+        492,
+        961,
+        761,
+        1044
+      ],
+      "sha256": "ccb661185c492e6ca295262d19e7a4dab4b74489f265a62930e394b2fb45e0bc"
+    },
+    {
+      "order": 2,
+      "slot": "shoes",
+      "file": "layers/02-shoes.png",
+      "px": 40142,
+      "bbox": [
+        433,
+        997,
+        865,
+        1208
+      ],
+      "sha256": "e364220a914c55e9f989487c20f076152a86eaa19ff52e6c28be478c66f3bf8d"
+    },
+    {
+      "order": 3,
+      "slot": "outfit-bottom",
+      "file": "layers/03-outfit-bottom.png",
+      "px": 45319,
+      "bbox": [
+        478,
+        793,
+        786,
+        976
+      ],
+      "sha256": "c3b6b03698c6e1a56fb3bfe7af129babff78937bf3bc691d6136c7e22cfed1e6"
+    },
+    {
+      "order": 4,
+      "slot": "body-skin",
+      "file": "layers/04-body-skin.png",
+      "px": 32507,
+      "bbox": [
+        388,
+        472,
+        857,
+        892
+      ],
+      "sha256": "c2994f7fc565591e6ce3885b348522dc6abfa6e17ce0169602d298455d1a873b"
+    },
+    {
+      "order": 5,
+      "slot": "outfit-top",
+      "file": "layers/05-outfit-top.png",
+      "px": 71740,
+      "bbox": [
+        435,
+        510,
+        788,
+        809
+      ],
+      "sha256": "9c89d4982fb4fd158ccac2cef523ed10e7ce301ab4b90ae1621775442f34f6b1"
+    },
+    {
+      "order": 6,
+      "slot": "hair-back",
+      "file": "layers/06-hair-back.png",
+      "px": 1811,
+      "bbox": [
+        492,
+        468,
+        588,
+        509
+      ],
+      "sha256": "91ed4aa21c03ef9f2de3082caa9574c7260e1861635e404ddeec99fe571e9d7e"
+    },
+    {
+      "order": 7,
+      "slot": "head-skin",
+      "file": "layers/07-head-skin.png",
+      "px": 63023,
+      "bbox": [
+        426,
+        174,
+        819,
+        499
+      ],
+      "sha256": "ea7731aa56d2ba84cdf3f95b9711234386499d8196c6e390fd9b114480b62528"
+    },
+    {
+      "order": 8,
+      "slot": "face-blush",
+      "file": "layers/08-face-blush.png",
+      "px": 7117,
+      "bbox": [
+        533,
+        361,
+        807,
+        445
+      ],
+      "sha256": "1c2f7ebb9c24c34bccaefb1c66c8d3e7177b5136f4527e1c41a4509d7fc9881a"
+    },
+    {
+      "order": 9,
+      "slot": "face-eyes",
+      "file": "layers/09-face-eyes.png",
+      "px": 9628,
+      "bbox": [
+        556,
+        286,
+        780,
+        397
+      ],
+      "sha256": "93be4383cbfdf883b64ba7132a7c1eac1fc270f7af315f346a7042c9db0d67cc"
+    },
+    {
+      "order": 10,
+      "slot": "face-brows-mouth",
+      "file": "layers/10-face-brows-mouth.png",
+      "px": 274,
+      "bbox": [
+        652,
+        419,
+        725,
+        437
+      ],
+      "sha256": "479e17b48b0288243ffe3603b9d73c9c6215c663a557702eb50224c67ddd42b9"
+    },
+    {
+      "order": 11,
+      "slot": "hair-front",
+      "file": "layers/11-hair-front.png",
+      "px": 105985,
+      "bbox": [
+        328,
+        27,
+        856,
+        426
+      ],
+      "sha256": "2d08edb53da3b3d92e0adc7d254dfbd83d6db41b37621111122b7ba41c0b4100"
+    }
+  ]
+}

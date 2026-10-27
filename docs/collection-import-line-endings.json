@@ -1,0 +1,1242 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "reason": "Text files from the 2026-10-23 import had CRLF or mixed line endings when docs/collection-import.json hashed them, but the committed and working files have LF only. The active manifest records the committed bytes; this file preserves the original import size and SHA-256 of every affected file. originalBytes and originalSha256 are the historical imported bytes; currentBytes and currentSha256 are the LF-normalized files at the time of the checksum repair. All four are historical snapshots, not live checksums.",
+  "reconstruction": "crlf: every line-terminating LF was CRLF. mixed: only the line-terminating LFs of the listed 1-based line ranges ([first, last], inclusive) were CRLF; all other LFs were plain. Inserting those CRs into the current file reproduces originalBytes and originalSha256 exactly for the recorded snapshot; after later edits to a file the recipe is not expected to reproduce the original hash.",
+  "entries": [
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/assembly-validation.json",
+      "originalBytes": 176515,
+      "originalSha256": "ca1cf0e735ab8fc40335bdb6b5ca946c43a2e89c2aafa78be8ceb09ab641d2b4",
+      "currentBytes": 170351,
+      "currentSha256": "775eafd43b17caa55d4dd611c3798629a85ed6d0b9cbe40cb0e89903fe5287a9",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/correspondence-diagnosis.json",
+      "originalBytes": 521,
+      "originalSha256": "574ebb294c7038486093416e2153f8c77d917365596fc66d3d1ea06f56895774",
+      "currentBytes": 493,
+      "currentSha256": "b72a09d5b7387a579c57ffed3a600adafc1ad13baed4f5f2970af4b7928a70fd",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/engine-reference.json",
+      "originalBytes": 64901,
+      "originalSha256": "89e9b75cc13e0b4d0c408180388fbe9a274d1e4edd4da9ea02cef7b49d8950e0",
+      "currentBytes": 62775,
+      "currentSha256": "88f6e172ee39e4688bc0b2fa9037b8c7e8807a6c6b0e07e1d75e430bc65f5fbf",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/export-validation.json",
+      "originalBytes": 11754,
+      "originalSha256": "fd18c1b5768b32d03b54b38e1f33b5912360239d9c6b57ad2a216c5ac840359d",
+      "currentBytes": 11347,
+      "currentSha256": "f7375e10658d7c90026d35ea820c48aec25ca266fa4d570ff2e2890748db5e95",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/ground-inspection.json",
+      "originalBytes": 753,
+      "originalSha256": "02dcb9b7a70d32f7d4d413541de08d28911c9c932df1fc909a7fec2eaa0b2862",
+      "currentBytes": 720,
+      "currentSha256": "d850d15835f3864f78bdbebc5888a3ef459065285d9a6fd840002069225f6a8d",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/initial-validation-diagnostic.json",
+      "originalBytes": 10923,
+      "originalSha256": "1f77ba561057fc4fe0321332164fea47939dec598179ebd08762ca407aa53500",
+      "currentBytes": 10539,
+      "currentSha256": "038db3da3bcdb5107ceb6320e1364736c0d9ee368830bb3444850d1d3c949c5c",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/roundtrip-diagnosis.json",
+      "originalBytes": 3378,
+      "originalSha256": "fc45467e564bad1bcc30cf6ed83703932975da7669e6fbd1521042c43d8bd1c6",
+      "currentBytes": 3186,
+      "currentSha256": "4db157acf82cda8943c6bda0286678d9071676b4984c59d740fbd9160a54d179",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/export/skinning-analysis.json",
+      "originalBytes": 4307,
+      "originalSha256": "a9f261e07f645cbb0bdb8fdc7bcad9394a0f5430196f33e94ed05676a54021d6",
+      "currentBytes": 4163,
+      "currentSha256": "28d0b37b7b05ac2ec314e251a92aab31721d6e3e4e526211296d80d49ea02d81",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/asset_utils.py",
+      "originalBytes": 5514,
+      "originalSha256": "8f49fe01427850cadd53698c3d37705e0cae99eb0c6cb91981faac4efa32ca78",
+      "currentBytes": 5378,
+      "currentSha256": "10f0b7fd7b41c939cb3063cf5dcd3af3f6ac4e7702d3c89ab535baacd08ec222",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/check_three.mjs",
+      "originalBytes": 7010,
+      "originalSha256": "858338910a1ea0dbd3f55ed810b360fd1fe6eeadf34dbb2a5602e545951ed140",
+      "currentBytes": 6894,
+      "currentSha256": "e923de774ea19152b558cd18032bf31d87b868763bdaf79bd50e9b44ea975ba6",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/engine-reference.json",
+      "originalBytes": 76421,
+      "originalSha256": "51de139570723ddd95493efa217ddb1ccb1a89eaa88a23e033c1eeceba999cd2",
+      "currentBytes": 73893,
+      "currentSha256": "56962d0adea95063380ad1e381c35b609780811d2afb95d900744d62e020e2b3",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/export-validation.json",
+      "originalBytes": 15145,
+      "originalSha256": "e20a1b492d5e4c3fec3221a0b605e6caaee4126781aa5055ea22c60716e90776",
+      "currentBytes": 14638,
+      "currentSha256": "b235d2d4d5ae5f7c4f93514066df722fb3ce799428f6a90cded8ac229d144e03",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/export_and_validate.py",
+      "originalBytes": 21450,
+      "originalSha256": "06539af814069716230f646475062448d2f8468e2830492c5f7c8f9571d9a49f",
+      "currentBytes": 21100,
+      "currentSha256": "2f03c226c450e3e98c7b5ce4ef81654e77df44a1fdbc776f3d267717cd02c53c",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/final-validation.json",
+      "originalBytes": 22288,
+      "originalSha256": "72f97f8df1f34afe52ee77af5839d3c861254a45caadee2119f2dfd342bad920",
+      "currentBytes": 21523,
+      "currentSha256": "aab6aeb9d9c147b7764ab63462389b5c251307398c62f54d6310bb40ebf22995",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/previous-comparison.json",
+      "originalBytes": 3229,
+      "originalSha256": "b9d35e205b159b3aa89539b6ec1735e94cb07657136626c453896627abe329bc",
+      "currentBytes": 3098,
+      "currentSha256": "654f801719e63c15b95dcc932a8d48a4a936bd8dd378e06b99db47012034c9f6",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/review_deformation.py",
+      "originalBytes": 2116,
+      "originalSha256": "8b9074fe6b85e310220d890c220b458c0739d1395e0d58fef60d45491ee2b38a",
+      "currentBytes": 2078,
+      "currentSha256": "845a6444c7e2a1201cc00f232de682420abf1141de8483a51ab169a6f772ca31",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/final/skinning-analysis.json",
+      "originalBytes": 165822,
+      "originalSha256": "4279f97e0137234df20fc0eafdf16b8c58956c09506756cc3c7d207bf65fbb57",
+      "currentBytes": 153323,
+      "currentSha256": "5f944ed809d0cf27f69e1b0a911d46142c5b83c81abaa7dfa5d29acd01a011d8",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/contact-samples-final.json",
+      "originalBytes": 570917,
+      "originalSha256": "0765d489d83b0d5ca09a1721f9cabacf4409e2ff8e7ee022f4f99118d7872a49",
+      "currentBytes": 544078,
+      "currentSha256": "39fb81623d35b28b7b636141776289ba7699241af345745b34977eda9b2d745e",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/contact-samples.json",
+      "originalBytes": 570921,
+      "originalSha256": "2159ec956b8875aa61b96188f838cf0ddec08101126010f82933d161d4364420",
+      "currentBytes": 544082,
+      "currentSha256": "0c519a32544cadbbc1942a4f2df60dce58792780acd6164b7443b70f4f872269",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/correction-contact-trial.json",
+      "originalBytes": 315480,
+      "originalSha256": "5c18fa8a75dda232c87811092d0e1610c2bfa8b19d6546555df21ad8bd896c7c",
+      "currentBytes": 306680,
+      "currentSha256": "5ce7f77cb3302b8a7d582d759f47ea1d620be44f5a38de2532c568f4f1315d97",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/correction-final-trial.json",
+      "originalBytes": 315712,
+      "originalSha256": "7478bb870ec7a9ab6f22e049531ca1b49dcaaf53dd19bbc910bc9f0b37489c11",
+      "currentBytes": 306903,
+      "currentSha256": "899363134499f8d8c69a3735db5ad00d5374605e55cb17fa18bd939f48952b61",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/correction-trial.json",
+      "originalBytes": 315215,
+      "originalSha256": "c9314d11dabb1d946ba3c14c59b72384852eb2296e63140b5dfb4d7cd055848e",
+      "currentBytes": 306421,
+      "currentSha256": "8b506e371553bc4de28ce3dfd3f85012a457ff558e157e7b7e2f01fd9ef629d5",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/correction-validation.json",
+      "originalBytes": 7867,
+      "originalSha256": "456cf5c7ec3552d72f1f0c583763abfd6d10d5e23dbe5d089a8ef4446cc73905",
+      "currentBytes": 7657,
+      "currentSha256": "f17ba7e3aee60ef3e15887574db8ea8413b77575d8961995bb3984160066c6f4",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/diagnosis.json",
+      "originalBytes": 583750,
+      "originalSha256": "5dc392731874704a6d8017768a45dfb64a6d18b3cdd245690b5852bcf602e3af",
+      "currentBytes": 564186,
+      "currentSha256": "00f8bec352eaf7ca8456a6421c9d1a7a84ddb0ab5974af182cb3d20882475f30",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/final-correction-validation.json",
+      "originalBytes": 7861,
+      "originalSha256": "9dbf6d856f4419dca9d522a30d9b47a3c7693c8abf5f124bebbd0ae0bb2e3d54",
+      "currentBytes": 7651,
+      "currentSha256": "d71fcda56a93949e05b28f3cebed4bfa08ad233dd527c38ac92cc3c01299725b",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/loop-refinement.json",
+      "originalBytes": 611,
+      "originalSha256": "896ab0459af295641b090a9283e95055a79dee0c592a63b068c4d786b6e7113a",
+      "currentBytes": 588,
+      "currentSha256": "9d3ab373e531e5a6de1f5f6ea2f43d32964f1e6d475b5a5979eb76441e9974b5",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/saved-correction.json",
+      "originalBytes": 1927,
+      "originalSha256": "b6f499fd3caa1f2fe73713db828dc0ed471fff929d0864565c6faada562efe42",
+      "currentBytes": 1895,
+      "currentSha256": "b96a451f9e227799bc75dfb9f9516a3dc7257e887313284d45d58aa4b62f3cc1",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/ground/saved-file-validation.json",
+      "originalBytes": 697,
+      "originalSha256": "c080af65ad19c0923ff2c7e3efdc51299bac15c724b9c73df37b0743945c1dc5",
+      "currentBytes": 673,
+      "currentSha256": "672eb14028fe7800d1486b4c53f9bef91dfbb6b0f7a3cf434cca2e5b86986894",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.2/saved-file-validation.json",
+      "originalBytes": 505,
+      "originalSha256": "710905300c9395ebfe43fb4d790451f8728cea81fca8b7f52c1aa35372fa75da",
+      "currentBytes": 493,
+      "currentSha256": "81b8f44dbc03e142c6b22379013c4af86d4cd94f8a13cd8e7f778a26078105cf",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3a/runtime-qa.config.ts",
+      "originalBytes": 343,
+      "originalSha256": "d3031eb63f60d2d6098db8fe3b5bcd52dd331d0fae134e243b9053a021a8ff2e",
+      "currentBytes": 342,
+      "currentSha256": "d1fbc894a871ebfed510b6ccf567bd0c030126e0d96b462127653a2104dc5359",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/README.md",
+      "originalBytes": 2907,
+      "originalSha256": "72f932be4aeef668225849c97421eea53f468098d2b87581b19e62d7a076747c",
+      "currentBytes": 2906,
+      "currentSha256": "106f7dd1512b787892e2058ed75983c3192f190dd34bb78a5c2720190ea04428",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          44,
+          44
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/baseline-animation.ts",
+      "originalBytes": 3833,
+      "originalSha256": "1888c4a5901a16fbc350a9634505d874396c35ab10ac9b6c3db03cadae5eb030",
+      "currentBytes": 3755,
+      "currentSha256": "6602b2b34469ad652ae9418b80bb8ceb4d7063f80f7c6d330864ca4ccf57ba24",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/diagnose-contact.mjs",
+      "originalBytes": 7066,
+      "originalSha256": "b3c7d48036f2329cb4e2b243604af9e8cbe81d1b47211ab3d50001e9cffa14d1",
+      "currentBytes": 6966,
+      "currentSha256": "b4d0af13a9329899515632466c1c36b468442c221d693105659320b1da7953de",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/reproduce-ground.mjs",
+      "originalBytes": 3210,
+      "originalSha256": "c937b5b49a22808225eb1fd553a1968a1f4ca9fc6221164537861f9e8ebffb27",
+      "currentBytes": 3165,
+      "currentSha256": "ae6f9b6a70da5cdd9cb7cc581eff668437e3e6f7053b7e34f23903be388a9034",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/runtime-ground-samples.json",
+      "originalBytes": 4377,
+      "originalSha256": "c6573030606933066ef4b1e60fb13f43215bb7298f918d5252793b475be7d54a",
+      "currentBytes": 4136,
+      "currentSha256": "f17d4b9c755aed4e5342f6189aea4d8c6f10dcace474b5e1e4146797a1af2ff1",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/runtime-qa.config.ts",
+      "originalBytes": 396,
+      "originalSha256": "170ac4dd5b92db8e5408dc787ca8b610706d749bb91a5ff4f4f208fc7818f567",
+      "currentBytes": 387,
+      "currentSha256": "74a5d78d9df3b0300df36167b664d09c4a54941b29eabaeca824802c5e49dfde",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b.1/validate-contact.mjs",
+      "originalBytes": 8279,
+      "originalSha256": "c4cc51753c60250a88fa3edccd65063045b8cad75d1755f70718c5e5eec6bab3",
+      "currentBytes": 8177,
+      "currentSha256": "d8146da0018eba6dd8a05a5b9e89538af0c4c8c65df3ab88aeaee59e67a409cf",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b/README.md",
+      "originalBytes": 2027,
+      "originalSha256": "f03f111cfa22720a26752349da3d24444f48fb5745a650b95d982f91b41ee923",
+      "currentBytes": 2026,
+      "currentSha256": "d6b30fc9809135355d967da317dcaaba0890f38057b83f40d3f62c671d9abdd4",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          32,
+          32
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b/measure-crossfade-ground.mjs",
+      "originalBytes": 3138,
+      "originalSha256": "260d8332f2fc925e4df7b74d3151ae28e47a3cebfc68cfaf4462e8b9e5040d7a",
+      "currentBytes": 3137,
+      "currentSha256": "17e37146ce8ccd060f4c9f1d146622f41e9c010fbec4acb4881c1f816d5b594a",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          45,
+          45
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3b/runtime-qa.config.ts",
+      "originalBytes": 365,
+      "originalSha256": "3d8536c8640290123f9b5a83a56cbc5d7e8bb05e345dbe900841e9d1c8b618dc",
+      "currentBytes": 364,
+      "currentSha256": "d3b4e706769c4ec4826f1cd8c34c78c694c939e74af14642dad9a33c818a089d",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          9
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.2/README.md",
+      "originalBytes": 4802,
+      "originalSha256": "1be35a4e34419e9ddd78c8b8370e743eb0549e261a58970e9cf28bcece50e42c",
+      "currentBytes": 4722,
+      "currentSha256": "2f746b6d626876a9c38b207b43f663525d14ae6226087476b87486740f1f8cf7",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.2/after-browser.cjs",
+      "originalBytes": 5728,
+      "originalSha256": "cac689c8c21e41aaf37d17703cd25cadb7da73db61b7fdc12caf489fb78ef0e3",
+      "currentBytes": 5702,
+      "currentSha256": "8d4575dcc27d16a8e812068781fb1f7021c95aa75fa2c28e0d4d2157db05016c",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.2/baseline-browser.cjs",
+      "originalBytes": 1692,
+      "originalSha256": "aab20ad7bfdb73a8d88a538ff79a88e678e71c46277bd3dea59fadf772514505",
+      "currentBytes": 1688,
+      "currentSha256": "ecd418d84a7486473767396ac8e86ecb4c851bd095d88a3758789b4b16497023",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.2/compare.cjs",
+      "originalBytes": 6089,
+      "originalSha256": "a05d928de89197abd5a1c42bc7ab31e01ef0f664de28c42bbda954eeb42580d6",
+      "currentBytes": 6066,
+      "currentSha256": "4840378cd4191b1e6e1f49c9e82b2d6485af709b8acbd433444798ea2202cd40",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.2/options.cjs",
+      "originalBytes": 5687,
+      "originalSha256": "606369ab191a901166ba2595c035b5f2e12500f5cb33f31f541da4d98b97980c",
+      "currentBytes": 5665,
+      "currentSha256": "cf15dcc1886153ea254860b0e241ef2834bfde14d6c7c44098ee41f5b308ec07",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.3/qa.config.ts",
+      "originalBytes": 339,
+      "originalSha256": "d89b476d1bf6b84bcce097ae1b51775d29c509c890516c07fd35e0d0ee524b3c",
+      "currentBytes": 330,
+      "currentSha256": "ace1058b879c59d142e9cbe4499cf108223ba3be128ea57a17f32bf0a12e95ff",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.3/validate-contact.mjs",
+      "originalBytes": 8317,
+      "originalSha256": "722b4bfd20c26fd7c6bcde56eac72f2727da358d7705eb7648ca74e74b51910e",
+      "currentBytes": 8210,
+      "currentSha256": "8e10dd8a3bf4c1579f4539b23b09fa8f0f942a02649895433ea8b49f0d3b9dd6",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/README.md",
+      "originalBytes": 3946,
+      "originalSha256": "fcada010c55c60c35920019540b87fbe1e115a03c99e0a955321013b7f82d7ed",
+      "currentBytes": 3914,
+      "currentSha256": "3afa50c7c1a9e7e7d9d93f9e2fb1ca82ad2a608cfb04eda0df3940591d05204a",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/bench-stop.cjs",
+      "originalBytes": 5080,
+      "originalSha256": "5f50380c4f18c4c0e3020b298623d320b3182052885bf9a2bcc2f98289b28d94",
+      "currentBytes": 5046,
+      "currentSha256": "3a6a1d33ef8d8947b7788edfe4d3e9b1d75c3cc1f19ff8e380aac90fd87de2d5",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/measurement-summary.json",
+      "originalBytes": 1559,
+      "originalSha256": "d7cec0071f039dbe5377e45361dc6e74e1ef2a7ce57820913a627ea9d8dd3962",
+      "currentBytes": 1498,
+      "currentSha256": "4e59a3b63fea3f9e6c30830b9aa7ed44e0ab3c68c567fe71aaed6c96106b1881",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/qa.config.ts",
+      "originalBytes": 339,
+      "originalSha256": "d89b476d1bf6b84bcce097ae1b51775d29c509c890516c07fd35e0d0ee524b3c",
+      "currentBytes": 330,
+      "currentSha256": "ace1058b879c59d142e9cbe4499cf108223ba3be128ea57a17f32bf0a12e95ff",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/verification-summary.json",
+      "originalBytes": 1252,
+      "originalSha256": "c8e4ca8836d3c4b23990fa381fe6c61d508980fad1827ee58b98ad153c3129ff",
+      "currentBytes": 1229,
+      "currentSha256": "2ba08b7520c7f4d90217db214e6b2ced0d1c1d088ea1ead1a0ce05f009287937",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3c.4/walkability-comparison.json",
+      "originalBytes": 6059,
+      "originalSha256": "228286a4bc2dc5e35355a4cd567b1789e16290ed1f3937be3dd782610234da6f",
+      "currentBytes": 5674,
+      "currentSha256": "833253d7714a7cdbb37fe8aafe727a537cd288502f8c7c6b689c24c229a1ad93",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3d/browser-qa.cjs",
+      "originalBytes": 17733,
+      "originalSha256": "b1edc102a90bc7698d75baa59dab0f59ffd89a7a8ebcd0f45b5327848001e9ab",
+      "currentBytes": 17621,
+      "currentSha256": "1533d6c85cfda5d2846e5511b1ece2b5ad12775530ee69a0c00d7077bd20a248",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.3d/verification-summary.json",
+      "originalBytes": 2580,
+      "originalSha256": "6d5ff83c269988c1c16f0c71bf309a0e0aed88008131548a8c999fcee254230a",
+      "currentBytes": 2527,
+      "currentSha256": "f636f01ac0abf751a008f83303d4729722625be07a110bcd5584f29a78161539",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a.2/after.cjs",
+      "originalBytes": 10090,
+      "originalSha256": "53b6a5220542a7e89ad1f36d02ebb6e90ebb53c6a214c904741d61f982faff10",
+      "currentBytes": 10071,
+      "currentSha256": "800ca1a22d83f37108c26eb4c399f642162aa978419ccf898fea868cafbc3865",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ],
+        [
+          68,
+          69
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a.2/before.cjs",
+      "originalBytes": 6988,
+      "originalSha256": "519d6c1d8a342391447e31ac3571802a64ee8945432d948afe412642c760801e",
+      "currentBytes": 6968,
+      "currentSha256": "b6f4f256dbe98fe6551578e08e76bad2079db50d324491f344701f805f17218c",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ],
+        [
+          56,
+          58
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a.2/clearance.cjs",
+      "originalBytes": 8673,
+      "originalSha256": "6eb5c492a0a97e716c10183254ea588c7402acc48b8684342c7dfcb6adac18b4",
+      "currentBytes": 8654,
+      "currentSha256": "26e75397a6586ac2febe62a86b8d53fd5a4fd89c84f80c975cc09b412ec46534",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ],
+        [
+          56,
+          57
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a.3/before-tablet.cjs",
+      "originalBytes": 8544,
+      "originalSha256": "c6706774689a3eb0653d9433a2b9ac76af97c9be580ba4318b457733c8dc0dc1",
+      "currentBytes": 8527,
+      "currentSha256": "f6938663f0e3164cb0c32c55f8117139353a10330ab7f83acac34efd3c6f4aa6",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a.3/before.cjs",
+      "originalBytes": 8517,
+      "originalSha256": "d75e6a594756cb6ba172d7154a2c94b9dd6fed584b38d01bbb418cbe7db01df6",
+      "currentBytes": 8500,
+      "currentSha256": "ac01fe956ffcd0817967dc4a6b924e494358e57941c860a5a3e12d9ace1f4faf",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a/final-acceptance/acceptance.cjs",
+      "originalBytes": 10342,
+      "originalSha256": "750691b856bffff6915effa1a9977a50c71b858fb368285c05bec9ed5d4eece0",
+      "currentBytes": 10325,
+      "currentSha256": "5e7b6b4aea1175e3db419c525f216499f67543454da36938597d3622bff3e5de",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a/performance-qa.cjs",
+      "originalBytes": 12008,
+      "originalSha256": "457212fb02fbebad055dbc53aee7a67c016395615a03cce97e9cd0857e0f6eee",
+      "currentBytes": 11990,
+      "currentSha256": "ff7a6c27e9e1c85135f4f6c121b00773e6c6026091f4827b8fbbc91a28f1fec0",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          16,
+          32
+        ],
+        [
+          84,
+          84
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a/resumed/camera-repro.cjs",
+      "originalBytes": 6975,
+      "originalSha256": "1fe013abf9f58fd6a3993aab577598427a39b024bb3f68488e5b05ab0c1c3c7a",
+      "currentBytes": 6956,
+      "currentSha256": "0c5058332a24847b621d4ffe377028e40784b51e77854a76e346a0f72e1da940",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ],
+        [
+          56,
+          57
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a/resumed/performance-qa.cjs",
+      "originalBytes": 15655,
+      "originalSha256": "af01d71f9be62813a255ef12d8be374f322146110090a795c9609a8c3101776e",
+      "currentBytes": 15638,
+      "currentSha256": "467583200057ea7dc330335d2b21d966f1ad18a31fab9a279de3435a9265ddd1",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          16,
+          32
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m7.4a/resumed/visual-qa.cjs",
+      "originalBytes": 8176,
+      "originalSha256": "101ca5f038efdc13fa8f976232ce0e333d0068a0bcc0ed96eeaab27c8a8ed4a8",
+      "currentBytes": 8158,
+      "currentSha256": "c9e6eacf51d4d0ec278603a4e5b169f33408d1e190e7a0bf8872c7e4770b8f22",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          9,
+          25
+        ],
+        [
+          58,
+          58
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m8.1/candidate/components/universe/planet.tsx",
+      "originalBytes": 1550,
+      "originalSha256": "6e1d85fbeaa7911053b29a8f3ee6fc0bfea00c9f46fd91da907b268792f99e91",
+      "currentBytes": 1549,
+      "currentSha256": "823ad69b335ea6eb8214b6aae6bffc86ed552afb49e8012049a0b0ebf673734f",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          27,
+          27
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m8.1/candidate/lib/universe-config.ts",
+      "originalBytes": 6728,
+      "originalSha256": "612ac72300736e1f134225818a858273d8188a5b30223f25c7370b3121bf56aa",
+      "currentBytes": 6584,
+      "currentSha256": "b9b8ecf8950b7ab4633ba3dec5062fced42bbbecb5385480b511d06a44a8e288",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m8.1/candidate/tests/universe-orbit.spec.ts",
+      "originalBytes": 11227,
+      "originalSha256": "e52ec58bc101b4592bb10e37112ae4112be5e77b9a2b4346339c60bca09b1a37",
+      "currentBytes": 11018,
+      "currentSha256": "514acc143a31540ce552b077e5876beac6bf527f51b3cd2feccc9ceaf06ef378",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m8.1/measure.cjs",
+      "originalBytes": 6846,
+      "originalSha256": "eaa66fb31d30b87a8a3a0e702530e36806bbba258d865db65ad83ac644b4e5ae",
+      "currentBytes": 6845,
+      "currentSha256": "7aec5b4500ca2ef45ea65d95a0e9e23e53812f8a8c380aa107fb9d0f85463829",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "automation/m8.1/tools-overview-probe.cjs",
+      "originalBytes": 3712,
+      "originalSha256": "24ff9e0b6a9f68201844bb32d94d9a9529fe7e3d151d6a4be115e4534bd6c3d2",
+      "currentBytes": 3711,
+      "currentSha256": "f623470b1535141fad928f20a0949565484e31ca397c65f650a4e679bd234fca",
+      "originalLineEndings": "mixed",
+      "crlfLines": [
+        [
+          44,
+          44
+        ]
+      ]
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/games/references/layout-v1.json",
+      "originalBytes": 3767,
+      "originalSha256": "c43fed6aa93db46dca47d73bb8d28d3a8f8c076ce5049ca58df459529182267e",
+      "currentBytes": 3499,
+      "currentSha256": "0f039d6f769899782bb4255c354ded156178da6a34764e72ba944d3f9f19a217",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/games/references/layout-v2.json",
+      "originalBytes": 4329,
+      "originalSha256": "cb2d4f2fbbe27ab695b1141de192df00d291310eeaebfda59414e56bab275eae",
+      "currentBytes": 4011,
+      "currentSha256": "5082c9560cbfee080484284b20bfa9b4bfa3d750b0e0d2ee9c83c395f012fdf4",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/games/scripts/build_games_v1.py",
+      "originalBytes": 34440,
+      "originalSha256": "78fbe167fc6f7c6def57cc8d91ed0c50f2a090023dcae0776bca6d53814c4565",
+      "currentBytes": 33978,
+      "currentSha256": "e811a0ae4f40cf55b7d2c1cec4aceb8e3da2630a43b5640f21d2f8d9e9010e68",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/clearance-report-v2.json",
+      "originalBytes": 2605,
+      "originalSha256": "f8ff90e982005e01482ab9e7ca92d9b3cad83041830bcedc8a146f3a4ad527e0",
+      "currentBytes": 2518,
+      "currentSha256": "161da40636e6d409a2b2888e70e388afa898e10123b18c710cd27193862e8537",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/clearance-report-v3.json",
+      "originalBytes": 10392,
+      "originalSha256": "df7ed0423544bee7907268eccf22ea55f1af63265a2694b1b1c1b764db75fe96",
+      "currentBytes": 9925,
+      "currentSha256": "b741b9dc278623cb9fc72bb351180e564eb1bf149b3c4e296718086adec39805",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/clearance-report.json",
+      "originalBytes": 1850,
+      "originalSha256": "dc31e4ad9ea40625927286b98740d3e9be3c61600da6af051a3d0ea8ef94243d",
+      "currentBytes": 1791,
+      "currentSha256": "88b10d4344c92f04d3e82620038a08fc412787c09cf55bfb53761831f99af7de",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/layout-v2.json",
+      "originalBytes": 56257,
+      "originalSha256": "07d6d72d0558e958d86207ebfdc2d2854c14a80fb5821f3bf6c957e57914061f",
+      "currentBytes": 53817,
+      "currentSha256": "574b07a7c79bd1c073821343d680f6ec96e90fbd27cc17c5b67c7491c1ca4827",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/layout-v3.json",
+      "originalBytes": 68294,
+      "originalSha256": "36d78a3bafe8b1a077aca2ab908e87f2ca938d78a37da4e754e6a532f45c7011",
+      "currentBytes": 65329,
+      "currentSha256": "c4bab69a32594b3fb6b041fe50ce0cb400c87cfae514776fb75da09ffc6a915f",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/references/layout.json",
+      "originalBytes": 42395,
+      "originalSha256": "bb9e066b4d7f1e968513e450f15cbbdceef4c20e39577a15529cf55b6fcc352a",
+      "currentBytes": 40555,
+      "currentSha256": "997dbb45f1483cec566d2163af7a457ccb103a3deef9666740d9db3384371598",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/scripts/build_learning_town_v3.py",
+      "originalBytes": 67589,
+      "originalSha256": "aedeb543b3095673e4c8ee2d1ad1eda97a96321028e37e3c0811de83b15d3179",
+      "currentBytes": 66691,
+      "currentSha256": "922fc9ed4f8748358586851295e71095516d94230e49d0411eb7243649c13814",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/scripts/make_v3_script.py",
+      "originalBytes": 14627,
+      "originalSha256": "bb603ce4ec2fd9c6aa66d9401759b33cec1b75000276fdb325729cd0780aa5db",
+      "currentBytes": 14472,
+      "currentSha256": "40359d4ee63d8ab97a183138e42fb0134ef8eb2c0f04a7e4a626b2c82d6f0f29",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/versions/clearance-v1.json",
+      "originalBytes": 1850,
+      "originalSha256": "dc31e4ad9ea40625927286b98740d3e9be3c61600da6af051a3d0ea8ef94243d",
+      "currentBytes": 1791,
+      "currentSha256": "88b10d4344c92f04d3e82620038a08fc412787c09cf55bfb53761831f99af7de",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/learning/versions/layout-v1.json",
+      "originalBytes": 42395,
+      "originalSha256": "bb9e066b4d7f1e968513e450f15cbbdceef4c20e39577a15529cf55b6fcc352a",
+      "currentBytes": 40555,
+      "currentSha256": "997dbb45f1483cec566d2163af7a457ccb103a3deef9666740d9db3384371598",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/products/references/layout-v1.json",
+      "originalBytes": 7220,
+      "originalSha256": "5d371b3a3805930c0937a18a536822fd3776ed6399e3ab02d97e7229ce896450",
+      "currentBytes": 6744,
+      "currentSha256": "631c8582add88cbee6275b5074c6b160a0c0e151417aa6e53d078ec6acef7052",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/gateway",
+      "path": "planets/tools/references/layout-v1.json",
+      "originalBytes": 5635,
+      "originalSha256": "61b1f1afd255c11f6b563aed3f466b48ee3a74b931a1474ce0cb6f96906b9f80",
+      "currentBytes": 5257,
+      "currentSha256": "432dcbc2e0255f696625b92b8fc50ff14e4bb415f48480c2086f5e260599d84b",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/anim/animate-report.json",
+      "originalBytes": 1620,
+      "originalSha256": "9c12ad8d32cd72e8cd7a28f9683cffd94d5046a7d8754dcce4ab4ea8b4feb0e8",
+      "currentBytes": 1511,
+      "currentSha256": "a3a54ee709e98478a59c898d0513b6a95996d52d8d94c3ff934cdb65f0a6b83e",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/anim/channels.json",
+      "originalBytes": 640,
+      "originalSha256": "e5c43b9e8cdc7c24b03b2613a8bccec0fffc44438fd22ac1a23344788633c450",
+      "currentBytes": 600,
+      "currentSha256": "10c0beef4cc94b487d6f7dbf91b1a63359225a6c6ad987ddc8c6061b4df667f3",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/anim/validation.json",
+      "originalBytes": 6172,
+      "originalSha256": "bd83d77a7e77c8c3b264dd6354483eb36d3805ed6c49cdb0b272d23fe943998e",
+      "currentBytes": 5859,
+      "currentSha256": "74adb9d9fd20bb7432edcc05f3ef794f2a393caee1f15927ae2828ba0d736b86",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/inspect-20k.json",
+      "originalBytes": 4427,
+      "originalSha256": "48966e0d0f41571a04b86879295efafd6afcd88f7081ad39935f164173efa95a",
+      "currentBytes": 4219,
+      "currentSha256": "c423afd53cc2ba2000e45cf1cbda25de86b536aa79ac79f1afbdff27355044bb",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/inspect-25k.json",
+      "originalBytes": 4427,
+      "originalSha256": "c66f08b7c217e34b480df0f874575d802a99c97a75afe29b3f0e61d8cd1c0786",
+      "currentBytes": 4219,
+      "currentSha256": "a99ec696df7bf44f301623ca0e52b574f3f772ee8ba6b17c347abcae2795529e",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/inspect-40k.json",
+      "originalBytes": 4418,
+      "originalSha256": "913eac55f58cdbb80fd88c00879d3f49965d55002b2a4526b5d095bbc1205918",
+      "currentBytes": 4210,
+      "currentSha256": "f3729a3f793e1cde6da62b5b33633dc23cecd5ea1757007a465dddda65e9db51",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/inspect-source.json",
+      "originalBytes": 4379,
+      "originalSha256": "2c582a66f1d7d6863dcaee0b33ce2d0a87d9438ed11482d5dcbd3a87b8fe0439",
+      "currentBytes": 4161,
+      "currentSha256": "39fa7dd96f081f8d9e7ed0ea81fb875e08eef0f4f7979fd123842cd8b46c8eec",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/optimization-metrics.json",
+      "originalBytes": 2938,
+      "originalSha256": "8c2fa43b19463f27505d32ff9182117adbafaa0f2f16eff7ed1d83ccfb71a51f",
+      "currentBytes": 2809,
+      "currentSha256": "17c813b15b894d52d72505c1d51ddd9bd062352099f78ed240cf19a17d57b11d",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/preview-pixel-diff.json",
+      "originalBytes": 6175,
+      "originalSha256": "4420f3f83749e8d98543ef057321182992aa19156c5b8a520596081eedb63f32",
+      "currentBytes": 5886,
+      "currentSha256": "71e3132f0c5bf05a02aaca1198687e512ef6947d567093745dfe09fc66ddad51",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/deformation-v1.json",
+      "originalBytes": 4095,
+      "originalSha256": "a7ce021583cd948cb0c75d141d7e5d39ca7936d6479248b3f693801f9a258013",
+      "currentBytes": 3929,
+      "currentSha256": "65299d23b8ea081241394819a30317797406e85fa056b271509512ffa364b3d8",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/deformation-v2-ext.json",
+      "originalBytes": 9658,
+      "originalSha256": "011be55198cfe7cc4295a1a0f54c034687cc1103a6a1bcbf99c5588033054425",
+      "currentBytes": 9251,
+      "currentSha256": "ecd596365e8b2ce29a90ae86e45ea72552b6f0ecd54cb123d8e801a7c3544ff2",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/deformation-v2.json",
+      "originalBytes": 4386,
+      "originalSha256": "6b228f641bd10d99c098afd7b5be634602b038b0929403a24a39ee2031616e31",
+      "currentBytes": 4202,
+      "currentSha256": "336b65bc6f41a1d24ea54002ef3fed7a253f6a51c2981fa159e0e503cff56347",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/deformation-v3-ext.json",
+      "originalBytes": 9589,
+      "originalSha256": "633b7a60d5e299b918accb039d689e6c0c0cf8d4d36e88777868859b98f7466d",
+      "currentBytes": 9187,
+      "currentSha256": "d616320266a75b50334e7e21db7b77a1869f15fa9cf5e46957f214f8582feba6",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/inspect-rigged-v2.json",
+      "originalBytes": 5401,
+      "originalSha256": "c7d6413eb3762bd1309bb1699c3bc9080bba9826e034d8db1402b16903d35a1b",
+      "currentBytes": 5141,
+      "currentSha256": "8a3044c62b986308759478b14f305d35e0c959dc02aa35457fbadb2f1e0f8e35",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/inspect-rigged-v3.json",
+      "originalBytes": 5401,
+      "originalSha256": "8d7840265c589da5276f2d1228c8aa812ebe3504861edb551288213dd6f8c314",
+      "currentBytes": 5141,
+      "currentSha256": "d9d0e67480fc3c8f1e1772d9aab5623b0bc2af37f98fb9f7a565c7b4a9fe945c",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/inspect-rigged.json",
+      "originalBytes": 5398,
+      "originalSha256": "b732799b3061e28b31abcaf6d8eb8de4780f5d14e29dfad99a54ca4545518795",
+      "currentBytes": 5138,
+      "currentSha256": "ebf765ec218eb765350ce00a100383d75b014859e501d85029a4e53378297f1e",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/landmarks-25k.json",
+      "originalBytes": 58972,
+      "originalSha256": "b374b4b53956032770d01a73a0aa26c6e60d2870806c4c617169893cbea28381",
+      "currentBytes": 54993,
+      "currentSha256": "f6b9eaa2cb8a27938db05a65073ceaf2eb692fec1b5f061d8786031d79f4c60c",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/rig-build-report.json",
+      "originalBytes": 4929,
+      "originalSha256": "c2b7f42f2f779a3ca694630ef25894804950290779ca59f55c3760101e719c22",
+      "currentBytes": 4578,
+      "currentSha256": "b0a3012aa23490b52d07747da0d13ef71b2813ecdd41f2f19016c90b1323dd99",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/rig-v2-correction-report.json",
+      "originalBytes": 1119,
+      "originalSha256": "6decc9112afd0445aabc184aa2dddabf9c6d042e76fb17bdeb46604ba0bbe48a",
+      "currentBytes": 1023,
+      "currentSha256": "fbd0e00bad7ad0fb50d2b7c68d57370818b26ab8e3f502057a8c16c7301d69f5",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "docs/data/rig/rig-v3-refine-report.json",
+      "originalBytes": 828,
+      "originalSha256": "74db4f25b68a04cca3f3f35aa684a33573bd4077943ab5b0ef5fa836037b5f47",
+      "currentBytes": 773,
+      "currentSha256": "a6d08d3f6a2f184cc1cd8797c25eb32ef979215b75d3d50fd419278d7e80471e",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/babylon-load-test.mjs",
+      "originalBytes": 2313,
+      "originalSha256": "c2c478f3373498648cb3a3ea67f8dd3c91455f72f9b8d2708a0b18651743465a",
+      "currentBytes": 2270,
+      "currentSha256": "d133091c68a9691dbd18143277e30a1ed108faa2a755e13f8eab4dcae1a80966",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/make_contact_sheets.py",
+      "originalBytes": 1815,
+      "originalSha256": "b92f72f180c8bf1cdf02068fbc5b5165c3731b300a69e99313d8b009dd5959d1",
+      "currentBytes": 1768,
+      "currentSha256": "951463721728547f150c44f6099255a58a24c869bcaedb442bdcbfe681847d04",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/optimize_explorer.py",
+      "originalBytes": 7826,
+      "originalSha256": "84ef9e970fd629888c1cc87ff424f7e07220116b09bd85acb4020058ca1ccf58",
+      "currentBytes": 7636,
+      "currentSha256": "0607bdd28f52b58be06c37a9443e72e6545cf56117212cdf974462e14b680e94",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/refine_rig.py",
+      "originalBytes": 7233,
+      "originalSha256": "0a5ad146ac2a7e2a4365d281e75126dc6dfff73e18cec07603bd7dd9052e7846",
+      "currentBytes": 7066,
+      "currentSha256": "08c8f80db902e84d3c986d582e9fa5675b408299f44d9c9c4ed1e4733bcfc1c6",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/render_previews.py",
+      "originalBytes": 4608,
+      "originalSha256": "ba906ec7594789a7572c2f2a739da5ed0826aae227aed9f71a426c17f54c6489",
+      "currentBytes": 4484,
+      "currentSha256": "314f4ff233ae0a5d96de5a829b4c94447c004840f8cebdb506ce2b7650f044eb",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/test_deformation.py",
+      "originalBytes": 12224,
+      "originalSha256": "b6dba3039e73afc8ccb576a93964d7879a8969512a8c358d474ca557d04a01a8",
+      "currentBytes": 11980,
+      "currentSha256": "33ada180db67d2ce7bdd5f130d68a2ab6cb0c018b31aedb8935f8df34a4edf5a",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    },
+    {
+      "collection": "projects/scriptoria",
+      "path": "scripts/blender/validate_animations.py",
+      "originalBytes": 15477,
+      "originalSha256": "5e97bd317672a06b05f6cb955d175337f6d2294e1f85fe59820b0d4de6987262",
+      "currentBytes": 15171,
+      "currentSha256": "e6afbcd2fbe9593c1a66e5dfa3e875a9a95462edae826e809655846c157787c2",
+      "originalLineEndings": "crlf",
+      "crlfLines": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+ "master": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+ "canvas": [
+  800,
+  1248
+ ],
+ "layers": {
+  "base": {
+   "file": "base.png",
+   "pixels": 355831,
+   "bbox": [
+    124,
+    56,
+    640,
+    1215
+   ]
+  },
+  "body-skin/neck-visible": {
+   "file": "body-skin__neck-visible.png",
+   "pixels": 2948,
+   "bbox": [
+    362,
+    380,
+    437,
+    472
+   ]
+  },
+  "head-skin/base": {
+   "file": "head-skin__base.png",
+   "pixels": 20872,
+   "bbox": [
+    270,
+    164,
+    539,
+    404
+   ]
+  },
+  "face-mouth/neutral": {
+   "file": "face-mouth__neutral.png",
+   "pixels": 1652,
+   "bbox": [
+    398,
+    339,
+    456,
+    366
+   ]
+  },
+  "face-eyes/open:eye-near": {
+   "file": "face-eyes__open__eye-near.png",
+   "pixels": 6175,
+   "bbox": [
+    332,
+    245,
+    424,
+    326
+   ]
+  },
+  "face-eyes/open:eye-far": {
+   "file": "face-eyes__open__eye-far.png",
+   "pixels": 4463,
+   "bbox": [
+    461,
+    256,
+    535,
+    334
+   ]
+  },
+  "face-brows/neutral:brow-far": {
+   "file": "face-brows__neutral__brow-far.png",
+   "pixels": 1080,
+   "bbox": [
+    493,
+    222,
+    542,
+    254
+   ]
+  }
+ },
+ "chinOutlinePixelsToHead": 109,
+ "enclosedPixelsToHead": 10,
+ "earPolygonPixelsToHead": 1157,
+ "verification": {
+  "overlappingPixels": 0,
+  "differingChannelValues": 0,
+  "identical": true
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "milestone": "M1.0j-B",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita",
+  "assetId": "review.accepted-characters-sheet.v1",
+  "toolVersions": {
+    "node": "24.21.0 (extraction and tiering; app-momee scripts/assets png.mjs and the keyImage algorithm, no new dependencies)",
+    "krita": "5.3.4.1 (git bd6e8d0) via krita_mcp 1.0.0, PyQt5 5.15.11 (layered working source, study, sheet)"
+  },
+  "inputs": [
+    "character-master-v1.png excerpts (18,140 170x370 · 255,320 100x175 · 683,125 160x375 · 905,315 75x185), sha256 4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7",
+    "both accepted sheets (full, scaled)",
+    "native extractions, sheet crops and extraction zooms (3× nearest-neighbour)",
+    "M1.0i ¾ neutral @2x placeholders",
+    "bedroom study renders (M1.0i and M1.0j-B)",
+    "tier exports"
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0j-construction/",
+    "files": {
+      "sheets_j.py": "b7a383651bcfcaac1873db6c2e4724e76841a36b76f9851d4387a864258a631c"
+    },
+    "entry": "sheets_j.py: sheet()"
+  },
+  "labelling": "APPROVED MASTER REFERENCE (sage solid) · OWNER-ACCEPTED VISUAL DIRECTION (blue solid) · EXTRACTION CANDIDATE · NOT APPROVED (terracotta dashed) · TECHNICAL PLACEHOLDER (grey dashed)",
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null
+}

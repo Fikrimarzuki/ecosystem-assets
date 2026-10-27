@@ -1,0 +1,33 @@
+{
+  "name": "global-balanced-1.1",
+  "phaseStep": 5,
+  "samplesPerRoute": 513,
+  "frontShift": 0,
+  "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+  "worldOBBHits": 0,
+  "stationOBBHits": 0,
+  "worldActualHits": 0,
+  "stationActualHits": 0,
+  "firstWorld": null,
+  "firstStation": null,
+  "firstActual": null,
+  "minWorldSAT": 0.14705705596657254,
+  "minStationSAT": 0.00404354548454302,
+  "closestWorld": {
+    "destination": "after-hours",
+    "phase": 45,
+    "sample": 509,
+    "obstacle": "after-hours",
+    "part": 2
+  },
+  "closestStation": {
+    "destination": "latest",
+    "phase": 0,
+    "sample": 0,
+    "obstacle": "station",
+    "part": 13
+  },
+  "maxTurn": 0.22359117883796434,
+  "maxLength": 41.07669805126696,
+  "minLength": 32.684251677045076
+}

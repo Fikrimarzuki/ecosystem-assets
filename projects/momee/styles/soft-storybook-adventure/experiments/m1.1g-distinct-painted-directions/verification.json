@@ -1,0 +1,136 @@
+{
+  "checked_at_utc": "2026-11-17T08:09:54.956Z",
+  "project_date": "2026-11-17",
+  "preserved_preexisting_files": 438,
+  "preservation_pass": true,
+  "originals": [
+    {
+      "candidate": "a",
+      "file": "candidate-a-classic-storybook/generation-01-original.png",
+      "sha256": "711f4710bcdf1b122b4740e340b097f9470dab11ab1a557a9acb2fc76784d1c7",
+      "size": [
+        1122,
+        1402
+      ],
+      "original_copy_identical": true
+    },
+    {
+      "candidate": "b",
+      "file": "candidate-b-cinematic-2d/generation-01-original.png",
+      "sha256": "5733fcf5560632bbeabf33355f7045f47c39f6ddb8b74c002eada46acf9945f3",
+      "size": [
+        1122,
+        1402
+      ],
+      "original_copy_identical": true
+    },
+    {
+      "candidate": "c",
+      "file": "candidate-c-handcrafted-gouache/generation-01-original.png",
+      "sha256": "70f0ed692ed9e27be71883fc0ab4190df5d5d214e7641e6b59806f2104b0f032",
+      "size": [
+        1122,
+        1402
+      ],
+      "original_copy_identical": true
+    }
+  ],
+  "presentations": [
+    {
+      "candidate": "a",
+      "file": "candidate-a-classic-storybook/mom-a-v1.png",
+      "sha256": "e228cfb1663638fe776d810e9f99b1e1752e52b0b4ef298157937091a9f9a613",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "margins": {
+        "left": 91,
+        "right": 91,
+        "top": 127,
+        "bottom": 113
+      },
+      "all_clear_margins_pass": true
+    },
+    {
+      "candidate": "b",
+      "file": "candidate-b-cinematic-2d/mom-b-v1.png",
+      "sha256": "c676f6c8f69e76a3060ecfe99bd28708329f79fce8cc25869a6b1c6dd645b6e8",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "margins": {
+        "left": 69,
+        "right": 91,
+        "top": 127,
+        "bottom": 106
+      },
+      "all_clear_margins_pass": true
+    },
+    {
+      "candidate": "c",
+      "file": "candidate-c-handcrafted-gouache/mom-c-v1.png",
+      "sha256": "a4f60ea671088715c06567583fc48fe4072e1a812709434877087a20457da1b1",
+      "size": {
+        "width": 1024,
+        "height": 1280
+      },
+      "margins": {
+        "left": 85,
+        "right": 86,
+        "top": 101,
+        "bottom": 109
+      },
+      "all_clear_margins_pass": true
+    }
+  ],
+  "normalized_comparison_subjects": 8,
+  "normalized_figure_heights": [
+    256,
+    144
+  ],
+  "sheetDimensions": [
+    {
+      "file": "comparison/owner-comparison-256.png",
+      "width": 1173,
+      "height": 315
+    },
+    {
+      "file": "comparison/owner-comparison-144.png",
+      "width": 703,
+      "height": 221
+    },
+    {
+      "file": "comparison/figure-normalized-256.png",
+      "width": 1858,
+      "height": 315
+    },
+    {
+      "file": "comparison/figure-normalized-144.png",
+      "width": 1110,
+      "height": 221
+    },
+    {
+      "file": "comparison/face-detail.png",
+      "width": 1688,
+      "height": 259
+    },
+    {
+      "file": "comparison/eyes-detail.png",
+      "width": 2677,
+      "height": 159
+    }
+  ],
+  "alpha_test": {
+    "rgb_changes": 0,
+    "low_alpha_changes": 0,
+    "protected_edge_changes": 0,
+    "source_unchanged": true
+  },
+  "app_status_unchanged": true,
+  "assets_status": "?? projects/momee/styles/soft-storybook-adventure/experiments/m1.1g-distinct-painted-directions/\n",
+  "failures": [],
+  "technical_checks_pass": true,
+  "visual_status": "candidate for owner review; no acceptance claimed; see REVIEW.md"
+}

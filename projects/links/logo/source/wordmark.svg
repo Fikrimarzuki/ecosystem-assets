@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 112">
+  <title>Links wordmark</title>
+  <!-- Monoline lettering on a 112-unit line: cap height 80 (y 16-96), x-height 52, stroke 16, round caps.
+       #18203a is the ink placeholder; build-logos.mjs swaps it for the light/dark variants. The i-dot is the
+       marigold hub of the symbol. Drawn by hand: no font is needed to render or edit it. -->
+  <g fill="none" stroke="#18203a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 24V88H48"/>
+    <path d="M72 52V88"/>
+    <path d="M100 52V88M100 70A18 18 0 0 1 136 70V88"/>
+    <path d="M164 24V88M196 52L170 72M179 66L200 88"/>
+    <path d="M261 58C256 53 249 51 241 51C230 51 224 55 224 61.5C224 68 231 69.5 242.5 70.5C254 71.5 263 74 263 81C263 87.5 255 90 243.5 90C234 90 226 87.5 221 83"/>
+  </g>
+  <circle cx="72" cy="27" r="10" fill="#f5b83d"/>
+</svg>

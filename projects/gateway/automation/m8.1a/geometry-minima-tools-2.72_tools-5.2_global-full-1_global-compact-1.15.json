@@ -1,0 +1,865 @@
+{
+  "method": "All six station/world pairs and all15 world pairs over600 phases,1second; actual nominal bob/yaw with selected1.025. Closed recipe triangles incl torus, triangle SAT and parity containment, nearest-surface vertex/face and edge/edge distances. Bounding gaps prune only distances greater than current best. Positive sampled minimum is NOT continuous clearance proof; unchanged recipe buildings.",
+  "results": [
+    {
+      "name": "tools-2.72",
+      "records": [
+        {
+          "a": "latest",
+          "b": "station",
+          "minimum": 2.4401927154782483,
+          "time": 153,
+          "parts": [
+            31,
+            3
+          ]
+        },
+        {
+          "a": "games",
+          "b": "station",
+          "minimum": 4.050955547516598,
+          "time": 598,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "station",
+          "minimum": 3.276693037857746,
+          "time": 118,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "station",
+          "minimum": 2.6488802305320944,
+          "time": 134,
+          "parts": [
+            28,
+            3
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "station",
+          "minimum": 2.870077918877179,
+          "time": 312,
+          "parts": [
+            4,
+            7
+          ]
+        },
+        {
+          "a": "platforms",
+          "b": "station",
+          "minimum": 2.5510246297568364,
+          "time": 222,
+          "parts": [
+            4,
+            11
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "games",
+          "minimum": 2.498723812818019,
+          "time": 82,
+          "parts": [
+            13,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "minimum": 7.208681284670903,
+          "time": 133,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "minimum": 2.319047059771694,
+          "time": 285,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "minimum": 7.4164670441328395,
+          "time": 238,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "minimum": 8.863515669275928,
+          "time": 198,
+          "parts": [
+            31,
+            4
+          ]
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "minimum": 2.4685272660716255,
+          "time": 174,
+          "parts": [
+            18,
+            1
+          ]
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "minimum": 9.395218625942034,
+          "time": 37,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "minimum": 11.364647289149644,
+          "time": 593,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "minimum": 8.604183164861489,
+          "time": 228,
+          "parts": [
+            18,
+            1
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "minimum": 10.72553702613075,
+          "time": 100,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "minimum": 9.007522846160274,
+          "time": 328,
+          "parts": [
+            16,
+            1
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "minimum": 3.2642274241697136,
+          "time": 271,
+          "parts": [
+            16,
+            1
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "minimum": 2.952621233279846,
+          "time": 233,
+          "parts": [
+            28,
+            4
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "minimum": 8.210362017264151,
+          "time": 154,
+          "parts": [
+            28,
+            4
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "minimum": 3.4848795955451894,
+          "time": 137,
+          "parts": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tools-5.2",
+      "records": [
+        {
+          "a": "latest",
+          "b": "station",
+          "minimum": 2.4401927154782483,
+          "time": 153,
+          "parts": [
+            31,
+            3
+          ]
+        },
+        {
+          "a": "games",
+          "b": "station",
+          "minimum": 4.050955547516598,
+          "time": 598,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "station",
+          "minimum": 3.276693037857746,
+          "time": 118,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "station",
+          "minimum": 2.2680058109198065,
+          "time": 217,
+          "parts": [
+            2,
+            27
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "station",
+          "minimum": 2.870077918877179,
+          "time": 312,
+          "parts": [
+            4,
+            7
+          ]
+        },
+        {
+          "a": "platforms",
+          "b": "station",
+          "minimum": 2.5510246297568364,
+          "time": 222,
+          "parts": [
+            4,
+            11
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "games",
+          "minimum": 2.498723812818019,
+          "time": 82,
+          "parts": [
+            13,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "minimum": 7.208681284670903,
+          "time": 133,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "minimum": 2.319047059771694,
+          "time": 285,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "minimum": 7.4164670441328395,
+          "time": 238,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "minimum": 8.863515669275928,
+          "time": 198,
+          "parts": [
+            31,
+            4
+          ]
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "minimum": 2.4685272660716255,
+          "time": 174,
+          "parts": [
+            18,
+            1
+          ]
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "minimum": 8.874738701664405,
+          "time": 24,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "minimum": 11.364647289149644,
+          "time": 593,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "minimum": 8.604183164861489,
+          "time": 228,
+          "parts": [
+            18,
+            1
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "minimum": 10.72553702613075,
+          "time": 100,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "minimum": 9.007522846160274,
+          "time": 328,
+          "parts": [
+            16,
+            1
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "minimum": 3.2642274241697136,
+          "time": 271,
+          "parts": [
+            16,
+            1
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "minimum": 2.566082691414738,
+          "time": 388,
+          "parts": [
+            0,
+            13
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "minimum": 8.210362017264151,
+          "time": 154,
+          "parts": [
+            28,
+            4
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "minimum": 3.4848795955451894,
+          "time": 137,
+          "parts": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "global-full-1",
+      "records": [
+        {
+          "a": "latest",
+          "b": "station",
+          "minimum": 1.487932838466029,
+          "time": 555,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "games",
+          "b": "station",
+          "minimum": 2.4071650945999257,
+          "time": 587,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "station",
+          "minimum": 2.076536328991903,
+          "time": 124,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "station",
+          "minimum": 2.2680058109198065,
+          "time": 217,
+          "parts": [
+            2,
+            27
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "station",
+          "minimum": 2.185017652386702,
+          "time": 126,
+          "parts": [
+            2,
+            27
+          ]
+        },
+        {
+          "a": "platforms",
+          "b": "station",
+          "minimum": 0.6520935535886137,
+          "time": 38,
+          "parts": [
+            2,
+            27
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "games",
+          "minimum": 0.905236765693039,
+          "time": 74,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "minimum": 6.5348040992208,
+          "time": 130,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "minimum": 1.2814423183098278,
+          "time": 92,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "minimum": 7.351876517883023,
+          "time": 30,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "minimum": 8.341490626195617,
+          "time": 598,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "minimum": 0.9588127725226074,
+          "time": 377,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "minimum": 7.388502015001203,
+          "time": 576,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "minimum": 9.638917258323717,
+          "time": 532,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "minimum": 6.375156463268318,
+          "time": 455,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "minimum": 9.703951776769449,
+          "time": 106,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "minimum": 7.872817213810303,
+          "time": 130,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "minimum": 0.21445639332450375,
+          "time": 109,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "minimum": 1.3184677217990763,
+          "time": 360,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "minimum": 6.485945519657271,
+          "time": 305,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "minimum": 0.13128311581732313,
+          "time": 234,
+          "parts": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "global-compact-1.15",
+      "records": [
+        {
+          "a": "latest",
+          "b": "station",
+          "minimum": 3.287688864777177,
+          "time": 517,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "games",
+          "b": "station",
+          "minimum": 4.070619505169465,
+          "time": 592,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "station",
+          "minimum": 3.657131939315617,
+          "time": 120,
+          "parts": [
+            0,
+            11
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "station",
+          "minimum": 3.75516546396228,
+          "time": 132,
+          "parts": [
+            28,
+            3
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "station",
+          "minimum": 3.93069077580945,
+          "time": 311,
+          "parts": [
+            4,
+            7
+          ]
+        },
+        {
+          "a": "platforms",
+          "b": "station",
+          "minimum": 3.3774148234014065,
+          "time": 244,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "games",
+          "minimum": 2.591624855657644,
+          "time": 77,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "minimum": 8.69811633431521,
+          "time": 132,
+          "parts": [
+            31,
+            0
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "minimum": 3.2207842803705624,
+          "time": 285,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "minimum": 9.217222348583462,
+          "time": 238,
+          "parts": [
+            31,
+            1
+          ]
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "minimum": 11.012166089612961,
+          "time": 198,
+          "parts": [
+            31,
+            4
+          ]
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "minimum": 3.2876504714405415,
+          "time": 463,
+          "parts": [
+            0,
+            16
+          ]
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "minimum": 10.330937165896053,
+          "time": 33,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "minimum": 12.796243003188598,
+          "time": 590,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "minimum": 10.073328855628752,
+          "time": 542,
+          "parts": [
+            0,
+            8
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "minimum": 12.302999273952752,
+          "time": 102,
+          "parts": [
+            0,
+            28
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "minimum": 10.61848814858796,
+          "time": 60,
+          "parts": [
+            0,
+            7
+          ]
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "minimum": 3.688752168782451,
+          "time": 77,
+          "parts": [
+            0,
+            2
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "minimum": 3.8049165800309646,
+          "time": 252,
+          "parts": [
+            28,
+            0
+          ]
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "minimum": 9.399452155093428,
+          "time": 188,
+          "parts": [
+            28,
+            0
+          ]
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "minimum": 3.820865623005808,
+          "time": 205,
+          "parts": [
+            2,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

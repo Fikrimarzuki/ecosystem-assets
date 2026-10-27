@@ -1,0 +1,21 @@
+# Bedroom pillow pilot — specification and M1.0f candidate
+
+**State:** M1.0f technical Candidate. A layered Krita source and four review exports exist. Owner approval and production runtime integration remain pending. See [M1.0f pilot record](m1.0f-art-pipeline-pilot.md). M1.0g adds a v2 Candidate revision (`pillow-v2.kra`, `pillow-*.v2.@1x/@2x.png`) with the same bounds and anchor; v1 is unchanged. See [M1.0g calibration record](m1.0g-visual-calibration.md). M1.0h adds a v3 larger-size test (`pillow-v3.kra`, `pillow-*.v3.@1x/@2x.png`) on a new 160×112 @1x canvas; v1 and v2 are unchanged. See [M1.0h refinement record](m1.0h-bedroom-refinement.md).
+
+## Visual and geometry brief
+
+- Follow the approved Calm Chibi Storybook master and the bedroom guidance in `app-momee/docs/design/visual-style-bible.md`: gentle warm outlines, soft shading, soft-blue bedding, low visual noise, readable difference by silhouette rather than color alone. Match the existing bed's side/three-quarter view. No text or character baked into the pillow.
+- The existing code uses `pillow: ["messy", "fluffed"]` (`apps/web/src/adventure/bedroom-layout.ts`) and a pillow hit area of **125×90 world units** at x=110, y=420. The drawn placeholder is about 100×54 world units (`phaser/bedroom-props.ts`). These are **integration measurements, not final art sizes**. Proposed pilot export canvas: **128×96 px @1x**, **256×192 px @2x**, with the pillow fully inside, transparent padding for rotation and a consistent center anchor. Confirm against the bed and camera before approving; if it clips, revise both tiers and document the decision.
+- The **unmade** shape should be visibly rumpled and tilted; **made** should be plump and tidy. Existing Phaser state names are `messy` and `fluffed`, respectively; the later integration maps those names to the export states without changing story data. Keep lighting, seams, palette and edge weight consistent between states. The current code animates pose and scale; the artwork should remain legible while rotated and scaled.
+
+## Editable source and exports
+
+- One layered Krita source, proposed `projects/momee/source/bedroom/pillow-v1.kra`, with shared construction and separate `unmade` / `made` groups. Suggested groups: guide (hidden on export), outline, base fill, shade/highlight, creases; separate state groups should share coordinates and anchor. Vector embellishments, if any, may originate in editable SVG and be linked in lineage.
+- Four transparent sRGB PNGs now exist under `projects/momee/exports/rooms/bedroom/` as **Candidate review exports**: `pillow-unmade.v1.@1x.png`, `pillow-unmade.v1.@2x.png`, `pillow-made.v1.@1x.png`, `pillow-made.v1.@2x.png`. Their location records the export contract; it does not confer approval. Check straight alpha, no white fringe, nonempty bounds, exact 2× dimensions, and no image over 2048². Every SHA-256 is in the shared manifest.
+- Two stable IDs, `prop.bedroom.pillow.unmade` and `prop.bedroom.pillow.made`, now point to the same `.kra` master, their own state groups and two exports in `manifest.json`. Both remain `Candidate`, with unverified rights and no approval. The recorded runtime destinations are future targets only.
+
+## Later Phaser integration and acceptance
+
+- In a separate authorized milestone, `apps/web/src/adventure/phaser/bedroom-props.ts` can load a tier-appropriate sprite or atlas frame and swap the existing `setPillow("messy" | "fluffed")` states. Preserve scene depth: pillow above the sheet, below the sleeping child and blanket. Keep `bedroom-layout.ts`'s state IDs and hit area; retain the code-driven animation and reduced-motion path.
+- Compare with the Boy and Mom at desktop, phone portrait and phone landscape camera framing. Confirm transparent edges over light/dark bed colors, distinct states at the smallest intended scale, no clipping during fluff motion, and texture/memory budget. Keep the ≥64 CSS-pixel interactive target in code. The SVG/PNG is decorative to assistive tech; the existing story action, dialogue and completion state must convey the change without relying on color or artwork alone.
+- Owner approval requires the style comparison, state readability, source/editability, export integrity, rights/provenance evidence for all inputs, and a reviewed screenshot matrix. None of these gates is passed by this specification.

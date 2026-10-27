@@ -1,0 +1,4 @@
+{"glowColour":[132,92,78],"glowPixels":10378}
+{"file":"mom-v2-master-candidate.png","strayComponents":0,"halos_glow":0,"specks_glow":0,"halos_white":6,"specks_white":103}
+{"file":"mom-v2.@2x.png","strayComponents":0,"halos_glow":0,"specks_glow":0,"halos_white":1,"specks_white":13}
+{"file":"mom-v2.@1x.png","strayComponents":0,"halos_glow":0,"specks_glow":0,"halos_white":0,"specks_white":1}

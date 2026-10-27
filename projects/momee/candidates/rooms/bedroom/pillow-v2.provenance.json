@@ -1,0 +1,35 @@
+{
+  "milestone": "M1.0g",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetIds": ["prop.bedroom.pillow.unmade.v2", "prop.bedroom.pillow.made.v2"],
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7",
+    "downsample": "macOS sips-316"
+  },
+  "sourceMethod": "New 256x192 sRGB RGBA/8 Krita document. Each state group holds a contact shadow, a 'Pillow paint' group (cream body, inherit-alpha clipped soft cool shade, warm light and seam/crease layers; unmade adds a folded-corner layer) and a warm taupe line layer. Shapes are Catmull-Rom/Bezier QPainter paths written to named paint layers; shade and light layers were softened with Krita's Gaussian blur. Saved with Krita's native KRA writer. No pixels were copied from v1.",
+  "exportMethod": "Krita exportImage of each state group alone at 256x192 (@2x, alpha on); @1x by `sips -z 96 128` from the @2x file, matching the M1.0f method.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0g-construction/",
+    "files": {
+      "kpaint.py": "3a71e030f31637cf615d4b8a3e4ffcc118c3266887d60270822b1d83145ab80f",
+      "pillow_v2.py": "4c785bd97c58938953c38c94898e9aaeee193fcaa3158b640ffc104921c3a548",
+      "preview.py": "51199b380d39638adfeca4f400fbd01b228ca7ec1bef5016b96b75bb0c72ad1d"
+    }
+  },
+  "inputs": [
+    "app-momee/docs/design/visual-style-bible.md (§3 rendering rules, §6 bedroom, §7 palette)",
+    "app-momee/assets/references/calm-chibi-storybook/characters/character-master-v1.png (sha256 4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7, viewed only)",
+    "app-momee/assets/references/concepts/*.png (bedroom panels viewed for pillow colour and shading; not copied into the pillow)",
+    "ecosystem-assets/projects/momee/pillow-pilot.md",
+    "ecosystem-assets/projects/momee/source/bedroom/pillow-v1.kra (bounds and anchor only; file not modified)"
+  ],
+  "preservedBounds": "Canvas 256x192 @2x / 128x96 @1x, centre anchor (128, 96), same as v1.",
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model. Shapes and colours were authored as code by the assistant.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Candidate only. Owner should judge cream versus v1 sky-mist body colour, softness, state readability at the 0.85 CSS px/u camera floor, and whether the pillow should grow beyond the v1 bounds (it is ~1.2x the Boy's head width). The optional contact shadow is inside the canvas and may be dropped at integration. Bridge pixel writes are outside Krita's undo history; the layers remain editable."
+}

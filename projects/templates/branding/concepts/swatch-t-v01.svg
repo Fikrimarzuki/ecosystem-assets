@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Concept C: swatch T monogram</title>
+  <rect width="512" height="512" rx="112" fill="#241736"/>
+  <rect x="112" y="120" width="288" height="96" rx="28" fill="#e8553e"/><rect x="208" y="200" width="96" height="200" rx="28" fill="#2f5bea"/><rect x="316" y="236" width="72" height="72" rx="20" fill="#f6b321"/><rect x="124" y="236" width="72" height="72" rx="20" fill="#3cc8a4"/>
+</svg>

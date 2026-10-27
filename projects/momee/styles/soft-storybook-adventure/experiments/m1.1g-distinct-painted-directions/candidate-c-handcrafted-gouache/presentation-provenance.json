@@ -1,0 +1,63 @@
+{
+  "file": "mom-c-v1.png",
+  "source": "generation-01-original.png",
+  "source_sha256": "70f0ed692ed9e27be71883fc0ab4190df5d5d214e7641e6b59806f2104b0f032",
+  "operations": "Uniformly scale the ENTIRE original including faint fringe pixels, then transparent padding only. No cropping, RGB repair, alpha remapping, keying, flattening, retouching or paint changes.",
+  "canvas": [
+    1024,
+    1280
+  ],
+  "scale": 0.7824726134585289,
+  "left": 73.03286384976528,
+  "top": 73.66197183098592,
+  "figure_bbox_source": [
+    22,
+    72,
+    1078,
+    1278
+  ],
+  "target_figure_height": 1000,
+  "target_figure_top": 130,
+  "filter": "Existing Chromium canvas high-quality interpolation; RGBA PNG",
+  "measurements": {
+    "file": "candidate-c-handcrafted-gouache/mom-c-v1.png",
+    "sha256": "a4f60ea671088715c06567583fc48fe4072e1a812709434877087a20457da1b1",
+    "size": {
+      "width": 1024,
+      "height": 1280
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 642510,
+      "fully_opaque": 0,
+      "partial": 668210
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": null,
+    "opaque_margins_px": null,
+    "nontransparent_bounding_box": {
+      "x": 85,
+      "y": 101,
+      "width": 853,
+      "height": 1070
+    },
+    "nontransparent_margins_px": {
+      "left": 85,
+      "right": 86,
+      "top": 101,
+      "bottom": 109
+    },
+    "touches_edge": {
+      "left": false,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": false,
+    "minimum_six_percent_empty_left_right_top": true
+  }
+}

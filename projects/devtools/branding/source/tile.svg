@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>DevTools (full-bleed tile)</title>
+  <defs>
+    <linearGradient id="dt-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1740"/><stop offset="1" stop-color="#050a22"/></linearGradient>
+    <linearGradient id="dt-d" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#86bcff"/><stop offset="1" stop-color="#3a6fff"/></linearGradient>
+  </defs>
+  <g id="bg"><rect width="512" height="512" fill="url(#dt-bg)"/></g>
+  <g id="glyph">
+    <path fill="url(#dt-d)" fill-rule="evenodd" d="M129 132A6 6 0 0 1 135 126L377 126A6 6 0 0 1 383 132L383 182A6 6 0 0 1 377 188L337 188A6 6 0 0 0 331 194L331 339.5A6 6 0 0 1 329.2 343.8L288.8 384.2A6 6 0 0 1 284.5 386L135 386A6 6 0 0 1 129 380ZM187 191.6A3.6 3.6 0 0 1 190.6 188L230.9 188A3.6 3.6 0 0 1 234 189.8L270 254.2A3.6 3.6 0 0 1 270 257.8L234 322.2A3.6 3.6 0 0 1 230.9 324L190.6 324A3.6 3.6 0 0 1 187 320.4Z"/>
+  </g>
+</svg>

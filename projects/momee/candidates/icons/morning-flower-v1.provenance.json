@@ -1,0 +1,15 @@
+{
+  "pilot": "M1.0f",
+  "createdOn": "2026-10-23",
+  "creator": "Codex with owner-requested Inkscape CLI workflow",
+  "sourceTool": "Inkscape 1.4.4 CLI",
+  "sourceMethod": "Authored editable SVG with named Inkscape layers and self-contained vector paths; opened the SVG through Inkscape CLI.",
+  "exportMethod": "Inkscape plain-SVG export verified; compact runtime SVG derived by removing editor-only layer attributes and inter-tag whitespace from the source. Inkscape CLI exported a transparent 128x128 PNG preview.",
+  "inputs": [
+    "app-momee/docs/design/visual-style-bible.md"
+  ],
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Technical pilot only. Owner must review icon style, semantics, intended placement, and rights. Do not replace existing Reward Garden art."
+}

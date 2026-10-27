@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "node",
+      ".agents/skills/momee-character-art/scripts/compare-sheet.mjs",
+      "--out",
+      "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/comparison-256.png",
+      "--height",
+      "256",
+      "B portrait=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-portrait.png",
+      "Mom v1=projects/momee/styles/soft-storybook-adventure/characters/mom/exports/mom-head-v1.png",
+      "Painted candidate=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8\n    throw new Error(`Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). ${error.message.split(\"\\n\")[0]}`);\n          ^\n\nError: Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). browserType.launch: Target page, context or browser has been closed\n    at openBrowser (file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8:11)\n    at async file:///Users/mfm/code/porto-projects/ecosystem-skills/skills/projects/momee/momee-character-art/scripts/compare-sheet.mjs:40:17\n\nNode.js v24.16.0\n"
+  },
+  {
+    "command": [
+      "node",
+      ".agents/skills/momee-character-art/scripts/compare-sheet.mjs",
+      "--out",
+      "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/comparison-144.png",
+      "--height",
+      "144",
+      "B portrait=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-portrait.png",
+      "Mom v1=projects/momee/styles/soft-storybook-adventure/characters/mom/exports/mom-head-v1.png",
+      "Painted candidate=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8\n    throw new Error(`Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). ${error.message.split(\"\\n\")[0]}`);\n          ^\n\nError: Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). browserType.launch: Target page, context or browser has been closed\n    at openBrowser (file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8:11)\n    at async file:///Users/mfm/code/porto-projects/ecosystem-skills/skills/projects/momee/momee-character-art/scripts/compare-sheet.mjs:40:17\n\nNode.js v24.16.0\n"
+  },
+  {
+    "command": [
+      "node",
+      ".agents/skills/momee-character-art/scripts/compare-sheet.mjs",
+      "--out",
+      "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/comparison-720.png",
+      "--height",
+      "720",
+      "B portrait=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-portrait.png",
+      "Mom v1=projects/momee/styles/soft-storybook-adventure/characters/mom/exports/mom-head-v1.png",
+      "Painted candidate=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8\n    throw new Error(`Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). ${error.message.split(\"\\n\")[0]}`);\n          ^\n\nError: Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). browserType.launch: Target page, context or browser has been closed\n    at openBrowser (file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8:11)\n    at async file:///Users/mfm/code/porto-projects/ecosystem-skills/skills/projects/momee/momee-character-art/scripts/compare-sheet.mjs:40:17\n\nNode.js v24.16.0\n"
+  },
+  {
+    "command": [
+      "node",
+      ".agents/skills/momee-character-art/scripts/compare-sheet.mjs",
+      "--out",
+      "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/eye-detail.png",
+      "--height",
+      "360",
+      "B eye tile=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/inputs/candidate-b-eye.png",
+      "Candidate eyes=projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/review/candidate-eyes.png"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8\n    throw new Error(`Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). ${error.message.split(\"\\n\")[0]}`);\n          ^\n\nError: Could not start Chromium. playwright-core 1.64.0 expects its cached browser (run once: pnpm exec playwright-core install chromium-headless-shell). browserType.launch: Target page, context or browser has been closed\n    at openBrowser (file:///Users/mfm/code/porto-projects/ecosystem-assets/scripts/lib/render.mjs:8:11)\n    at async file:///Users/mfm/code/porto-projects/ecosystem-skills/skills/projects/momee/momee-character-art/scripts/compare-sheet.mjs:40:17\n\nNode.js v24.16.0\n"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "file": "mom-a-v1.png",
+  "source": "generation-01-original.png",
+  "source_sha256": "711f4710bcdf1b122b4740e340b097f9470dab11ab1a557a9acb2fc76784d1c7",
+  "operations": "Uniformly scale the ENTIRE original including faint fringe pixels, then transparent padding only. No cropping, RGB repair, alpha remapping, keying, flattening, retouching or paint changes.",
+  "canvas": [
+    1024,
+    1280
+  ],
+  "scale": 0.8012820512820513,
+  "left": 61.679487179487175,
+  "top": 77.11538461538461,
+  "figure_bbox_source": [
+    40,
+    66,
+    1044,
+    1248
+  ],
+  "target_figure_height": 1000,
+  "target_figure_top": 130,
+  "filter": "Existing Chromium canvas high-quality interpolation; RGBA PNG",
+  "measurements": {
+    "file": "candidate-a-classic-storybook/mom-a-v1.png",
+    "sha256": "e228cfb1663638fe776d810e9f99b1e1752e52b0b4ef298157937091a9f9a613",
+    "size": {
+      "width": 1024,
+      "height": 1280
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 648664,
+      "fully_opaque": 9,
+      "partial": 662047
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 177,
+      "y": 395,
+      "width": 642,
+      "height": 147
+    },
+    "opaque_margins_px": {
+      "left": 177,
+      "right": 205,
+      "top": 395,
+      "bottom": 738
+    },
+    "nontransparent_bounding_box": {
+      "x": 91,
+      "y": 127,
+      "width": 842,
+      "height": 1040
+    },
+    "nontransparent_margins_px": {
+      "left": 91,
+      "right": 91,
+      "top": 127,
+      "bottom": 113
+    },
+    "touches_edge": {
+      "left": false,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": false,
+    "minimum_six_percent_empty_left_right_top": true
+  }
+}

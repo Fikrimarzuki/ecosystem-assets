@@ -1,0 +1,42 @@
+{
+  "selected": 2,
+  "source": "generations/generation-02-original.png",
+  "source_size": {
+    "width": 1122,
+    "height": 1402
+  },
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 1122,
+    "height": 1402
+  },
+  "pad": {
+    "canvas_width": 1400,
+    "canvas_height": 1750,
+    "left": 139,
+    "top": 174,
+    "right": 139,
+    "bottom": 174,
+    "rgba": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "scale": {
+    "uniform_factor": 0.7314285714285714,
+    "width": 1024,
+    "height": 1280,
+    "filter": "bilinear, premultiplied-alpha interpolation, round to nearest 8-bit"
+  },
+  "deliverable": "mom-a-v1.png",
+  "thumbnail": {
+    "file": "mom-a-thumbnail-144.png",
+    "width": 144,
+    "height": 180,
+    "filter": "same bilinear scaler"
+  },
+  "other_modifications": "none; no repainting, retouching or alpha cleanup"
+}

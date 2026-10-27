@@ -1,0 +1,288 @@
+[
+  {
+    "name": "after-latest-entry",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-latest-crossbar-settled",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 75,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-latest-direction-changes",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 75,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-entry",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-bench",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-forward",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-project-approach",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-real-bench-side",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65.99322928670496,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-tools-bench-blocked-idle",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65.99322928670496,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-latest-crossbar-approach",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 75,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  },
+  {
+    "name": "after-latest-crossbar-beyond",
+    "maxPositionError": 0,
+    "maxTargetError": 0,
+    "beforeFov": 65,
+    "afterFov": 65,
+    "clearBoom": true,
+    "probes": [
+      {
+        "height": 0,
+        "unobstructed": true
+      },
+      {
+        "height": 0.08,
+        "unobstructed": true
+      },
+      {
+        "height": 0.16,
+        "unobstructed": true
+      },
+      {
+        "height": 0.32,
+        "unobstructed": true
+      }
+    ]
+  }
+]

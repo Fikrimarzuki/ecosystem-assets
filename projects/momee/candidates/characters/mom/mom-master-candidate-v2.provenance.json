@@ -1,0 +1,61 @@
+{
+  "milestone": "M1.0k-A3",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetIds": [
+    "master.mom.three-quarter.candidate.v2",
+    "working.mom.master-candidate.v2"
+  ],
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies)",
+    "krita": "5.3.4.1 via krita_mcp (working-file assembly only; nothing painted)"
+  },
+  "inputs": {
+    "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png": "9c4f58d72da49f5acf6b2438db2e52042da5bdd19078890ad32b3596cb3fda1b"
+  },
+  "method": [
+    "candidates/m1.0k-a2-construction/deglow.mjs (unchanged): alpha-only glow trim, stray removal and interior opacity; RGB of kept pixels unchanged. Every removed non-glow pixel had alpha ≤ 6.",
+    "scripts/momee-character-master.mjs place (unchanged): ×0.9683 uniform premultiplied area-average downscale; soles on row 1215, feet centre x 400.2.",
+    "candidates/m1.0k-a3-construction/tiers_k3.mjs: @2x (×0.5) and @1x (×0.25) from the master with the same resample kernel; never enlarges.",
+    "scripts/momee-character-master.mjs check (unchanged) on master, @2x and @1x: 12 PASS / 0 FAIL each.",
+    "candidates/m1.0k-a3-construction/working_k3.py: Krita working file; pixel layers imported unchanged (reopen: 0 differing pixels)."
+  ],
+  "determinism": "Re-running the pipeline from the untouched original reproduced the master and both tiers byte-for-byte.",
+  "outputs": {
+    "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png": "b3047c20cd3736dacbd49792e3aeed38dbd4669abfc11caf8fa293837080167a",
+    "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@2x.png": "fdd9834eea41b02e6e37cc34cb9533cca548a4f4153faf71eec6bb9bd2dc7e54",
+    "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@1x.png": "692d96f901187f66266551e1691181903e71601b5175ccefe1936f943e230cbc",
+    "projects/momee/source/characters/mom/mom-master-candidate-v2-working.kra": "e0d7318c70aeb96453aa764788523f2350ab49ef86f9e49478c78127c0799550"
+  },
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0k-a3-construction/",
+    "files": {
+      "projects/momee/candidates/m1.0k-a3-construction/check-report.@1x.txt": "d0bd3d84512084065e97bdab91fe171fdcda876e89ec5a989824b3f331865aa1",
+      "projects/momee/candidates/m1.0k-a3-construction/check-report.@2x.txt": "540310bae0360ef2a70304e96d9de9be3de2d11b66f341d414a529de06ab509a",
+      "projects/momee/candidates/m1.0k-a3-construction/check-report.txt": "09e5c799842e5b8f8e7ff17eaaa40b0726b00dc36066ecd16080c53912c786f8",
+      "projects/momee/candidates/m1.0k-a3-construction/deglow-report.json": "4798dd4dee4577bab3f15d20dc3348f55c19669d641f3af4e96572a967d2ada7",
+      "projects/momee/candidates/m1.0k-a3-construction/edge-qc.txt": "81b5c98962c290c24cc44e2f0125c9f4141b4475e38b22b40c6a95a79e10ab13",
+      "projects/momee/candidates/m1.0k-a3-construction/edgeqc_k3.mjs": "733ceba0af4713bb07d7026cf02c00245fc02f6f7f4fa9999099935204524037",
+      "projects/momee/candidates/m1.0k-a3-construction/headfacing.mjs": "4b2b42c6449de3aea84c9e3f02e294d4faa3d8e993051ec113bebb567b0627f5",
+      "projects/momee/candidates/m1.0k-a3-construction/place-report.txt": "dbedb26451c3a2fef4fcaf0166350e5671c8fc98ae8a66b7f9bb8c30e65880f0",
+      "projects/momee/candidates/m1.0k-a3-construction/scale-report.json": "ff6d432c228fdb347306a62a6f4acc8ac9d730f179f2ced5beb3fd383a70bb80",
+      "projects/momee/candidates/m1.0k-a3-construction/scale.config.json": "a21888c646b5ebe6b6159c689b611a069eebd9c1fb90b4a408653c98bdc4d175",
+      "projects/momee/candidates/m1.0k-a3-construction/sheet_k3.py": "7ba68ce524982d6b836b40dcb5785538bfd0da834aec889250a8fe654c7a591e",
+      "projects/momee/candidates/m1.0k-a3-construction/spec8.json": "870bc51e41d12da95398ea8d936404c76e8cfda1e17db13747bdc21111109f7d",
+      "projects/momee/candidates/m1.0k-a3-construction/tiers-report.txt": "5e4c9f9bbf49510fc173d70d85dfc7755fc410ef92c4e9a547a97478ed29e892",
+      "projects/momee/candidates/m1.0k-a3-construction/tiers_k3.mjs": "96066761cbc6efa77f9f9ad6098241b7980dbe424ba8f5dd79177900a3a8ea67",
+      "projects/momee/candidates/m1.0k-a3-construction/working_k3.py": "18137dc8811c5ca335a3af86319ba2f57c8f20b6e078e7fa980fd17ee4f03527"
+    }
+  },
+  "externalArtworkUsed": "The owner-supplied candidate and the accepted references only.",
+  "generativeModelUsed": "None in this milestone's derivation; the source illustration was generated upstream by ChatGPT (OpenAI), per the owner.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "upstreamGeneration": {
+    "platform": "ChatGPT",
+    "provider": "OpenAI",
+    "method": "AI image generation, reference-guided",
+    "detail": "see candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.provenance.json; model, prompt and timestamp not recorded"
+  },
+  "visualAcceptance": "Mom v2 appearance owner-accepted 2026-10-24 (M1.0k-A4); production approval pending; rights unverified"
+}

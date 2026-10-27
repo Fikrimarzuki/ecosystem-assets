@@ -1,0 +1,90 @@
+{
+  "candidate": "a",
+  "generation": 1,
+  "captured_at_utc": "2026-11-17T08:02:05.851Z",
+  "project_date": "2026-11-17",
+  "project_timezone": "Asia/Jakarta",
+  "tool": "Codex built-in image_gen.imagegen",
+  "intent": "independent generation using identity references",
+  "model": "not reported by tool",
+  "seed": "not reported by tool",
+  "rights": "unverified; no production or rights approval inferred",
+  "arguments": {
+    "prompt": "Use case: illustration-story.\nAsset: one experimental Momee Mom illustration, a STILL PAINTED BUST for an owner-reviewed art-direction comparison.\nReference roles: image 1, b-portrait.png, shows Mom's identity, long hair, coral blouse, friendly warmth and larger bright brown eyes. Image 2, family-master.png, shows Mom's identity and outfit only; ignore the other characters, lettering and layout. The references do NOT dictate the rendering medium. Invent an original illustration of this SAME character in the medium specified below.\nIdentity: a warm approachable adult mother, light warm peach skin, a softly elongated oval adult face with a rounded chin, a natural adult neck and shoulder width. Long loose WAVY REDDISH-BROWN hair past both shoulders, asymmetric overlapping waves, side part just to the VIEWER'S RIGHT of centre, with the fuller sweep to viewer's left. Coral-peach button blouse with a clearly visible pointed COLLAR. No jewellery or accessories.\nFace: welcoming small closed-mouth smile, softly arched brown brows, alert engaging OPEN brown eyes looking at the viewer. Restore some of original Candidate B's LARGER, BRIGHTER expressive eye proportions, with clear warm whites and a small natural catchlight. Broad rounded-almond openings, wider than tall, iris partly covered by upper lid, gentle lids. Preserve adult lower-face length and adult proportions. No sleepy or hooded expression. No enormous anime eyes, baby face, doll proportions, eyeliner wings, sharp outer flicks, spiky lashes, or glamour makeup. Brightness should communicate warm attention, not a glitter effect.\nLOCKED COMPOSITION, identical across the comparison: a single centred FRONT-FACING head-and-shoulders bust, level head with no tilt, both shoulders visible, symmetric camera view, hair allowed its natural asymmetry. Canvas portrait 4:5, ideally 1024 x 1280. Show crown through upper chest; bottom cut horizontal just below the second blouse button. The complete hair silhouette and shoulder contour stay inside the canvas with roughly 8 percent clear space on left, right and top and some below. Crown at about 8 percent height, chin about 61 percent, bottom of blouse about 92 percent. Same gentle expression, same crop and straight-on camera in every style; no hands or props.\nBackground: transparent, isolated bust, soft antialiased painted silhouette. No scene, paper rectangle, shadow, glow, captions, border, text, watermark or multiple views. Surface brush texture belongs inside the character.\n\nART DIRECTION A — Classic Illustrated Storybook\nStyle/medium: Classic illustrated children's STORYBOOK with the warmth and charm of original Candidate B. Soft warm-brown selectively varied OUTLINES are a visible defining design feature, especially around hair waves, jaw and collar. Delicate watercolor-like shading: luminous transparent-looking COLOR WASHES on the painted surfaces, soft peach cheek blush, gently pooling warm shadow tones, subtle pigment texture, and restrained soft copper hair accents. Graceful curved character design and a friendly open-eyed face. The overall read is a tender traditional illustrated storybook drawing with soft washes; NOT glossy animation-film modelling, NOT blocky opaque gouache. Watercolor-like means the shading appearance, not a translucent whole figure.\n",
+    "referenced_image_paths": [
+      "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1g-distinct-painted-directions/inputs/b-portrait.png",
+      "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1g-distinct-painted-directions/inputs/family-master.png"
+    ],
+    "transparent_background": true
+  },
+  "prompt_file": "candidate-a-classic-storybook/prompt-01.txt",
+  "prompt_file_sha256": "8d2657fb59c34e0971d2abd0b7d5e9d86671d3d49f2140f8c4312e72a10b479c",
+  "inputs": [
+    {
+      "file": "inputs/b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+    },
+    {
+      "file": "inputs/family-master.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+    }
+  ],
+  "output": {
+    "returned_original_path": "/Users/mfm/.codex/generated_images/01a1e882-fd97-7ba0-b3df-c5622eb937ab/exec-6b355967-f388-4e29-8e87-cbe518301b1d.png",
+    "file": "candidate-a-classic-storybook/generation-01-original.png",
+    "sha256": "711f4710bcdf1b122b4740e340b097f9470dab11ab1a557a9acb2fc76784d1c7",
+    "byte_for_byte_copy_verified": true,
+    "operations": "none; original copied unchanged"
+  },
+  "measurements": {
+    "file": "candidate-a-classic-storybook/generation-01-original.png",
+    "sha256": "711f4710bcdf1b122b4740e340b097f9470dab11ab1a557a9acb2fc76784d1c7",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 541010,
+      "fully_opaque": 530,
+      "partial": 1031504
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 59,
+      "y": 67,
+      "width": 1004,
+      "height": 1246
+    },
+    "opaque_margins_px": {
+      "left": 59,
+      "right": 59,
+      "top": 67,
+      "bottom": 89
+    },
+    "nontransparent_bounding_box": {
+      "x": 0,
+      "y": 63,
+      "width": 1090,
+      "height": 1317
+    },
+    "nontransparent_margins_px": {
+      "left": 0,
+      "right": 32,
+      "top": 63,
+      "bottom": 22
+    },
+    "touches_edge": {
+      "left": true,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": true,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

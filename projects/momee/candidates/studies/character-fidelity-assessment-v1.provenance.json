@@ -1,0 +1,29 @@
+{
+  "milestone": "M1.0i",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "review.character-fidelity-assessment.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7"
+  },
+  "sourceMethod": "2560x2400 Krita document built by fidelity_sheet.py: header/legend, master Boy excerpts with the existing candidate, probe expressions, equal-head-height and gameplay-scale comparison, master Mom excerpts with the stop rationale, each on its own named layer.",
+  "referenceExcerpts": [
+    { "file": "app-momee/assets/references/calm-chibi-storybook/characters/character-master-v1.png", "sha256": "4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7",
+      "crops": ["18,140 170x370 (Boy hero)", "180,140 85x160 (Boy front)", "255,320 100x175 (Boy ¾)", "18,560 160x80 (Boy neutral/happy/talking)", "20,150 160x160 (Boy hero head)",
+                "683,125 160x375 (Mom hero)", "835,135 145x365 (Mom turnarounds)", "775,555 368x85 (Mom expressions)"] }
+  ],
+  "candidateInputs": [
+    { "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "sha256": "122e2118d91822ea93b5e16f6092b100fc5317ec128a22fff0da6a4933d59a7e" },
+    { "path": "projects/momee/review/m1.0i/boy-front-head-probe-v1.{neutral,happy,talking}.png" }
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0i-construction/",
+    "files": { "fidelity_sheet.py": "de40e9711b51119d85b0a05b68e818d05da74f74bc9581dc6c62ee0b6cb6eb8c" }
+  },
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Approved excerpts are in solid sage frames with an APPROVED REFERENCE badge; candidate art is in dashed terracotta frames or carries a NOT APPROVED badge."
+}

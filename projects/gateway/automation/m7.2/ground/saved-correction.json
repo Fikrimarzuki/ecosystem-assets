@@ -1,0 +1,32 @@
+{
+  "output": "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-ground-corrected.blend",
+  "bytes": 4885962,
+  "sha256": "ef7b3984d25fbe0a82dfdf921b83388c1d4e04932ca0e2b899a658c5379019f0",
+  "sourceInputs": {
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-assembled.blend": "e5d5bdadf31fafed416c3e919eec2f142a6d794109e0409f47b35c8c20cda193",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-animated-candidate.glb": "63c9b16b613931d9a5285aaee3db35bcb1f0619fcbd464b04553455c1810a53e",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-walk.fbx": "cd11b0ba2434c0e575ce8f23a47eb3773367756984a1326c44946962274d7ff1",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-idle.fbx": "ce33cb19f8db0127b312d414168c67c80ddce575ef60f8d04147562151208ef4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\prepared\\m7.1\\astronaut-meshy-textures-1024.glb": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68"
+  },
+  "sourceIdleActionFingerprint": "a17bec2ff88f814fa8101146104c84778d263ffef0053fb6ac25dd4ad72c928c",
+  "skinAndTextureFingerprint": "b6bd9152f1d6f2336fdaa143a5423b63b484aaafc29a9446beb5ec97ba45deb6",
+  "savedWalkActionFingerprint": "55e2055211bab500c0fdc48e322b028984ac3070f0b6d732b37afcc5df1c5fb3",
+  "otherWalkChannelsFingerprint": "d7737c847f1210f80d1f32b24f71acbeb27e2d54c302ac0954e8ce4a783ea8d5",
+  "actions": [
+    "Idle",
+    "Walk"
+  ],
+  "defaultActiveAction": "Walk",
+  "defaultTimeline": [
+    1,
+    32
+  ],
+  "groundReferenceZ": -0.009607551704849298,
+  "commonExportGroundOffsetY": 0.009607551704849298,
+  "noGroundOffsetBakedIntoObjectOrIdle": true,
+  "readyForManualVisualInspection": true,
+  "finalAnimationApproval": false,
+  "noGlbExported": true,
+  "sourceInputsUnchanged": true
+}

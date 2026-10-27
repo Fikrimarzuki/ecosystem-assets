@@ -1,0 +1,8 @@
+{
+  "reviewed": "ground-comparison.png and matching individual before/after stills",
+  "poses": [9, 23, 23.75],
+  "regions": ["hips", "knees", "ankles", "boots"],
+  "noMajorArtifactsInReviewedStills": true,
+  "findings": "Corrected knees flex more during heel clearance; silhouettes and material surfaces remain coherent without obvious tearing. Sole/floor intersection is removed in the reviewed worst-pose closeup. Upper body remains unchanged.",
+  "limitations": "Still review is not a full animation-quality approval. Owner must play the corrected Walk and inspect knee flex, boot contact, contact transitions and loop timing. Local edge-change outliers remain documented in the numerical report."
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-13",
+  "scope": "M7.3c.4",
+  "distinctFocusedTestsPassedAcrossRuns": 20,
+  "finalAffectedUnitChecksPassed": 14,
+  "typecheck": "passed",
+  "lint": "passed",
+  "productionBuild": "passed; process flag false; direct Next CLI",
+  "whitespace": "passed",
+  "nativeDesktop": "1440x900 SwiftShader; see browser-report.json and final bench-stop-report.json",
+  "limitations": [
+    "Three accidentally selected pre-ready FPS browser checks failed at navigation; not counted as product results.",
+    "Native Tools follow-up retries corrected diagnostic input/stop assumptions.",
+    "Latest central native smoke preceded the low-roof margin; unit/grid checks verify that guard.",
+    "Sub-millimeter road overlap remains; no global environment clearance guarantee.",
+    "Actual GPU/low-FPS perception and licensing remain manual."
+  ],
+  "unchangedAssets": {
+    "original": "617b433793e29abcd3e2a98e49e19da13bc984aaa439bb82e4aae9477029928a",
+    "textureDerivative": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68",
+    "finalGLB": "cbe687ee68998b318a9faebcb1a9c93697f50419e9624ab6c1f6b5c278362544",
+    "correctedBLEND": "ef7b3984d25fbe0a82dfdf921b83388c1d4e04932ca0e2b899a658c5379019f0"
+  }
+}

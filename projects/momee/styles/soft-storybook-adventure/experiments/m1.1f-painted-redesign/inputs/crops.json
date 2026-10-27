@@ -1,0 +1,57 @@
+{
+  "coordinate_system": "source pixels; x,y origin top left; width,height",
+  "inputs": [
+    {
+      "file": "inputs/b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "crop": {
+        "x": 541,
+        "y": 191,
+        "width": 294,
+        "height": 351
+      },
+      "operations": "integer crop only; pngjs RGBA encoding"
+    },
+    {
+      "file": "inputs/b-eye.png",
+      "sha256": "5dd12cff19214d31175114d2a6841b5b710b44742ab186bb98fbb523245a816b",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/mom-art-direction-exploration-v1.png",
+      "source_sha256": "118eca2c37ebc4db123e512c369998875cd87beffefb0861a206f21825989481",
+      "crop": {
+        "x": 541,
+        "y": 730,
+        "width": 112,
+        "height": 109
+      },
+      "operations": "integer crop only; pngjs RGBA encoding"
+    },
+    {
+      "file": "inputs/gate-a-painted.png",
+      "sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78",
+      "source": "projects/momee/styles/soft-storybook-adventure/experiments/m1.1e-a-neutral-bakeoff/painted/mom-neutral-painted-v1.png",
+      "source_sha256": "9f6a61d128ebdb5c7cc392edc3702a7ddfd0e974678a2a3e79f041d1599baa78",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1280
+      },
+      "operations": "full image, byte-for-byte copy"
+    },
+    {
+      "file": "inputs/family-master.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "source": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+      "source_sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 1024
+      },
+      "operations": "full image, byte-for-byte copy"
+    }
+  ]
+}

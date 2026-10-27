@@ -1,0 +1,7 @@
+importing core
+core imported 2.119 s
+BJS - [06:21:02]: Babylon.js v9.16.1 - Null engine
+loading 2138888 bytes
+BJS_LOAD {"meshes":[{"name":"__root__","verts":0,"skinned":false},{"name":"explorer_neutral","verts":17687,"skinned":true}],"skeletons":1,"bones":22,"animationGroups":[{"name":"Idle","from":0,"to":210,"targeted":66,"seconds":3.5},{"name":"Walk","from":0,"to":60,"targeted":66,"seconds":1},{"name":"Run","from":0,"to":44.000000953674316,"targeted":66,"seconds":0.7333}],"materials":[],"textures":0}
+BJS - [06:21:02]: Skeleton "explorer_rig": 22 bones stored as vertex uniforms use 92 of ~0 usable uniform vectors on a device reporting 16. This can exceed the GPU vertex-uniform limit and make the mesh silently fail to render. Set skeleton.useTextureToStoreBoneMatrices = true to store bone matrices in a texture.
+BJS_MOTION {"Idle":{"thigh.L":true,"forearm.R":true,"hips":true},"Walk":{"thigh.L":true,"forearm.R":true,"hips":true},"Run":{"thigh.L":true,"forearm.R":true,"hips":true}}

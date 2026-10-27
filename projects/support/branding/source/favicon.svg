@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Support favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#0a1d3b"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#3b7ca8" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="#5cc8ff" fill-rule="evenodd" d="M121 185A72 72 0 0 1 193 113L319 113A72 72 0 0 1 391 185L391 287A72 72 0 0 1 319 359L270 359A14 14 0 0 0 262.6 361.1L193.1 404A8 8 0 0 1 181.5 394.1L191.4 370.1A8 8 0 0 0 184 359L165 359A44 44 0 0 1 121 315ZM201 170A9 9 0 0 1 210 161L302 161A9 9 0 0 1 311 170L311 196A9 9 0 0 1 302 205L248 205A3 3 0 0 0 245 208L245 246A3 3 0 0 0 248 249L276 249A9 9 0 0 1 285 258L285 284A9 9 0 0 1 276 293L248 293A3 3 0 0 0 245 296L245 310A9 9 0 0 1 236 319L210 319A9 9 0 0 1 201 310Z"/>
+  </g>
+</svg>

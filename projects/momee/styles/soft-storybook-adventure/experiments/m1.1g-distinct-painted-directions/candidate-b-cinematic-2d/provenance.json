@@ -1,0 +1,90 @@
+{
+  "candidate": "b",
+  "generation": 1,
+  "captured_at_utc": "2026-11-17T08:02:57.248Z",
+  "project_date": "2026-11-17",
+  "project_timezone": "Asia/Jakarta",
+  "tool": "Codex built-in image_gen.imagegen",
+  "intent": "independent generation using identity references",
+  "model": "not reported by tool",
+  "seed": "not reported by tool",
+  "rights": "unverified; no production or rights approval inferred",
+  "arguments": {
+    "prompt": "Use case: illustration-story.\nAsset: one experimental Momee Mom illustration, a STILL PAINTED BUST for an owner-reviewed art-direction comparison.\nReference roles: image 1, b-portrait.png, shows Mom's identity, long hair, coral blouse, friendly warmth and larger bright brown eyes. Image 2, family-master.png, shows Mom's identity and outfit only; ignore the other characters, lettering and layout. The references do NOT dictate the rendering medium. Invent an original illustration of this SAME character in the medium specified below.\nIdentity: a warm approachable adult mother, light warm peach skin, a softly elongated oval adult face with a rounded chin, a natural adult neck and shoulder width. Long loose WAVY REDDISH-BROWN hair past both shoulders, asymmetric overlapping waves, side part just to the VIEWER'S RIGHT of centre, with the fuller sweep to viewer's left. Coral-peach button blouse with a clearly visible pointed COLLAR. No jewellery or accessories.\nFace: welcoming small closed-mouth smile, softly arched brown brows, alert engaging OPEN brown eyes looking at the viewer. Restore some of original Candidate B's LARGER, BRIGHTER expressive eye proportions, with clear warm whites and a small natural catchlight. Broad rounded-almond openings, wider than tall, iris partly covered by upper lid, gentle lids. Preserve adult lower-face length and adult proportions. No sleepy or hooded expression. No enormous anime eyes, baby face, doll proportions, eyeliner wings, sharp outer flicks, spiky lashes, or glamour makeup. Brightness should communicate warm attention, not a glitter effect.\nLOCKED COMPOSITION, identical across the comparison: a single centred FRONT-FACING head-and-shoulders bust, level head with no tilt, both shoulders visible, symmetric camera view, hair allowed its natural asymmetry. Canvas portrait 4:5, ideally 1024 x 1280. Show crown through upper chest; bottom cut horizontal just below the second blouse button. The complete hair silhouette and shoulder contour stay inside the canvas with roughly 8 percent clear space on left, right and top and some below. Crown at about 8 percent height, chin about 61 percent, bottom of blouse about 92 percent. Same gentle expression, same crop and straight-on camera in every style; no hands or props.\nBackground: transparent, isolated bust, soft antialiased painted silhouette. No scene, paper rectangle, shadow, glow, captions, border, text, watermark or multiple views. Surface brush texture belongs inside the character.\n\nART DIRECTION B — Cinematic 2D Animation\nStyle/medium: CINEMATIC HAND-PAINTED 2D ANIMATION CHARACTER DESIGN. This must look immediately different from an outlined storybook portrait. Build dimensional cheek, nose, jaw, neck and thick auburn wave volumes using SMOOTH PAINTED SHADING and carefully designed warm light and chromatic form shadows. LITTLE OR NO VISIBLE OUTLINE: define the silhouette with coloured masses and edge contrast, no drawn brown contours around the face, nose or hair locks. Sculptural flowing broad hair shapes with soft satin highlights, expressive appealing animation-film eyes, clear adult anatomy and a lively warm presence. Stronger dimensional light/dark grouping than a watercolor drawing; polished smooth painterly gradients, almost no paper grain or brush flecks. This is a richly dimensional original 2D animated-film painting, NOT photorealism, NOT a 3D render, NOT anime, NOT a vector sticker, NOT matte gouache.\n",
+    "referenced_image_paths": [
+      "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1g-distinct-painted-directions/inputs/b-portrait.png",
+      "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/styles/soft-storybook-adventure/experiments/m1.1g-distinct-painted-directions/inputs/family-master.png"
+    ],
+    "transparent_background": true
+  },
+  "prompt_file": "candidate-b-cinematic-2d/prompt-01.txt",
+  "prompt_file_sha256": "5a113755df7640128a6d8ece923b0349d4f645c3a2a12b95f1f8cd3ed5e6dd9e",
+  "inputs": [
+    {
+      "file": "inputs/b-portrait.png",
+      "sha256": "2e800d62b0f1f127c032f0ac1ec8d7935edecf965fdb6d350af4ba81ab912a53"
+    },
+    {
+      "file": "inputs/family-master.png",
+      "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36"
+    }
+  ],
+  "output": {
+    "returned_original_path": "/Users/mfm/.codex/generated_images/01a1e882-fd97-7ba0-b3df-c5622eb937ab/exec-90e2e54a-9e11-4079-8c33-2f5e6c37d703.png",
+    "file": "candidate-b-cinematic-2d/generation-01-original.png",
+    "sha256": "5733fcf5560632bbeabf33355f7045f47c39f6ddb8b74c002eada46acf9945f3",
+    "byte_for_byte_copy_verified": true,
+    "operations": "none; original copied unchanged"
+  },
+  "measurements": {
+    "file": "candidate-b-cinematic-2d/generation-01-original.png",
+    "sha256": "5733fcf5560632bbeabf33355f7045f47c39f6ddb8b74c002eada46acf9945f3",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 504863,
+      "fully_opaque": 325,
+      "partial": 1067856
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 67,
+      "y": 310,
+      "width": 972,
+      "height": 1035
+    },
+    "opaque_margins_px": {
+      "left": 67,
+      "right": 83,
+      "top": 310,
+      "bottom": 57
+    },
+    "nontransparent_bounding_box": {
+      "x": 0,
+      "y": 23,
+      "width": 1104,
+      "height": 1379
+    },
+    "nontransparent_margins_px": {
+      "left": 0,
+      "right": 18,
+      "top": 23,
+      "bottom": 0
+    },
+    "touches_edge": {
+      "left": true,
+      "right": false,
+      "top": false,
+      "bottom": true
+    },
+    "anything_touches_edge": true,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

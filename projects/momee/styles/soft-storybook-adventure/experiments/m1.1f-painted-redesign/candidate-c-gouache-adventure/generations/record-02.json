@@ -1,0 +1,73 @@
+{
+  "call": 2,
+  "captured_at_utc": "2026-11-16T16:36:43.442Z",
+  "tool": "Codex built-in image_gen",
+  "model": "not recorded",
+  "transparent_background": true,
+  "prompt": "Edit this exact portrait only to correct the transparency contract. Preserve the character identity, adult facial anatomy, almond eye shapes, lid creases, matte brown eyes without sparkle dots, calm closed-mouth smile, reddish-brown side-parted wavy hair, coral collared blouse, painted technique, colours, pose and framing. Do not polish or redesign.\nThe supplied PNG has a transparent background, but its figure is incorrectly translucent: most interior pixels have alpha 252 or 253 rather than 255. Make the WHOLE figure fully opaque: interior face, eyes, hair, neck and clothing must have alpha exactly 255 (100% opacity). Only the 1–2 pixel antialiased outer boundary may have partial alpha. Background remains genuinely transparent with alpha 0. No overlay, no translucent paint, no edge glow or external shadow.\nKeep the entire bust within the canvas with at least 6% empty transparent margin on left, right and top and a small margin below; no hair or blouse may touch an edge. One portrait, top of hair through upper chest, requested 1024x1280 RGBA. No text.",
+  "prompt_file": "candidate-c-gouache-adventure/generations/prompt-02.txt",
+  "prompt_file_sha256": "9f834e6fcac20a8a54317ecb11a47a033083d5a34169dff3ea76321d390fc53f",
+  "inputs": [
+    {
+      "file": "candidate-c-gouache-adventure/generations/generation-01-original.png",
+      "sha256": "5082eb4358fd4eb20284f7b3f82a48c0e971bedd5d7c8ac57b24669cd90b0821"
+    }
+  ],
+  "output": {
+    "generated_source_path": "/Users/mfm/.codex/generated_images/01a1e530-8d21-71a0-92b9-0dd4f62b8713/exec-4c823464-3957-4644-9001-f2451dbadb80.png",
+    "file": "candidate-c-gouache-adventure/generations/generation-02-original.png",
+    "sha256": "65e9ba341c83efd009b0bd3fba665a806bac7f50ba71fce36a841958866be310",
+    "byte_for_byte_copy_verified": true
+  },
+  "measurements": {
+    "file": "candidate-c-gouache-adventure/generations/generation-02-original.png",
+    "sha256": "65e9ba341c83efd009b0bd3fba665a806bac7f50ba71fce36a841958866be310",
+    "size": {
+      "width": 1122,
+      "height": 1402
+    },
+    "png_header": {
+      "bit_depth": 8,
+      "colour_type": 6,
+      "colour_type_6_means": "RGBA"
+    },
+    "alpha_histogram_summary": {
+      "fully_transparent": 538292,
+      "fully_opaque": 259,
+      "partial": 1034493
+    },
+    "bounding_box_convention": "inclusive; opaque means alpha=255; nontransparent means alpha>0",
+    "opaque_bounding_box": {
+      "x": 63,
+      "y": 79,
+      "width": 995,
+      "height": 1265
+    },
+    "opaque_margins_px": {
+      "left": 63,
+      "right": 64,
+      "top": 79,
+      "bottom": 58
+    },
+    "nontransparent_bounding_box": {
+      "x": 0,
+      "y": 9,
+      "width": 1090,
+      "height": 1375
+    },
+    "nontransparent_margins_px": {
+      "left": 0,
+      "right": 32,
+      "top": 9,
+      "bottom": 18
+    },
+    "touches_edge": {
+      "left": true,
+      "right": false,
+      "top": false,
+      "bottom": false
+    },
+    "anything_touches_edge": true,
+    "minimum_six_percent_empty_left_right_top": false
+  }
+}

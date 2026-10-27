@@ -1,0 +1,890 @@
+{
+  "scale": 0.15863871555793063,
+  "duration": 1.0333333015441895,
+  "playerSpeed": 0.42,
+  "currentCycleDistance": 0.43399998664855954,
+  "sampleHz": 480.00001476657053,
+  "stanceDisplacement": [
+    {
+      "side": "Left",
+      "vertex": 7630,
+      "start": 0.33124998980952847,
+      "end": 0.7770833094273843,
+      "criterion": "Longest continuous same-vertex Y <=2mm, foot bone moving backward",
+      "rates": [
+        {
+          "rate": 1,
+          "stanceRealSeconds": 0.44583331961785594,
+          "forwardDisplacement": 0.08276360335532083,
+          "lateralDisplacement": 0.0005367955920794042
+        },
+        {
+          "rate": 1.75,
+          "stanceRealSeconds": 0.2547618969244891,
+          "forwardDisplacement": 0.002513605824106771,
+          "lateralDisplacement": 0.0005367955920794042
+        }
+      ]
+    },
+    {
+      "side": "Right",
+      "vertex": 10700,
+      "start": 0.014583332884696222,
+      "end": 0.24791665903983576,
+      "criterion": "Longest continuous same-vertex Y <=2mm, foot bone moving backward",
+      "rates": [
+        {
+          "rate": 1,
+          "stanceRealSeconds": 0.23333332615513955,
+          "forwardDisplacement": 0.038452141555013836,
+          "lateralDisplacement": -0.00004790232010897237
+        },
+        {
+          "rate": 1.75,
+          "stanceRealSeconds": 0.1333333292315083,
+          "forwardDisplacement": -0.0035478571529112754,
+          "lateralDisplacement": -0.00004790232010897237
+        }
+      ]
+    }
+  ],
+  "convention": "Asset +Z-forward; runtime PI facing maps to player -Z. Residual along movement = player speed + scaled asset Z stance velocity. Same material vertex at both near-floor endpoints; no centroid substitution. Ground-corrected boot rolling means this is a contact proxy, not force/contact labeling.",
+  "summaries": [
+    {
+      "thresholdAssetMeters": 0.001,
+      "pairs": 1041,
+      "phases": {
+        "Left": [
+          {
+            "start": 0.17499999461635465,
+            "end": 0.1916666607702932
+          },
+          {
+            "start": 0.20833332692423173,
+            "end": 0.22499999307817029
+          },
+          {
+            "start": 0.30208332404013605,
+            "end": 0.3124999903863476
+          },
+          {
+            "start": 0.3333333230787708,
+            "end": 0.3624999888481632
+          },
+          {
+            "start": 0.3708333219251325,
+            "end": 0.3958333211560403
+          },
+          {
+            "start": 0.40416665423300957,
+            "end": 0.42916665346391736
+          },
+          {
+            "start": 0.4374999865408867,
+            "end": 0.4937499848104292
+          },
+          {
+            "start": 0.5062499844258831,
+            "end": 0.5291666503875486
+          },
+          {
+            "start": 0.5374999834645179,
+            "end": 0.5958333150033027
+          },
+          {
+            "start": 0.6041666480802721,
+            "end": 0.6312499805804221
+          },
+          {
+            "start": 0.6354166471189068,
+            "end": 0.6624999796190569
+          },
+          {
+            "start": 0.6708333126960262,
+            "end": 0.695833311926934
+          },
+          {
+            "start": 0.7041666450039032,
+            "end": 0.7437499771195073
+          },
+          {
+            "start": 0.7645833098119305,
+            "end": 0.7666666430811728
+          },
+          {
+            "start": 0.8812499728895002,
+            "end": 0.8958333057741965
+          },
+          {
+            "start": 0.9083333053896504,
+            "end": 0.9270833048128312
+          },
+          {
+            "start": 0.9395833044282852,
+            "end": 0.958333303851466
+          },
+          {
+            "start": 0.9749999700054045,
+            "end": 0.9854166363516161
+          }
+        ],
+        "Right": [
+          {
+            "start": 0,
+            "end": 0.029166665769392443
+          },
+          {
+            "start": 0.03958333211560403,
+            "end": 0.06458333134651184
+          },
+          {
+            "start": 0.06874999788499647,
+            "end": 0.0958333303851466
+          },
+          {
+            "start": 0.10416666346211587,
+            "end": 0.19791666057802015
+          },
+          {
+            "start": 0.20208332711650479,
+            "end": 0.22291665980892797
+          },
+          {
+            "start": 0.2395833259628665,
+            "end": 0.24791665903983576
+          },
+          {
+            "start": 0.31458332365558994,
+            "end": 0.32916665654028615
+          },
+          {
+            "start": 0.6416666469266338,
+            "end": 0.6979166451961764
+          },
+          {
+            "start": 0.7062499782731456,
+            "end": 0.7395833105810227
+          },
+          {
+            "start": 0.7666666430811728,
+            "end": 0.7687499763504151
+          },
+          {
+            "start": 0.7854166425043536,
+            "end": 0.7916666423120806
+          },
+          {
+            "start": 0.8083333084660191,
+            "end": 0.8249999746199577
+          },
+          {
+            "start": 0.8437499740431386,
+            "end": 0.8583333069278347
+          },
+          {
+            "start": 0.8770833063510156,
+            "end": 0.8958333057741965
+          },
+          {
+            "start": 0.9041666388511658,
+            "end": 0.9291666380820736
+          },
+          {
+            "start": 0.9374999711590428,
+            "end": 0.9624999703899506
+          },
+          {
+            "start": 0.9708333034669199,
+            "end": 0.9958333026978277
+          },
+          {
+            "start": 1.004166635774797,
+            "end": 1.0333333015441895
+          }
+        ]
+      },
+      "impliedSpeed": 0.14615090088106097,
+      "impliedCycleDistance": 0.15102259293108433,
+      "optimalLeastSquaresRate": 0.9313328088560017,
+      "rates": [
+        {
+          "rate": 1,
+          "playerDistancePerCycle": 0.43399998664855954,
+          "meanAbsoluteForwardSpeed": 0.27384909911894006,
+          "medianAbsoluteForwardSpeed": 0.18957921699999472,
+          "rmsHorizontalSpeed": 0.3457490703426126,
+          "meanForwardSpeed": 0.27384909911894006
+        },
+        {
+          "rate": 1.5,
+          "playerDistancePerCycle": 0.28933332443237303,
+          "meanAbsoluteForwardSpeed": 0.20316574719761135,
+          "medianAbsoluteForwardSpeed": 0.07517768895455001,
+          "rmsHorizontalSpeed": 0.37489400068729417,
+          "meanForwardSpeed": 0.20077364867840886
+        },
+        {
+          "rate": 1.65,
+          "playerDistancePerCycle": 0.2630302949385209,
+          "meanAbsoluteForwardSpeed": 0.18582181165967557,
+          "medianAbsoluteForwardSpeed": 0.040736127624391105,
+          "rmsHorizontalSpeed": 0.3915004266679906,
+          "meanForwardSpeed": 0.17885101354624985
+        },
+        {
+          "rate": 1.75,
+          "playerDistancePerCycle": 0.24799999237060547,
+          "meanAbsoluteForwardSpeed": 0.18496184548910138,
+          "medianAbsoluteForwardSpeed": 0.025904777120286715,
+          "rmsHorizontalSpeed": 0.40423387831475205,
+          "meanForwardSpeed": 0.1642359234581439
+        },
+        {
+          "rate": 1.8,
+          "playerDistancePerCycle": 0.2411111036936442,
+          "meanAbsoluteForwardSpeed": 0.18852869050777918,
+          "medianAbsoluteForwardSpeed": 0.024191295435804172,
+          "rmsHorizontalSpeed": 0.4110542170424001,
+          "meanForwardSpeed": 0.1569283784140905
+        },
+        {
+          "rate": 1.9,
+          "playerDistancePerCycle": 0.22842104560450505,
+          "meanAbsoluteForwardSpeed": 0.20339918241261823,
+          "medianAbsoluteForwardSpeed": 0.044325230140516036,
+          "rmsHorizontalSpeed": 0.4255294219392996,
+          "meanForwardSpeed": 0.14231328832598467
+        },
+        {
+          "rate": 2,
+          "playerDistancePerCycle": 0.21699999332427977,
+          "meanAbsoluteForwardSpeed": 0.22684020918638054,
+          "medianAbsoluteForwardSpeed": 0.06854071019938646,
+          "rmsHorizontalSpeed": 0.4410251603381666,
+          "meanForwardSpeed": 0.12769819823787884
+        },
+        {
+          "rate": 0.9313328088560017,
+          "playerDistancePerCycle": 0.46599881645065355,
+          "meanAbsoluteForwardSpeed": 0.2838848709656071,
+          "medianAbsoluteForwardSpeed": 0.20540156494980585,
+          "rmsHorizontalSpeed": 0.3452993567986405,
+          "meanForwardSpeed": 0.2838848709656071
+        }
+      ],
+      "kinematicStance": {
+        "criterion": "Foot bone moving backward in asset-forward Z; additionally same sole vertex below threshold at both endpoints",
+        "pairs": 800,
+        "rates": [
+          {
+            "rate": 1,
+            "meanAbsoluteForwardSpeed": 0.18090495676842727,
+            "rmsHorizontalSpeed": 0.18154667408800368,
+            "medianAbsoluteForwardSpeed": 0.1807203399436011
+          },
+          {
+            "rate": 1.5,
+            "meanAbsoluteForwardSpeed": 0.06135743515264124,
+            "rmsHorizontalSpeed": 0.06548332382237736,
+            "medianAbsoluteForwardSpeed": 0.06108050991540165
+          },
+          {
+            "rate": 1.65,
+            "meanAbsoluteForwardSpeed": 0.029604392433313986,
+            "rmsHorizontalSpeed": 0.035820838732165496,
+            "medianAbsoluteForwardSpeed": 0.026538746357615495
+          },
+          {
+            "rate": 1.75,
+            "meanAbsoluteForwardSpeed": 0.021440957669639556,
+            "rmsHorizontalSpeed": 0.026736107786703128,
+            "medianAbsoluteForwardSpeed": 0.01924119189171064
+          },
+          {
+            "rate": 1.8,
+            "meanAbsoluteForwardSpeed": 0.02253329635667864,
+            "rmsHorizontalSpeed": 0.02934545415456091,
+            "medianAbsoluteForwardSpeed": 0.018333788640642723
+          },
+          {
+            "rate": 1.9,
+            "meanAbsoluteForwardSpeed": 0.03478548716081858,
+            "rmsHorizontalSpeed": 0.04488667494092128,
+            "medianAbsoluteForwardSpeed": 0.0346313541071579
+          },
+          {
+            "rate": 2,
+            "meanAbsoluteForwardSpeed": 0.05819008646314492,
+            "rmsHorizontalSpeed": 0.06569971170945255,
+            "medianAbsoluteForwardSpeed": 0.0585593201127978
+          },
+          {
+            "rate": 0.9313328088560017,
+            "meanAbsoluteForwardSpeed": 0.19732294180359286,
+            "rmsHorizontalSpeed": 0.19783348744347937,
+            "medianAbsoluteForwardSpeed": 0.19715100209756478
+          }
+        ]
+      },
+      "sides": [
+        {
+          "side": "Left",
+          "impliedSpeed": 0.143093672425711,
+          "medianImpliedSpeed": 0.2289349056054422
+        },
+        {
+          "side": "Right",
+          "impliedSpeed": 0.1483281704882423,
+          "medianImpliedSpeed": 0.24299703250191257
+        }
+      ]
+    },
+    {
+      "thresholdAssetMeters": 0.002,
+      "pairs": 3509,
+      "phases": {
+        "Left": [
+          {
+            "start": 0.16458332827014308,
+            "end": 0.24791665903983576
+          },
+          {
+            "start": 0.2645833251937743,
+            "end": 0.2729166582707436
+          },
+          {
+            "start": 0.28124999134771284,
+            "end": 0.31666665692483226
+          },
+          {
+            "start": 0.33124998980952847,
+            "end": 0.7833333092351114
+          },
+          {
+            "start": 0.8770833063510156,
+            "end": 0.964583303659193
+          },
+          {
+            "start": 0.9687499701976776,
+            "end": 0.991666636159343
+          }
+        ],
+        "Right": [
+          {
+            "start": 0,
+            "end": 0.25833332538604736
+          },
+          {
+            "start": 0.2770833248092282,
+            "end": 0.29583332423240905
+          },
+          {
+            "start": 0.30416665730937836,
+            "end": 0.3333333230787708
+          },
+          {
+            "start": 0.6354166471189068,
+            "end": 0.7979166421198075
+          },
+          {
+            "start": 0.8020833086582922,
+            "end": 0.8312499744276847
+          },
+          {
+            "start": 0.8354166409661693,
+            "end": 0.8645833067355617
+          },
+          {
+            "start": 0.8687499732740463,
+            "end": 1.0333333015441895
+          }
+        ]
+      },
+      "impliedSpeed": 0.1606281717858107,
+      "impliedCycleDistance": 0.165982439072439,
+      "optimalLeastSquaresRate": 1.1128437529651896,
+      "rates": [
+        {
+          "rate": 1,
+          "playerDistancePerCycle": 0.43399998664855954,
+          "meanAbsoluteForwardSpeed": 0.25937182821418936,
+          "medianAbsoluteForwardSpeed": 0.18995698081971996,
+          "rmsHorizontalSpeed": 0.3195234742788494,
+          "meanForwardSpeed": 0.25937182821418936
+        },
+        {
+          "rate": 1.5,
+          "playerDistancePerCycle": 0.28933332443237303,
+          "meanAbsoluteForwardSpeed": 0.18180339522815323,
+          "medianAbsoluteForwardSpeed": 0.07509061699082914,
+          "rmsHorizontalSpeed": 0.3322800958669074,
+          "meanForwardSpeed": 0.17905774232128324
+        },
+        {
+          "rate": 1.65,
+          "playerDistancePerCycle": 0.2630302949385209,
+          "meanAbsoluteForwardSpeed": 0.16287768707883574,
+          "medianAbsoluteForwardSpeed": 0.04100930289785787,
+          "rmsHorizontalSpeed": 0.344695865600084,
+          "meanForwardSpeed": 0.1549635165534123
+        },
+        {
+          "rate": 1.75,
+          "playerDistancePerCycle": 0.24799999237060547,
+          "meanAbsoluteForwardSpeed": 0.1589715653987037,
+          "medianAbsoluteForwardSpeed": 0.02538528689162406,
+          "rmsHorizontalSpeed": 0.3548721803734244,
+          "meanForwardSpeed": 0.13890069937483146
+        },
+        {
+          "rate": 1.8,
+          "playerDistancePerCycle": 0.2411111036936442,
+          "meanAbsoluteForwardSpeed": 0.16092197972459862,
+          "medianAbsoluteForwardSpeed": 0.02104202664243432,
+          "rmsHorizontalSpeed": 0.36048363150835566,
+          "meanForwardSpeed": 0.13086929078554066
+        },
+        {
+          "rate": 1.9,
+          "playerDistancePerCycle": 0.22842104560450505,
+          "meanAbsoluteForwardSpeed": 0.17403588234275594,
+          "medianAbsoluteForwardSpeed": 0.04240545658529776,
+          "rmsHorizontalSpeed": 0.3726743359477637,
+          "meanForwardSpeed": 0.11480647360695967
+        },
+        {
+          "rate": 2,
+          "playerDistancePerCycle": 0.21699999332427977,
+          "meanAbsoluteForwardSpeed": 0.19581102052974872,
+          "medianAbsoluteForwardSpeed": 0.06655154198586477,
+          "rmsHorizontalSpeed": 0.38605223877225503,
+          "meanForwardSpeed": 0.0987436564283784
+        },
+        {
+          "rate": 1.1128437529651896,
+          "playerDistancePerCycle": 0.38999184341212306,
+          "meanAbsoluteForwardSpeed": 0.2412459424779402,
+          "medianAbsoluteForwardSpeed": 0.16399806319197408,
+          "rmsHorizontalSpeed": 0.31831320399998414,
+          "meanForwardSpeed": 0.2412459424779402
+        }
+      ],
+      "kinematicStance": {
+        "criterion": "Foot bone moving backward in asset-forward Z; additionally same sole vertex below threshold at both endpoints",
+        "pairs": 2681,
+        "rates": [
+          {
+            "rate": 1,
+            "meanAbsoluteForwardSpeed": 0.18466588429683498,
+            "rmsHorizontalSpeed": 0.1862243829417981,
+            "medianAbsoluteForwardSpeed": 0.18634175842772532
+          },
+          {
+            "rate": 1.5,
+            "meanAbsoluteForwardSpeed": 0.06705033363489145,
+            "rmsHorizontalSpeed": 0.07608820340640698,
+            "medianAbsoluteForwardSpeed": 0.069512637641588
+          },
+          {
+            "rate": 1.65,
+            "meanAbsoluteForwardSpeed": 0.03560571125634311,
+            "rmsHorizontalSpeed": 0.050778934811322375,
+            "medianAbsoluteForwardSpeed": 0.03498936270568487
+          },
+          {
+            "rate": 1.75,
+            "meanAbsoluteForwardSpeed": 0.025046979528399006,
+            "rmsHorizontalSpeed": 0.04285901327642647,
+            "medianAbsoluteForwardSpeed": 0.01945229030906903
+          },
+          {
+            "rate": 1.8,
+            "meanAbsoluteForwardSpeed": 0.024823883209561547,
+            "rmsHorizontalSpeed": 0.04342572685865404,
+            "medianAbsoluteForwardSpeed": 0.01781812228366758
+          },
+          {
+            "rate": 1.9,
+            "meanAbsoluteForwardSpeed": 0.03628510523671556,
+            "rmsHorizontalSpeed": 0.05313185383026044,
+            "medianAbsoluteForwardSpeed": 0.029128256598567492
+          },
+          {
+            "rate": 2,
+            "meanAbsoluteForwardSpeed": 0.058784132148667685,
+            "rmsHorizontalSpeed": 0.0698526849128375,
+            "medianAbsoluteForwardSpeed": 0.05276658589322897
+          },
+          {
+            "rate": 1.1128437529651896,
+            "meanAbsoluteForwardSpeed": 0.1581098994801455,
+            "rmsHorizontalSpeed": 0.16035768575686565,
+            "medianAbsoluteForwardSpeed": 0.15997488553746297
+          }
+        ]
+      },
+      "sides": [
+        {
+          "side": "Left",
+          "impliedSpeed": 0.07369900020976511,
+          "medianImpliedSpeed": 0.22371550585573097
+        },
+        {
+          "side": "Right",
+          "impliedSpeed": 0.19639991053170566,
+          "medianImpliedSpeed": 0.23328255652970642
+        }
+      ]
+    },
+    {
+      "thresholdAssetMeters": 0.005,
+      "pairs": 11469,
+      "phases": {
+        "Left": [
+          {
+            "start": 0.0020833332692423174,
+            "end": 0.029166665769392443
+          },
+          {
+            "start": 0.15208332865468918,
+            "end": 0.7937499755813229
+          },
+          {
+            "start": 0.8020833086582922,
+            "end": 0.8270833078892
+          },
+          {
+            "start": 0.8437499740431386,
+            "end": 0.8624999734663193
+          },
+          {
+            "start": 0.8687499732740463,
+            "end": 1.0312499682749472
+          }
+        ],
+        "Right": [
+          {
+            "start": 0,
+            "end": 0.3374999896172554
+          },
+          {
+            "start": 0.34166665615574004,
+            "end": 0.347916655963467
+          },
+          {
+            "start": 0.37499998846361715,
+            "end": 0.4645833190410368
+          },
+          {
+            "start": 0.4708333188487637,
+            "end": 0.4937499848104292
+          },
+          {
+            "start": 0.5062499844258831,
+            "end": 0.524999983849064
+          },
+          {
+            "start": 0.6208333142342106,
+            "end": 1.0333333015441895
+          }
+        ]
+      },
+      "impliedSpeed": 0.14789010856338472,
+      "impliedCycleDistance": 0.15281977414753095,
+      "optimalLeastSquaresRate": 0.8911293975622486,
+      "rates": [
+        {
+          "rate": 1,
+          "playerDistancePerCycle": 0.43399998664855954,
+          "meanAbsoluteForwardSpeed": 0.2721098914366142,
+          "medianAbsoluteForwardSpeed": 0.190994379599681,
+          "rmsHorizontalSpeed": 0.3491055645525068,
+          "meanForwardSpeed": 0.2721098914366142
+        },
+        {
+          "rate": 1.5,
+          "playerDistancePerCycle": 0.28933332443237303,
+          "meanAbsoluteForwardSpeed": 0.20091597803470496,
+          "medianAbsoluteForwardSpeed": 0.07675515428396407,
+          "rmsHorizontalSpeed": 0.3832607892784788,
+          "meanForwardSpeed": 0.19816483715491945
+        },
+        {
+          "rate": 1.65,
+          "playerDistancePerCycle": 0.2630302949385209,
+          "meanAbsoluteForwardSpeed": 0.18482155725163696,
+          "medianAbsoluteForwardSpeed": 0.04348420006039755,
+          "rmsHorizontalSpeed": 0.4014835693909579,
+          "meanForwardSpeed": 0.1759813208704126
+        },
+        {
+          "rate": 1.75,
+          "playerDistancePerCycle": 0.24799999237060547,
+          "meanAbsoluteForwardSpeed": 0.18086356970088968,
+          "medianAbsoluteForwardSpeed": 0.026020917732737903,
+          "rmsHorizontalSpeed": 0.41528917484784267,
+          "meanForwardSpeed": 0.16119231001407378
+        },
+        {
+          "rate": 1.8,
+          "playerDistancePerCycle": 0.2411111036936442,
+          "meanAbsoluteForwardSpeed": 0.1817707642725072,
+          "medianAbsoluteForwardSpeed": 0.020119082809220035,
+          "rmsHorizontalSpeed": 0.4226415594463106,
+          "meanForwardSpeed": 0.15379780458590436
+        },
+        {
+          "rate": 1.9,
+          "playerDistancePerCycle": 0.22842104560450505,
+          "meanAbsoluteForwardSpeed": 0.19451136511895778,
+          "medianAbsoluteForwardSpeed": 0.03118652420549789,
+          "rmsHorizontalSpeed": 0.43817006015695453,
+          "meanForwardSpeed": 0.13900879372956632
+        },
+        {
+          "rate": 2,
+          "playerDistancePerCycle": 0.21699999332427977,
+          "meanAbsoluteForwardSpeed": 0.2177733585548128,
+          "medianAbsoluteForwardSpeed": 0.05457672051509638,
+          "rmsHorizontalSpeed": 0.45470227973101596,
+          "meanForwardSpeed": 0.12421978287322698
+        },
+        {
+          "rate": 0.8911293975622486,
+          "playerDistancePerCycle": 0.48702240980468053,
+          "meanAbsoluteForwardSpeed": 0.28821077665049327,
+          "medianAbsoluteForwardSpeed": 0.21592635945429473,
+          "rmsHorizontalSpeed": 0.3479202871250923,
+          "meanForwardSpeed": 0.28821077665049327
+        }
+      ],
+      "kinematicStance": {
+        "criterion": "Foot bone moving backward in asset-forward Z; additionally same sole vertex below threshold at both endpoints",
+        "pairs": 8765,
+        "rates": [
+          {
+            "rate": 1,
+            "meanAbsoluteForwardSpeed": 0.1865794436454586,
+            "rmsHorizontalSpeed": 0.18813791248572598,
+            "medianAbsoluteForwardSpeed": 0.18948100466412535
+          },
+          {
+            "rate": 1.5,
+            "meanAbsoluteForwardSpeed": 0.06995834593535975,
+            "rmsHorizontalSpeed": 0.0787125610112843,
+            "medianAbsoluteForwardSpeed": 0.07422150699618801
+          },
+          {
+            "rate": 1.65,
+            "meanAbsoluteForwardSpeed": 0.03926270740993614,
+            "rmsHorizontalSpeed": 0.05296080150918241,
+            "medianAbsoluteForwardSpeed": 0.03993623633580223
+          },
+          {
+            "rate": 1.75,
+            "meanAbsoluteForwardSpeed": 0.026582923650395524,
+            "rmsHorizontalSpeed": 0.04382953178503879,
+            "medianAbsoluteForwardSpeed": 0.0212870930409802
+          },
+          {
+            "rate": 1.8,
+            "meanAbsoluteForwardSpeed": 0.023975273174124363,
+            "rmsHorizontalSpeed": 0.043498702249473574,
+            "medianAbsoluteForwardSpeed": 0.01564894982258752
+          },
+          {
+            "rate": 1.9,
+            "meanAbsoluteForwardSpeed": 0.03283178778415087,
+            "rmsHorizontalSpeed": 0.05157899476490518,
+            "medianAbsoluteForwardSpeed": 0.0188449418637317
+          },
+          {
+            "rate": 2,
+            "meanAbsoluteForwardSpeed": 0.05509616105804037,
+            "rmsHorizontalSpeed": 0.0673055059677429,
+            "medianAbsoluteForwardSpeed": 0.041942044067086015
+          },
+          {
+            "rate": 0.8911293975622486,
+            "meanAbsoluteForwardSpeed": 0.21199208023713312,
+            "rmsHorizontalSpeed": 0.21308306268848967,
+            "medianAbsoluteForwardSpeed": 0.21457774655968723
+          }
+        ]
+      },
+      "sides": [
+        {
+          "side": "Left",
+          "impliedSpeed": 0.06123088960080243,
+          "medianImpliedSpeed": 0.2240560483990258
+        },
+        {
+          "side": "Right",
+          "impliedSpeed": 0.1795798515300569,
+          "medianImpliedSpeed": 0.23013850854272005
+        }
+      ]
+    },
+    {
+      "thresholdAssetMeters": 0.01,
+      "pairs": 28271,
+      "phases": {
+        "Left": [
+          {
+            "start": 0,
+            "end": 0.04166666538484635
+          },
+          {
+            "start": 0.13749999576999294,
+            "end": 1.0333333015441895
+          }
+        ],
+        "Right": [
+          {
+            "start": 0,
+            "end": 0.5562499828876988
+          },
+          {
+            "start": 0.6145833144264836,
+            "end": 1.0333333015441895
+          }
+        ]
+      },
+      "impliedSpeed": 0.15929208514695112,
+      "impliedCycleDistance": 0.16460181625475714,
+      "optimalLeastSquaresRate": 0.957389194036292,
+      "rates": [
+        {
+          "rate": 1,
+          "playerDistancePerCycle": 0.43399998664855954,
+          "meanAbsoluteForwardSpeed": 0.26070791485305034,
+          "medianAbsoluteForwardSpeed": 0.19144233566275093,
+          "rmsHorizontalSpeed": 0.3353728992504018,
+          "meanForwardSpeed": 0.26070791485305034
+        },
+        {
+          "rate": 1.5,
+          "playerDistancePerCycle": 0.28933332443237303,
+          "meanAbsoluteForwardSpeed": 0.18378079248687215,
+          "medianAbsoluteForwardSpeed": 0.07735269471671724,
+          "rmsHorizontalSpeed": 0.36458568558533266,
+          "meanForwardSpeed": 0.18106187227957257
+        },
+        {
+          "rate": 1.65,
+          "playerDistancePerCycle": 0.2630302949385209,
+          "meanAbsoluteForwardSpeed": 0.16549872505129845,
+          "medianAbsoluteForwardSpeed": 0.044279255236520376,
+          "rmsHorizontalSpeed": 0.38192980609422755,
+          "meanForwardSpeed": 0.157168059507532
+        },
+        {
+          "rate": 1.75,
+          "playerDistancePerCycle": 0.24799999237060547,
+          "meanAbsoluteForwardSpeed": 0.1590250951086674,
+          "medianAbsoluteForwardSpeed": 0.02513461954101731,
+          "rmsHorizontalSpeed": 0.39528363851334786,
+          "meanForwardSpeed": 0.14123885099283792
+        },
+        {
+          "rate": 1.8,
+          "playerDistancePerCycle": 0.2411111036936442,
+          "meanAbsoluteForwardSpeed": 0.15847372124518494,
+          "medianAbsoluteForwardSpeed": 0.017704422921949736,
+          "rmsHorizontalSpeed": 0.40244583041821225,
+          "meanForwardSpeed": 0.1332742467354909
+        },
+        {
+          "rate": 1.9,
+          "playerDistancePerCycle": 0.22842104560450505,
+          "meanAbsoluteForwardSpeed": 0.16980527729084574,
+          "medianAbsoluteForwardSpeed": 0.021493305009797237,
+          "rmsHorizontalSpeed": 0.4176575565058398,
+          "meanForwardSpeed": 0.11734503822079476
+        },
+        {
+          "rate": 2,
+          "playerDistancePerCycle": 0.21699999332427977,
+          "meanAbsoluteForwardSpeed": 0.19329347473927277,
+          "medianAbsoluteForwardSpeed": 0.043943132590748335,
+          "rmsHorizontalSpeed": 0.4339477264064872,
+          "meanForwardSpeed": 0.1014158297061002
+        },
+        {
+          "rate": 0.957389194036292,
+          "playerDistancePerCycle": 0.45331615329690866,
+          "meanAbsoluteForwardSpeed": 0.2674954789847986,
+          "medianAbsoluteForwardSpeed": 0.20118136194934375,
+          "rmsHorizontalSpeed": 0.3351836827377124,
+          "meanForwardSpeed": 0.2674954789847986
+        }
+      ],
+      "kinematicStance": {
+        "criterion": "Foot bone moving backward in asset-forward Z; additionally same sole vertex below threshold at both endpoints",
+        "pairs": 22250,
+        "rates": [
+          {
+            "rate": 1,
+            "meanAbsoluteForwardSpeed": 0.18733694406788698,
+            "rmsHorizontalSpeed": 0.188303271986879,
+            "medianAbsoluteForwardSpeed": 0.1903668418302258
+          },
+          {
+            "rate": 1.5,
+            "meanAbsoluteForwardSpeed": 0.0710677296076151,
+            "rmsHorizontalSpeed": 0.07654084059769743,
+            "medianAbsoluteForwardSpeed": 0.07555026274533871
+          },
+          {
+            "rate": 1.65,
+            "meanAbsoluteForwardSpeed": 0.0390194853328936,
+            "rmsHorizontalSpeed": 0.04787363460473337,
+            "medianAbsoluteForwardSpeed": 0.04120493475895426
+          },
+          {
+            "rate": 1.75,
+            "meanAbsoluteForwardSpeed": 0.023932564257264977,
+            "rmsHorizontalSpeed": 0.03572839946190699,
+            "medianAbsoluteForwardSpeed": 0.021569628846446087
+          },
+          {
+            "rate": 1.8,
+            "meanAbsoluteForwardSpeed": 0.01968918771312644,
+            "rmsHorizontalSpeed": 0.03431542679627019,
+            "medianAbsoluteForwardSpeed": 0.014425027885928032
+          },
+          {
+            "rate": 1.9,
+            "meanAbsoluteForwardSpeed": 0.02681945860554156,
+            "rmsHorizontalSpeed": 0.04239144761352775,
+            "medianAbsoluteForwardSpeed": 0.01670442911050879
+          },
+          {
+            "rate": 2,
+            "meanAbsoluteForwardSpeed": 0.049166875227110406,
+            "rmsHorizontalSpeed": 0.059215056614087325,
+            "medianAbsoluteForwardSpeed": 0.0396782289130424
+          },
+          {
+            "rate": 0.957389194036292,
+            "meanAbsoluteForwardSpeed": 0.1972509043991308,
+            "rmsHorizontalSpeed": 0.19809249167950205,
+            "medianAbsoluteForwardSpeed": 0.20015169577583153
+          }
+        ]
+      },
+      "sides": [
+        {
+          "side": "Left",
+          "impliedSpeed": 0.11086591034064201,
+          "medianImpliedSpeed": 0.2261298409496912
+        },
+        {
+          "side": "Right",
+          "impliedSpeed": 0.17577163204685461,
+          "medianImpliedSpeed": 0.22894875056486225
+        }
+      ]
+    }
+  ]
+}

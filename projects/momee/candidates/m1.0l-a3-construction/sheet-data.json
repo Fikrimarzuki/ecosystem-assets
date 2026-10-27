@@ -1,0 +1,138 @@
+{
+ "claims": [
+  [
+   "Panel 2: 'Close-up (exact pixels from master)'",
+   "FALSE",
+   "refit residual 11.0 outside the eyes; a true enlarged copy of the master refits at 0.98"
+  ],
+  [
+   "Panel 3: 'only eye areas changed … all other pixels preserved'",
+   "FALSE",
+   "panel 3 vs panel 2: 7.3 mean outside the A1 eye masks; 14,735 px there differ by > 10 per channel"
+  ],
+  [
+   "Panel 4: '340×330 crop' (×2)",
+   "FALSE",
+   "the crops measure 330×159 and 330×172 px"
+  ],
+  [
+   "Panel 5: eye assets on 'transparent background', 92×92 / 88×84 px",
+   "FALSE",
+   "alpha 244–253 everywhere (painted checker); A1 eye boxes are 93×82 and 75×79"
+  ],
+  [
+   "Panel 6: 'pixel-aligned using A1 layer coordinates'",
+   "FALSE",
+   "panel 3 only fits after ×0.81 scaling; residual 12.0 outside the eyes"
+  ],
+  [
+   "Panel 7: changed pixels 'localized to eye regions'",
+   "FALSE",
+   "see panel 3 row: the whole face was re-rendered"
+  ],
+  [
+   "Panel 8: 'no black outlines (warm brown linework)'",
+   "TRUE",
+   "darkest closed-lash pixels (43, 16, 9) — warmer and lighter than v2's own darkest lashes (12, 4, 3)"
+  ],
+  [
+   "Panel 8: 'ready for fitting into A1 eye slots'",
+   "FALSE",
+   "the composite test shows visible skin seams (section 6)"
+  ]
+ ],
+ "measurements": [
+  [
+   "Resolution",
+   "panel 3 = master × 1.23 → downscale ×0.81; no enlargement needed",
+   "ok"
+  ],
+  [
+   "Fit residual outside eye masks",
+   "12.0 (panel 2: 11.0; a true master copy: 0.98) → surroundings redrawn",
+   "fail"
+  ],
+  [
+   "Pixels changed outside masks",
+   "0 in the composite (by construction: only mask pixels replaced)",
+   "ok"
+  ],
+  [
+   "Seam · near eye",
+   "edge Δ 14.3 vs v2's own 8.1; 44 of 350 edge pairs > 25 levels",
+   "fail"
+  ],
+  [
+   "Seam · far eye",
+   "edge Δ 15.9 vs v2's own 2.2; 24 of 308 edge pairs > 25 levels",
+   "fail"
+  ],
+  [
+   "Skin inside masks vs ring",
+   "near (253, 209, 176) vs (252, 202, 167); far (253, 214, 181) vs (252, 203, 168): lighter, yellower",
+   "fail"
+  ],
+  [
+   "Blush continuity",
+   "near-eye patch cuts the top of the blush (no blush inside the patch)",
+   "fail"
+  ],
+  [
+   "Eye alignment",
+   "closed lid lines inside each footprint, lower half: near (366, 284), far (496, 318)",
+   "ok"
+  ],
+  [
+   "Near-eye fringe",
+   "boundary step 24.9 vs v2's 31.5 — no extra seam against the hair",
+   "ok"
+  ],
+  [
+   "Far-eye cheek contour",
+   "v2 contour stays outside the mask, unchanged; closed lash ends ≈ 18 px from it",
+   "ok"
+  ],
+  [
+   "Lash style",
+   "warm dark brown, painterly, gently curved, lashes at the outer corner — on-model",
+   "ok"
+  ]
+ ],
+ "readiness": [
+  [
+   "Closed-eye design",
+   "PASS",
+   "lash shape, colour, curvature and softness match Mom v2"
+  ],
+  [
+   "This file as an asset",
+   "REFERENCE ONLY",
+   "composite fails (skin patches, seams); printed claims false"
+  ],
+  [
+   "Half-closed eyes",
+   "MISSING",
+   "not supplied (out of scope for this milestone)"
+  ],
+  [
+   "Blink sequence",
+   "BLOCKED",
+   "needs a seam-free closed frame and a half frame"
+  ],
+  [
+   "Overall",
+   "NEEDS REVISION",
+   "same closed eyes, but skin must match v2 exactly"
+  ]
+ ],
+ "recommendation": [
+  "Needs revision — keep this closed-eye design, re-deliver it as a seam-free edit. Do not use this file as an asset.",
+  "• Ask for an EDIT of the v2 head image itself (same file in, same framing out), not a documentation sheet: no labels, panels, checkerboards or claims.",
+  "• Change only the eye areas. Skin, blush, hair, fringe and cheek outline must keep v2's exact colours — the current version repaints the skin lighter and yellower.",
+  "• Keep the design: warm dark-brown, softly curved closed lash line with the small outer lashes, as in panel 3.",
+  "• Output the head crop at ≥ the master scale (this one was ×1.23 — fine) and as a plain PNG; intake will downscale only.",
+  "• Acceptance test at intake: composite with the A1 eye masks; edge Δ within ~2× v2's own edge contrast, skin within a few levels, then owner review.",
+  "• If the image tool cannot keep skin identical, an illustrator paint-over of these closed eyes on the v2 Krita file is the reliable route.",
+  "• Stop here: no half-closed eyes, mouths, rig or Phaser until a closed frame passes."
+ ]
+}

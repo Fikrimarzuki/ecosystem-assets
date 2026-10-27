@@ -1,0 +1,31 @@
+{
+  "assetId": "ref.momee.soft-storybook-master-reference.v1",
+  "recordedOn": "2026-10-26",
+  "recordedBy": "Claude Code (claude-sonnet-5-5), M1.1a",
+  "file": {
+    "path": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+    "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+    "bytes": 2210450,
+    "format": "PNG 1536×1024, 8-bit RGB (colour type 2), no alpha channel, non-interlaced",
+    "colourSpace": "sRGB chunk",
+    "metadata": "XMP Core 6.0.0 (tiff:Orientation 1) and eXIf, the same macOS writer as the earlier owner-supplied images; no C2PA, no generator tags"
+  },
+  "source": "User-provided image (owner-selected master reference for Soft Storybook Adventure, M1.0m brief)",
+  "generation": {
+    "platform": "unknown",
+    "provider": "unknown",
+    "method": "unknown",
+    "model": "not recorded",
+    "prompt": "not recorded",
+    "seed": "not recorded",
+    "timestamp": "not recorded (the file time is a copy time)",
+    "note": "Generation details were not documented for this file and are not inferred."
+  },
+  "content": "A flattened concept illustration (a single sheet): Boy, Girl, Mom and Dad full-figure; five expression examples each for Mom and Boy; environment examples (bedroom, kitchen, bathroom, entrance/hallway, outside); a colour palette; a 'Character Components (SVG layers)' panel and example-animation strips for Mom and Boy. It contains no editable layers and no rig-ready SVG components; the component and animation panels are illustrations only.",
+  "visualDirection": "soft-storybook-adventure",
+  "visualDirectionStatus": "provisionally accepted",
+  "productionApproval": "pending",
+  "rigReadiness": "not ready",
+  "rights": "pending verification (manifest status: unverified)",
+  "immutability": "Never edit, resize, crop, optimise or re-save; derivatives cite this SHA-256."
+}

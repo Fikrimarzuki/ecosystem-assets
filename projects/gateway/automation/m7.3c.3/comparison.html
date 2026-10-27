@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><title>M7.3c.3 local cadence comparison</title>
+<style>body{margin:0;background:#10202b;color:white;font:20px system-ui}header{position:absolute;top:20px;display:flex;width:100%;text-align:center;pointer-events:none}header>div{width:50%}small{display:block;color:#a3c7cf;font-size:15px}</style>
+<header><div>Original Walk · 1×<small>Player speed 0.42 · cycle travel 0.434</small></div><div>Calibrated Walk · 1.75×<small>Player speed 0.42 · cycle travel 0.248</small></div></header>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module">
+import * as T from 'three';import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';import {clone} from 'three/addons/utils/SkeletonUtils.js';import {AstronautAnimation} from './astronaut-animation.js';
+const gltf=await new GLTFLoader().loadAsync('/astronaut.glb'),scale=.3/1.891089441470219;
+const renderer=new T.WebGLRenderer({antialias:true});renderer.setSize(1440,900);renderer.setPixelRatio(1);renderer.setScissorTest(true);document.body.append(renderer.domElement);
+const panels=[];
+for(let i=0;i<2;i++){
+ const scene=new T.Scene();scene.background=new T.Color('#10202b');scene.add(new T.HemisphereLight(0xffffff,0x334455,3));
+ const light=new T.DirectionalLight(0xffffff,3);light.position.set(1,2,2);scene.add(light);
+ const floor=new T.Mesh(new T.PlaneGeometry(100,100),new T.MeshStandardMaterial({color:'#263d49',roughness:1}));floor.rotation.x=-Math.PI/2;floor.position.y=-.0001;scene.add(floor);
+ const pattern=document.createElement('canvas');pattern.width=pattern.height=128;const ctx=pattern.getContext('2d');ctx.fillStyle='#263d49';ctx.fillRect(0,0,128,128);ctx.strokeStyle='#71929d';ctx.lineWidth=5;ctx.strokeRect(0,0,128,128);
+ const texture=new T.CanvasTexture(pattern);texture.wrapS=texture.wrapT=T.RepeatWrapping;texture.repeat.set(2000,2000);texture.colorSpace=T.SRGBColorSpace;floor.material.map=texture;floor.material.needsUpdate=true;
+ const root=new T.Group(),placement=new T.Group(),model=clone(gltf.scene);placement.scale.setScalar(scale);placement.rotation.y=Math.PI;placement.add(model);root.add(placement);scene.add(root);
+ const asset={scene:model,animations:gltf.animations};let animation;
+ if(i===0){const mixer=new T.AnimationMixer(model);mixer.clipAction(gltf.animations.find(c=>c.name==='Walk')).play();animation={update:dt=>mixer.update(dt),visualLift:0};}
+ else {animation=new AstronautAnimation(asset);for(let j=0;j<25;j++)animation.update(.01,.42,true,false);}
+ const camera=new T.PerspectiveCamera(42,720/900,.001,100);
+ panels.push({scene,root,placement,animation,camera});
+}
+let previous=performance.now(),elapsed=0;
+function frame(now){const dt=Math.min((now-previous)/1000,.1);previous=now;elapsed+=dt;
+ for(let i=0;i<2;i++){const p=panels[i];p.animation.update(dt,.42,true,false);p.root.position.z=-.42*elapsed;p.placement.position.y=p.animation.visualLift*scale;
+ p.camera.position.set(.44,.27,p.root.position.z+.48);p.camera.lookAt(0,.14,p.root.position.z);renderer.setViewport(i*720,0,720,900);renderer.setScissor(i*720,0,720,900);renderer.render(p.scene,p.camera);}
+ requestAnimationFrame(frame);
+}
+window.metrics=()=>({rate:panels[1].animation.snapshot().walkRate,elapsed});window.ready=true;requestAnimationFrame(frame);
+</script>

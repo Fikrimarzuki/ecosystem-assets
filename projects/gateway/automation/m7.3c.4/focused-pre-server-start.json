@@ -1,0 +1,672 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Code\\porto-projects\\app-gateway-fe\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "../gateway-assets/automation/m7.3c.4/qa.config.ts",
+      "tests/universe-environment-clearance.spec.ts",
+      "tests/universe-first-person.spec.ts",
+      "tests/universe-first-person-worlds.spec.ts",
+      "tests/universe-third-person-visibility.spec.ts",
+      "--grep",
+      "environment:|inset|reachable|visibility|Latest|latest"
+    ],
+    "configFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\qa.config.ts",
+    "rootDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Code/porto-projects/gateway-assets/automation/m7.3c.4/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./focused-tests.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "universe-environment-clearance.spec.ts",
+      "file": "universe-environment-clearance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "environment: Tools bench keeps exact camera/target bounds while movement stops outside the boot envelope",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 58,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:6472) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:27.801Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "674b2751f016e3f9549d-05c0f2ae47e838d899df",
+          "file": "universe-environment-clearance.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "environment: Latest roads remain accessible flat support with sub-millimeter deck transitions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:27.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "674b2751f016e3f9549d-183346a082d2759bc43e",
+          "file": "universe-environment-clearance.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "environment: real Walk clears the Tools bench at the collision stop and bounds Tools/Latest road-edge overlap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15203,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:27.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "674b2751f016e3f9549d-b2f643ceb9599d0d782f",
+          "file": "universe-environment-clearance.spec.ts",
+          "line": 52,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "universe-first-person-worlds.spec.ts",
+      "file": "universe-first-person-worlds.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Latest Builds derives safe supported spawn, colliders and reachable exterior sides",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:43.242Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-cbb9b0ee834c8e5b2c8e",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 16,
+          "column": 7
+        },
+        {
+          "title": "Latest Builds real meshes identify their canonical project and reject blockers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:43.309Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-8c88e97fd6951b08bd0a",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 58,
+          "column": 7
+        },
+        {
+          "title": "Games derives safe supported spawn, colliders and reachable exterior sides",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:43.343Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-a3a3d752501c79af34c0",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 16,
+          "column": 7
+        },
+        {
+          "title": "Latest Builds uses transformed FPS camera, E/mouse canonical details, Return and mobile fallback",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 599,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n\n    at arrive (D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:117:28)\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:133:11",
+                    "location": {
+                      "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                      "column": 28,
+                      "line": 117
+                    },
+                    "snippet": "  115 | const snapshot = (page: Page) => scene(page).evaluate(e => { const h = e as Harness, c = h.__universeController; return { ...h.__universeRender(), player: { ...c.player.position }, yaw: c.player.yaw, pitch: c.player.pitch, state: c.getSnapshot(), orientation: c.inspection.getOrientation() }; });\n  116 | async function arrive(page: Page, name: string, reload = true) {\n> 117 |   if (reload) { await page.goto(\"/\"); await expect(scene(page)).toBeVisible(); await scene(page).scrollIntoViewIfNeeded(); }\n      |                            ^\n  118 |   await region(page).getByRole(\"button\", { name, exact: true }).click(); await expect(scene(page)).toHaveAttribute(\"data-state\", \"inspecting\");\n  119 | }\n  120 | async function enter(page: Page, name: string) {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                        "column": 28,
+                        "line": 117
+                      },
+                      "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n\n\n  115 | const snapshot = (page: Page) => scene(page).evaluate(e => { const h = e as Harness, c = h.__universeController; return { ...h.__universeRender(), player: { ...c.player.position }, yaw: c.player.yaw, pitch: c.player.pitch, state: c.getSnapshot(), orientation: c.inspection.getOrientation() }; });\n  116 | async function arrive(page: Page, name: string, reload = true) {\n> 117 |   if (reload) { await page.goto(\"/\"); await expect(scene(page)).toBeVisible(); await scene(page).scrollIntoViewIfNeeded(); }\n      |                            ^\n  118 |   await region(page).getByRole(\"button\", { name, exact: true }).click(); await expect(scene(page)).toHaveAttribute(\"data-state\", \"inspecting\");\n  119 | }\n  120 | async function enter(page: Page, name: string) {\n    at arrive (D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:117:28)\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:133:11"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:43.383Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-23ee8--Return-and-mobile-fallback\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-23ee8--Return-and-mobile-fallback\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                    "column": 28,
+                    "line": 117
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-fef792829fa1745d4721",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 132,
+          "column": 7
+        },
+        {
+          "title": "Latest Builds denied and unsupported pointer lock retain paused view and Return",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 288,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n\n    at arrive (D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:117:28)\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:184:11",
+                    "location": {
+                      "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                      "column": 28,
+                      "line": 117
+                    },
+                    "snippet": "  115 | const snapshot = (page: Page) => scene(page).evaluate(e => { const h = e as Harness, c = h.__universeController; return { ...h.__universeRender(), player: { ...c.player.position }, yaw: c.player.yaw, pitch: c.player.pitch, state: c.getSnapshot(), orientation: c.inspection.getOrientation() }; });\n  116 | async function arrive(page: Page, name: string, reload = true) {\n> 117 |   if (reload) { await page.goto(\"/\"); await expect(scene(page)).toBeVisible(); await scene(page).scrollIntoViewIfNeeded(); }\n      |                            ^\n  118 |   await region(page).getByRole(\"button\", { name, exact: true }).click(); await expect(scene(page)).toHaveAttribute(\"data-state\", \"inspecting\");\n  119 | }\n  120 | async function enter(page: Page, name: string) {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                        "column": 28,
+                        "line": 117
+                      },
+                      "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n\n\n  115 | const snapshot = (page: Page) => scene(page).evaluate(e => { const h = e as Harness, c = h.__universeController; return { ...h.__universeRender(), player: { ...c.player.position }, yaw: c.player.yaw, pitch: c.player.pitch, state: c.getSnapshot(), orientation: c.inspection.getOrientation() }; });\n  116 | async function arrive(page: Page, name: string, reload = true) {\n> 117 |   if (reload) { await page.goto(\"/\"); await expect(scene(page)).toBeVisible(); await scene(page).scrollIntoViewIfNeeded(); }\n      |                            ^\n  118 |   await region(page).getByRole(\"button\", { name, exact: true }).click(); await expect(scene(page)).toHaveAttribute(\"data-state\", \"inspecting\");\n  119 | }\n  120 | async function enter(page: Page, name: string) {\n    at arrive (D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:117:28)\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:184:11"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:5436) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:45.388Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-aba59-tain-paused-view-and-Return\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-aba59-tain-paused-view-and-Return\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                    "column": 28,
+                    "line": 117
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-764217e26347e0e2a034",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 183,
+          "column": 7
+        },
+        {
+          "title": "Latest Builds to Games to Tools initializes navigation and cleans lock, input, targets and camera",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 50073,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts",
+                        "column": 14,
+                        "line": 195
+                      },
+                      "message": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/\", waiting until \"load\"\u001b[22m\n\n\n  193 |\n  194 | test(\"Latest Builds to Games to Tools initializes navigation and cleans lock, input, targets and camera\", async ({ page }) => {\n> 195 |   await page.goto(\"/\"); await expect(scene(page)).toBeVisible(); await scene(page).scrollIntoViewIfNeeded();\n      |              ^\n  196 |   for (const id of [\"latest\", \"games\", \"tools\"] as const) {\n  197 |     const world = universePlanets.find(planet => planet.id === id)!, nav = worldNavigation(world);\n  198 |     await arrive(page, world.name, false); const before = await snapshot(page); await enter(page, world.name); await expect.poll(() => locked(page)).toBe(true);\n    at D:\\Code\\porto-projects\\app-gateway-fe\\tests\\universe-first-person-worlds.spec.ts:195:14"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:18540) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:11:46.987Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-3e029-ck-input-targets-and-camera\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3c.4\\test-results\\universe-first-person-worl-3e029-ck-input-targets-and-camera\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ebb8d0e1eadb03aeac09-a7326df7952315ea80b2",
+          "file": "universe-first-person-worlds.spec.ts",
+          "line": 194,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "universe-first-person.spec.ts",
+      "file": "universe-first-person.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "inset decagon boundaries, solid facade/bench, overhead clearance and ground following",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:15672) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:12:38.305Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0029035688a18754f55d-2eb5018eff87eb05e3cc",
+          "file": "universe-first-person.spec.ts",
+          "line": 35,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "universe-third-person-visibility.spec.ts",
+      "file": "universe-third-person-visibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "visibility: Tools and Latest entry reveal the real boots without shortening the normal boom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 189,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:12:38.382Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c9046ad2953b0e64bda1-f8850951ff0d9ee113f5",
+          "file": "universe-third-person-visibility.spec.ts",
+          "line": 58,
+          "column": 5
+        },
+        {
+          "title": "visibility: bench-side Walk exposes the body without revealing boots through the solid",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 74,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:12:38.733Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c9046ad2953b0e64bda1-a572dd8c1c82e85c3842",
+          "file": "universe-third-person-visibility.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "visibility: obstacle approach, turns and release retain bounded follow and settle without zoom oscillation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 318,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T01:12:38.820Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c9046ad2953b0e64bda1-cc35a42654f1c6f8c929",
+          "file": "universe-third-person-visibility.spec.ts",
+          "line": 92,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-13T01:11:18.847Z",
+    "duration": 80367.349,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}
