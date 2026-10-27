@@ -1,0 +1,11 @@
+{
+  "method": "Landmarks read by eye on gridded crops (±2 px native); facing and palette computed by palette.mjs / inline head-region IoU (documented in the M1.0k-A2 record).",
+  "headCount": {"acceptedV1_2": {"hairTop": 16, "chin": 172, "figurePx": 514, "heads": "3.29–3.38 (chin 168–172)"}, "candidate": {"hairTop": 10, "chin": 416, "figurePx": 1500, "heads": 3.69, "intakeCheck": 3.68}},
+  "eyes": {"acceptedV1_2": {"nearEyeHeightOverHead": 0.17, "nearEyeWidthOverHead": 0.21}, "candidate": {"nearEyeHeightOverHead": 0.17, "nearEyeWidthOverHead": 0.21}},
+  "facing": {"wholeSilhouetteIoU": {"asDrawn": 0.800, "mirrored": 0.801, "verdict": "inconclusive tie"},
+             "headAndShouldersHeadMatched": {"asDrawn": {"iou": 0.94, "meanAbs": 23.5}, "mirrored": {"iou": 0.852, "meanAbs": 46.9}},
+             "faceBandMeanAbs": {"asDrawn": 27.9, "mirrored": 84.9}, "verdict": "same left-facing ¾ turn as v1.2"},
+  "paletteDeltaE00ByMaterial": {"hair": 2.2, "skin": 0.9, "blouse": 2.6, "trousers": 1.0, "shoes": 1.4},
+  "expression": "candidate: open toothy smile; v1.2 main figure: gentle closed smile",
+  "detailResidual": {"candidate": 2.96, "enlargedCutoutBaseline": 2.34}
+}

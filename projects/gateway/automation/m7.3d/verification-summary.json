@@ -1,0 +1,54 @@
+{
+  "milestone": "M7.3d",
+  "checkpoint": "7a4c1d046d7873e75ac7ab4087f786f458347db7",
+  "date": "2026-10-13",
+  "assessment": "Bounded local integration complete; walking remains default-off; public release not approved",
+  "productionFixes": [],
+  "focusedTests": {
+    "passed": 20,
+    "failed": 0,
+    "singleRunSeconds": 15.300203
+  },
+  "static": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "productionBuild": "passed; walking=false; direct CLI",
+    "diffCheck": "passed"
+  },
+  "browser": {
+    "viewport": "1440x900; 390x700 mobile fallback only",
+    "hardware": "Headless Chromium 153.0.8010.12, Windows UA, browser-reported 6 cores/device memory 16GB; ANGLE Vulkan SwiftShader, including default launch",
+    "coverage": [
+      "native Tools movement, bench stop/Idle, details, pause/resume",
+      "three TPS cycles; stable 32 geometries/5 textures/5 programs",
+      "same-entry Return camera/focus",
+      "FPS movement via player displacement, excludes astronaut",
+      "reduced static Idle with functional movement",
+      "Latest roads/crossbar/direction changes",
+      "same Canvas until mobile 2D replacement",
+      "default portfolio details/no model requests",
+      "no ongoing offscreen animation"
+    ],
+    "segmentedEvidence": [
+      "disabled-browser-report.json: complete",
+      "enabled-browser-report.json: Tools assertions completed before incorrect cross-visit camera comparison; partial report not fully passing",
+      "enabled-final-browser-report.json: CPU/resource/camera cycles completed before incorrect FPS-speed assertion; partial report not fully passing",
+      "enabled-fallback-browser-report.json: remaining FPS/reduced/Latest/offscreen/mobile checks complete",
+      "transitions-browser-report.json: fade CPU probe complete",
+      "motion-profile-browser-report.json: verified per-frame moving windows complete"
+    ],
+    "dataCorrections": [
+      "Two original moving windows were blocked at boundaries by capture time; do not use them as walking performance.",
+      "Initial callback refs were replaced by React; complete later timings refresh wrappers."
+    ]
+  },
+  "releaseBlockers": [
+    "Physical-GPU performance and manual cadence/lift/camera acceptance",
+    "Actual browser pointer-lock/focus/fullscreen compatibility and assistive technology",
+    "Asset-specific redistribution/attribution evidence remains undocumented"
+  ],
+  "filesInGateway": [
+    "docs/milestone-7-walking-exploration.md"
+  ],
+  "noCommitPushDeployOrNextMilestone": true
+}

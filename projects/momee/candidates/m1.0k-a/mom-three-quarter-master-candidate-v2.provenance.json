@@ -1,0 +1,45 @@
+{
+  "assetId": "ref.mom.master-candidate.v2",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0k-A3",
+  "file": {
+    "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png",
+    "sha256": "9c4f58d72da49f5acf6b2438db2e52042da5bdd19078890ad32b3596cb3fda1b",
+    "bytes": 879482,
+    "format": "PNG 1284×1225, 8-bit RGBA (colour type 6), non-interlaced",
+    "colourSpace": "sRGB chunk",
+    "metadata": "XMP (XMP Core 6.0.0, tiff:Orientation 1 only) and eXIf (PixelXDimension 1284, PixelYDimension 1225) — the same macOS writer as v1; no C2PA, no generator tags"
+  },
+  "identification": "Only new file in candidates/m1.0k-a/ since M1.0k-A2 (created 2026-10-24 22:36 local); filename matches the brief's suggested name. v1 (same folder) was renamed by the owner from mom-3.png and is unchanged (SHA-256 01af644e…0508).",
+  "generation": {
+    "platform": "ChatGPT",
+    "provider": "OpenAI",
+    "method": "AI image generation, reference-guided",
+    "primaryIdentityReference": "Mom v1.2 (ref.mom.accepted-sheet.v1-2, candidates/m1.0j/mom-character-reference-v1.2.png)",
+    "earlierRevisionReference": "Mom master candidate v1 (ref.mom.master-candidate.v1)",
+    "source": "Owner statement in the M1.0k-A4 brief (2026-10-24)",
+    "model": "not recorded — underlying model identifier unknown; not to be inferred",
+    "prompt": "not recorded",
+    "seed": "not recorded",
+    "generationTimestamp": "not recorded (the file's 2026-10-24 22:36 time is a save/copy time, not a generation time)",
+    "accountTierAndUsageTerms": "not recorded"
+  },
+  "postProcessingObserved": "Unusual 1284×1225 size and the glow touching the bottom edge suggest the owner cropped a larger output; not confirmed.",
+  "lineage": [
+    "ref.mom.accepted-sheet.v1-2 (primary identity reference)",
+    "ref.mom.master-candidate.v1 (earlier revision reference)"
+  ],
+  "ownerDecision": "M1.0k-A3 review sheet reviewed; Mom v2 appearance accepted (M1.0k-A4 brief). Not production-approved.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit, re-export or re-save; derivatives cite this SHA-256.",
+  "visualAcceptance": {
+    "state": "owner-accepted-visual-direction",
+    "recordedOn": "2026-10-24",
+    "scope": "appearance only",
+    "exception": "silhouette IoU 0.884 vs v1.2 accepted for Mom v2 only"
+  },
+  "rightsNote": "Stays unverified until the project's rights review is complete (platform terms, output ownership, reference-image use, any provider-side marking). Recording the platform and provider does not verify rights.",
+  "productionApproval": null,
+  "updatedIn": "M1.0k-A4"
+}

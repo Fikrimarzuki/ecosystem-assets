@@ -1,0 +1,36 @@
+{
+  "method": "same route method, full cycle refined to1second,513distance samples; not continuous proof",
+  "result": {
+    "name": "global-balanced-1.1",
+    "phaseStep": 1,
+    "samplesPerRoute": 513,
+    "frontShift": 0,
+    "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+    "worldOBBHits": 0,
+    "stationOBBHits": 0,
+    "worldActualHits": 0,
+    "stationActualHits": 0,
+    "firstWorld": null,
+    "firstStation": null,
+    "firstActual": null,
+    "minWorldSAT": 0.14545165524648854,
+    "minStationSAT": 0.00404354548454302,
+    "closestWorld": {
+      "destination": "after-hours",
+      "phase": 204,
+      "sample": 509,
+      "obstacle": "after-hours",
+      "part": 2
+    },
+    "closestStation": {
+      "destination": "latest",
+      "phase": 0,
+      "sample": 0,
+      "obstacle": "station",
+      "part": 13
+    },
+    "maxTurn": 0.22359117883796434,
+    "maxLength": 41.07757815903489,
+    "minLength": 32.68142076730961
+  }
+}

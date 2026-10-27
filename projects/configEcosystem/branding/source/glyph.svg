@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Config Ecosystem glyph</title>
+  <defs>
+    <linearGradient id="ce-c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58ebdb"/><stop offset="1" stop-color="#128f8f"/></linearGradient>
+    <linearGradient id="ce-m" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b4f8ee"/><stop offset="1" stop-color="#5be5d6"/></linearGradient>
+  </defs>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="url(#ce-c)" d="M403.5 206.7A6 6 0 0 0 409.5 200.7L409.5 175.5A6 6 0 0 0 406.5 170.3L267 89.7A6 6 0 0 0 261 89.7L121.5 170.3A6 6 0 0 0 118.5 175.5L118.5 336.5A6 6 0 0 0 121.5 341.7L261 422.3A6 6 0 0 0 267 422.3L406.5 341.7A6 6 0 0 0 409.5 336.5L409.5 311.3A6 6 0 0 0 403.5 305.3L343.8 305.3A6 6 0 0 0 341 306L266.9 344.9A6 6 0 0 1 261.1 344.8L188.7 302.9A6 6 0 0 1 185.7 297.7L185.7 214.3A6 6 0 0 1 188.7 209.1L261.1 167.2A6 6 0 0 1 266.9 167.1L341 206A6 6 0 0 0 343.8 206.7Z"/>
+    <path fill="url(#ce-m)" d="M214.8 237.4A6 6 0 0 1 220.8 231.4L338.1 231.4A6 6 0 0 1 341.8 232.6L365.5 251.3A6 6 0 0 1 365.5 260.7L341.8 279.4A6 6 0 0 1 338.1 280.6L220.8 280.6A6 6 0 0 1 214.8 274.6Z"/>
+  </g>
+</svg>

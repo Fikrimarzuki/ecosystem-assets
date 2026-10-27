@@ -1,0 +1,1 @@
+placed: figure 1198 px → 1160 px (×0.9683)

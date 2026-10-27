@@ -1,0 +1,206 @@
+{
+  "astronaut": {
+    "count": 1,
+    "visible": true,
+    "assetState": "ready",
+    "visual": "model",
+    "groundY": null,
+    "clips": [
+      "Idle",
+      "Walk"
+    ],
+    "animation": {
+      "clip": "Walk",
+      "time": 0.17129999999993017,
+      "transitions": 1,
+      "idleTime": 0.17129999999993017,
+      "walkTime": 0.14682499999983722,
+      "walkRate": 1.7500000000000016,
+      "idleWeight": 0.5338888888894062,
+      "walkWeight": 0.4661111111105937,
+      "groundLift": 0.00404427650752315
+    },
+    "model": {
+      "scale": [
+        0.15863871555793063,
+        0.15863871555793063,
+        0.15863871555793063
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0,
+        "XYZ"
+      ],
+      "position": [
+        0,
+        0.000641578830514586,
+        0
+      ]
+    },
+    "position": [
+      -0.019546525800227584,
+      0.18050000071525574,
+      0.3206802119185987
+    ],
+    "matrix": [
+      1.4676549448158231,
+      0.18488313679422758,
+      -0.4191818682705513,
+      0,
+      0.05873752781615686,
+      1.319205029525149,
+      0.7874987256507762,
+      0,
+      0.4543623177418095,
+      -0.7677386051285146,
+      1.252213467589138,
+      0,
+      -6.872368398600928,
+      -4.12975034172753,
+      2.2,
+      1
+    ],
+    "pose": [
+      {
+        "position": [
+          0,
+          0.0013589050357186577,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "position": [
+          -0.023,
+          0.092,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "position": [
+          0.023,
+          0.092,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "position": [
+          -0.044,
+          0.184,
+          0
+        ],
+        "rotation": [
+          -0.02030154458834795,
+          0,
+          0,
+          "XYZ"
+        ]
+      },
+      {
+        "position": [
+          0.044,
+          0.184,
+          0
+        ],
+        "rotation": [
+          0.02030154458834795,
+          0,
+          0,
+          "XYZ"
+        ]
+      }
+    ]
+  },
+  "camera": [
+    -6.140595025090138,
+    -3.6358494098294063,
+    3.9247344702996014
+  ],
+  "cameraFov": 65,
+  "cameraQuaternion": [
+    0.021170054850166882,
+    0.28419836858594444,
+    0.1426654150038619,
+    0.9478553135539751
+  ],
+  "cameraUp": [
+    0.03820327012432967,
+    0.858019531398471,
+    0.5121942931061959
+  ],
+  "rockets": [
+    {
+      "position": [
+        -9.525392855356897,
+        -2.942689888230853,
+        3.3379141934253926
+      ],
+      "quaternion": [
+        -0.1190536022539439,
+        0.12956633589495603,
+        0.0769831389788736,
+        0.9813829021875582
+      ],
+      "visible": true
+    }
+  ],
+  "engines": [
+    {
+      "visible": false,
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "opacity": 0
+    }
+  ],
+  "calls": 7,
+  "triangles": 11913,
+  "speed": 0.41999999999999915,
+  "state": {
+    "firstPersonTargetId": "landmark-careerlens",
+    "firstPersonCanInteract": true,
+    "firstPersonProjectOpen": false,
+    "firstPersonLocked": true,
+    "firstPersonPauseMenuOpen": false,
+    "nearbyLandmarkId": "landmark-careerlens",
+    "explorationMode": "third-person",
+    "landmarkFocusId": null,
+    "focusPhase": "planet",
+    "mode": "inspecting",
+    "selectedId": "tools",
+    "manualPaused": false,
+    "reduced": false,
+    "visible": true,
+    "fallback": false,
+    "meshHover": null,
+    "labelHover": null,
+    "focusedId": null
+  },
+  "player": {
+    "x": -0.019546525800227584,
+    "y": 0.18050000071525574,
+    "z": 0.3206802119185987,
+    "yaw": 0.5880026132906346,
+    "pitch": -0.52
+  }
+}

@@ -1,0 +1,110 @@
+{
+ "fps": 30,
+ "groundZ": -0.9512,
+ "clips": {
+  "Idle": {
+   "frames": 105,
+   "durationS": 3.5,
+   "groundSpeedMps": 0.0,
+   "stepLengthM": 0.0,
+   "jointRangeDeg": {
+    "elbow.L": [
+     5.1,
+     8.2
+    ],
+    "elbow.R": [
+     4.7,
+     8.0
+    ],
+    "hip.L": [
+     4.7,
+     9.2
+    ],
+    "hip.R": [
+     6.1,
+     8.4
+    ],
+    "knee.L": [
+     9.6,
+     18.3
+    ],
+    "knee.R": [
+     12.4,
+     17.1
+    ]
+   },
+   "ikTargetsOutOfReach": 0,
+   "maxAnkleTargetErrorM": 0.0
+  },
+  "Walk": {
+   "frames": 30,
+   "durationS": 1.0,
+   "groundSpeedMps": 1.0,
+   "stepLengthM": 0.5,
+   "jointRangeDeg": {
+    "elbow.L": [
+     9.5,
+     16.2
+    ],
+    "elbow.R": [
+     9.2,
+     16.3
+    ],
+    "hip.L": [
+     -5.4,
+     36.7
+    ],
+    "hip.R": [
+     -5.3,
+     36.7
+    ],
+    "knee.L": [
+     15.1,
+     53.1
+    ],
+    "knee.R": [
+     15.6,
+     53.4
+    ]
+   },
+   "ikTargetsOutOfReach": 0,
+   "maxAnkleTargetErrorM": 0.0
+  },
+  "Run": {
+   "frames": 22,
+   "durationS": 0.7333,
+   "groundSpeedMps": 2.386,
+   "stepLengthM": 0.875,
+   "jointRangeDeg": {
+    "elbow.L": [
+     66.7,
+     75.3
+    ],
+    "elbow.R": [
+     66.7,
+     75.8
+    ],
+    "hip.L": [
+     -0.8,
+     54.6
+    ],
+    "hip.R": [
+     -0.8,
+     54.5
+    ],
+    "knee.L": [
+     35.8,
+     96.7
+    ],
+    "knee.R": [
+     36.2,
+     96.8
+    ]
+   },
+   "ikTargetsOutOfReach": 0,
+   "maxAnkleTargetErrorM": 0.0
+  }
+ },
+ "glb": "characters/explorer/animated/explorer-neutral-25k-animated.glb",
+ "glbSizeBytes": 2138888
+}

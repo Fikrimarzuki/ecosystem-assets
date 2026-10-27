@@ -1,0 +1,131 @@
+{
+ "panels": {
+  "eyes-open-a": [
+   348,
+   836,
+   432,
+   938
+  ],
+  "eyes-half-a": [
+   435,
+   835,
+   520,
+   938
+  ],
+  "eyes-closed": [
+   523,
+   835,
+   609,
+   938
+  ],
+  "eyes-half-b": [
+   612,
+   835,
+   698,
+   938
+  ],
+  "eyes-open-b": [
+   701,
+   835,
+   785,
+   938
+  ],
+  "mouth-neutral": [
+   813,
+   836,
+   916,
+   938
+  ],
+  "mouth-small-open": [
+   919,
+   836,
+   1019,
+   938
+  ],
+  "mouth-wide-open": [
+   1023,
+   837,
+   1123,
+   938
+  ],
+  "brow-raised": [
+   1155,
+   837,
+   1266,
+   938
+  ]
+ },
+ "consistency": {
+  "noiseFloor_openA_vs_openB": {
+   "whole": {
+    "dx": 1,
+    "dy": 3,
+    "mad": 12.08
+   },
+   "outsideEyeBand": {
+    "dx": 1,
+    "dy": 3,
+    "mad": 11.98
+   }
+  },
+  "eyes-half-a_vs_openA": {
+   "outsideEyeBand": {
+    "dx": 3,
+    "dy": 3,
+    "mad": 8.54
+   },
+   "insideEyeBandAtThatShift": null
+  },
+  "eyes-closed_vs_openA": {
+   "outsideEyeBand": {
+    "dx": 3,
+    "dy": 3,
+    "mad": 7.54
+   },
+   "insideEyeBandAtThatShift": null
+  },
+  "eyes-half-b_vs_openA": {
+   "outsideEyeBand": {
+    "dx": 4,
+    "dy": 3,
+    "mad": 7.65
+   },
+   "insideEyeBandAtThatShift": null
+  },
+  "mouth-small-open_vs_neutral": {
+   "outsideMouthBand": {
+    "dx": -1,
+    "dy": 1,
+    "mad": 8.42
+   }
+  },
+  "mouth-wide-open_vs_neutral": {
+   "outsideMouthBand": {
+    "dx": 0,
+    "dy": 0,
+    "mad": 11.84
+   }
+  },
+  "eyes-half-a_vs_eyes-half-b": {
+   "whole": {
+    "dx": 1,
+    "dy": 0,
+    "mad": 10.92
+   }
+  },
+  "mouth-neutral_vs_openA_centre": {
+   "whole": {
+    "dx": 4,
+    "dy": -2,
+    "mad": 12.39
+   }
+  }
+ },
+ "identityFit_openA_vs_master": {
+  "scale": 0.36,
+  "ox": 115,
+  "oy": 49,
+  "mad": 12.96,
+  "enlargementToMaster": 2.78
+ }
+}

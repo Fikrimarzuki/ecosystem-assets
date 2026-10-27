@@ -1,0 +1,26 @@
+{
+  "assetId": "ref.mom.facial-animation-concept.v1",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0l-A2",
+  "file": {
+    "path": "projects/momee/review/m1.0l-a2/mom-facial-animation-concept-v1.png",
+    "sha256": "b1a34b9612f44e04b1e43cbd7305db1c58e8a219cb04700bdc12fdace28c130c",
+    "bytes": 2745454,
+    "format": "PNG 1536×1024, 8-bit RGBA, non-interlaced",
+    "colourSpace": "sRGB chunk",
+    "metadata": "XMP Core 6.0.0 (tiff:Orientation 1) and eXIf (1536×1024) — same macOS writer as the Mom v1/v2 candidates; no C2PA, no generator tags",
+    "alpha": "transparent margins with low-alpha residue (154,018 px at alpha 1–4); content alpha ≈ 252, never 255"
+  },
+  "identification": "Only file in review/m1.0l-a2/ and the only new file since M1.0l-A1 (created 2026-10-24 23:22 local); filename matches the brief.",
+  "generation": {
+    "platform": "not recorded (the owner has not stated it for this file; not inferred)",
+    "model": "not recorded",
+    "prompt": "not recorded",
+    "date": "not recorded (file time is a save/copy time)",
+    "inputs": "not recorded; its layout reproduces the M1.0l-A1 review sheet"
+  },
+  "classification": "reference only",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit or re-save; crops in candidates/m1.0l-a2-construction/reference-crops are reference-only copies."
+}

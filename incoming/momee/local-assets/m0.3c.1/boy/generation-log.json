@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "candidate": {
+    "path": "assets/.local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+    "md5": "5210baed5e07233c1f87e4c1fb1215b8",
+    "sha256": "4ad863ae134e7aadc8f08d18cea8016b8d07b0c305b6640fc10fe8a90da9e97b",
+    "format": "PNG, 1254x1254, 8-bit RGB, no alpha"
+  },
+  "generation": {
+    "tool": "ChatGPT Image Generation",
+    "model": "unknown (exact version not recorded)",
+    "date": "2026-10-15",
+    "seed": "unavailable",
+    "prompt": {
+      "status": "unconfirmed",
+      "note": "The exact prompt submitted to the tool was not recorded. Two prompt texts were drafted for this candidate on 2026-10-15; which one (or which edited version) was used is unknown. Both are kept verbatim below for reference only.",
+      "draftA_productOwner": "Create a production-quality character illustration for Momee, a calm bilingual interactive storybook adventure for children. Use the attached Calm Chibi Storybook Character Master Reference Sheet v1 as the authoritative visual reference. SUBJECT: The Boy character from the reference sheet. STYLE: Soft 2D chibi storybook illustration. Warm, cozy, Scandinavian-inspired visual identity. Gentle digital shading. Soft, consistent outlines. Expressive anime-inspired facial features. Approximately 2.5 heads tall. Match the original character's proportions, face, hairstyle, colors and clothing. POSE: Full-body standing pose. Three-quarter view. Relaxed neutral expression. Arms slightly separated from the torso. Feet clearly visible. No exaggerated action or movement. CLOTHING: Yellow shirt. Blue shorts. Match the approved reference design. OUTPUT: One isolated character. Transparent background if supported. High-resolution PNG. Entire character visible. No cropping. No text. No labels. No shadows outside the character. No additional characters. No background scene. IMPORTANT: This is not a character redesign. Preserve the character's identity and visual consistency with the attached reference. The artwork will later be separated into reusable parts for 2D animation and appearance customization. Do not create a sprite sheet, multiple poses, or additional expressions yet.",
+      "draftB_refinedSuggestion": "Create a production-quality character illustration for Momee, a calm bilingual interactive storybook adventure for children aged 2–6. Use the attached Calm Chibi Storybook character reference (the Boy panel from Character Master Reference Sheet v1) as the authoritative visual reference. This is not a redesign: preserve the character's identity exactly. SUBJECT: The Boy from the reference: dark brown short tousled hair with spiky tufts, large glossy dark brown eyes with white highlights, soft blush, light warm skin, yellow T-shirt (#fdd651), blue shorts (#1c466d), white socks, blue-and-white sneakers. STYLE: Soft 2D chibi storybook illustration, gentle digital shading, soft consistent warm outlines (no pure black). Expressive anime-inspired face. Approximately 2.5 heads tall. Soft, even, top-front lighting. No strong side lighting, no cast shadow on the ground. POSE: Full-body standing pose, three-quarter view, body turned toward the viewer's right, head upright. Relaxed neutral expression: eyes open, mouth closed with a slight smile. Arms hanging slightly away from the torso with a clear gap at the armpits and between the hands and the shorts. Hands relaxed and open, holding nothing. Feet slightly apart, both shoes fully visible. OUTPUT: One isolated character, entire body visible, no cropping. Flat, uniform mid-grey background (#808080), nothing else. 2048 x 2048 px PNG; the character fills at least 1500 px of height. No text, labels, props, extra characters, scenery or effects. Single pose only. No sprite sheet, turnarounds or expressions."
+    },
+    "referenceImages": [
+      {
+        "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+        "md5": "27a2b706699c567c0631a0d0d2470908",
+        "sha256": "4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7",
+        "note": "Whether the full sheet or a cropped Boy panel was attached is not recorded."
+      }
+    ]
+  },
+  "rights": {
+    "status": "unverified",
+    "note": "Confirm the image-generation tool's commercial-use terms before approval (asset-pipeline.md §11)."
+  },
+  "recordedBy": "Claude Code (M0.3c.1b), from information provided by the product owner",
+  "recordedOn": "2026-10-15"
+}

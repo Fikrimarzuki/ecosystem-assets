@@ -1,0 +1,115 @@
+{
+  "asset": "explorer-rocket-v1",
+  "source": "spacecraft/explorer-rocket/exports/explorer-rocket-v1.glb",
+  "coordinateSpace": "Gateway rocket-local (Y up; same origin and axes as components/universe/rocket.tsx rocketRecipe)",
+  "glb": {
+    "bytes": 66800,
+    "sha256": "0c7e8696f3a2b2c26b7ec060d93b1deaa4a2245475dd3ff51053125ff5276e71",
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "version": "2.0",
+    "extensionsUsed": [
+      "KHR_materials_emissive_strength"
+    ],
+    "extensionsRequired": [],
+    "cameras": 0,
+    "lights": 0,
+    "images": 0,
+    "textures": 0,
+    "nodes": 21
+  },
+  "blender": {
+    "meshes": 18,
+    "triangles": 1104,
+    "materials": [
+      "RocketAccent",
+      "RocketCollar",
+      "RocketEngine",
+      "RocketGlass",
+      "RocketGlow",
+      "RocketHull",
+      "RocketNozzle",
+      "RocketTeal",
+      "RocketTealFin"
+    ],
+    "min": [
+      -0.355,
+      -0.64,
+      -0.355
+    ],
+    "max": [
+      0.355,
+      0.8,
+      0.355
+    ],
+    "radius": 0.7801,
+    "center": [
+      0,
+      0.08,
+      0
+    ],
+    "reach": 0.8
+  },
+  "procedural": {
+    "triangles": 408,
+    "parts": 15,
+    "min": [
+      -0.356,
+      -0.6405,
+      -0.356
+    ],
+    "max": [
+      0.356,
+      0.8,
+      0.356
+    ],
+    "radius": 0.7646,
+    "center": [
+      0,
+      0.0798,
+      0
+    ],
+    "reach": 0.8
+  },
+  "anchors": {
+    "ANCHOR_cockpit": {
+      "position": [
+        0,
+        0.115,
+        0.172
+      ],
+      "name": "ANCHOR_cockpit",
+      "role": "cockpit"
+    },
+    "ANCHOR_engine": {
+      "position": [
+        0,
+        -0.59,
+        0
+      ],
+      "name": "ANCHOR_engine",
+      "role": "engine",
+      "attachment": "flame-and-glow",
+      "direction": "-y"
+    },
+    "ANCHOR_nose": {
+      "position": [
+        0,
+        0.8,
+        0
+      ],
+      "name": "ANCHOR_nose",
+      "role": "nose"
+    }
+  },
+  "flameAttachment": {
+    "expectedY": -0.59,
+    "glowY": -0.6,
+    "note": "Gateway hangs the flame cone from y = -0.59 and places the glow sphere at y = -0.6 (rocket.tsx)"
+  },
+  "extrasKeys": [
+    "role",
+    "attachment",
+    "direction",
+    "rocket_part"
+  ]
+}

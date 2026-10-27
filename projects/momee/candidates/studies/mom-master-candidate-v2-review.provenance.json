@@ -1,0 +1,37 @@
+{
+  "milestone": "M1.0k-A3",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "review.mom-master-candidate.v2",
+  "toolVersions": {
+    "node": "24.21.0",
+    "krita": "5.3.4.1 via krita_mcp (layout only)"
+  },
+  "method": [
+    "sheet_k3.py lays out the review sheet; every character image is downscaled or shown 1:1 (asserted).",
+    "Bedroom renders: candidates/m1.0j-c-construction/scale_renders.mjs (unchanged), config candidates/m1.0k-a3-construction/scale.config.json; Mom contact shadow is the A2 study-only ellipse shifted +16 px to the v2 feet centre.",
+    "Silhouette difference: alpha ≥ 128 masks of the @1x tier and the accepted @1x export."
+  ],
+  "outputs": {
+    "projects/momee/source/studies/mom-master-candidate-v2-review.kra": "046314b4041fc960b5a34bad7ef544adc2ebacb2d807a399f915f862c774bccf",
+    "projects/momee/review/m1.0k-a3/mom-master-candidate-v2-review.png": "d30d42bd671a6f74b5eb109314706675600228586e1c5671de6287a1ae2c58f1",
+    "projects/momee/review/m1.0k-a3/silhouette-diff-vs-accepted.@1x.png": "b503fc3c1b1d6eeae18d4f5e090595697d4f073bbdc010cb4e6d2b5f32aef2bf",
+    "projects/momee/review/m1.0k-a3/bedroom-full.@1x.png": "83864a085b98cb719478cccaec876baacdea724dcdb7c53e32240d9ccadf7daf",
+    "projects/momee/review/m1.0k-a3/desktop-1280x800-overview.png": "1e6510490d10ebfa469033994daf671d2baffa782435d02b5daddaff42c8526a",
+    "projects/momee/review/m1.0k-a3/phone-portrait-390x844-overview.png": "aa395242ddbc2a6c3cd20609c9d9e7e0533c0c9a54e91263408e63c475596b37",
+    "projects/momee/review/m1.0k-a3/phone-portrait-390x844-child-and-mom.png": "500c49f6b104d2dfe6482a69c6af4dd7a31d5a8202cf9967c9903c39e47ae3cd",
+    "projects/momee/review/m1.0k-a3/phone-landscape-844x390-overview.png": "8a478b49ba3a5e40d7e4dac40c5354f5869ab9a6487d589a8ed62ff0082a0837",
+    "projects/momee/review/m1.0k-a3/phone-landscape-844x390-child-and-mom.png": "296b08c2c998d467bd394b6e935cfbb8ba86dd703449d3c1e265373edf90271a"
+  },
+  "externalArtworkUsed": "Owner-supplied candidates and accepted references only.",
+  "generativeModelUsed": "None in this milestone's derivation; the source illustration was generated upstream by ChatGPT (OpenAI), per the owner.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "upstreamGeneration": {
+    "platform": "ChatGPT",
+    "provider": "OpenAI",
+    "method": "AI image generation, reference-guided",
+    "detail": "see candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.provenance.json; model, prompt and timestamp not recorded"
+  },
+  "visualAcceptance": "Mom v2 appearance owner-accepted 2026-10-24 (M1.0k-A4); production approval pending; rights unverified"
+}

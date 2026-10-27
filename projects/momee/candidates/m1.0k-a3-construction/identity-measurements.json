@@ -1,0 +1,91 @@
+{
+  "method": "Landmarks read by eye on gridded crops of the placed master (±2 px); facing by headfacing.mjs; palette by candidates/m1.0k-a2-construction/palette.mjs (unchanged).",
+  "headCount": {
+    "acceptedV1_2": {
+      "hairTop": 16,
+      "chin": 172,
+      "figurePx": 514,
+      "heads": "3.29–3.38"
+    },
+    "candidateV2": {
+      "hairTop": 56,
+      "chin": 395,
+      "chinRange": [
+        393,
+        397
+      ],
+      "figurePx": 1160,
+      "heads": 3.42,
+      "headsRange": [
+        3.4,
+        3.44
+      ]
+    },
+    "candidateV1": {
+      "heads": 3.68
+    }
+  },
+  "eyeLine": {
+    "acceptedV1_2": {
+      "nearEyeCentreRow": 122,
+      "fractionOfFigureFromTop": 0.206
+    },
+    "candidateV2": {
+      "nearEyeCentreRow": 282,
+      "fractionOfFigureFromTop": 0.195
+    },
+    "delta": "1.1 % of figure height (spec ±2 %)"
+  },
+  "eyeSize": {
+    "acceptedV1_2": {
+      "heightOverHead": 0.17,
+      "widthOverHead": 0.21
+    },
+    "candidateV2": {
+      "heightOverHead": 0.18,
+      "widthOverHead": 0.23
+    },
+    "note": "≤ 8 % larger; within reading error of the 514 px reference"
+  },
+  "facing": {
+    "wholeSilhouetteIoU": {
+      "asDrawn": 0.884,
+      "mirrored": 0.8,
+      "verdict": "left, automated"
+    },
+    "headAndShouldersHeadMatched": {
+      "asDrawn": {
+        "iou": 0.938,
+        "meanAbs": 26.9
+      },
+      "mirrored": {
+        "iou": 0.851,
+        "meanAbs": 47.3
+      }
+    },
+    "faceBandMeanAbs": {
+      "asDrawn": 34.0,
+      "mirrored": 84.4
+    },
+    "v1Reproduced": "headfacing.mjs reproduces the A2 v1 figures exactly (0.94/0.852, 27.9/84.9)"
+  },
+  "silhouetteAt1x": {
+    "iou": 0.884,
+    "onlyCandidatePx": 1917,
+    "onlyAcceptedPx": 966,
+    "where": "hair fuller on the viewer's left, trousers ≈ 1–2 px wider at @1x, curl tips; same pose"
+  },
+  "paletteDeltaE00ByMaterial": {
+    "hair": 2.8,
+    "skin": 0.9,
+    "blouse": 3.8,
+    "trousers": 0.8,
+    "shoes": 1.1
+  },
+  "edgeQC": {
+    "glowColourPanel": "0 halos, 0 specks at master/@2x/@1x",
+    "whiteProbe": "master 6 halos / 103 specks (152 px, alpha ≤ 32, on beige trouser and white shoe anti-aliasing; not visible on dark composites); @2x 1/13; @1x 0/1",
+    "strays": 0
+  },
+  "expression": "gentle closed-mouth smile, as v1.2"
+}

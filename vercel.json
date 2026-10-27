@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm web:build",
+  "outputDirectory": "apps/web/dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/explore", "destination": "/index.html" },
+    { "source": "/collections", "destination": "/index.html" },
+    { "source": "/collections/:projectId", "destination": "/index.html" },
+    { "source": "/assets/:projectId/:slug", "destination": "/index.html" },
+    { "source": "/health", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" }
+  ]
+}

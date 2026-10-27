@@ -1,0 +1,34 @@
+[
+ [
+  "OWNER",
+  "1 identity side-by-side at equal head height — owner judgement (rows 1–2)"
+ ],
+ [
+  "NEAR",
+  "2 silhouette IoU @1x 0.884 (spec ≥ 0.90): outline width — fuller hair, trousers — same pose"
+ ],
+ [
+  "PASS",
+  "3 palette by material ΔE00 ≤ 5 (max 3.8, blouse)"
+ ],
+ [
+  "PASS",
+  "4 proportion 3.42 heads; eye line Δ 1.1 % (≤ ±2 %)"
+ ],
+ [
+  "N/A",
+  "5 expression alignment — one expression only"
+ ],
+ [
+  "PASS",
+  "6 edge QC (edges.mjs): 0 halos, 0 specks, 0 detached components"
+ ],
+ [
+  "OPEN",
+  "7 overlap QC — flat illustration; slot layers and overlaps are rig-milestone work"
+ ],
+ [
+  "OPEN",
+  "8 provenance — tool, model and prompt not recorded → rights unverified"
+ ]
+]

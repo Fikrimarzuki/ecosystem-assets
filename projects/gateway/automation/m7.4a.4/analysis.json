@@ -1,0 +1,3069 @@
+{
+  "hardware": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 SUPER (0x000021C4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  "runs": [
+    {
+      "name": "latest-normal",
+      "durationMs": 3669.699999999255,
+      "renderFrames": 220,
+      "meshSamples": 55,
+      "croppedSamples": 0,
+      "croppedPercent": 0,
+      "framingFailures": 0,
+      "framingFailurePercent": 0,
+      "movingSamples": 16,
+      "movingCroppedSamples": 0,
+      "maxCroppingPx": 0,
+      "maxCroppingAt75Px": 0,
+      "events": [],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.00006175237906105879,
+        "p95": 2.2644195468014703e-15,
+        "max": 0.013585523393147213
+      },
+      "scanCostMs": {
+        "mean": 12.205454545332627,
+        "p95": 17.899999998509884,
+        "max": 57.5
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 67.27777777777777,
+        "p95": 73,
+        "max": 98.79999999701977
+      },
+      "maxBody": {
+        "side": 0.08536435991379827,
+        "depth": 0.08700543259431635,
+        "height": 0.30205044443933393,
+        "minHeight": 0.0000015863294151596818
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 4527.20000000298,
+        "delta": 0.016199999999254942,
+        "phase": "latest-normal",
+        "player": {
+          "x": 0,
+          "y": 0.18050000000000002,
+          "z": 0.38,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0,
+        "facing": 0.13552771930518503,
+        "animation": {
+          "clip": "Idle",
+          "time": 1.9928999999985104,
+          "transitions": 0,
+          "idleTime": 1.9928999999985104,
+          "walkTime": 0,
+          "walkRate": 1,
+          "idleWeight": 1,
+          "walkWeight": 0,
+          "groundLift": 0
+        },
+        "camera": [
+          -8.026863680123272,
+          3.779917053133661,
+          1.3895576793164486
+        ],
+        "cameraLocal": [
+          0.07973260784724179,
+          0.9883784937337405,
+          0.9647057676456563
+        ],
+        "target": [
+          -7.83581461351431,
+          3.7321580202912403,
+          0.2564935454609103
+        ],
+        "fov": 65,
+        "shadowFov": 65,
+        "shadowError": 9.930136612989092e-16,
+        "trace": {
+          "previous": {
+            "x": 0.07973260784724179,
+            "y": 0.9883784937337405,
+            "z": 0.9647057676456563
+          },
+          "pivot": {
+            "x": 0,
+            "y": 0.6505,
+            "z": 0.38
+          },
+          "rear": {
+            "x": 0.07973260784724219,
+            "y": 0.988378493733741,
+            "z": 0.9647057676456564
+          },
+          "desired": {
+            "x": 0.07973260784724219,
+            "y": 0.988378493733741,
+            "z": 0.9647057676456564
+          },
+          "ceiling": null,
+          "rearLength": 0.68,
+          "blend": 0.17667149300192198,
+          "next": {
+            "x": 0.07973260784724186,
+            "y": 0.9883784937337406,
+            "z": 0.9647057676456563
+          },
+          "desiredFov": 65
+        },
+        "settled": true,
+        "visibilityView": -1,
+        "clearSeconds": 2.189699999999255,
+        "envelope": {
+          "minX": -0.10784538947918765,
+          "maxX": 0.10784538947918765,
+          "minY": -0.8235414351336452,
+          "maxY": -0.17792982443196417,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "envelopeCrop": 0,
+        "mesh": {
+          "minX": -0.08129379514636295,
+          "maxX": 0.09046348619214768,
+          "minY": -0.7576353273393985,
+          "maxY": -0.2635271190831583,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "mesh75": {
+          "minX": -0.06749385866426011,
+          "maxX": 0.07510695915150947,
+          "minY": -0.6290237970859895,
+          "maxY": -0.21879237028576698,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "body": {
+          "minX": -0.07188906206612089,
+          "maxX": 0.07224493553556932,
+          "minY": 0.000023413445419645518,
+          "maxY": 0.2999694048733913,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.06289037999571567,
+          "maxZ": 0.058364274975235206
+        },
+        "meshCrop": 0,
+        "mesh75Crop": 0,
+        "boomClear": 1,
+        "boomLength": 0.6799999999999997,
+        "diagnosticMs": 57.5
+      }
+    },
+    {
+      "name": "latest-crossbar",
+      "durationMs": 5954.699999999255,
+      "renderFrames": 359,
+      "meshSamples": 90,
+      "croppedSamples": 9,
+      "croppedPercent": 10,
+      "framingFailures": 12,
+      "framingFailurePercent": 13.333333333333334,
+      "movingSamples": 30,
+      "movingCroppedSamples": 6,
+      "maxCroppingPx": 24076.147502799435,
+      "maxCroppingAt75Px": 20973.89081542471,
+      "events": [
+        {
+          "start": 12172,
+          "end": 12573.10000000149,
+          "count": 7,
+          "max": 24076.147502799435,
+          "previousGood": 12106.5,
+          "sampleSpanMs": 401.1000000014901,
+          "bracketMs": 533.1000000014901
+        },
+        {
+          "start": 14105.60000000149,
+          "end": 14374.300000000745,
+          "count": 5,
+          "max": 803.5700292823337,
+          "previousGood": 14046.400000002235,
+          "sampleSpanMs": 268.69999999925494,
+          "bracketMs": 394.19999999925494
+        }
+      ],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.0006059957524949293,
+        "p95": 2.2644195468014703e-15,
+        "max": 0.05547300000756028
+      },
+      "scanCostMs": {
+        "mean": 11.003333333341612,
+        "p95": 14.800000000745058,
+        "max": 25.399999998509884
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 66.6426966292051,
+        "p95": 69.30000000074506,
+        "max": 72
+      },
+      "maxBody": {
+        "side": 0.07897713251224299,
+        "depth": 0.08665849094340827,
+        "height": 0.3024808562214009,
+        "minHeight": 0.0000015863871544730124
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 12240.20000000298,
+        "delta": 0.016899999998509885,
+        "phase": "latest-crossbar",
+        "player": {
+          "x": 0.04634572261634429,
+          "y": 0.18,
+          "z": 0.719868619014693,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0.41999999999999904,
+        "facing": -3.0060636378207573,
+        "animation": {
+          "clip": "Walk",
+          "time": 2.712699999999258,
+          "transitions": 1,
+          "idleTime": 0,
+          "walkTime": 0.39589169845450806,
+          "walkRate": 1.7500000000000036,
+          "idleWeight": 0,
+          "walkWeight": 1,
+          "groundLift": 0
+        },
+        "camera": [
+          -7.983826967072366,
+          3.298101651600841,
+          0.7642779233631323
+        ],
+        "cameraLocal": [
+          0.053265291524089875,
+          0.5635603273322756,
+          0.7715061542805213
+        ],
+        "target": [
+          -7.962420511471266,
+          3.3427293652352583,
+          0.6776553850339777
+        ],
+        "fov": 67.66548535315687,
+        "shadowFov": 67.33748535311216,
+        "shadowError": 0.05547300000756028,
+        "trace": {
+          "previous": {
+            "x": 0.04425360167047199,
+            "y": 0.5648754095009179,
+            "z": 0.7055317657544506
+          },
+          "pivot": {
+            "x": 0.0454150628257084,
+            "y": 0.5630000238418579,
+            "z": 0.7130437808212245
+          },
+          "rear": {
+            "x": 0.12514767067295057,
+            "y": 0.9008785175755989,
+            "z": 1.2977495484668808
+          },
+          "desired": {
+            "x": 0.12514767067295057,
+            "y": 0.5530000238418579,
+            "z": 1.2977495484668808
+          },
+          "ceiling": 0.5530000238418579,
+          "rearLength": 0.5902017650534589,
+          "blend": 0.056537331764922975,
+          "next": {
+            "x": 0.04882713648747969,
+            "y": 0.5642040068820752,
+            "z": 0.7390141790127503
+          },
+          "desiredFov": 75
+        },
+        "settled": false,
+        "visibilityView": -1,
+        "clearSeconds": 0.2835,
+        "envelope": {
+          "minX": -0.5551231454091409,
+          "maxX": 0.551053060030107,
+          "minY": -8.165215366699776,
+          "maxY": -0.7251371400220961,
+          "behind": 4,
+          "clippedDepth": 0,
+          "requiredFov": 160.91545525434978
+        },
+        "envelopeCrop": 3224.3469150148994,
+        "mesh": {
+          "minX": -3.641369891487084,
+          "maxX": 5.133509814865362,
+          "minY": -54.502550006220964,
+          "maxY": -1.9256883659041244,
+          "behind": 190,
+          "clippedDepth": 339,
+          "requiredFov": 179.9455206204345
+        },
+        "mesh75": {
+          "minX": -3.1807812851525012,
+          "maxX": 4.48418381896437,
+          "minY": -47.608646256499355,
+          "maxY": -1.682112418632181,
+          "behind": 190,
+          "clippedDepth": 339,
+          "requiredFov": 179.9455206204345
+        },
+        "body": {
+          "minX": -0.06323960065955411,
+          "maxX": 0.07383341818294563,
+          "minY": 0.00014643129191876936,
+          "maxY": 0.2873729222768226,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.07973932838161077,
+          "maxZ": 0.06483418913308436
+        },
+        "meshCrop": 24076.147502799435,
+        "mesh75Crop": 20973.89081542471,
+        "boomClear": 1,
+        "boomLength": 0.026221239559961515,
+        "diagnosticMs": 25.399999998509884
+      }
+    },
+    {
+      "name": "latest-directions",
+      "durationMs": 5402.300000000745,
+      "renderFrames": 325,
+      "meshSamples": 82,
+      "croppedSamples": 0,
+      "croppedPercent": 0,
+      "framingFailures": 0,
+      "framingFailurePercent": 0,
+      "movingSamples": 22,
+      "movingCroppedSamples": 0,
+      "maxCroppingPx": 0,
+      "maxCroppingAt75Px": 0,
+      "events": [],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.0008223349775801573,
+        "p95": 2.7012892057857038e-15,
+        "max": 0.08557725000252053
+      },
+      "scanCostMs": {
+        "mean": 11.268292682835968,
+        "p95": 14.300000000745058,
+        "max": 29.200000002980232
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 66.69506172840426,
+        "p95": 71.5,
+        "max": 78.10000000149012
+      },
+      "maxBody": {
+        "side": 0.08697887739365208,
+        "depth": 0.08347644563044186,
+        "height": 0.30266700566506416,
+        "minHeight": 0.0000015863516124592358
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 18340.5,
+        "delta": 0.016399999998509884,
+        "phase": "latest-directions",
+        "player": {
+          "x": -0.0018613195812717596,
+          "y": 0.18050000071525574,
+          "z": 0.36635032361306286,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0.4199999999999999,
+        "facing": -0.6675177608273812,
+        "animation": {
+          "clip": "Walk",
+          "time": 8.721699999999261,
+          "transitions": 5,
+          "idleTime": 3.3585000000000043,
+          "walkTime": 0.02869999999739229,
+          "walkRate": 1.7499999999999996,
+          "idleWeight": 0.9088888888971673,
+          "walkWeight": 0.0911111111028327,
+          "groundLift": 0
+        },
+        "camera": [
+          -8.019865222102778,
+          3.7949035257192265,
+          1.3611559195984821
+        ],
+        "cameraLocal": [
+          0.07710688629815454,
+          0.9883784944489968,
+          0.9454504770508041
+        ],
+        "target": [
+          -7.830853551671516,
+          3.742781620383586,
+          0.23636012686362617
+        ],
+        "fov": 65.00000000000004,
+        "shadowFov": 65.00000000000004,
+        "shadowError": 4.440892098500626e-16,
+        "trace": {
+          "previous": {
+            "x": 0.07694062847554672,
+            "y": 0.9883784944489968,
+            "z": 0.9442312530668007
+          },
+          "pivot": {
+            "x": -0.0018613195812717596,
+            "y": 0.6505000007152557,
+            "z": 0.36635032361306286
+          },
+          "rear": {
+            "x": 0.07787128826597044,
+            "y": 0.9883784944489967,
+            "z": 0.9510560912587193
+          },
+          "desired": {
+            "x": 0.07787128826597044,
+            "y": 0.9883784944489967,
+            "z": 0.9510560912587193
+          },
+          "ceiling": null,
+          "rearLength": 0.68,
+          "blend": 0.17864511212108491,
+          "next": {
+            "x": 0.07710688629815356,
+            "y": 0.9883784944489968,
+            "z": 0.9454504770508042
+          },
+          "desiredFov": 65
+        },
+        "settled": false,
+        "visibilityView": -1,
+        "clearSeconds": 3.4106999999992595,
+        "envelope": {
+          "minX": -0.10850745449501562,
+          "maxX": 0.10850745449501262,
+          "minY": -0.8252047579687914,
+          "maxY": -0.17779497623072882,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "envelopeCrop": 0,
+        "mesh": {
+          "minX": -0.07799556856847809,
+          "maxX": 0.08011316811160551,
+          "minY": -0.7837932361313712,
+          "maxY": -0.2727866550784222,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "mesh75": {
+          "minX": -0.06475551881815411,
+          "maxX": 0.06651364763984363,
+          "minY": -0.650741299581468,
+          "maxY": -0.226480064194457,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "body": {
+          "minX": -0.06527691596727608,
+          "maxX": 0.06421830022833065,
+          "minY": 0.000004013048256368279,
+          "maxY": 0.2998938755410867,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.06913668398216766,
+          "maxZ": 0.06743728999080409
+        },
+        "meshCrop": 0,
+        "mesh75Crop": 0,
+        "boomClear": 1,
+        "boomLength": 0.6750961722445274,
+        "diagnosticMs": 29.200000002980232
+      }
+    },
+    {
+      "name": "latest-collision-hold",
+      "durationMs": 6487.89999999851,
+      "renderFrames": 390,
+      "meshSamples": 98,
+      "croppedSamples": 3,
+      "croppedPercent": 3.061224489795918,
+      "framingFailures": 5,
+      "framingFailurePercent": 5.1020408163265305,
+      "movingSamples": 45,
+      "movingCroppedSamples": 3,
+      "maxCroppingPx": 1511.5797483458134,
+      "maxCroppingAt75Px": 1511.5797462762946,
+      "events": [
+        {
+          "start": 29688.5,
+          "end": 29976,
+          "count": 5,
+          "max": 1511.5797483458134,
+          "previousGood": 29625.400000002235,
+          "sampleSpanMs": 287.5,
+          "bracketMs": 416.19999999925494
+        }
+      ],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.00046799667552994707,
+        "p95": 2.0350724194510405e-15,
+        "max": 0.06020849998991816
+      },
+      "scanCostMs": {
+        "mean": 10.952040816486186,
+        "p95": 13.199999999254942,
+        "max": 32.400000002235174
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 66.81030927832747,
+        "p95": 69.20000000298023,
+        "max": 83.39999999850988
+      },
+      "maxBody": {
+        "side": 0.09706353432792485,
+        "depth": 0.08823710870617137,
+        "height": 0.3001132195543072,
+        "minHeight": 9.774489344027693e-7
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 29827.10000000149,
+        "delta": 0.01630000000074506,
+        "phase": "latest-collision-hold",
+        "player": {
+          "x": 0.034973513956582485,
+          "y": 0.18,
+          "z": 0.6364724254903065,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0.42000000000000065,
+        "facing": 0.12982076698345754,
+        "animation": {
+          "clip": "Walk",
+          "time": 4.6896000000014935,
+          "transitions": 3,
+          "idleTime": 0,
+          "walkTime": 0.6135500000026091,
+          "walkRate": 1.7500000000000013,
+          "idleWeight": 0,
+          "walkWeight": 1,
+          "groundLift": 0
+        },
+        "camera": [
+          -7.952451765891263,
+          3.506677358037748,
+          0.7488565515658971
+        ],
+        "cameraLocal": [
+          0.044188703506537585,
+          0.6684604708892958,
+          0.7040504795046583
+        ],
+        "target": [
+          -7.929062915460342,
+          3.531800370684573,
+          0.6343926609826118
+        ],
+        "fov": 74.99999994161115,
+        "shadowFov": 74.99999994161115,
+        "shadowError": 9.930136612989092e-16,
+        "trace": {
+          "previous": {
+            "x": 0.04419671705086525,
+            "y": 0.6585399642899321,
+            "z": 0.7041092454940601
+          },
+          "pivot": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "rear": {
+            "x": 0.11470612180382467,
+            "y": 0.9878784937337409,
+            "z": 1.2211781931359629
+          },
+          "desired": {
+            "x": 0.11470612180382467,
+            "y": 0.9878784937337409,
+            "z": 1.2211781931359629
+          },
+          "ceiling": null,
+          "rearLength": 0.68,
+          "blend": 0.05282889898784165,
+          "next": {
+            "x": 0.04418870350653717,
+            "y": 0.6684604708892959,
+            "z": 0.7040504795046584
+          },
+          "desiredFov": 75
+        },
+        "settled": false,
+        "visibilityView": -1,
+        "clearSeconds": 2.2160999999977653,
+        "envelope": {
+          "minX": -1.6482626599690715,
+          "maxX": 1.6482626599690544,
+          "minY": -5.720048040759084,
+          "maxY": -0.8952754277244972,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 156.32347705894318
+        },
+        "envelopeCrop": 2124.021618341588,
+        "mesh": {
+          "minX": -0.48106581709202845,
+          "maxX": 0.42079118425728407,
+          "minY": -4.359066107435141,
+          "maxY": -1.2620754447124212,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 149.2420190250686
+        },
+        "mesh75": {
+          "minX": -0.48106581658449105,
+          "maxX": 0.4207911838133381,
+          "minY": -4.35906610283621,
+          "maxY": -1.2620754433808978,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 149.2420190250686
+        },
+        "body": {
+          "minX": -0.07204458022752447,
+          "maxX": 0.0649097744259283,
+          "minY": 0.0001200408497811778,
+          "maxY": 0.29719231868335266,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.06894956354220405,
+          "maxZ": 0.05908492713323912
+        },
+        "meshCrop": 1511.5797483458134,
+        "mesh75Crop": 1511.5797462762946,
+        "boomClear": 1,
+        "boomLength": 0.07065763998509152,
+        "diagnosticMs": 32.400000002235174
+      }
+    },
+    {
+      "name": "tools-entry-normal",
+      "durationMs": 3473.199999999255,
+      "renderFrames": 210,
+      "meshSamples": 53,
+      "croppedSamples": 0,
+      "croppedPercent": 0,
+      "framingFailures": 0,
+      "framingFailurePercent": 0,
+      "movingSamples": 18,
+      "movingCroppedSamples": 0,
+      "maxCroppingPx": 0,
+      "maxCroppingAt75Px": 0,
+      "events": [],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.0003355075502662953,
+        "p95": 1.831026719408895e-15,
+        "max": 0.06005695157863386
+      },
+      "scanCostMs": {
+        "mean": 10.856603773697367,
+        "p95": 15.799999997019768,
+        "max": 30.699999999254942
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 66.65961538462972,
+        "p95": 70.89999999850988,
+        "max": 78.80000000074506
+      },
+      "maxBody": {
+        "side": 0.08527787160354253,
+        "depth": 0.07993249939746384,
+        "height": 0.302514147122964,
+        "minHeight": 0.0000015863353508560607
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 39257.300000000745,
+        "delta": 0.01679999999701977,
+        "phase": "tools-entry-normal",
+        "player": {
+          "x": 0,
+          "y": 0.1805,
+          "z": 0.35,
+          "yaw": 0.5880026132906346,
+          "pitch": -0.52
+        },
+        "speed": 0,
+        "facing": 0.5880026132906346,
+        "animation": {
+          "clip": "Idle",
+          "time": 1.8791999999992557,
+          "transitions": 0,
+          "idleTime": 1.8791999999992557,
+          "walkTime": 0,
+          "walkRate": 1,
+          "idleWeight": 1,
+          "walkWeight": 0,
+          "groundLift": 0
+        },
+        "camera": [
+          -6.122181380457986,
+          -3.644131998907818,
+          3.9372359002223156
+        ],
+        "cameraLocal": [
+          0.19568480727084125,
+          0.8683784937337404,
+          0.9067275632439911
+        ],
+        "target": [
+          -6.682181328884823,
+          -3.6986205853594187,
+          3.056042787613935
+        ],
+        "fov": 65,
+        "shadowFov": 65,
+        "shadowError": 1.3322676295501878e-15,
+        "trace": {
+          "previous": {
+            "x": 0.19568480727084125,
+            "y": 0.8683784937337404,
+            "z": 0.9067275632439911
+          },
+          "pivot": {
+            "x": 0,
+            "y": 0.5305,
+            "z": 0.35
+          },
+          "rear": {
+            "x": 0.3273380438774573,
+            "y": 0.868378493733741,
+            "z": 0.8410070554510375
+          },
+          "desired": {
+            "x": 0.19568480727084073,
+            "y": 0.868378493733741,
+            "z": 0.9067275632439912
+          },
+          "ceiling": null,
+          "rearLength": 0.6799999999999999,
+          "blend": 0.18257816868104237,
+          "next": {
+            "x": 0.19568480727084117,
+            "y": 0.8683784937337405,
+            "z": 0.9067275632439911
+          },
+          "desiredFov": 65
+        },
+        "settled": true,
+        "visibilityView": 1,
+        "clearSeconds": 0,
+        "envelope": {
+          "minX": -0.12190518676620957,
+          "maxX": 0.13957554327037713,
+          "minY": -0.7072295506374006,
+          "maxY": 0.039122255824703765,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "envelopeCrop": 0,
+        "mesh": {
+          "minX": -0.08838970857256692,
+          "maxX": 0.09696465516945119,
+          "minY": -0.6041698034416831,
+          "maxY": -0.06441269791286794,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "mesh75": {
+          "minX": -0.0733852133121734,
+          "maxX": 0.08050452952347441,
+          "minY": -0.5016096400628081,
+          "maxY": -0.053478393046942095,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "body": {
+          "minX": -0.0718893603107434,
+          "maxX": 0.07211921626295298,
+          "minY": 0.000015224765633647941,
+          "maxY": 0.29997715389573265,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.06289741711472335,
+          "maxZ": 0.0583298089229661
+        },
+        "meshCrop": 0,
+        "mesh75Crop": 0,
+        "boomClear": 1,
+        "boomLength": 0.6799999999999998,
+        "diagnosticMs": 30.699999999254942
+      }
+    },
+    {
+      "name": "tools-bench",
+      "durationMs": 7072.699999999255,
+      "renderFrames": 426,
+      "meshSamples": 107,
+      "croppedSamples": 0,
+      "croppedPercent": 0,
+      "framingFailures": 0,
+      "framingFailurePercent": 0,
+      "movingSamples": 43,
+      "movingCroppedSamples": 0,
+      "maxCroppingPx": 0,
+      "maxCroppingAt75Px": 0,
+      "events": [],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.000028974640615197283,
+        "p95": 1.9860273225978185e-15,
+        "max": 0.01234319690159696
+      },
+      "scanCostMs": {
+        "mean": 10.651401869012652,
+        "p95": 13.199999999254942,
+        "max": 24.699999999254942
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 66.65188679246688,
+        "p95": 69.69999999925494,
+        "max": 73.70000000298023
+      },
+      "maxBody": {
+        "side": 0.08656227724996653,
+        "depth": 0.08671192132138716,
+        "height": 0.302581687793638,
+        "minHeight": 0.0000015863378576841392
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 0,
+      "blockedHeldIdleFrames": 0,
+      "worst": {
+        "t": 45841.60000000149,
+        "delta": 0.0165,
+        "phase": "tools-bench",
+        "player": {
+          "x": 0.000003483109957447252,
+          "y": 0.18050000071525574,
+          "z": 0.35692999912467127,
+          "yaw": 0.0005026132906346126,
+          "pitch": -0.52
+        },
+        "speed": 0.41999999999999943,
+        "facing": 1.2442920136129136,
+        "animation": {
+          "clip": "Walk",
+          "time": 1.9029999999999998,
+          "transitions": 1,
+          "idleTime": 1.9029999999999998,
+          "walkTime": 0.028874999999999963,
+          "walkRate": 1.7499999999999978,
+          "idleWeight": 0.9083333333333333,
+          "walkWeight": 0.09166666666666667,
+          "groundLift": 0.000024152254473376312
+        },
+        "camera": [
+          -6.2178076233404465,
+          -3.659211153857566,
+          3.9696287733810873
+        ],
+        "cameraLocal": [
+          0.12939084371908738,
+          0.868378493810199,
+          0.9104039696403703
+        ],
+        "target": [
+          -6.679027486375024,
+          -3.7039403683090724,
+          3.064719166354953
+        ],
+        "fov": 65,
+        "shadowFov": 65,
+        "shadowError": 1.2560739669470201e-15,
+        "trace": {
+          "previous": {
+            "x": 0.16231750544193257,
+            "y": 0.8683784937337409,
+            "z": 0.9082051181698607
+          },
+          "pivot": {
+            "x": 0.000003483109957447252,
+            "y": 0.5305000007152557,
+            "z": 0.35692999912467127
+          },
+          "rear": {
+            "x": 0.000300083765899622,
+            "y": 0.8683784944489967,
+            "z": 0.9470469667677558
+          },
+          "desired": {
+            "x": -0.14570641104838494,
+            "y": 0.8683784944489967,
+            "z": 0.9287750395128721
+          },
+          "ceiling": null,
+          "rearLength": 0.68,
+          "blend": 0.10689644524365884,
+          "next": {
+            "x": 0.129390843719088,
+            "y": 0.8683784938101992,
+            "z": 0.9104039696403703
+          },
+          "desiredFov": 65
+        },
+        "settled": false,
+        "visibilityView": 1,
+        "clearSeconds": 0.033199999999254944,
+        "envelope": {
+          "minX": -0.1420992788408429,
+          "maxX": 0.1232207719858307,
+          "minY": -0.7139547925307156,
+          "maxY": 0.042133612323188886,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "envelopeCrop": 0,
+        "mesh": {
+          "minX": -0.08421897312670767,
+          "maxX": 0.08637132518211199,
+          "minY": -0.6486346539676455,
+          "maxY": -0.06593798508702638,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "mesh75": {
+          "minX": -0.06992247635664037,
+          "maxX": 0.07170945831709184,
+          "minY": -0.5385264100515079,
+          "maxY": -0.054744756817629754,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65
+        },
+        "body": {
+          "minX": -0.06213513596484689,
+          "maxX": 0.0641644137914143,
+          "minY": 0.0000015863872682153612,
+          "maxY": 0.2998222341354395,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.07147968088664455,
+          "maxZ": 0.06499291473176706
+        },
+        "meshCrop": 0,
+        "mesh75Crop": 0,
+        "boomClear": 1,
+        "boomLength": 0.6612385357947008,
+        "diagnosticMs": 24.699999999254942
+      }
+    },
+    {
+      "name": "latest-crossbar-turns",
+      "durationMs": 6664.199999999255,
+      "renderFrames": 392,
+      "meshSamples": 98,
+      "croppedSamples": 11,
+      "croppedPercent": 11.224489795918368,
+      "framingFailures": 15,
+      "framingFailurePercent": 15.306122448979592,
+      "movingSamples": 35,
+      "movingCroppedSamples": 5,
+      "maxCroppingPx": 8932.290088684611,
+      "maxCroppingAt75Px": 8932.29008868461,
+      "events": [
+        {
+          "start": 5662,
+          "end": 5662,
+          "count": 1,
+          "max": 1163.2368418192173,
+          "previousGood": 5589.5,
+          "sampleSpanMs": 0,
+          "bracketMs": 156.80000000074506
+        },
+        {
+          "start": 5806.900000002235,
+          "end": 6090,
+          "count": 5,
+          "max": 4467.44515381193,
+          "previousGood": 5746.300000000745,
+          "sampleSpanMs": 283.0999999977648,
+          "bracketMs": 408.19999999925494
+        },
+        {
+          "start": 9026.5,
+          "end": 9026.5,
+          "count": 1,
+          "max": 2.3094109606106805,
+          "previousGood": 8956.5,
+          "sampleSpanMs": 0,
+          "bracketMs": 139.40000000223517
+        },
+        {
+          "start": 9287.400000002235,
+          "end": 9819.800000000745,
+          "count": 8,
+          "max": 8932.290088684611,
+          "previousGood": 9223,
+          "sampleSpanMs": 532.3999999985099,
+          "bracketMs": 649
+        }
+      ],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.0010127668602122346,
+        "p95": 2.0350724194510405e-15,
+        "max": 0.13022624999999904
+      },
+      "scanCostMs": {
+        "mean": 13.085714285547027,
+        "p95": 28.099999997764826,
+        "max": 73.30000000074506
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 68.27835051546391,
+        "p95": 84.30000000074506,
+        "max": 149.39999999850988
+      },
+      "maxBody": {
+        "side": 0.08664956715127387,
+        "depth": 0.08654729694096981,
+        "height": 0.30569807139090804,
+        "minHeight": 0.0000015863124051551658
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 2,
+      "blockedHeldIdleFrames": 2,
+      "worst": {
+        "t": 9560.5,
+        "delta": 0.016700000002980234,
+        "phase": "latest-crossbar-turns",
+        "keys": [
+          "KeyS"
+        ],
+        "player": {
+          "x": -0.0361084616168136,
+          "y": 0.18,
+          "z": 0.725904666359385,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0.4199999999999982,
+        "facing": 9.044236790570636,
+        "animation": {
+          "clip": "Walk",
+          "time": 6.589700000002977,
+          "transitions": 13,
+          "idleTime": 0.26660000000149014,
+          "walkTime": 0.4814701952892744,
+          "walkRate": 1.7486884465049397,
+          "idleWeight": 0.4121194444311025,
+          "walkWeight": 0.5878805555688975,
+          "groundLift": 0.02793023224223457
+        },
+        "camera": [
+          -8.133945880539244,
+          3.281680708549846,
+          0.7938352505259774
+        ],
+        "cameraLocal": [
+          -0.02317963174255855,
+          0.5599586555154732,
+          0.820716081669782
+        ],
+        "target": [
+          -8.099292844877523,
+          3.3599990500616763,
+          0.6564233169448779
+        ],
+        "fov": 74.99999999999997,
+        "shadowFov": 74.99999999999997,
+        "shadowError": 8.005932084973442e-16,
+        "trace": {
+          "previous": {
+            "x": -0.027691966077374452,
+            "y": 0.5604286839117245,
+            "z": 0.7876256311960315
+          },
+          "pivot": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "rear": {
+            "x": 0.04362414623042859,
+            "y": 0.9008785175755989,
+            "z": 1.3106104340050413
+          },
+          "desired": {
+            "x": 0.04362414623042859,
+            "y": 0.5530000238418579,
+            "z": 1.3106104340050413
+          },
+          "ceiling": 0.5530000238418579,
+          "rearLength": 0.5902017650534589,
+          "blend": 0.06327229834598978,
+          "next": {
+            "x": -0.023179631742559024,
+            "y": 0.559958655515473,
+            "z": 0.8207160816697817
+          },
+          "desiredFov": 75
+        },
+        "settled": false,
+        "visibilityView": -1,
+        "clearSeconds": 0.8265000000000001,
+        "envelope": {
+          "minX": -3.288208841147446,
+          "maxX": 3.2882088411474224,
+          "minY": -4.583336017326534,
+          "maxY": -0.5048481100041252,
+          "behind": 0,
+          "clippedDepth": 2,
+          "requiredFov": 177.61488732865564
+        },
+        "envelopeCrop": 1630.3487993175552,
+        "mesh": {
+          "minX": -0.815748542445918,
+          "maxX": 1.1380902348047872,
+          "minY": -20.84953353041025,
+          "maxY": -1.0525122211385054,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 173.41757984101363
+        },
+        "mesh75": {
+          "minX": -0.8157485424459175,
+          "maxX": 1.1380902348047868,
+          "minY": -20.84953353041024,
+          "maxY": -1.052512221138505,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 173.41757984101363
+        },
+        "body": {
+          "minX": -0.06416875014402475,
+          "maxX": 0.06727930852923866,
+          "minY": 0.0000015863871551391462,
+          "maxY": 0.3010853529404644,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.0639318905854749,
+          "maxZ": 0.06644639559892651
+        },
+        "meshCrop": 8932.290088684611,
+        "mesh75Crop": 8932.29008868461,
+        "boomClear": 1,
+        "boomLength": 0.09573718732224529,
+        "diagnosticMs": 62.900000002235174
+      }
+    },
+    {
+      "name": "latest-blocked-and-exit",
+      "durationMs": 8738.89999999851,
+      "renderFrames": 523,
+      "meshSamples": 131,
+      "croppedSamples": 10,
+      "croppedPercent": 7.633587786259542,
+      "framingFailures": 11,
+      "framingFailurePercent": 8.396946564885496,
+      "movingSamples": 58,
+      "movingCroppedSamples": 9,
+      "maxCroppingPx": 24631.831757190008,
+      "maxCroppingAt75Px": 24299.68361196432,
+      "events": [
+        {
+          "start": 17890.10000000149,
+          "end": 17974.60000000149,
+          "count": 2,
+          "max": 108.43060187714444,
+          "previousGood": 17807.60000000149,
+          "sampleSpanMs": 84.5,
+          "bracketMs": 230.89999999850988
+        },
+        {
+          "start": 23771.800000000745,
+          "end": 24055.10000000149,
+          "count": 5,
+          "max": 8308.406822869621,
+          "previousGood": 23704.70000000298,
+          "sampleSpanMs": 283.30000000074506,
+          "bracketMs": 419.0999999977648
+        },
+        {
+          "start": 24187.10000000149,
+          "end": 24389.60000000149,
+          "count": 4,
+          "max": 24631.831757190008,
+          "previousGood": 24123.800000000745,
+          "sampleSpanMs": 202.5,
+          "bracketMs": 332.1000000014901
+        }
+      ],
+      "tailMaxCroppingPx": 0,
+      "tailFailures": 0,
+      "shadowError": {
+        "mean": 0.0004130405564067976,
+        "p95": 2.220446049250313e-15,
+        "max": 0.054796499997480055
+      },
+      "scanCostMs": {
+        "mean": 11.25038167928125,
+        "p95": 13.699999999254942,
+        "max": 37.900000002235174
+      },
+      "meshSampleIntervalsMs": {
+        "mean": 67.04692307693453,
+        "p95": 69,
+        "max": 84.60000000149012
+      },
+      "maxBody": {
+        "side": 0.09660545725308795,
+        "depth": 0.09136722783482709,
+        "height": 0.30595919181232983,
+        "minHeight": 0.0000015863819004535706
+      },
+      "envelopeDetectsAllCropped": true,
+      "blockedHeldFrames": 67,
+      "blockedHeldIdleFrames": 67,
+      "worst": {
+        "t": 24254.900000002235,
+        "delta": 0.016699999999254943,
+        "phase": "latest-blocked-and-exit",
+        "keys": [
+          "KeyW"
+        ],
+        "player": {
+          "x": 0.05103874485279985,
+          "y": 0.18,
+          "z": 0.6498724126744572,
+          "yaw": 0.13552771930518503,
+          "pitch": -0.52
+        },
+        "speed": 0.42000000000000326,
+        "facing": 6.42058825097892,
+        "animation": {
+          "clip": "Walk",
+          "time": 10.821499999999974,
+          "transitions": 5,
+          "idleTime": 0,
+          "walkTime": 0.17762546293978557,
+          "walkRate": 1.736332849708676,
+          "idleWeight": 0,
+          "walkWeight": 1,
+          "groundLift": 0
+        },
+        "camera": [
+          -7.9461579332793875,
+          3.4677556710224793,
+          0.7314578105446146
+        ],
+        "cameraLocal": [
+          0.049202663358549614,
+          0.6434775242323436,
+          0.7041855610768923
+        ],
+        "target": [
+          -7.913811803082626,
+          3.5113953392023114,
+          0.6710978542829182
+        ],
+        "fov": 74.26350535925482,
+        "shadowFov": 74.13225147129789,
+        "shadowError": 0.03705037575996041,
+        "trace": {
+          "previous": {
+            "x": 0.055133037475394886,
+            "y": 0.5986004986816933,
+            "z": 0.684162165255503
+          },
+          "pivot": {
+            "x": 0.05196940464322434,
+            "y": 0.6499999999999999,
+            "z": 0.6566972508663754
+          },
+          "rear": {
+            "x": 0.13170201249046654,
+            "y": 0.9878784937337409,
+            "z": 1.241403018512032
+          },
+          "desired": {
+            "x": -0.015435203112689595,
+            "y": 0.9878784937337409,
+            "z": 1.242952095047206
+          },
+          "ceiling": null,
+          "rearLength": 0.68,
+          "blend": 0.04878312416210026,
+          "next": {
+            "x": 0.05172601575147349,
+            "y": 0.6217178794572424,
+            "z": 0.7044527652075963
+          },
+          "desiredFov": 75
+        },
+        "settled": false,
+        "visibilityView": 1,
+        "clearSeconds": 0,
+        "envelope": {
+          "minX": -1.2119801143657074,
+          "maxX": 0.6037596426896223,
+          "minY": -22.84679502269687,
+          "maxY": -1.7125860278925216,
+          "behind": 4,
+          "clippedDepth": 1,
+          "requiredFov": 177.75162177229328
+        },
+        "envelopeCrop": 9831.05776021359,
+        "mesh": {
+          "minX": -5.56273951600282,
+          "maxX": 3.789177234152195,
+          "minY": -55.73740390486668,
+          "maxY": -3.053628469159904,
+          "behind": 3871,
+          "clippedDepth": 1272,
+          "requiredFov": 179.9971189778143
+        },
+        "mesh75": {
+          "minX": -5.489074497016145,
+          "maxX": 3.738998754269271,
+          "minY": -54.999296915476265,
+          "maxY": -3.0131905521027074,
+          "behind": 3871,
+          "clippedDepth": 1272,
+          "requiredFov": 179.9971189778143
+        },
+        "body": {
+          "minX": -0.07195246300219021,
+          "maxX": 0.06608245930404119,
+          "minY": 0.00012069439298850737,
+          "maxY": 0.29435416542441056,
+          "behind": 0,
+          "clippedDepth": 0,
+          "requiredFov": 65,
+          "minZ": -0.08258785185486743,
+          "maxZ": 0.06799301714989811
+        },
+        "meshCrop": 24631.831757190008,
+        "mesh75Crop": 24299.68361196432,
+        "boomClear": 1,
+        "boomLength": 0.055502493011956144,
+        "diagnosticMs": 20.699999999254942
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "name": "latest-crossbar",
+      "player": {
+        "position": {
+          "x": 0.04634572261634429,
+          "y": 0.18,
+          "z": 0.719868619014693
+        },
+        "yaw": 0.13552771930518503,
+        "pitch": -0.52
+      },
+      "candidates": [
+        {
+          "name": "actual-current",
+          "position": {
+            "x": 0.053265291524089875,
+            "y": 0.5635603273322756,
+            "z": 0.7715061542805213
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 20973.89081542471,
+            "requiredFov": 179.9455206204345,
+            "behind": 190,
+            "near": 339,
+            "boomClear": 1,
+            "boomLength": 0.052102105736717315,
+            "method": "Actual rendered-camera projection; do not reconstruct lookAt at zero boom"
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "fresh-reduced-placement",
+          "position": {
+            "x": 0.12607833046358646,
+            "y": 0.5530000238418579,
+            "z": 1.3045743866603494
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.62943955104042,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "frozen-player-follow-4s",
+          "position": {
+            "x": 0.1260783304635864,
+            "y": 0.5530000238418581,
+            "z": 1.304574386660349
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.62943955104043,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534586
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-0",
+          "position": {
+            "x": 0.11948750008527748,
+            "y": 0.5530000238418579,
+            "z": 1.2562416324733212
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 20.797888922521444,
+            "requiredFov": 82.21582707568447,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443528
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-1",
+          "position": {
+            "x": -0.021058885139569647,
+            "y": 0.5530000238418579,
+            "z": 1.3061234631955236
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.57198078429008,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534592
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-2",
+          "position": {
+            "x": 0.2682581586894114,
+            "y": 0.5530000238418579,
+            "z": 1.2666711374693316
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 77.44174582629898,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 7,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-3",
+          "position": {
+            "x": -0.16400520870137525,
+            "y": 0.5530000238418579,
+            "z": 1.271222052998727
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 74.3750913925915,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534591
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-4",
+          "position": {
+            "x": 0.08149704907939812,
+            "y": 0.5619965455124384,
+            "z": 0.7675239791891383
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 22141.452405753746,
+            "requiredFov": 179.98470606772432,
+            "behind": 430,
+            "near": 594,
+            "boomClear": 1,
+            "boomLength": 0.059225468121627434
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-5",
+          "position": {
+            "x": 0.11948750008527748,
+            "y": 0.5530000238418579,
+            "z": 1.2562416324733212
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 20.797888922521444,
+            "requiredFov": 82.21582707568447,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443528
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-6",
+          "position": {
+            "x": 0.10550451321621673,
+            "y": 0.5530000238418579,
+            "z": 1.1536997328415246
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 155.32029665080995,
+            "requiredFov": 96.57735737377396,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.4379602696928899
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-7",
+          "position": {
+            "x": -0.146617249801416,
+            "y": 0.5530000238418579,
+            "z": 1.2256462583520873
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 0.3352876561021345,
+            "requiredFov": 79.70164825345094,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-8",
+          "position": {
+            "x": 0.08178660862456534,
+            "y": 0.5618971107058611,
+            "z": 0.7679165408875253
+          },
+          "target": {
+            "x": 0.04634572261634429,
+            "y": 0.5630000238418579,
+            "z": 0.719868619014693
+          },
+          "projection": {
+            "cropPx": 22215.223191105702,
+            "requiredFov": 179.99067751072917,
+            "behind": 429,
+            "near": 592,
+            "boomClear": 1,
+            "boomLength": 0.05971495302460737
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "latest-collision-hold",
+      "player": {
+        "position": {
+          "x": 0.034973513956582485,
+          "y": 0.18,
+          "z": 0.6364724254903065
+        },
+        "yaw": 0.13552771930518503,
+        "pitch": -0.52
+      },
+      "candidates": [
+        {
+          "name": "actual-current",
+          "position": {
+            "x": 0.044188703506537585,
+            "y": 0.6684604708892958,
+            "z": 0.7040504795046583
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 1511.5797462762946,
+            "requiredFov": 149.2420190250686,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.07065763998509145,
+            "method": "Actual rendered-camera projection; do not reconstruct lookAt at zero boom"
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "fresh-reduced-placement",
+          "position": {
+            "x": 0.11470612180382467,
+            "y": 0.9878784937337409,
+            "z": 1.2211781931359629
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7445303059393718
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "frozen-player-follow-4s",
+          "position": {
+            "x": 0.11470612180382464,
+            "y": 0.9878784937337407,
+            "z": 1.2211781931359624
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.6799999999999996
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7445303059393716
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-0",
+          "position": {
+            "x": 0.10811529142551568,
+            "y": 1.0615267559005068,
+            "z": 1.1728454389489347
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7406797597375914
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-1",
+          "position": {
+            "x": -0.03243109379933145,
+            "y": 0.9878784937337409,
+            "z": 1.2227272696711369
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7451789169435111
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-2",
+          "position": {
+            "x": 0.2568859500296496,
+            "y": 0.9878784937337409,
+            "z": 1.183274943944945
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.6800000000000002
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7275148411805079
+          ],
+          "visibilityScore": {
+            "visible": 7,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-3",
+          "position": {
+            "x": -0.17537741736113704,
+            "y": 0.9878784937337409,
+            "z": 1.1878258594743403
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.6799999999999999
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7296814147644897
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-4",
+          "position": {
+            "x": 0.3852683377958685,
+            "y": 0.9878784937337409,
+            "z": 1.1113741625513769
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.6800000000000002
+          },
+          "visibility": [
+            0.6877742242265015,
+            0.6877742242265015,
+            0.6877742242265015,
+            0.6877742242265015,
+            0.7030433345740178
+          ],
+          "visibilityScore": {
+            "visible": 3,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-5",
+          "position": {
+            "x": 0.10811529142551568,
+            "y": 1.0615267559005068,
+            "z": 1.1728454389489347
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            0.7406797597375914
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-6",
+          "position": {
+            "x": 0.09413230455645492,
+            "y": 0.9828525231548217,
+            "z": 1.070303539317138
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.55
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            0.6591626272873674,
+            0.7000564272085295
+          ],
+          "visibilityScore": {
+            "visible": 7,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-7",
+          "position": {
+            "x": -0.1579894584611778,
+            "y": 1.0615267559005068,
+            "z": 1.1422500648277008
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            0.7062240187456772,
+            0.7406797597375914
+          ],
+          "visibilityScore": {
+            "visible": 7,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-8",
+          "position": {
+            "x": 0.35631238327914666,
+            "y": 1.0615267559005068,
+            "z": 1.0721179927126767
+          },
+          "target": {
+            "x": 0.034973513956582485,
+            "y": 0.6499999999999999,
+            "z": 0.6364724254903065
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 65,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.68
+          },
+          "visibility": [
+            0.6605405570528804,
+            0.6605405570528804,
+            0.6605405570528804,
+            0.6605405570528804,
+            0.7406797597375914
+          ],
+          "visibilityScore": {
+            "visible": 3,
+            "total": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "latest-crossbar-turns",
+      "player": {
+        "position": {
+          "x": -0.0361084616168136,
+          "y": 0.18,
+          "z": 0.725904666359385
+        },
+        "yaw": 0.13552771930518503,
+        "pitch": -0.52
+      },
+      "candidates": [
+        {
+          "name": "actual-current",
+          "position": {
+            "x": -0.02317963174255855,
+            "y": 0.5599586555154732,
+            "z": 0.820716081669782
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 8932.29008868461,
+            "requiredFov": 173.41757984101363,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.09573718732224566,
+            "method": "Actual rendered-camera projection; do not reconstruct lookAt at zero boom"
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "fresh-reduced-placement",
+          "position": {
+            "x": 0.04362414623042859,
+            "y": 0.5530000238418579,
+            "z": 1.3106104340050413
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.84697965363554,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534589
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "frozen-player-follow-4s",
+          "position": {
+            "x": 0.04362414623042855,
+            "y": 0.5530000238418581,
+            "z": 1.3106104340050408
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.84697965363556,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534584
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-0",
+          "position": {
+            "x": 0.03703331585211959,
+            "y": 0.5530000238418579,
+            "z": 1.262277679818013
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 13.901170999449342,
+            "requiredFov": 81.37895068885936,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-1",
+          "position": {
+            "x": -0.10351306937272753,
+            "y": 0.5530000238418579,
+            "z": 1.3121595105402155
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.06548924512593,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534591
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-2",
+          "position": {
+            "x": 0.1858039744562535,
+            "y": 0.5530000238418579,
+            "z": 1.2727071848140237
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.41270135838508,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534591
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-3",
+          "position": {
+            "x": -0.24645939293453314,
+            "y": 0.5530000238418579,
+            "z": 1.277258100343419
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 74.13319887531767,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-4",
+          "position": {
+            "x": 0.3141863622224724,
+            "y": 0.5530000238418579,
+            "z": 1.2008064034204553
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.72624363345517,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-5",
+          "position": {
+            "x": 0.03703331585211959,
+            "y": 0.5530000238418579,
+            "z": 1.262277679818013
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 13.901170999449342,
+            "requiredFov": 81.37895068885936,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-6",
+          "position": {
+            "x": 0.023050328983058838,
+            "y": 0.5530000238418579,
+            "z": 1.1597357801862165
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 145.19111579068118,
+            "requiredFov": 95.61596101338145,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.4379602696928898
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-7",
+          "position": {
+            "x": -0.2290714340345739,
+            "y": 0.5530000238418579,
+            "z": 1.2316823056967792
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 79.46183306884006,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        },
+        {
+          "name": "existing-view-8",
+          "position": {
+            "x": 0.2852304077057506,
+            "y": 0.5530000238418579,
+            "z": 1.1615502335817551
+          },
+          "target": {
+            "x": -0.0361084616168136,
+            "y": 0.5630000238418579,
+            "z": 0.725904666359385
+          },
+          "projection": {
+            "cropPx": 22.006030072483785,
+            "requiredFov": 82.36134068933326,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 9,
+            "total": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "latest-blocked-and-exit",
+      "player": {
+        "position": {
+          "x": 0.0784534853889487,
+          "y": 0.18,
+          "z": 0.8087579749848717
+        },
+        "yaw": 0.13552771930518503,
+        "pitch": -0.52
+      },
+      "candidates": [
+        {
+          "name": "actual-current",
+          "position": {
+            "x": 0.07845348538894914,
+            "y": 0.5630000238418575,
+            "z": 0.8087579749848712
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 6868.77298353266,
+            "requiredFov": 171.56763619675846,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 7.108895957933346e-16,
+            "method": "Actual rendered-camera projection; do not reconstruct lookAt at zero boom"
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "fresh-reduced-placement",
+          "position": {
+            "x": 0.15818609323619087,
+            "y": 0.5530000238418579,
+            "z": 1.393463742630528
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.79499685238055,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "frozen-player-follow-4s",
+          "position": {
+            "x": 0.15818609323619082,
+            "y": 0.5530000238418581,
+            "z": 1.3934637426305276
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.79499685238058,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534586
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-0",
+          "position": {
+            "x": 0.15159526285788189,
+            "y": 0.5530000238418579,
+            "z": 1.3451309884434999
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 13.034200207490843,
+            "requiredFov": 81.27299805165823,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443528
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-1",
+          "position": {
+            "x": 0.011048877633034762,
+            "y": 0.5530000238418579,
+            "z": 1.3950128191657023
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.15924184222456,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534592
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-2",
+          "position": {
+            "x": 0.3003659214620158,
+            "y": 0.5530000238418579,
+            "z": 1.3555604934395102
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.5640532303434,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.590201765053459
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-3",
+          "position": {
+            "x": -0.13189744592877084,
+            "y": 0.5530000238418579,
+            "z": 1.3601114089689057
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 76.43566060053764,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534591
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-4",
+          "position": {
+            "x": 0.4287483092282347,
+            "y": 0.5530000238418579,
+            "z": 1.2836597120459419
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 0,
+            "requiredFov": 75.23065698526639,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5902017650534589
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-5",
+          "position": {
+            "x": 0.15159526285788189,
+            "y": 0.5530000238418579,
+            "z": 1.3451309884434999
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 13.034200207490843,
+            "requiredFov": 81.27299805165823,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443528
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-6",
+          "position": {
+            "x": 0.13761227598882114,
+            "y": 0.5530000238418579,
+            "z": 1.2425890888117033
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 142.41141972073868,
+            "requiredFov": 95.34897533175462,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.4379602696928899
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-7",
+          "position": {
+            "x": -0.11450948702881159,
+            "y": 0.5530000238418579,
+            "z": 1.314535614322266
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 18.66713849947198,
+            "requiredFov": 81.95840248886387,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443526
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        },
+        {
+          "name": "existing-view-8",
+          "position": {
+            "x": 0.39979235471151287,
+            "y": 0.5530000238418579,
+            "z": 1.244403542207242
+          },
+          "target": {
+            "x": 0.0784534853889487,
+            "y": 0.5630000238418579,
+            "z": 0.8087579749848717
+          },
+          "projection": {
+            "cropPx": 7.900638347745359,
+            "requiredFov": 80.64216621963892,
+            "behind": 0,
+            "near": 0,
+            "boomClear": 1,
+            "boomLength": 0.5414293390443528
+          },
+          "visibility": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "visibilityScore": {
+            "visible": 8,
+            "total": 8
+          }
+        }
+      ]
+    }
+  ],
+  "poseGroups": [
+    {
+      "name": "Idle",
+      "count": 375,
+      "maxSide": 0.07506624508180156,
+      "maxDepth": 0.07480921255370257,
+      "maxHeight": 0.30011492906541787,
+      "cropped": 1,
+      "meshOutsidePredictedProjection": 0
+    },
+    {
+      "name": "Walk-full",
+      "count": 193,
+      "maxSide": 0.09706353432792485,
+      "maxDepth": 0.09136722783482709,
+      "maxHeight": 0.29820618406438143,
+      "cropped": 21,
+      "meshOutsidePredictedProjection": 9
+    },
+    {
+      "name": "Crossfade",
+      "count": 146,
+      "maxSide": 0.08697887739365208,
+      "maxDepth": 0.08700543259431635,
+      "maxHeight": 0.30595919181232983,
+      "cropped": 11,
+      "meshOutsidePredictedProjection": 2
+    },
+    {
+      "name": "Walk-quarter-0",
+      "count": 30,
+      "maxSide": 0.09706353432792485,
+      "maxDepth": 0.0876293215745801,
+      "maxHeight": 0.29820618406438143,
+      "cropped": 2,
+      "meshOutsidePredictedProjection": 1
+    },
+    {
+      "name": "Walk-quarter-1",
+      "count": 84,
+      "maxSide": 0.09396750443882043,
+      "maxDepth": 0.08519385848878426,
+      "maxHeight": 0.29606519249695634,
+      "cropped": 5,
+      "meshOutsidePredictedProjection": 6
+    },
+    {
+      "name": "Walk-quarter-2",
+      "count": 48,
+      "maxSide": 0.0825034033252676,
+      "maxDepth": 0.09136722783482709,
+      "maxHeight": 0.29785593293444873,
+      "cropped": 11,
+      "meshOutsidePredictedProjection": 2
+    },
+    {
+      "name": "Walk-quarter-3",
+      "count": 31,
+      "maxSide": 0.08329096787625728,
+      "maxDepth": 0.08823710870617137,
+      "maxHeight": 0.2966413214969756,
+      "cropped": 3,
+      "meshOutsidePredictedProjection": 0
+    }
+  ]
+}

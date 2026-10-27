@@ -1,0 +1,83 @@
+{
+ "eye-near": {
+  "maskPixels": 6175,
+  "bbox": [
+   332,
+   245,
+   424,
+   326
+  ],
+  "seam": {
+   "edgePairs": 350,
+   "compositeMeanAbs": 14.3,
+   "masterOwnEdgeMeanAbs": 8.1,
+   "pairsOver25": 44
+  },
+  "skin": {
+   "candidateInsideMask": [
+    253,
+    209,
+    176
+   ],
+   "masterRingOutside": [
+    252,
+    202,
+    167
+   ],
+   "insideSkinPixels": 5091
+  },
+  "darkCentroid": {
+   "masterOpen": [
+    379,
+    276,
+    2163
+   ],
+   "candidateClosed": [
+    366,
+    284,
+    862
+   ]
+  }
+ },
+ "eye-far": {
+  "maskPixels": 4463,
+  "bbox": [
+   461,
+   256,
+   535,
+   334
+  ],
+  "seam": {
+   "edgePairs": 308,
+   "compositeMeanAbs": 15.9,
+   "masterOwnEdgeMeanAbs": 2.2,
+   "pairsOver25": 24
+  },
+  "skin": {
+   "candidateInsideMask": [
+    253,
+    214,
+    181
+   ],
+   "masterRingOutside": [
+    252,
+    203,
+    168
+   ],
+   "insideSkinPixels": 3959
+  },
+  "darkCentroid": {
+   "masterOpen": [
+    496,
+    294,
+    1524
+   ],
+   "candidateClosed": [
+    496,
+    318,
+    422
+   ]
+  }
+ },
+ "pixelsChangedOutsideMasks": 0
+}

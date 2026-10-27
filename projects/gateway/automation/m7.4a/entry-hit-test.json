@@ -1,0 +1,133 @@
+{
+  "browserVersion": "155.0.8059.40",
+  "cases": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "entries": [
+        {
+          "name": "Explore in First Person",
+          "buttonBounds": {
+            "x": 362.375,
+            "y": 731.078125,
+            "width": 142.3125,
+            "height": 38,
+            "top": 731.078125,
+            "right": 504.6875,
+            "bottom": 769.078125,
+            "left": 362.375
+          },
+          "center": {
+            "x": 433.53125,
+            "y": 750.078125
+          },
+          "hit": {
+            "tag": "DIV",
+            "role": "group",
+            "label": "Inspect Tools",
+            "className": "universe-module__jsSY4G__inspectionSurface"
+          },
+          "buttonReceivesPointer": false,
+          "rowStyle": {
+            "position": "static",
+            "zIndex": "auto"
+          }
+        },
+        {
+          "name": "Explore in Third Person",
+          "buttonBounds": {
+            "x": 512.6875,
+            "y": 731.078125,
+            "width": 147.4375,
+            "height": 38,
+            "top": 731.078125,
+            "right": 660.125,
+            "bottom": 769.078125,
+            "left": 512.6875
+          },
+          "center": {
+            "x": 586.40625,
+            "y": 750.078125
+          },
+          "hit": {
+            "tag": "DIV",
+            "role": "group",
+            "label": "Inspect Tools",
+            "className": "universe-module__jsSY4G__inspectionSurface"
+          },
+          "buttonReceivesPointer": false,
+          "rowStyle": {
+            "position": "static",
+            "zIndex": "auto"
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 700
+      },
+      "entries": [
+        {
+          "name": "Explore in First Person",
+          "buttonBounds": {
+            "x": 86.703125,
+            "y": 527.265625,
+            "width": 142.3125,
+            "height": 38,
+            "top": 527.265625,
+            "right": 229.015625,
+            "bottom": 565.265625,
+            "left": 86.703125
+          },
+          "center": {
+            "x": 157.859375,
+            "y": 546.265625
+          },
+          "hit": {
+            "tag": "DIV",
+            "role": "group",
+            "label": "Inspect Tools",
+            "className": "universe-module__jsSY4G__inspectionSurface"
+          },
+          "buttonReceivesPointer": false,
+          "rowStyle": {
+            "position": "static",
+            "zIndex": "auto"
+          }
+        },
+        {
+          "name": "Explore in Third Person",
+          "buttonBounds": {
+            "x": 237.015625,
+            "y": 527.265625,
+            "width": 147.4375,
+            "height": 38,
+            "top": 527.265625,
+            "right": 384.453125,
+            "bottom": 565.265625,
+            "left": 237.015625
+          },
+          "center": {
+            "x": 310.734375,
+            "y": 546.265625
+          },
+          "hit": {
+            "tag": "DIV",
+            "role": "group",
+            "label": "Inspect Tools",
+            "className": "universe-module__jsSY4G__inspectionSurface"
+          },
+          "buttonReceivesPointer": false,
+          "rowStyle": {
+            "position": "static",
+            "zIndex": "auto"
+          }
+        }
+      ]
+    }
+  ]
+}

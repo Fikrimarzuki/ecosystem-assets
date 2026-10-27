@@ -1,0 +1,116 @@
+{
+ "outDir": "<scratch>",
+ "room": "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/review/m1.0h/bedroom-composition-study-v2.room-only.@1x.png",
+ "characters": {
+  "boy": {
+   "native": "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/source/characters/boy/boy-three-quarter-accepted-clean.v1.native.png",
+   "shadowNative": "/private/tmp/claude-501/-Users-mfm-code/819cafbc-699e-40d2-8ff9-699324ff092a/scratchpad/jc/boy.shadow.native.png",
+   "anchor": [
+    153,
+    529
+   ],
+   "figureHeightPx": 514,
+   "heightU": 200,
+   "tier1x": "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/exports/characters/boy/boy-three-quarter-accepted-clean.v1.@1x.png",
+   "tier1xAnchor": [
+    80,
+    216
+   ],
+   "lineupX": 190,
+   "hairTopNative": 16,
+   "chinNative": 224
+  },
+  "mom": {
+   "native": "source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+   "shadowNative": "study-only ellipse: the M1.0k-A2 study shadow translated +16 px to the v2 feet centre (see provenance); not an asset",
+   "anchor": [
+    400,
+    1215
+   ],
+   "figureHeightPx": 1160,
+   "heightU": 290,
+   "tier1x": "/Users/mfm/code/porto-projects/ecosystem-assets/projects/momee/exports/characters/mom/mom-three-quarter-accepted-clean.v1.@1x.png",
+   "tier1xAnchor": [
+    100,
+    304
+   ],
+   "lineupX": 370,
+   "hairTopNative": 56,
+   "chinNative": 395
+  }
+ },
+ "placements": {
+  "default": {
+   "boy": [
+    520,
+    630
+   ],
+   "mom": [
+    840,
+    560
+   ]
+  }
+ },
+ "views": [
+  {
+   "name": "phone-portrait-390x844-overview",
+   "zoom": 0.938,
+   "cx": 690,
+   "cy": 360,
+   "visW": 416,
+   "visH": 900
+  },
+  {
+   "name": "phone-landscape-844x390-overview",
+   "zoom": 0.85,
+   "cx": 690,
+   "cy": 475,
+   "visW": 993,
+   "visH": 459
+  },
+  {
+   "name": "phone-portrait-390x844-child-and-mom",
+   "zoom": 1.172,
+   "cx": 789,
+   "cy": 360,
+   "visW": 333,
+   "visH": 720,
+   "placements": {
+    "boy": [
+     730,
+     590
+    ],
+    "mom": [
+     840,
+     560
+    ]
+   }
+  },
+  {
+   "name": "phone-landscape-844x390-child-and-mom",
+   "zoom": 0.85,
+   "cx": 784,
+   "cy": 447,
+   "visW": 993,
+   "visH": 459,
+   "placements": {
+    "boy": [
+     730,
+     590
+    ],
+    "mom": [
+     840,
+     560
+    ]
+   }
+  },
+  {
+   "name": "desktop-1280x800-overview",
+   "zoom": 1.1,
+   "cx": 620,
+   "cy": 360,
+   "visW": 1164,
+   "visH": 727
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+  "inputs": {
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-assembled.blend": "e5d5bdadf31fafed416c3e919eec2f142a6d794109e0409f47b35c8c20cda193",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-animated-candidate.glb": "63c9b16b613931d9a5285aaee3db35bcb1f0619fcbd464b04553455c1810a53e",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-walk.fbx": "cd11b0ba2434c0e575ce8f23a47eb3773367756984a1326c44946962274d7ff1",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\animated\\m7.2\\astronaut-idle.fbx": "ce33cb19f8db0127b312d414168c67c80ddce575ef60f8d04147562151208ef4",
+    "D:\\Code\\porto-projects\\gateway-assets\\astronaut\\prepared\\m7.1\\astronaut-meshy-textures-1024.glb": "fdd18dab76af15e1fcd171b7bae43f2061724ac471598f19de36c97f9a87ea68"
+  },
+  "fps": 30,
+  "samplingStepFrames": 0.03125,
+  "sampleCount": 993,
+  "effectiveSamplingHz": 960,
+  "method": "Independent periodic smoothed foot-clearance/contact targets, analytical two-bone leg solve baked at 240Hz; no constraints, pelvis lift, scale changes or added bones",
+  "idleReferenceOffsetForMeasurements": 0.009607551704849298,
+  "savedSceneGroundReferenceZ": -0.009607551704849298,
+  "legsChanged": [
+    "mixamorig:LeftUpLeg",
+    "mixamorig:LeftLeg",
+    "mixamorig:LeftFoot",
+    "mixamorig:RightUpLeg",
+    "mixamorig:RightLeg",
+    "mixamorig:RightFoot"
+  ],
+  "idleActionUnchanged": true,
+  "skinGeometryUvRestTransformsTexturesUnchanged": true,
+  "otherWalkChannelsUnchanged": true,
+  "durationSeconds": 1.0333333333333334,
+  "frameRange": [
+    1.0,
+    32.0
+  ],
+  "hipDisplacement": {
+    "max": 0.0,
+    "mean": 0.0,
+    "p95": 0.0,
+    "p99": 0.0
+  },
+  "maximumSkinMovementOutsideAffectedLegHierarchy": 0.0,
+  "footWorldRotationChangeDegrees": {
+    "max": 0.002184053004673756,
+    "mean": 8.706325043792321e-05,
+    "p95": 0.0003472775045684632,
+    "p99": 0.001045833427066052
+  },
+  "horizontalAnkleChange": {
+    "max": 1.1429200640122872e-05,
+    "mean": 5.930083246768571e-07,
+    "p95": 2.437193359128287e-06,
+    "p99": 5.365100810195171e-06
+  },
+  "maximumUpperLegAngleChangeDegrees": 14.345429619630819,
+  "maximumLowerLegAngleChangeDegrees": 10.820294537150788,
+  "maximumKneeChange": [
+    23.0,
+    "Right",
+    0.07071726793284935
+  ],
+  "maximumSegmentLengthChange": 1.4778013573968352e-07,
+  "wholeMeshPositionChanges": {
+    "max": 0.0766988242403921,
+    "mean": 0.002356491245013688,
+    "p95": 0.011513397078500385,
+    "p99": 0.04246292948046213
+  },
+  "boots": {
+    "Left": {
+      "regionVertexCount": 954,
+      "beforeMinimum": -0.02900556101032361,
+      "afterMinimum": 0.0007143235997268422,
+      "remainingPenetration": 0.0,
+      "contactSampleCount": 453,
+      "beforeMaximumContactFloating": 0.005776967278962417,
+      "afterMaximumContactFloating": 0.005798634731256902,
+      "afterMeanContactClearance": 0.0010070379306876185,
+      "afterP95ContactClearance": 0.0017656722685140298,
+      "maximumAnkleVerticalChange": 0.029469072818756104,
+      "minimumAnkleVerticalChange": -0.00032411515712738037,
+      "maximumAnkleVelocityChange": 0.5287972092628479,
+      "sourceAnkleVelocitySeam": 0.6665829420089722,
+      "correctedAnkleVelocitySeam": 0.6665324568748474,
+      "addedCorrectionVelocitySeam": 6.719217344652861e-05,
+      "sourceAnkleEndpointDelta": 6.763223154848674e-07,
+      "correctedAnkleEndpointDelta": 6.70976362471265e-07
+    },
+    "Right": {
+      "regionVertexCount": 974,
+      "beforeMinimum": -0.04522137633179789,
+      "afterMinimum": 0.0007018033335727935,
+      "remainingPenetration": 0.0,
+      "contactSampleCount": 428,
+      "beforeMaximumContactFloating": 0.007910999882555126,
+      "afterMaximumContactFloating": 0.0033120619706608666,
+      "afterMeanContactClearance": 0.0009290943531091853,
+      "afterP95ContactClearance": 0.001401785604930336,
+      "maximumAnkleVerticalChange": 0.04578627645969391,
+      "minimumAnkleVerticalChange": -0.006750181317329407,
+      "maximumAnkleVelocityChange": 0.8093304634094238,
+      "sourceAnkleVelocitySeam": 0.15601104497909546,
+      "correctedAnkleVelocitySeam": 0.15696625411510468,
+      "addedCorrectionVelocitySeam": 0.00272574694827199,
+      "sourceAnkleEndpointDelta": 3.918353854714951e-07,
+      "correctedAnkleEndpointDelta": 3.886205774961127e-07
+    }
+  },
+  "deformation": {
+    "boots": {
+      "vertices": 1928,
+      "qualifyingEdgeSamples": 3508269,
+      "edgeLengthRatioVsSameSourcePose": {
+        "max": 1.1023775296044955,
+        "mean": 0.9998437711659989,
+        "p95": 1.0057469166382391,
+        "p99": 1.021841644124389
+      },
+      "absoluteEdgeLengthChange": {
+        "max": 0.009271622359674159,
+        "mean": 9.353516083831184e-05,
+        "p95": 0.0004093707495340776,
+        "p99": 0.0016646094554091748
+      },
+      "minimumSourceEdgeLengthForRatio": 0.003
+    },
+    "knees": {
+      "vertices": 643,
+      "qualifyingEdgeSamples": 989533,
+      "edgeLengthRatioVsSameSourcePose": {
+        "max": 1.649283785670718,
+        "mean": 0.9977989506898771,
+        "p95": 1.0295274356664978,
+        "p99": 1.08885501513247
+      },
+      "absoluteEdgeLengthChange": {
+        "max": 0.022695226018531245,
+        "mean": 0.00034892786521144466,
+        "p95": 0.0015994152053593821,
+        "p99": 0.0044372271699085935
+      },
+      "minimumSourceEdgeLengthForRatio": 0.003
+    },
+    "ankles": {
+      "vertices": 180,
+      "qualifyingEdgeSamples": 199593,
+      "edgeLengthRatioVsSameSourcePose": {
+        "max": 1.0255116150720274,
+        "mean": 0.9990895358352392,
+        "p95": 1.0032218273209428,
+        "p99": 1.0068627228442317
+      },
+      "absoluteEdgeLengthChange": {
+        "max": 0.0008428297244742269,
+        "mean": 4.355866211704051e-05,
+        "p95": 0.00019376740488613597,
+        "p99": 0.0003920980084117162
+      },
+      "minimumSourceEdgeLengthForRatio": 0.003
+    },
+    "hips": {
+      "vertices": 2180,
+      "qualifyingEdgeSamples": 3419572,
+      "edgeLengthRatioVsSameSourcePose": {
+        "max": 1.5367030119614637,
+        "mean": 1.0003422338356356,
+        "p95": 1.0103205704597842,
+        "p99": 1.0487779792652696
+      },
+      "absoluteEdgeLengthChange": {
+        "max": 0.017636006307549388,
+        "mean": 0.00018557028494465582,
+        "p95": 0.000851288652420667,
+        "p99": 0.0033281406743060934
+      },
+      "minimumSourceEdgeLengthForRatio": 0.003
+    }
+  },
+  "rootDrift": {
+    "sourceHorizontalEndpointDelta": 1.156737194918378e-08,
+    "correctedHorizontalEndpointDelta": 1.156737194918378e-08,
+    "hipsVerticalTrajectoryBefore": [
+      0.6977277994155884,
+      0.7795124053955078
+    ],
+    "hipsVerticalTrajectoryAfter": [
+      0.6977277994155884,
+      0.7795124053955078
+    ]
+  },
+  "loop": {
+    "sourceMaximumJointEndpointDelta": 9.161487923847744e-07,
+    "correctedMaximumJointEndpointDelta": 9.161487923847744e-07,
+    "sourceMaximumBoneRotationSeamDegrees": 0.0003575140826245298,
+    "correctedMaximumBoneRotationSeamDegrees": 0.0003575140826245298
+  },
+  "numericSafetyChecks": {
+    "clearance": true,
+    "contactGapUnder7mm": true,
+    "hipsUnchanged": true,
+    "footOrientationsWithinPoint1Degree": true,
+    "horizontalAnklesWithinPoint2mm": true,
+    "segmentLengthsWithinPoint2mm": true,
+    "noSignificantRootDrift": true,
+    "loopPositionContinuity": true,
+    "loopRotationContinuity": true,
+    "idlePreserved": true,
+    "skinPreserved": true,
+    "otherWalkChannelsPreserved": true,
+    "durationPreserved": true
+  },
+  "numericChecksPassed": true,
+  "inputsUnchanged": true
+}

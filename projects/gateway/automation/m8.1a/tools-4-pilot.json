@@ -1,0 +1,208 @@
+{
+  "bounds": {
+    "name": "tools-4-pilot-orbit1.1",
+    "sizes": {
+      "tools": [
+        4,
+        3.4
+      ]
+    },
+    "orbit": 1.1,
+    "zoom": 1.1,
+    "station": [
+      {
+        "world": "latest",
+        "gap": 0.8242509792236727,
+        "time": 254
+      },
+      {
+        "world": "games",
+        "gap": 1.546031728720895,
+        "time": 522
+      },
+      {
+        "world": "learning",
+        "gap": 1.85670592926091,
+        "time": 22
+      },
+      {
+        "world": "tools",
+        "gap": 1.1127639926772237,
+        "time": 316
+      },
+      {
+        "world": "after-hours",
+        "gap": 1.895438336391636,
+        "time": 361
+      },
+      {
+        "world": "platforms",
+        "gap": 1.68280764983936,
+        "time": 122
+      }
+    ],
+    "pairs": [
+      {
+        "a": "latest",
+        "b": "games",
+        "gap": 1.0992601036240432,
+        "time": 39
+      },
+      {
+        "a": "latest",
+        "b": "learning",
+        "gap": 7.4164736278876955,
+        "time": 102
+      },
+      {
+        "a": "latest",
+        "b": "tools",
+        "gap": 0.7356968936555994,
+        "time": 233
+      },
+      {
+        "a": "latest",
+        "b": "after-hours",
+        "gap": 7.421678474742582,
+        "time": 284
+      },
+      {
+        "a": "latest",
+        "b": "platforms",
+        "gap": 9.471509539276905,
+        "time": 154
+      },
+      {
+        "a": "games",
+        "b": "learning",
+        "gap": 2.106940275846026,
+        "time": 248
+      },
+      {
+        "a": "games",
+        "b": "tools",
+        "gap": 7.9218852146302075,
+        "time": 292
+      },
+      {
+        "a": "games",
+        "b": "after-hours",
+        "gap": 10.900811616393781,
+        "time": 335
+      },
+      {
+        "a": "games",
+        "b": "platforms",
+        "gap": 8.174098061171236,
+        "time": 286
+      },
+      {
+        "a": "learning",
+        "b": "tools",
+        "gap": 10.255949250614396,
+        "time": 438
+      },
+      {
+        "a": "learning",
+        "b": "after-hours",
+        "gap": 8.74408714676089,
+        "time": 388
+      },
+      {
+        "a": "learning",
+        "b": "platforms",
+        "gap": 2.38017032125599,
+        "time": 234
+      },
+      {
+        "a": "tools",
+        "b": "after-hours",
+        "gap": 2.03748336057929,
+        "time": 262
+      },
+      {
+        "a": "tools",
+        "b": "platforms",
+        "gap": 8.133848876249848,
+        "time": 90
+      },
+      {
+        "a": "after-hours",
+        "b": "platforms",
+        "gap": 2.8098454938698922,
+        "time": 457
+      }
+    ],
+    "views": [
+      {
+        "w": 1150,
+        "h": 740,
+        "clip": 0,
+        "maxOverlap": 0.007425101356767128,
+        "pair": "latest/tools",
+        "phase": 364,
+        "stationOverlap": 0,
+        "labelOverlap": 0,
+        "labelClip": 0,
+        "zoomRequired": 1.0269870259296114
+      },
+      {
+        "w": 688,
+        "h": 570,
+        "clip": 0,
+        "maxOverlap": 0.0074251013567670715,
+        "pair": "latest/tools",
+        "phase": 364,
+        "stationOverlap": 0,
+        "labelOverlap": 0,
+        "labelClip": 0,
+        "zoomRequired": 1.0414826182097745
+      },
+      {
+        "w": 592,
+        "h": 570,
+        "clip": 0,
+        "maxOverlap": 0.007425101356767139,
+        "pair": "latest/tools",
+        "phase": 364,
+        "stationOverlap": 0,
+        "labelOverlap": 0,
+        "labelClip": 0,
+        "zoomRequired": 1.090896524413031
+      }
+    ]
+  },
+  "routes": {
+    "name": "tools-4-pilot-orbit1.1",
+    "phaseStep": 5,
+    "samplesPerRoute": 513,
+    "frontShift": 0,
+    "parking": "west-edge delta -(width-2.72)/2, local Y/Z unchanged",
+    "worldOBBHits": 0,
+    "stationOBBHits": 0,
+    "worldActualHits": 0,
+    "stationActualHits": 0,
+    "firstWorld": null,
+    "firstStation": null,
+    "firstActual": null,
+    "minWorldSAT": 0.04110876501764315,
+    "minStationSAT": 0.00404354548454302,
+    "closestWorld": {
+      "destination": "platforms",
+      "phase": 405,
+      "sample": 497,
+      "obstacle": "platforms",
+      "part": 33
+    },
+    "closestStation": {
+      "destination": "latest",
+      "phase": 0,
+      "sample": 0,
+      "obstacle": "station",
+      "part": 13
+    },
+    "maxTurn": 0.22158669808852724,
+    "maxLength": 40.31139178836885,
+    "minLength": 32.684251677045076
+  }
+}

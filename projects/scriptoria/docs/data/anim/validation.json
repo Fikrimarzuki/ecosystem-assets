@@ -1,0 +1,314 @@
+{
+ "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\animated\\explorer-neutral-25k-animated.glb",
+ "fileSizeBytes": 2138888,
+ "triangles": 25000,
+ "staticIdenticalToV3": {
+  "JOINTS_0": true,
+  "NORMAL": true,
+  "POSITION": true,
+  "TEXCOORD_0": true,
+  "WEIGHTS_0": true,
+  "indices": true,
+  "inverseBindMatrices": true,
+  "jointNames": true,
+  "jointRestTRS": true,
+  "images": true,
+  "materials": true
+ },
+ "rawClips": {
+  "Idle": {
+   "durationS": 3.5,
+   "channels": 66,
+   "animatedNodes": 22,
+   "translationChannels": [
+    "chest",
+    "foot.L",
+    "foot.R",
+    "forearm.L",
+    "forearm.R",
+    "hand.L",
+    "hand.R",
+    "head",
+    "hips",
+    "neck",
+    "root",
+    "shin.L",
+    "shin.R",
+    "shoulder.L",
+    "shoulder.R",
+    "spine",
+    "thigh.L",
+    "thigh.R",
+    "toe.L",
+    "toe.R",
+    "upper_arm.L",
+    "upper_arm.R"
+   ],
+   "rootAnimated": true,
+   "interpolations": [
+    "LINEAR"
+   ]
+  },
+  "Walk": {
+   "durationS": 1,
+   "channels": 66,
+   "animatedNodes": 22,
+   "translationChannels": [
+    "chest",
+    "foot.L",
+    "foot.R",
+    "forearm.L",
+    "forearm.R",
+    "hand.L",
+    "hand.R",
+    "head",
+    "hips",
+    "neck",
+    "root",
+    "shin.L",
+    "shin.R",
+    "shoulder.L",
+    "shoulder.R",
+    "spine",
+    "thigh.L",
+    "thigh.R",
+    "toe.L",
+    "toe.R",
+    "upper_arm.L",
+    "upper_arm.R"
+   ],
+   "rootAnimated": true,
+   "interpolations": [
+    "LINEAR"
+   ]
+  },
+  "Run": {
+   "durationS": 0.7333,
+   "channels": 66,
+   "animatedNodes": 22,
+   "translationChannels": [
+    "chest",
+    "foot.L",
+    "foot.R",
+    "forearm.L",
+    "forearm.R",
+    "hand.L",
+    "hand.R",
+    "head",
+    "hips",
+    "neck",
+    "root",
+    "shin.L",
+    "shin.R",
+    "shoulder.L",
+    "shoulder.R",
+    "spine",
+    "thigh.L",
+    "thigh.R",
+    "toe.L",
+    "toe.R",
+    "upper_arm.L",
+    "upper_arm.R"
+   ],
+   "rootAnimated": true,
+   "interpolations": [
+    "LINEAR"
+   ]
+  }
+ },
+ "groundZ": -0.9512,
+ "clips": {
+  "Idle": {
+   "present": true,
+   "frames": "0-105",
+   "durationS": 3.5,
+   "loopSeamMaxVertexGapMm": 0.0,
+   "loopSeamVelocityJumpMm": 0.02,
+   "typicalMaxPerFrameAccelMm": 0.17,
+   "rootMaxDeviation": 0.0,
+   "hipsDriftXmm": 24.0,
+   "hipsDriftYmm": 0.0,
+   "hipsBobZmm": 8.0,
+   "jointRangeDeg": {
+    "elbow.L": [
+     5.1,
+     8.2
+    ],
+    "elbow.R": [
+     4.7,
+     8.0
+    ],
+    "hip.L": [
+     4.7,
+     9.2
+    ],
+    "hip.R": [
+     6.1,
+     8.4
+    ],
+    "knee.L": [
+     9.6,
+     18.3
+    ],
+    "knee.R": [
+     12.4,
+     17.1
+    ]
+   },
+   "jointLimitViolations": {},
+   "maxFlippedTris": 6,
+   "maxCollapsedTris": 0,
+   "maxNewSelfIntersections": 4,
+   "maxHandOrForearmVsLegIntersections": 0,
+   "feet": {
+    "L": {
+     "plantedFramePairs": 105,
+     "framesTotal": 106,
+     "expectedBackwardMmPerFrame": 0.0,
+     "slideErrMeanMmPerFrame": 0.02,
+     "slideErrMaxMmPerFrame": 0.1,
+     "lateralMaxMmPerFrame": 0.03,
+     "groundPenetrationMm": 0.1
+    },
+    "R": {
+     "plantedFramePairs": 105,
+     "framesTotal": 106,
+     "expectedBackwardMmPerFrame": 0.0,
+     "slideErrMeanMmPerFrame": 0.01,
+     "slideErrMaxMmPerFrame": 0.05,
+     "lateralMaxMmPerFrame": 0.03,
+     "groundPenetrationMm": 0.1
+    }
+   },
+   "groundSpeedMps": 0.0
+  },
+  "Walk": {
+   "present": true,
+   "frames": "0-30",
+   "durationS": 1.0,
+   "loopSeamMaxVertexGapMm": 0.0,
+   "loopSeamVelocityJumpMm": 36.71,
+   "typicalMaxPerFrameAccelMm": 61.17,
+   "rootMaxDeviation": 0.0,
+   "hipsDriftXmm": 35.8,
+   "hipsDriftYmm": 0.0,
+   "hipsBobZmm": 39.6,
+   "jointRangeDeg": {
+    "elbow.L": [
+     9.5,
+     16.2
+    ],
+    "elbow.R": [
+     9.2,
+     16.3
+    ],
+    "hip.L": [
+     -5.4,
+     36.7
+    ],
+    "hip.R": [
+     -5.3,
+     36.7
+    ],
+    "knee.L": [
+     15.1,
+     53.1
+    ],
+    "knee.R": [
+     15.6,
+     53.4
+    ]
+   },
+   "jointLimitViolations": {},
+   "maxFlippedTris": 24,
+   "maxCollapsedTris": 10,
+   "maxNewSelfIntersections": 34,
+   "maxHandOrForearmVsLegIntersections": 19,
+   "feet": {
+    "L": {
+     "plantedFramePairs": 16,
+     "framesTotal": 31,
+     "expectedBackwardMmPerFrame": 33.33,
+     "slideErrMeanMmPerFrame": 0.54,
+     "slideErrMaxMmPerFrame": 3.43,
+     "lateralMaxMmPerFrame": 0.25,
+     "groundPenetrationMm": 1.9
+    },
+    "R": {
+     "plantedFramePairs": 16,
+     "framesTotal": 31,
+     "expectedBackwardMmPerFrame": 33.33,
+     "slideErrMeanMmPerFrame": 0.43,
+     "slideErrMaxMmPerFrame": 3.45,
+     "lateralMaxMmPerFrame": 0.27,
+     "groundPenetrationMm": 2.1
+    }
+   },
+   "groundSpeedMps": 1.0
+  },
+  "Run": {
+   "present": true,
+   "frames": "0-22",
+   "durationS": 0.7333,
+   "loopSeamMaxVertexGapMm": 0.0,
+   "loopSeamVelocityJumpMm": 67.81,
+   "typicalMaxPerFrameAccelMm": 71.99,
+   "rootMaxDeviation": 0.0,
+   "hipsDriftXmm": 23.8,
+   "hipsDriftYmm": 0.0,
+   "hipsBobZmm": 59.0,
+   "jointRangeDeg": {
+    "elbow.L": [
+     66.7,
+     75.3
+    ],
+    "elbow.R": [
+     66.7,
+     75.8
+    ],
+    "hip.L": [
+     -0.8,
+     54.6
+    ],
+    "hip.R": [
+     -0.8,
+     54.5
+    ],
+    "knee.L": [
+     35.8,
+     96.7
+    ],
+    "knee.R": [
+     36.2,
+     96.8
+    ]
+   },
+   "jointLimitViolations": {},
+   "maxFlippedTris": 119,
+   "maxCollapsedTris": 55,
+   "maxNewSelfIntersections": 373,
+   "maxHandOrForearmVsLegIntersections": 0,
+   "feet": {
+    "L": {
+     "plantedFramePairs": 7,
+     "framesTotal": 23,
+     "expectedBackwardMmPerFrame": 79.53,
+     "slideErrMeanMmPerFrame": 0.73,
+     "slideErrMaxMmPerFrame": 4.02,
+     "lateralMaxMmPerFrame": 0.17,
+     "groundPenetrationMm": 0.4
+    },
+    "R": {
+     "plantedFramePairs": 7,
+     "framesTotal": 23,
+     "expectedBackwardMmPerFrame": 79.53,
+     "slideErrMeanMmPerFrame": 0.78,
+     "slideErrMaxMmPerFrame": 4.25,
+     "lateralMaxMmPerFrame": 0.06,
+     "groundPenetrationMm": 0.1
+    }
+   },
+   "groundSpeedMps": 2.386
+  }
+ }
+}

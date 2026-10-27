@@ -1,0 +1,167 @@
+{
+ "file": "D:\\Code\\porto-projects\\scriptoria-assets\\characters\\explorer\\rigged\\explorer-neutral-25k-rigged.glb",
+ "triangles": 25000,
+ "poses": {
+  "rest": {
+   "flippedFaces": 0,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.0,
+   "edgeStrain_max": 0.0,
+   "edgesOver50pctStrain": 0,
+   "problemTrisByDominantBone": {}
+  },
+  "shoulder-down-40": {
+   "flippedFaces": 1,
+   "collapsedTris_areaUnder25pct": 1,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.079,
+   "edgeStrain_max": 0.641,
+   "edgesOver50pctStrain": 18,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 2
+   }
+  },
+  "shoulder-up-45": {
+   "flippedFaces": 2,
+   "collapsedTris_areaUnder25pct": 2,
+   "stretchedTris_areaOver300pct": 1,
+   "edgeStrain_p99": 0.084,
+   "edgeStrain_max": 0.62,
+   "edgesOver50pctStrain": 20,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 3,
+    "shoulder.L": 1
+   }
+  },
+  "shoulder-swing": {
+   "flippedFaces": 5,
+   "collapsedTris_areaUnder25pct": 10,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.12,
+   "edgeStrain_max": 0.887,
+   "edgesOver50pctStrain": 72,
+   "problemTrisByDominantBone": {
+    "shoulder.L": 9,
+    "shoulder.R": 2,
+    "upper_arm.R": 1,
+    "upper_arm.L": 1
+   }
+  },
+  "elbow-90": {
+   "flippedFaces": 27,
+   "collapsedTris_areaUnder25pct": 8,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.175,
+   "edgeStrain_max": 0.797,
+   "edgesOver50pctStrain": 58,
+   "problemTrisByDominantBone": {
+    "forearm.R": 15,
+    "upper_arm.L": 14,
+    "shoulder.R": 2,
+    "forearm.L": 1
+   }
+  },
+  "wrist-45": {
+   "flippedFaces": 2,
+   "collapsedTris_areaUnder25pct": 4,
+   "stretchedTris_areaOver300pct": 1,
+   "edgeStrain_p99": 0.144,
+   "edgeStrain_max": 0.765,
+   "edgesOver50pctStrain": 32,
+   "problemTrisByDominantBone": {
+    "hand.R": 2,
+    "shoulder.R": 2,
+    "forearm.L": 2,
+    "forearm.R": 1
+   }
+  },
+  "hip-flex": {
+   "flippedFaces": 14,
+   "collapsedTris_areaUnder25pct": 3,
+   "stretchedTris_areaOver300pct": 11,
+   "edgeStrain_p99": 0.356,
+   "edgeStrain_max": 2.246,
+   "edgesOver50pctStrain": 246,
+   "problemTrisByDominantBone": {
+    "shoulder.L": 11,
+    "spine": 5,
+    "chest": 4,
+    "thigh.L": 4,
+    "thigh.R": 1
+   }
+  },
+  "knee-100": {
+   "flippedFaces": 28,
+   "collapsedTris_areaUnder25pct": 19,
+   "stretchedTris_areaOver300pct": 4,
+   "edgeStrain_p99": 0.29,
+   "edgeStrain_max": 1.43,
+   "edgesOver50pctStrain": 148,
+   "problemTrisByDominantBone": {
+    "thigh.R": 8,
+    "thigh.L": 8,
+    "shin.R": 7,
+    "shoulder.L": 7,
+    "spine": 4,
+    "shin.L": 4,
+    "chest": 1
+   }
+  },
+  "ankle": {
+   "flippedFaces": 0,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.099,
+   "edgeStrain_max": 0.527,
+   "edgesOver50pctStrain": 2,
+   "problemTrisByDominantBone": {}
+  },
+  "idle": {
+   "flippedFaces": 1,
+   "collapsedTris_areaUnder25pct": 1,
+   "stretchedTris_areaOver300pct": 0,
+   "edgeStrain_p99": 0.084,
+   "edgeStrain_max": 0.641,
+   "edgesOver50pctStrain": 18,
+   "problemTrisByDominantBone": {
+    "shoulder.R": 2
+   }
+  },
+  "walk-contact": {
+   "flippedFaces": 5,
+   "collapsedTris_areaUnder25pct": 0,
+   "stretchedTris_areaOver300pct": 5,
+   "edgeStrain_p99": 0.197,
+   "edgeStrain_max": 1.436,
+   "edgesOver50pctStrain": 60,
+   "problemTrisByDominantBone": {
+    "shoulder.L": 4,
+    "chest": 3,
+    "shoulder.R": 1,
+    "spine": 1
+   }
+  },
+  "run-stride": {
+   "flippedFaces": 68,
+   "collapsedTris_areaUnder25pct": 44,
+   "stretchedTris_areaOver300pct": 16,
+   "edgeStrain_p99": 0.42,
+   "edgeStrain_max": 2.365,
+   "edgesOver50pctStrain": 364,
+   "problemTrisByDominantBone": {
+    "shin.R": 19,
+    "upper_arm.L": 18,
+    "thigh.R": 16,
+    "thigh.L": 16,
+    "forearm.R": 14,
+    "shoulder.L": 10,
+    "upper_arm.R": 8,
+    "chest": 4,
+    "spine": 4,
+    "shoulder.R": 3,
+    "shin.L": 3
+   }
+  }
+ }
+}

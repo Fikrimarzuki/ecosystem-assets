@@ -1,0 +1,397 @@
+{
+  "phase": "enabled-final",
+  "samples": [
+    {
+      "name": "tools-active-cpu-check",
+      "elapsedMs": 1821.5,
+      "renders": 16,
+      "renderIntervalsMs": {
+        "count": 15,
+        "mean": 107.31333333333023,
+        "p50": 113.89999999990687,
+        "p95": 126.60000000009313,
+        "max": 294
+      },
+      "browserRAFIntervalsMs": {
+        "count": 15,
+        "mean": 106.66666666666664,
+        "p50": 116.59999999999945,
+        "p95": 133.29999999999927,
+        "max": 283.4000000000001
+      },
+      "callbacksMs": {
+        "frame-priority--4": {
+          "count": 16,
+          "mean": 0.125,
+          "p50": 0.10000000009313226,
+          "p95": 0.19999999995343387,
+          "max": 0.20000000018626451
+        },
+        "frame-priority--3": {
+          "count": 16,
+          "mean": 0.3562499999970896,
+          "p50": 0.30000000004656613,
+          "p95": 0.5999999998603016,
+          "max": 0.7999999998137355
+        },
+        "frame-priority--2": {
+          "count": 144,
+          "mean": 0.01944444443991718,
+          "p50": 0,
+          "p95": 0.10000000009313226,
+          "max": 0.19999999995343387
+        },
+        "mixer-update": {
+          "count": 16,
+          "mean": 0.16875000004074536,
+          "p50": 0.19999999995343387,
+          "p95": 0.20000000018626451,
+          "max": 0.30000000004656613
+        },
+        "animation-update": {
+          "count": 16,
+          "mean": 0.18750000002910383,
+          "p50": 0.19999999995343387,
+          "p95": 0.30000000004656613,
+          "max": 0.30000000004656613
+        },
+        "frame-priority--1.5": {
+          "count": 16,
+          "mean": 0.18750000002910383,
+          "p50": 0.19999999995343387,
+          "p95": 0.30000000004656613,
+          "max": 0.30000000004656613
+        },
+        "frame-priority--1": {
+          "count": 16,
+          "mean": 0.06250000001455192,
+          "p50": 0.09999999986030161,
+          "p95": 0.10000000009313226,
+          "max": 0.19999999995343387
+        },
+        "frame-priority-0": {
+          "count": 32,
+          "mean": 0.1624999999985448,
+          "p50": 0,
+          "p95": 0.4000000001396984,
+          "max": 0.6000000000931323
+        }
+      },
+      "maxCameraStepWorldUnits": 0,
+      "before": {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": true,
+        "skinnedMeshes": 1,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      "after": {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": true,
+        "skinnedMeshes": 1,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      "snapshot": {
+        "astronaut": {
+          "count": 1,
+          "visible": true,
+          "assetState": "ready",
+          "visual": "model",
+          "groundY": null,
+          "clips": [
+            "Idle",
+            "Walk"
+          ],
+          "animation": {
+            "clip": "Idle",
+            "time": 1.5601000000000935,
+            "transitions": 0,
+            "idleTime": 1.5601000000000935,
+            "walkTime": 0,
+            "walkRate": 1,
+            "idleWeight": 1,
+            "walkWeight": 0,
+            "groundLift": 0
+          },
+          "model": {
+            "scale": [
+              0.15863871555793063,
+              0.15863871555793063,
+              0.15863871555793063
+            ],
+            "rotation": [
+              0,
+              3.141592653589793,
+              0,
+              "XYZ"
+            ],
+            "position": [
+              0,
+              0,
+              0
+            ]
+          },
+          "position": [
+            0,
+            0.1805,
+            0.35
+          ],
+          "matrix": [
+            1.4673336864041742,
+            0.18542529023379203,
+            -0.42006614298851835,
+            0,
+            0.058724670621788974,
+            1.319226727236079,
+            0.7874633357854489,
+            0,
+            0.4554003906496993,
+            -0.7675705530358092,
+            1.2519393676645858,
+            0,
+            -6.863258940566632,
+            -4.139129198579581,
+            2.199052311536273,
+            1
+          ],
+          "pose": [
+            {
+              "position": [
+                0,
+                0.0012336960908047947,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                "XYZ"
+              ]
+            },
+            {
+              "position": [
+                -0.023,
+                0.092,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                "XYZ"
+              ]
+            },
+            {
+              "position": [
+                0.023,
+                0.092,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                "XYZ"
+              ]
+            },
+            {
+              "position": [
+                -0.044,
+                0.184,
+                0
+              ],
+              "rotation": [
+                -0.018043105034410093,
+                0,
+                0,
+                "XYZ"
+              ]
+            },
+            {
+              "position": [
+                0.044,
+                0.184,
+                0
+              ],
+              "rotation": [
+                0.018043105034410093,
+                0,
+                0,
+                "XYZ"
+              ]
+            }
+          ]
+        },
+        "camera": [
+          -6.112204703406896,
+          -3.6532335452784848,
+          3.9358359068762074
+        ],
+        "cameraFov": 65,
+        "cameraQuaternion": [
+          0.014611060512657398,
+          0.2802251006742244,
+          0.14283336952716635,
+          0.9491359430620738
+        ],
+        "cameraUp": [
+          0.038194907721488765,
+          0.8580336437307831,
+          0.5121712753076091
+        ],
+        "rockets": [
+          {
+            "position": [
+              -9.516035606030666,
+              -2.9530488368956824,
+              3.338565075307401
+            ],
+            "quaternion": [
+              -0.11905433437617013,
+              0.12984001428776876,
+              0.07720028532491433,
+              0.981329583830912
+            ],
+            "visible": true
+          }
+        ],
+        "engines": [
+          {
+            "visible": false,
+            "scale": [
+              0,
+              0,
+              0
+            ],
+            "opacity": 0
+          }
+        ],
+        "calls": 7,
+        "triangles": 11913,
+        "state": {
+          "firstPersonTargetId": "landmark-careerlens",
+          "firstPersonCanInteract": false,
+          "firstPersonProjectOpen": false,
+          "firstPersonLocked": true,
+          "firstPersonPauseMenuOpen": false,
+          "nearbyLandmarkId": null,
+          "explorationMode": "third-person",
+          "landmarkFocusId": null,
+          "focusPhase": "planet",
+          "mode": "inspecting",
+          "selectedId": "tools",
+          "manualPaused": false,
+          "reduced": false,
+          "visible": true,
+          "fallback": false,
+          "meshHover": null,
+          "labelHover": null,
+          "focusedId": null
+        },
+        "speed": 0,
+        "yaw": 0.5880026132906346,
+        "player": {
+          "x": 0,
+          "y": 0.1805,
+          "z": 0.35,
+          "yaw": 0.5880026132906346,
+          "pitch": -0.52
+        }
+      }
+    }
+  ],
+  "captures": [],
+  "checks": {},
+  "errors": [],
+  "hardware": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+    "cores": 6,
+    "deviceMemoryGB": 16,
+    "devicePixelRatio": 1,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "resources": {
+    "settledResource": {
+      "geometries": 32,
+      "textures": 5,
+      "programs": 5,
+      "subscribers": 15,
+      "activeAnimation": false,
+      "skinnedMeshes": 0,
+      "frameloop": "demand",
+      "heap": 50400000
+    },
+    "cycles": [
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": true,
+        "skinnedMeshes": 1,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": false,
+        "skinnedMeshes": 0,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": true,
+        "skinnedMeshes": 1,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": false,
+        "skinnedMeshes": 0,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": true,
+        "skinnedMeshes": 1,
+        "frameloop": "demand",
+        "heap": 50400000
+      },
+      {
+        "geometries": 32,
+        "textures": 5,
+        "programs": 5,
+        "subscribers": 15,
+        "activeAnimation": false,
+        "skinnedMeshes": 0,
+        "frameloop": "demand",
+        "heap": 50400000
+      }
+    ]
+  },
+  "failure": "Error: expect(received).toBeGreaterThan(expected)\n\nExpected: > 0.1\nReceived:   0\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate"
+}

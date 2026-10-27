@@ -1,0 +1,17 @@
+{
+  "pilot": "M1.0f",
+  "createdOn": "2026-10-23",
+  "creator": "Codex with owner-requested Krita automation",
+  "sourceTool": "Krita 5.3.4.1, connected plugin 1.0.0",
+  "sourceMethod": "Created a transparent RGBA/8 document in live Krita; painted separate named layers inside unmade and made groups; saved using Krita native KRA writer.",
+  "exportMethod": "Krita PNG export at 256x192; macOS sips downsample to 128x96 for @1x.",
+  "inputs": [
+    "app-momee/docs/design/visual-style-bible.md",
+    "ecosystem-assets/projects/momee/pillow-pilot.md",
+    "app-momee/apps/web/src/adventure/phaser/bedroom-props.ts"
+  ],
+  "externalArtworkUsed": false,
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Technical and visual candidate only. Owner must inspect line quality, bedroom fit, state readability, export edges, and rights before approval. Krita bridge pixel writes are not in its undo history; layers remain editable in the saved KRA."
+}

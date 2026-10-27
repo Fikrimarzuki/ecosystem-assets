@@ -1,0 +1,62 @@
+[
+  {
+    "world": "tools",
+    "case": "audited-bench",
+    "depthMmBefore": 2.4974259563788346,
+    "depthMmAfter": 2.4974259563788346,
+    "vertexSamplesBefore": 115,
+    "vertexSamplesAfter": 115,
+    "posesBefore": 29,
+    "posesAfter": 29,
+    "validBefore": true,
+    "validAfter": false
+  },
+  {
+    "world": "tools",
+    "case": "bench-wall-stop",
+    "depthMmBefore": 23.14971933654375,
+    "depthMmAfter": 0,
+    "vertexSamplesBefore": 18300,
+    "vertexSamplesAfter": 0,
+    "posesBefore": 101,
+    "posesAfter": 0,
+    "validBefore": true,
+    "validAfter": true
+  },
+  {
+    "world": "tools",
+    "case": "tools-road-edge",
+    "depthMmBefore": 24.999458081790465,
+    "depthMmAfter": 0.4984136128444172,
+    "vertexSamplesBefore": 106205,
+    "vertexSamplesAfter": 1373,
+    "posesBefore": 180,
+    "posesAfter": 123,
+    "validBefore": true,
+    "validAfter": true
+  },
+  {
+    "world": "latest",
+    "case": "horizontal-road-edge",
+    "depthMmBefore": 12.496465907209764,
+    "depthMmAfter": 0.38116291396486646,
+    "vertexSamplesBefore": 30350,
+    "vertexSamplesAfter": 197,
+    "posesBefore": 168,
+    "posesAfter": 38,
+    "validBefore": true,
+    "validAfter": true
+  },
+  {
+    "world": "latest",
+    "case": "cross-road-edge",
+    "depthMmBefore": 12.496465907209764,
+    "depthMmAfter": 0.38079460738568716,
+    "vertexSamplesBefore": 26764,
+    "vertexSamplesAfter": 61,
+    "posesBefore": 157,
+    "posesAfter": 23,
+    "validBefore": true,
+    "validAfter": true
+  }
+]

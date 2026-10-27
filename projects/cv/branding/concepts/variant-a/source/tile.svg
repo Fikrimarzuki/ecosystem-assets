@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV (full-bleed tile)</title>
+  <defs>
+    <linearGradient id="cva-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12294d"/><stop offset="1" stop-color="#081426"/></linearGradient>
+    <linearGradient id="cva-main" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8bfad8"/><stop offset="1" stop-color="#38ddb0"/></linearGradient>
+    <linearGradient id="cva-part" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d3a8"/><stop offset="1" stop-color="#14998a"/></linearGradient>
+  </defs>
+  <g id="bg"><rect width="512" height="512" fill="url(#cva-bg)"/></g>
+  <g id="glyph">
+    <path fill="url(#cva-part)" d="M396 240.3L396 373.5Q396 386.5 383 386.5L263.3 386.5Q250.3 386.5 249.2 373.6L248.2 361.3Q247.5 352.3 254.6 346.9Z"/>
+    <path fill="url(#cva-main)" d="M117.4 126.4L253.6 237L396 125.5L396 199.1L238 317.7L173.4 260.7L173.4 373.5Q173.4 386.5 160.4 386.5L130.4 386.5Q117.4 386.5 117.4 373.5Z"/>
+  </g>
+</svg>

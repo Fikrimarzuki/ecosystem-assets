@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Links favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#2b50d6"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#5a7cf0" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)"><path fill="#ffffff" d="M160 148H216V324H160ZM188 296H364V352H188ZM207.8 343.8L168.2 304.2L292.7 179.8L332.2 219.3Z"/><g fill="#ffffff"><circle cx="188" cy="148" r="50"/><circle cx="312.5" cy="199.5" r="50"/><circle cx="364" cy="324" r="50"/></g><circle cx="188" cy="324" r="64" fill="#f5b83d"/></g>
+</svg>

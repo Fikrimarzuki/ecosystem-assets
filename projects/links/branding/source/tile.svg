@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Links tile</title>
+  <defs><linearGradient id="li-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3056e0"/><stop offset="1" stop-color="#2443c6"/></linearGradient></defs>
+  <g id="bg"><rect width="512" height="512" fill="url(#li-bg)"/></g>
+  <g id="glyph"><path fill="#ffffff" d="M168 148H208V324H168ZM188 304H364V344H188ZM202.1 338.1L173.9 309.9L298.3 185.4L326.6 213.7Z"/><g fill="#ffffff"><circle cx="188" cy="148" r="42"/><circle cx="312.5" cy="199.5" r="42"/><circle cx="364" cy="324" r="42"/></g><circle cx="188" cy="324" r="58" fill="#f5b83d"/></g>
+</svg>

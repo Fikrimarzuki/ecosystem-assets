@@ -1,0 +1,491 @@
+{
+  "file": "D:/Code/porto-projects/gateway-assets/planets/games/exports/games-v2.glb",
+  "bytes": 1436084,
+  "sha256": "88d59ec987e6e20ad23e7cf17feef34da40961711ee40a061b43cf9d7dbfd51a",
+  "repeatSha256": null,
+  "reproducible": null,
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "version": "2.0"
+  },
+  "extensionsUsed": [],
+  "extensionsRequired": [],
+  "counts": {
+    "nodes": 22,
+    "meshes": 14,
+    "meshNodes": 14,
+    "anchors": 8,
+    "materials": 2,
+    "accessors": 56,
+    "triangles": 16218,
+    "vertices": 41338,
+    "cameras": 0,
+    "images": 0,
+    "textures": 0,
+    "samplers": 0,
+    "animations": 0,
+    "skins": 0
+  },
+  "materials": [
+    {
+      "name": "GamesDiorama",
+      "roughness": 0.8199999928474426,
+      "metallic": 0.07999999821186066,
+      "emissive": null,
+      "extensions": []
+    },
+    {
+      "name": "GamesAccent",
+      "roughness": 0.8199999928474426,
+      "metallic": 0.07999999821186066,
+      "emissive": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "extensions": []
+    }
+  ],
+  "bounds": [
+    [
+      -5.0326,
+      -4.0426,
+      -5.5524
+    ],
+    [
+      4.9923,
+      6.0311,
+      5.722
+    ]
+  ],
+  "extent": 6.9345,
+  "center": [
+    -0.0201,
+    0.9943,
+    0.0848
+  ],
+  "meshes": [
+    {
+      "name": "ARCADE_HALL",
+      "triangles": 344,
+      "vertices": 672,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "structure_id": "arcade-hall",
+        "footprint_radius": 0.95,
+        "games_layer": "GAMES_BUILDINGS"
+      }
+    },
+    {
+      "name": "GAMES_ACCENTS_GLOW",
+      "triangles": 768,
+      "vertices": 1880,
+      "materials": [
+        "GamesAccent"
+      ],
+      "extras": {
+        "games_layer": "GAMES_ACCENTS"
+      }
+    },
+    {
+      "name": "GAMES_DECORATIONS_STATIC",
+      "triangles": 6834,
+      "vertices": 17322,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_DECORATIONS"
+      }
+    },
+    {
+      "name": "GAMES_LAKE_WATER",
+      "triangles": 60,
+      "vertices": 96,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_TERRAIN"
+      }
+    },
+    {
+      "name": "GAMES_ROAD_PLAZA_SCRIPTORIUM",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "GAMES_ROAD_PLAZA_VILLAGE",
+      "triangles": 94,
+      "vertices": 188,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "GAMES_ROAD_VILLAGE_CASTLE",
+      "triangles": 94,
+      "vertices": 188,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "GAMES_TERRAIN",
+      "triangles": 5120,
+      "vertices": 15360,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_TERRAIN"
+      }
+    },
+    {
+      "name": "GAMES_TRAIL_CASTLE_GREEN",
+      "triangles": 46,
+      "vertices": 92,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "GAMES_TRAIL_FOREST",
+      "triangles": 142,
+      "vertices": 284,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "GAMES_TRAIL_LANDING",
+      "triangles": 30,
+      "vertices": 60,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "games_layer": "GAMES_PATHS"
+      }
+    },
+    {
+      "name": "KINGDOM_CASTLE",
+      "triangles": 1378,
+      "vertices": 2872,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "structure_id": "kingdom-castle",
+        "footprint_radius": 0.8969999999999999,
+        "games_layer": "GAMES_BUILDINGS"
+      }
+    },
+    {
+      "name": "PORTAL_PLAZA",
+      "triangles": 784,
+      "vertices": 1392,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "role": "environment:portal-plaza",
+        "footprint_radius": 0.95,
+        "games_layer": "GAMES_BUILDINGS"
+      }
+    },
+    {
+      "name": "SCRIPTORIUM",
+      "triangles": 462,
+      "vertices": 808,
+      "materials": [
+        "GamesDiorama"
+      ],
+      "extras": {
+        "structure_id": "scriptorium",
+        "footprint_radius": 0.85,
+        "games_layer": "GAMES_BUILDINGS"
+      }
+    }
+  ],
+  "structures": [
+    {
+      "structure_id": "arcade-hall",
+      "node": "ARCADE_HALL",
+      "footprint_radius": 0.95,
+      "position": [
+        3.6326,
+        1.0853,
+        1.9315
+      ],
+      "radius": 4.255
+    },
+    {
+      "structure_id": "kingdom-castle",
+      "node": "KINGDOM_CASTLE",
+      "footprint_radius": 0.8969999999999999,
+      "position": [
+        0.3786,
+        3.4738,
+        2.1469
+      ],
+      "radius": 4.1012
+    },
+    {
+      "environment": "portal-plaza",
+      "node": "PORTAL_PLAZA",
+      "footprint_radius": 0.95,
+      "position": [
+        0,
+        -0.4058,
+        4.1969
+      ],
+      "radius": 4.2165
+    },
+    {
+      "structure_id": "scriptorium",
+      "node": "SCRIPTORIUM",
+      "footprint_radius": 0.85,
+      "position": [
+        -3.1989,
+        1.3593,
+        2.4993
+      ],
+      "radius": 4.281
+    }
+  ],
+  "anchors": [
+    {
+      "name": "ANCHOR_hub_portal_plaza",
+      "role": "hub-entrance:portal-plaza",
+      "radius": null,
+      "extras": {
+        "role": "hub-entrance:portal-plaza"
+      },
+      "position": [
+        0,
+        -0.2071,
+        4.2196
+      ],
+      "distance": 4.2247,
+      "up": [
+        0,
+        -0.053,
+        0.999
+      ],
+      "forward": [
+        0,
+        0.999,
+        0.053
+      ],
+      "camera": false,
+      "upDotRadial": 1.0004
+    },
+    {
+      "name": "ANCHOR_interaction_arcade_hall",
+      "role": "interaction:arcade-hall",
+      "radius": null,
+      "extras": {
+        "role": "interaction:arcade-hall"
+      },
+      "position": [
+        3.3561,
+        0.905,
+        2.5713
+      ],
+      "distance": 4.3237,
+      "up": [
+        0.773,
+        0.227,
+        0.592
+      ],
+      "forward": [
+        -0.568,
+        -0.167,
+        0.806
+      ],
+      "camera": false,
+      "upDotRadial": 0.9996
+    },
+    {
+      "name": "ANCHOR_interaction_kingdom_castle",
+      "role": "interaction:kingdom-castle",
+      "radius": null,
+      "extras": {
+        "role": "interaction:kingdom-castle"
+      },
+      "position": [
+        0.3458,
+        3.0036,
+        3.0515
+      ],
+      "distance": 4.2957,
+      "up": [
+        0.077,
+        0.728,
+        0.681
+      ],
+      "forward": [
+        -0.072,
+        -0.677,
+        0.732
+      ],
+      "camera": false,
+      "upDotRadial": 0.999
+    },
+    {
+      "name": "ANCHOR_interaction_scriptorium",
+      "role": "interaction:scriptorium",
+      "radius": null,
+      "extras": {
+        "role": "interaction:scriptorium"
+      },
+      "position": [
+        -2.5058,
+        1.4133,
+        3.3517
+      ],
+      "distance": 4.4171,
+      "up": [
+        -0.562,
+        0.345,
+        0.752
+      ],
+      "forward": [
+        0.641,
+        -0.393,
+        0.659
+      ],
+      "camera": false,
+      "upDotRadial": 0.9998
+    },
+    {
+      "name": "ANCHOR_lander_arrival",
+      "role": "lander-arrival",
+      "radius": 0.3,
+      "extras": {
+        "role": "lander-arrival",
+        "radius": 0.3
+      },
+      "position": [
+        -2.3835,
+        -0.1564,
+        4.1284
+      ],
+      "distance": 4.7696,
+      "up": [
+        -0.5,
+        -0.036,
+        0.865
+      ],
+      "forward": [
+        0.863,
+        0.062,
+        0.501
+      ],
+      "camera": false,
+      "upDotRadial": 0.9998
+    },
+    {
+      "name": "ANCHOR_landing",
+      "role": "landing",
+      "radius": 0.3,
+      "extras": {
+        "role": "landing",
+        "radius": 0.3
+      },
+      "position": [
+        -2.1087,
+        -0.1355,
+        3.6524
+      ],
+      "distance": 4.2196,
+      "up": [
+        -0.5,
+        -0.035,
+        0.865
+      ],
+      "forward": [
+        0.863,
+        0.06,
+        0.501
+      ],
+      "camera": false,
+      "upDotRadial": 0.9997
+    },
+    {
+      "name": "ANCHOR_minigame_candidate",
+      "role": "minigame-candidate",
+      "radius": 0.35,
+      "extras": {
+        "role": "minigame-candidate",
+        "radius": 0.35
+      },
+      "position": [
+        2.0448,
+        2.3253,
+        2.8144
+      ],
+      "distance": 4.1843,
+      "up": [
+        0.476,
+        0.588,
+        0.655
+      ],
+      "forward": [
+        -0.412,
+        -0.509,
+        0.756
+      ],
+      "camera": false,
+      "upDotRadial": 0.9999
+    },
+    {
+      "name": "ANCHOR_spawn",
+      "role": "spawn",
+      "radius": null,
+      "extras": {
+        "role": "spawn"
+      },
+      "position": [
+        -1.868,
+        -0.1755,
+        3.7897
+      ],
+      "distance": 4.2287,
+      "up": [
+        -0.442,
+        -0.045,
+        0.896
+      ],
+      "forward": [
+        0.89,
+        -0.144,
+        0.432
+      ],
+      "camera": false,
+      "upDotRadial": 1.0001
+    }
+  ],
+  "warnings": []
+}

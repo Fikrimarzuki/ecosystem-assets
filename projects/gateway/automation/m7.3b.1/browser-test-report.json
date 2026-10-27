@@ -1,0 +1,221 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Code\\porto-projects\\app-gateway-fe\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "../gateway-assets/automation/m7.3b.1/runtime-qa.config.ts",
+      "tests/astronaut-asset.spec.ts",
+      "--grep",
+      "animation enabled: demand|ground enabled: excessive|animation enabled: missing Walk",
+      "--output",
+      "../gateway-assets/automation/m7.3b.1/browser-results"
+    ],
+    "configFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3b.1\\runtime-qa.config.ts",
+    "rootDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Code/porto-projects/gateway-assets/automation/m7.3b.1/browser-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../gateway-assets/automation/m7.3b.1/test-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "astronaut-asset.spec.ts",
+      "file": "astronaut-asset.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "animation enabled: demand Idle/Walk follows actual movement, pauses, returns and re-enters without extra mixers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 63666,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": "(node:9380) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.\nReplace `const THREE = require(\"three\")` with `import * as THREE from \"three\"`.\n"
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-10-12T14:56:13.686Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "runtime-ground-samples",
+                      "contentType": "application/json",
+                      "body": "W3siZ3JvdW5kWSI6MC4wMDAxNjg5NjA1MTQyMDcwMDYwOSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTY1MjQ0NTI3NzAzMTY3NzgsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE3OTczNDI3NTg0ODI3NTYyLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAyMjIxNzY2NzMxMDk2NDE5NSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTc4OTY5ODMwMzIzODM4NSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTcwMzI1NzUwMDY4OTIyNiwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMzE3NDk5MTY2MzQ1NzEzODUsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE3OTI1NTU4MzU2MzU3NTYzLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAxODY2MDUxMDg3MTIyNjc3NiwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTY4NjcwOTI1ODU1MjYzMjIsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE1ODAwMDYwNDQwMzc0MDc1LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAxMTk4MzQ4MzcxNjQ0ODk3MywidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDEyMDg4NjA4ODQxMjc2MzgzLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMjAyODI2NjY3MzUwMzg2NDYsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDAyMTMwNjk4MDg4MzIwNjcwNSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDIwMDM3NTk4MTI3MTg3MTk1LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMTk1ODk0NDI2NDYwMTc0NzQsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDAxNTIxNzI5NzIzMjMwNjEzNywidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDE1NDQzNDQ0MTQ3NzIyNDc0LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDk5OTEwNzA1MDIyNTc2NywidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDA4NDM2OTc4MjQ0MDQxODgyLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDYwNDA5MDg2MDI2NzgwMywidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDAyNjA4OTU3MzY4MzY2MzA0OCwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjkuMTM1NjE2MjQ3OTM1MDE5ZS03LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwODU3NDMxMjIwODU5Nzk0NSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTY4OTYwNTE0MjA3MjI4MTMsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE2NTI0Mjg4ODU3NTQ0NTMzLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAxNzk3MzMwNDY1MDI3NjEzNCwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDAxNTg2Mzg3MTU1ODYwNzkxMiwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowLjAxOTkwMDQ1Njg3MjEyNTAwNX0seyJncm91bmRZIjowLjAwMDAwNDA2Mjg5OTM4OTM2NzY1OCwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDA0NTA3MDExNTc0MTcyOTkyLCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDYwMjcxMTk0NDk5Njk0NzYsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDAwMTU4NjM4NzAzNjE3ODc0OSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowLjAwMDAyNTE5ODc1OTMxMDg3NzMxNX0seyJncm91bmRZIjowLjAwMDE2ODk2MDUxNDIwNjU2MiwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTY1MjQyODg4NTc2MTExNDcsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE3OTczMzA0NjUwMjMxNzI1LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDE1ODYzODcxNTM4NjIzODk3LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjAuMDE5OTAwNDU2ODcyMTE0NDkyfSx7Imdyb3VuZFkiOjAuMDAwMDA0MDYyODk5Mzg4NzAxNTI0LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDQ4NTIwNjM0MDkwNTU0MTgsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDAwNjQyNzkzNDEyNDc1MzA2NSwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMTczODE4Mzg5MTE3MTE5NjYsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDEzODkyNTUyNzg2NDk4NTksInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE0MDAwMzY2OTAyODQ0MzQsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDE0MTIyMzc1OTEwNTYzNTM0LCJ2aXN1YWwiOiJtb2RlbCIsImxpZnQiOjB9LHsiZ3JvdW5kWSI6MC4wMDAwMDE1ODY0MDYwMTMyMjA5MDksInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MC4wMDcwOTA5NTA0NjQ5NzUzODd9LHsiZ3JvdW5kWSI6MC4wMDAwMDQwNjI4OTkzODg5MjM1NjksInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH0seyJncm91bmRZIjowLjAwMDAwNTUyMDY0NjcwNjQ0NzI1MiwidmlzdWFsIjoibW9kZWwiLCJsaWZ0IjowfSx7Imdyb3VuZFkiOjAuMDAwMDEwMDk5NjY0MTE4MTM1MDEsInZpc3VhbCI6Im1vZGVsIiwibGlmdCI6MH1d"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3b.1\\browser-results\\astronaut-asset-animation--03d2a-enters-without-extra-mixers\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be35ed9de44d997ef2e7-79b530e075dd85832ab8",
+          "file": "astronaut-asset.spec.ts",
+          "line": 284,
+          "column": 5
+        },
+        {
+          "title": "ground enabled: excessive posed lift restores the procedural model and preserves interaction/Return",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T14:57:17.814Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3b.1\\browser-results\\astronaut-asset-ground-ena-58b14-reserves-interaction-Return\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be35ed9de44d997ef2e7-7fcd50da3ed26744c8f5",
+          "file": "astronaut-asset.spec.ts",
+          "line": 364,
+          "column": 5
+        },
+        {
+          "title": "animation enabled: missing Walk clip keeps the procedural TPS interaction and Return usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8037,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T14:57:35.253Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.3b.1\\browser-results\\astronaut-asset-animation--3a1f4-teraction-and-Return-usable\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "be35ed9de44d997ef2e7-0ac7470707edc9e2e180",
+          "file": "astronaut-asset.spec.ts",
+          "line": 386,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-12T14:56:12.922Z",
+    "duration": 90707.82299999999,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

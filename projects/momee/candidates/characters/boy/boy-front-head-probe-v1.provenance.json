@@ -1,0 +1,36 @@
+{
+  "milestone": "M1.0i",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5) driving the owner's live Krita through the krita_mcp bridge",
+  "assetId": "probe.boy.front-head.v1",
+  "toolVersions": {
+    "krita": "5.3.4.1 (git bd6e8d0)",
+    "kritaBridgePlugin": "krita_mcp 1.0.0",
+    "kritaPython": "3.13.5 with PyQt5 5.15.11 / Qt 5.15.7"
+  },
+  "sourceMethod": "720x600 sRGB RGBA/8 Krita document at 6 px per world unit. Hand-specified Bézier/Catmull-Rom shapes (QPainter) written to named layers in part groups: hair-back, ears, head-skin (base, clipped shade, clipped blush, line), face-eyes/{open,happy}, face-brows/{neutral,raised}, face-mouth/{neutral,happy,talking}, face-nose, hair-front (base with overlapping locks, clipped shade, clipped sheen and strands, line). Tapered ribbon strokes for lashes, brows and strand lines; shading softened with Krita's Gaussian blur. Two refinement passes (eyes, hair silhouette). Expression renders toggle the slot/attachment layers only.",
+  "colourSources": "Sampled from the master: hair #402e2f, skin #fdc695, iris #070302, shirt #fdd653, blush #fdaf80, mouth #da412f.",
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0i-construction/",
+    "files": {
+      "charpaint.py": "7a1bd4348dbcb93bbe62b892d6d8cfe178446eb80f035e38dc1bbb1c680b6d9d",
+      "boy_head_probe.py": "474d368ab4866d11bb413953f378da792828a820d885d68f62b759c5617f79c7"
+    },
+    "dependsOn": "projects/momee/candidates/m1.0h-construction/kpaint2.py (sha256 53731cf8dfbe3cb3c0be81bf4b695aa5f22c389da8c80a0e2c481d87fe00f339, unchanged)"
+  },
+  "inputs": [
+    "app-momee/assets/references/calm-chibi-storybook/characters/character-master-v1.png (sha256 4313584fc5936f611ca26f04d4b6daca3e785c2e777c403e36d38d208e3149d7; viewed and colour-sampled only)",
+    "app-momee/docs/design/visual-style-bible.md (§4, §5)",
+    "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png (compared only)"
+  ],
+  "knownDefects": [
+    "Tallest crown tuft reaches the canvas top edge (≈ 1 world unit clipped).",
+    "Hair idiom (stiff spiky silhouette) does not match the master's soft sweeping locks.",
+    "Flat vector rendering; no painted gradients or colour-varied line work."
+  ],
+  "externalArtworkUsed": false,
+  "generativeModelUsed": "No image-generation model. Shapes and colours were authored as code by the assistant.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "reviewNotes": "Fidelity probe only. Below master fidelity; expansion stopped for owner review (M1.0i brief §11)."
+}

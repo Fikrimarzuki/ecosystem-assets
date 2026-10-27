@@ -1,0 +1,88 @@
+{
+  "radius": 4.2,
+  "radiusInH": 14.000000000000002,
+  "extent": 6.215002972609039,
+  "plateau": 0.03,
+  "footprints": {
+    "academy-hall": 1.2519937140777793,
+    "academy-tower": 0.40755959382399715,
+    "book-monument": 0.29626370361076626,
+    "library": 0.6138900988235568,
+    "pavilion": 0.5656854333786078,
+    "classroom": 0.4327817109377043
+  },
+  "heights": {
+    "academy-hall": 1.6800000667572021,
+    "academy-tower": 1.9850000143051147,
+    "book-monument": 0.3670541048049927,
+    "library": 0.7990000247955322,
+    "pavilion": 0.9599999785423279,
+    "classroom": 0.911126971244812
+  },
+  "terraces": [
+    {
+      "id": "terrace-academy-hall",
+      "radius": 1.5119937140777793,
+      "blend": 0.35,
+      "raise_": 0.03
+    },
+    {
+      "id": "terrace-academy-tower",
+      "radius": 0.7475595938239972,
+      "blend": 0.35,
+      "raise_": 0.03
+    },
+    {
+      "id": "terrace-library",
+      "radius": 0.7538900988235568,
+      "blend": 0.35,
+      "raise_": 0.03
+    },
+    {
+      "id": "terrace-classroom",
+      "radius": 0.5727817109377042,
+      "blend": 0.35,
+      "raise_": 0.03
+    }
+  ],
+  "pathWidths": {
+    "town-road": 0.4,
+    "scenic-trail": 0.30000000000000004,
+    "library-lane": 0.30000000000000004,
+    "pavilion-lane": 0.30000000000000004,
+    "classroom-lane": 0.30000000000000004
+  },
+  "routeLengths": {
+    "town-road": 6.451780582045326,
+    "scenic-trail": 14.381306623619707,
+    "library-lane": 0.7003171799209669,
+    "pavilion-lane": 1.3343758825458207,
+    "classroom-lane": 1.0453762776211217
+  },
+  "pathClearance": 0.49622753714018725,
+  "pathClearanceAt": "town-road \u2194 accent-learning-terminal",
+  "landmarkGap": 1.5130627219376498,
+  "landmarkGapAt": "academy-hall \u2194 academy-tower",
+  "buildingGap": 0.6463244851278442,
+  "buildingGapAt": "book-monument \u2194 pavilion",
+  "structureGap": 0.43469431759919075,
+  "structureGapAt": "library \u2194 library-hedges-1",
+  "obstacleGap": 0.43469431759919075,
+  "obstacleGapAt": "library \u2194 library-hedges-1",
+  "landingClear": 0.6027798443253762,
+  "spawnClear": 0.5855253465555263,
+  "landingFlatness": 0.010727986869317974,
+  "maxRouteSlopeDegrees": 7.398764744582328,
+  "maxRouteSlopeAt": "library-lane",
+  "maxRouteStep": 0.0,
+  "minRouteInteriorAngle": 175.02998190292467,
+  "anchorReach": {
+    "hall": 0.0,
+    "tower": 0.0,
+    "monument": 0.07163042354551985
+  },
+  "hallToTowerArc": 3.2926160298394263,
+  "skippedDecor": [],
+  "obstacleCount": 75,
+  "decorativeReliefOnPaths": 0.0
+}

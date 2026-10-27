@@ -1,0 +1,70 @@
+{
+  "threeRevision": "186",
+  "scope": "Offline GLTFLoader + CPU AnimationMixer, Sharp ImageBitmap stand-in, no GPU or Gateway integration",
+  "meshCount": 1,
+  "boneCount": 41,
+  "triangleCount": 10357,
+  "vertexCount": 11188,
+  "defaultBounds": {
+    "min": [
+      -0.44437828878443647,
+      5.861266665595222e-8,
+      -0.37423272752974895
+    ],
+    "max": [
+      0.4531914587438172,
+      1.891089441470219,
+      0.3914058285124888
+    ]
+  },
+  "clips": {
+    "Idle": {
+      "duration": 8.333333015441895,
+      "sampledTimes": [
+        0,
+        1.8333333333333333,
+        4.166666666666667,
+        8.333333333333334
+      ],
+      "boneComparisons": 164,
+      "maxJointPositionError": 7.039056673226132e-7,
+      "meanJointPositionError": 4.47361904436194e-7,
+      "horizontalRootEndpointDrift": 0,
+      "loopRepeat": {
+        "twoLoopsObserved": 2,
+        "repeatedPoseMaxError": 5.659354221711006e-16,
+        "otherClipInactive": true
+      }
+    },
+    "Walk": {
+      "duration": 1.0333333015441895,
+      "sampledTimes": [
+        0,
+        0.13333333333333333,
+        0.36666666666666664,
+        0.5333333333333333,
+        0.7333333333333333,
+        0.7583333333333333,
+        0.9,
+        1.0333333333333334
+      ],
+      "boneComparisons": 328,
+      "maxJointPositionError": 0.0000010994177190753838,
+      "meanJointPositionError": 4.282020544068845e-7,
+      "horizontalRootEndpointDrift": 1.146519201468707e-8,
+      "loopRepeat": {
+        "twoLoopsObserved": 2,
+        "repeatedPoseMaxError": 5.018240501318998e-16,
+        "otherClipInactive": true
+      }
+    }
+  },
+  "walkGround": {
+    "denseSamples": 993,
+    "samplingHz": 960,
+    "minimumY": 0.0007026746305540659,
+    "worstTime": 0.3229166666666667,
+    "maximumPenetration": 0
+  },
+  "passed": true
+}

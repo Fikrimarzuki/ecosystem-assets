@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Concept A: swatch fan (app mark, unrefined)</title>
+  <rect width="512" height="512" rx="112" fill="#241736"/>
+  <g transform="translate(256 256) scale(.82) translate(-264 -250)"><rect x="208" y="48" width="112" height="352" rx="40" fill="#3cc8a4" transform="rotate(-26 264 432)"/><rect x="208" y="48" width="112" height="352" rx="40" fill="#f6b321" transform="rotate(-9 264 432)"/><rect x="208" y="48" width="112" height="352" rx="40" fill="#2f5bea" transform="rotate(8 264 432)"/><rect x="208" y="48" width="112" height="352" rx="40" fill="#f3b6c4" transform="rotate(25 264 432)"/><rect x="208" y="48" width="112" height="352" rx="40" fill="#e8553e" transform="rotate(42 264 432)"/><circle cx="264" cy="432" r="35" fill="#f1eef8"/></g>
+</svg>

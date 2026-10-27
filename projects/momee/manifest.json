@@ -1,0 +1,3184 @@
+{
+  "schemaVersion": 1,
+  "projectId": "momee",
+  "theme": "calm-chibi-storybook",
+  "appHistoricalManifest": "app-momee/assets/production/morning-routine/manifests/calm-chibi-storybook.json",
+  "assets": [
+    {
+      "id": "candidate.boy-3quarter-v1",
+      "category": "character",
+      "status": "Candidate",
+      "source": {
+        "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+        "format": "png",
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4ad863ae134e7aadc8f08d18cea8016b8d07b0c305b6640fc10fe8a90da9e97b"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "incoming/momee/local-assets/m0.3c.1/boy/generation-log.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Technical cutout evaluation only; not a runtime asset",
+      "appHistoricalRecordId": "candidate.boy-3quarter-v1"
+    },
+    {
+      "id": "prop.bedroom.pillow.unmade",
+      "category": "room-prop",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v1.kra",
+        "format": "kra",
+        "width": 256,
+        "height": 192,
+        "sha256": "b05f4a525ec9d5853c4f1e50fddc7191e2633da6c24fe239a7eed8ea5044e1eb",
+        "stateGroup": "Unmade — rumpled"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v1.@1x.png",
+          "format": "png",
+          "width": 128,
+          "height": 96,
+          "tier": "@1x",
+          "sha256": "bb36a7a0d12a541afe4a25146b3dc197de51a9e3d30411d95cfa664c63bffe72",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v1.@2x.png",
+          "format": "png",
+          "width": 256,
+          "height": 192,
+          "tier": "@2x",
+          "sha256": "9a012a5d7b471e7ee2f65edca0cd45256b45f17238c58b7abbf9fe6b633ae51c",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "spec.bedroom-pillow-pilot", "repository": "ecosystem-assets", "path": "projects/momee/pillow-pilot.md" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0f development preview only; proposed mapping to messy bedroom pillow state"
+    },
+    {
+      "id": "prop.bedroom.pillow.made",
+      "category": "room-prop",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v1.kra",
+        "format": "kra",
+        "width": 256,
+        "height": 192,
+        "sha256": "b05f4a525ec9d5853c4f1e50fddc7191e2633da6c24fe239a7eed8ea5044e1eb",
+        "stateGroup": "Made — plump and tidy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v1.@1x.png",
+          "format": "png",
+          "width": 128,
+          "height": 96,
+          "tier": "@1x",
+          "sha256": "42bcf58b885eb4186ac3497d633eba8a9409c5a195ff2b2f243132467fcb2aea",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v1.@2x.png",
+          "format": "png",
+          "width": 256,
+          "height": 192,
+          "tier": "@2x",
+          "sha256": "14eda24ff480fbc50a253405b7ccefbfbf2d7a783214db9ffef6e6d434d80479",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "spec.bedroom-pillow-pilot", "repository": "ecosystem-assets", "path": "projects/momee/pillow-pilot.md" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0f development preview only; proposed mapping to fluffed bedroom pillow state"
+    },
+    {
+      "id": "decoration.morning-flower",
+      "category": "decorative-icon",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/icons/morning-flower-v1.svg",
+        "format": "svg",
+        "width": 64,
+        "height": 64,
+        "sha256": "dc4d3c2a594517a5eceacb2bdfb65e9d40b5cadccbab10f4c87b8f9510cc4817"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/icons/morning-flower.v1.svg",
+          "format": "svg",
+          "width": 64,
+          "height": 64,
+          "sha256": "1d73de8366f6925095e5a9f25d9fe0d49ea6112fc4da9f52d4bf7a8f9ef30ec3",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/icons/morning-flower.v1.svg"
+        },
+        {
+          "path": "projects/momee/exports/icons/morning-flower.v1.@2x.png",
+          "format": "png",
+          "width": 128,
+          "height": 128,
+          "sha256": "2b6346d6c955b9f394ec23254e6bdb0ff9fb73b947b471cc60ea8c5958ad2318",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/icons/morning-flower.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/icons/morning-flower-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0f decorative SVG preview only; no Reward Garden replacement"
+    },
+    {
+      "id": "prop.bedroom.pillow.unmade.v2",
+      "logicalId": "prop.bedroom.pillow.unmade",
+      "revision": 2,
+      "revisionOf": "prop.bedroom.pillow.unmade",
+      "milestone": "M1.0g",
+      "category": "room-prop",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v2.kra",
+        "format": "kra",
+        "width": 256,
+        "height": 192,
+        "sha256": "93c9333f665c10df6d76951df280cf9c3ec6abc3b8e29f92353e66531c1dd936",
+        "stateGroup": "Unmade — rumpled"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@1x.png",
+          "format": "png",
+          "width": 128,
+          "height": 96,
+          "tier": "@1x",
+          "sha256": "21ce0e78eb5a4800bbfdd252d71099507b71096c44828cab0358739be9d7888b",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v2.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png",
+          "format": "png",
+          "width": 256,
+          "height": 192,
+          "tier": "@2x",
+          "sha256": "cdc6bfea98075eefd8066e51ff38caa1949b4abf63bb7f78a608cfa505ac1d4e",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v2.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "spec.bedroom-pillow-pilot", "repository": "ecosystem-assets", "path": "projects/momee/pillow-pilot.md" },
+        { "id": "prop.bedroom.pillow.unmade", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/pillow-v1.kra", "relation": "previous candidate; bounds and anchor kept, no pixels reused" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v2.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0g calibration review only; candidate revision of the messy bedroom pillow state. No runtime copy."
+    },
+    {
+      "id": "prop.bedroom.pillow.made.v2",
+      "logicalId": "prop.bedroom.pillow.made",
+      "revision": 2,
+      "revisionOf": "prop.bedroom.pillow.made",
+      "milestone": "M1.0g",
+      "category": "room-prop",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v2.kra",
+        "format": "kra",
+        "width": 256,
+        "height": 192,
+        "sha256": "93c9333f665c10df6d76951df280cf9c3ec6abc3b8e29f92353e66531c1dd936",
+        "stateGroup": "Made — plump and tidy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@1x.png",
+          "format": "png",
+          "width": 128,
+          "height": 96,
+          "tier": "@1x",
+          "sha256": "6909e46cdd4a928f88eb3cae5d1fae373ee936a966533a3655a7411bb355ce8b",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v2.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png",
+          "format": "png",
+          "width": 256,
+          "height": 192,
+          "tier": "@2x",
+          "sha256": "9bc90ae0e62243d141bf605e885708ad9454cdb45c8020876d5295245f2a6ae7",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v2.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "spec.bedroom-pillow-pilot", "repository": "ecosystem-assets", "path": "projects/momee/pillow-pilot.md" },
+        { "id": "prop.bedroom.pillow.made", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/pillow-v1.kra", "relation": "previous candidate; bounds and anchor kept, no pixels reused" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v2.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0g calibration review only; candidate revision of the fluffed bedroom pillow state. No runtime copy."
+    },
+    {
+      "id": "study.bedroom.composition.v1",
+      "milestone": "M1.0g",
+      "category": "composition-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/bedroom-composition-study-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "7915e4b0b0e054e5200ff59837336260bc6504373b36870f2f3f079f350357b0"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 1440,
+          "sha256": "5b57cb8b923be23799f8b3181946d04552ce503f563b139633b444c98d352700",
+          "shows": "Room, placed pillow v2 (made) and character position guides; annotations hidden"
+        },
+        {
+          "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.room-only.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "fb4415611a6eb4fcd5211905c62092b72aa73d265372c864cab7d1bff6940289",
+          "shows": "Room only (characters and annotations hidden), downsampled with sips"
+        },
+        {
+          "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.annotated.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "74d758a30ccb87ac12bf75e58391ce14aa77eef7aefbc0134d3fcf18c0f2c669",
+          "shows": "Room with characters, interactable bounds, floor band and camera targets from bedroom-layout.ts"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "working.boy-3q-v1-refined", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "relation": "placed unmodified as a position reference" },
+        { "id": "prop.bedroom.pillow.made.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png" },
+        { "id": "prop.bedroom.pillow.unmade.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/bedroom-composition-study-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Visual calibration review only. Not a room background, atlas or runtime asset."
+    },
+    {
+      "id": "study.character-scale.v1",
+      "milestone": "M1.0g",
+      "category": "scale-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/character-scale-study-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 1900,
+        "sha256": "0f0664fabdfd26fb15615d69f2e8e481e835f33f068c4de471bf05baa9edd96e"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0g/character-scale-study-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 1900,
+          "sha256": "7a894fdd81f4ccbcfbff17b3689d267b2a36d8686be19b4b7c85732c9c870f62",
+          "shows": "Height line-up, bed/pillow/child scale, reach radii and camera frames"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "working.boy-3q-v1-refined", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "relation": "placed unmodified at 200 world units" },
+        { "id": "study.bedroom.composition.v1", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/bedroom-composition-study-v1.kra" },
+        { "id": "ref.height-lineup-v1", "repository": "app-momee", "path": "assets/production/morning-routine/review/height-lineup-v1.derivation.json", "relation": "working heights only; line-up still in review" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/character-scale-study-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Scale and framing review only. Not character approval and not a height line-up."
+    },
+    {
+      "id": "review.visual-calibration-sheet.v1",
+      "milestone": "M1.0g",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/visual-calibration-sheet-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2660,
+        "sha256": "eecc2e77145ead8a603cc1277336673e1b38915dfdb228d62c34bd9c020fe472"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0g/visual-calibration-sheet-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2660,
+          "sha256": "bbd050328ce00fb11fd6a637259d6e9797d18272aadfc2599052654f220bc298",
+          "shows": "Approved reference excerpts beside candidate artwork, pillow v1/v2 and calibration notes"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png", "relation": "excerpts copied for comparison; reference file unchanged" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/", "relation": "excerpts copied for comparison; reference files unchanged" },
+        { "id": "working.boy-3q-v1-refined", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png" },
+        { "id": "study.bedroom.composition.v1", "repository": "ecosystem-assets", "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png" },
+        { "id": "prop.bedroom.pillow.unmade", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v1.@2x.png" },
+        { "id": "prop.bedroom.pillow.made", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v1.@2x.png" },
+        { "id": "prop.bedroom.pillow.unmade.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png" },
+        { "id": "prop.bedroom.pillow.made.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png" },
+        { "id": "capture.placeholder-bedroom", "repository": "ecosystem-assets", "path": "projects/momee/review/m1.0g/inputs/placeholder-bedroom-free-play-1280x800.png" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/visual-calibration-sheet-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review sheet only. Never shipped."
+    },
+    {
+      "id": "prop.bedroom.pillow.unmade.v3",
+      "logicalId": "prop.bedroom.pillow.unmade",
+      "revision": 3,
+      "revisionOf": "prop.bedroom.pillow.unmade.v2",
+      "milestone": "M1.0h",
+      "category": "room-prop",
+      "status": "Candidate",
+      "boundsChange": "Larger-size test: canvas 160x112 @1x / 320x224 @2x, centre anchor (160, 112) @2x; not a drop-in replacement for the 128x96 v1/v2 canvas",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v3.kra",
+        "format": "kra",
+        "width": 320,
+        "height": 224,
+        "sha256": "4df38379d22a62d3d6b84f758dc22eeb469340656e086314fd2cb5528efa1ebe",
+        "stateGroup": "Unmade — rumpled"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 112,
+          "tier": "@1x",
+          "sha256": "483278d3ee0b0e0d9b7a7f07d09d4f6ed26bde432dfbc91015ec02e505b649be",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v3.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 224,
+          "tier": "@2x",
+          "sha256": "196bd27ca8da4199000270653b013fc1779543717c6db0ee96e7bb912a9dbee4",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-unmade.v3.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "prop.bedroom.pillow.unmade.v2", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/pillow-v2.kra", "relation": "previous candidate; shapes rescaled 1.24x and re-rendered, no pixels reused" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v3.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0h size and rendering test for the messy bedroom pillow state. Review only; no runtime copy."
+    },
+    {
+      "id": "prop.bedroom.pillow.made.v3",
+      "logicalId": "prop.bedroom.pillow.made",
+      "revision": 3,
+      "revisionOf": "prop.bedroom.pillow.made.v2",
+      "milestone": "M1.0h",
+      "category": "room-prop",
+      "status": "Candidate",
+      "boundsChange": "Larger-size test: canvas 160x112 @1x / 320x224 @2x, centre anchor (160, 112) @2x; not a drop-in replacement for the 128x96 v1/v2 canvas",
+      "source": {
+        "path": "projects/momee/source/bedroom/pillow-v3.kra",
+        "format": "kra",
+        "width": 320,
+        "height": 224,
+        "sha256": "4df38379d22a62d3d6b84f758dc22eeb469340656e086314fd2cb5528efa1ebe",
+        "stateGroup": "Made — plump and tidy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 112,
+          "tier": "@1x",
+          "sha256": "edea621f71c5a8934e346a7b776c8f957b26d2298d9e139e3d9c01f480d4a673",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v3.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 224,
+          "tier": "@2x",
+          "sha256": "448f1e605f4bad1a8f0aa9ae41e70912c052315af0c47f9b8ea2869d69efe606",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/rooms/bedroom/pillow-made.v3.@2x.png"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "prop.bedroom.pillow.made.v2", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/pillow-v2.kra", "relation": "previous candidate; shapes rescaled 1.24x and re-rendered, no pixels reused" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/rooms/bedroom/pillow-v3.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "M1.0h size and rendering test for the fluffed bedroom pillow state. Review only; no runtime copy."
+    },
+    {
+      "id": "study.bedroom.composition.v2",
+      "logicalId": "study.bedroom.composition",
+      "revision": 2,
+      "revisionOf": "study.bedroom.composition.v1",
+      "milestone": "M1.0h",
+      "category": "composition-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/bedroom/bedroom-composition-study-v2.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "438ccd9b273e5b48bd13bd16bae9d495292703cb621dfdff2e4e37196d9d910c"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.png",
+          "format": "png",
+          "width": 2560,
+          "height": 1440,
+          "sha256": "0ed49d332d017ea30d0e445b21db88e7f1c720732bbce09d5620800769778f1d",
+          "shows": "Refined room, placed pillow v3 (made) and character position guides; annotations hidden"
+        },
+        {
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.room-only.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "93341d6e449cb8097862665357d736631148db3c24df4c0cbb4e0c0dde49778e",
+          "shows": "Room only, downsampled with sips"
+        },
+        {
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.annotated.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "fb941aef8b57a81f8b6a19912c5730ce8b4b07ada16ed205c6358257f767f11e",
+          "shows": "Room with characters, interactable bounds, floor band and camera targets from bedroom-layout.ts"
+        },
+        {
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.unmade-pillow.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "95512c027438a9b7bba3e03d7cf3423ba8a6307c748ecf5277dfe15f33ee4ad1",
+          "shows": "Same view with the unmade pillow v3 layer shown instead of made"
+        }
+      ],
+      "lineage": [
+        { "id": "study.bedroom.composition.v1", "repository": "ecosystem-assets", "path": "projects/momee/source/bedroom/bedroom-composition-study-v1.kra", "relation": "same layout and construction approach; re-rendered from a revised script, no pixels reused" },
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/" },
+        { "id": "working.boy-3q-v1-refined", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png", "relation": "placed unmodified as a position reference" },
+        { "id": "prop.bedroom.pillow.made.v3", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@2x.png" },
+        { "id": "prop.bedroom.pillow.unmade.v3", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@2x.png" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/bedroom-composition-study-v2.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Visual refinement review only. Not a room background, atlas or runtime asset."
+    },
+    {
+      "id": "review.bedroom-refinement-comparison.v1",
+      "milestone": "M1.0h",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/bedroom-refinement-comparison-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 3640,
+        "sha256": "4ec70d1d37ce41c9a34ff56d5920081b527eb153eb9a4abdc5f4ca716d276b62"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0h/bedroom-refinement-comparison-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 3640,
+          "sha256": "f1753aa2e44e2f51e7c9c4e027b457e27dd74d4ead7a149d7c794a7cce75dece",
+          "shows": "M1.0g vs M1.0h room, approved bedroom references, bed detail, pillow v2 vs v3 and gameplay-scale framing"
+        }
+      ],
+      "lineage": [
+        { "id": "study.bedroom.composition.v1", "repository": "ecosystem-assets", "path": "projects/momee/review/m1.0g/bedroom-composition-study-v1.png" },
+        { "id": "study.bedroom.composition.v2", "repository": "ecosystem-assets", "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.png" },
+        { "id": "ref.concepts", "repository": "app-momee", "path": "assets/references/concepts/", "relation": "excerpts copied for comparison; reference files unchanged" },
+        { "id": "prop.bedroom.pillow.unmade.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v2.@2x.png" },
+        { "id": "prop.bedroom.pillow.made.v2", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v2.@2x.png" },
+        { "id": "prop.bedroom.pillow.unmade.v3", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-unmade.v3.@2x.png" },
+        { "id": "prop.bedroom.pillow.made.v3", "repository": "ecosystem-assets", "path": "projects/momee/exports/rooms/bedroom/pillow-made.v3.@2x.png" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/bedroom-refinement-comparison-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review sheet only. Never shipped."
+    },
+    {
+      "id": "probe.boy.front-head.v1",
+      "logicalId": "probe.boy.front-head",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character-probe",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "front",
+      "scope": "head only (hair, ears, face skin, eyes, brows, nose, mouth); no body",
+      "expressions": ["neutral", "happy", "talking"],
+      "fidelityAssessment": "Below the approved master (hair idiom, eye rendering, painted finish). Expansion stopped under the M1.0i brief §11; not a production candidate.",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+        "format": "kra",
+        "width": 720,
+        "height": 600,
+        "sha256": "85e412c725ffad79222cf2b55297f86215fdffd30594527eaea6d59883ae8e46",
+        "scale": "6 px per world unit; head ≈ 80 u (hair top to chin) at the 200 u child working height"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0i/boy-front-head-probe-v1.neutral.png",
+          "format": "png",
+          "width": 720,
+          "height": 600,
+          "sha256": "b6ec855cd598c98b61867b712763e830d66cab864436313c9390898a7a92d097",
+          "expression": "neutral",
+          "shows": "Transparent head render: face-eyes/open, face-brows/neutral, face-mouth/neutral"
+        },
+        {
+          "path": "projects/momee/review/m1.0i/boy-front-head-probe-v1.happy.png",
+          "format": "png",
+          "width": 720,
+          "height": 600,
+          "sha256": "f5251fe0e260816e21a51df84efeaec2b0a3bd60b493565b338aa9cd1bbd0ef2",
+          "expression": "happy",
+          "shows": "Transparent head render: face-eyes/happy, face-brows/raised, face-mouth/happy"
+        },
+        {
+          "path": "projects/momee/review/m1.0i/boy-front-head-probe-v1.talking.png",
+          "format": "png",
+          "width": 720,
+          "height": 600,
+          "sha256": "044a79d48c1bcbd1a95ad253a0ae18cb837e27c43c4c82651c9d6602bce5f0bd",
+          "expression": "talking",
+          "shows": "Transparent head render: face-eyes/open, face-brows/raised, face-mouth/talking"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png", "relation": "identity authority; colours sampled, nothing copied" },
+        { "id": "candidate.boy-3quarter-v1", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png", "relation": "compared only; no pixels used" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/characters/boy/boy-front-head-probe-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Fidelity probe for owner review only. Not for runtime, rigging or further derivation without an owner decision."
+    },
+    {
+      "id": "review.character-fidelity-assessment.v1",
+      "milestone": "M1.0i",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/character-fidelity-assessment-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2400,
+        "sha256": "043ff2f7bd0c2f8a8fd3fe07d9e48a46a76070739533608cf13ce25ad27e42e9"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0i/character-fidelity-assessment-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2400,
+          "sha256": "6632cc25217fca80e8f19e6e27c1224463ba547149c4943078c3bedcc4ee9a01",
+          "shows": "Master Boy and Mom excerpts, existing Boy candidate, probe expressions, equal-head-height and gameplay-scale comparison"
+        }
+      ],
+      "lineage": [
+        { "id": "ref.character-master-v1", "repository": "app-momee", "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png", "relation": "excerpts copied for comparison; reference file unchanged" },
+        { "id": "working.boy-3q-v1-refined", "repository": "ecosystem-assets", "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png" },
+        { "id": "probe.boy.front-head.v1", "repository": "ecosystem-assets", "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra" }
+      ],
+      "rights": { "status": "unverified", "provenancePath": "projects/momee/candidates/studies/character-fidelity-assessment-v1.provenance.json" },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review sheet only. Never shipped."
+    },
+    {
+      "id": "char.boy.front.neutral.v1",
+      "logicalId": "char.boy.front.neutral",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "front",
+      "expression": "neutral",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/open, face-brows/neutral, face-mouth/neutral"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-neutral.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "84ac9a7a4b967eb6161ca47b24865ec0e66204fb0019b2103973198986fdc595",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-neutral.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-neutral.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "e979766f0da68bba77cd93e1efadbf02b714a4acecd0ca7eb40252eadbb90554",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-neutral.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.boy.front.happy.v1",
+      "logicalId": "char.boy.front.happy",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "front",
+      "expression": "happy",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/happy, face-brows/raised, face-mouth/happy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-happy.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "8b398ac3cf50ec8fee9bd2da8c219c7244cf576e04211fcf4d12e2d483d30fe1",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-happy.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-happy.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "659ae1777f1513508fd50a99d785730136151af3f43fba282cb3d5cde8a954d3",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-happy.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.boy.front.talking.v1",
+      "logicalId": "char.boy.front.talking",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "front",
+      "expression": "talking",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/open, face-brows/raised, face-mouth/talking"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-talking.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "4a6f507b3acf3e388ea0deafa00fc924c682ebf9c6ea1c16be055e1041639e8d",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-talking.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-front-talking.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "bb96bd0bac2c49b19920f23313e6eaf0b953d4bdebbc135bae42ae6df5f67009",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-front-talking.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.boy.three-quarter.neutral.v1",
+      "logicalId": "char.boy.three-quarter.neutral",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "three-quarter",
+      "expression": "neutral",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/open, face-brows/neutral, face-mouth/neutral"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-neutral.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "06a0d79aa41e22d44187ce477fec737ec778479fac07aa4592c1cf5912d50685",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-neutral.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-neutral.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "117d0abfbf5a7157b98173f697a9b6681f284adb98b2d0f7e98de3398a8a0423",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-neutral.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.boy.three-quarter.happy.v1",
+      "logicalId": "char.boy.three-quarter.happy",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "three-quarter",
+      "expression": "happy",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/happy, face-brows/raised, face-mouth/happy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-happy.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "ab358a362e75126fbcfbb6ea8c6f26879ae65a06eddfcc7c30f50aa1012f1dcc",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-happy.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-happy.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "4ddcd3f4d57d8114d51dd80270f95a5dd0da84f27d59baf8c4388a1388238d72",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-happy.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.boy.three-quarter.talking.v1",
+      "logicalId": "char.boy.three-quarter.talking",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "three-quarter",
+      "expression": "talking",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "200 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (80, 216) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-character-v1.kra",
+        "format": "kra",
+        "width": 640,
+        "height": 896,
+        "sha256": "18738c0ff3ea0c6594bf8ddc2786598171c612dad948fd9670cd88679bfb6d7c",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/open, face-brows/raised, face-mouth/talking"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-talking.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "6e1f40ae8933d8b3394766da7c117f07f5391daf333432a49882c8b5b8058492",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-talking.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-talking.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "0d9af1a40c563e6799eac06d55b695b648b8cd3aa705dae5a12b3045c5695618",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-talking.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        },
+        {
+          "id": "candidate.boy-3quarter-v1",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+          "relation": "compared only; no pixels used"
+        },
+        {
+          "id": "probe.boy.front-head.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-front-head-probe-v1.kra",
+          "relation": "head design carried forward and rescaled (code, not pixels)"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.front.neutral.v1",
+      "logicalId": "char.mom.front.neutral",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "front",
+      "expression": "neutral",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/open, face-brows/neutral, face-mouth/neutral"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-neutral.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "782928eed449cca971c57c32b605974ad459233607639f10d9ee5c59d48ba158",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-neutral.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-neutral.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "1a21d82ec255b68fa262f1b4de7e2f064cd91576dda0f1a120fd6d12ace7b030",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-neutral.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.front.happy.v1",
+      "logicalId": "char.mom.front.happy",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "front",
+      "expression": "happy",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/happy, face-brows/raised, face-mouth/happy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-happy.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "8917cf49ec83bb46b162ee53f464e3995db5657f2f88f664ff95fc85c3f4fc0f",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-happy.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-happy.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "eea4288841894fb13040f55681aced1e8096ac558fe862b78e974c07d9e6796f",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-happy.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.front.talking.v1",
+      "logicalId": "char.mom.front.talking",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "front",
+      "expression": "talking",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: front",
+        "attachments": "face-eyes/open, face-brows/raised, face-mouth/talking"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-talking.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "136eb805dacb0f966e30df168fd14b75e57eb399e6928f5e09cd7e50a81b429c",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-talking.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-front-talking.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "fe8b50984f7eaf1d2322bec78696d90ad1d91065ca2676e3bd84500454619a18",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-front-talking.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.three-quarter.neutral.v1",
+      "logicalId": "char.mom.three-quarter.neutral",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "expression": "neutral",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/open, face-brows/neutral, face-mouth/neutral"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-neutral.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "63a89ed54e4b98d1640e2952376136f619109f14a0f465f1138c19ca7b1e5c14",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-neutral.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-neutral.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "35f4d9053f821b7390359af5d92b81b41a51bc100347d159e5ab67da87153d4f",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-neutral.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.three-quarter.happy.v1",
+      "logicalId": "char.mom.three-quarter.happy",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "expression": "happy",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/happy, face-brows/raised, face-mouth/happy"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-happy.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "6d271a44ebb2f7b1a968bd623cb8eea2cc67424d64d9cd162b7a269492f208d0",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-happy.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-happy.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "2c2e11bb7947cbce981f10e8192adb02836e7fddf1ab618b6d1e8201b5e7ab7c",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-happy.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "char.mom.three-quarter.talking.v1",
+      "logicalId": "char.mom.three-quarter.talking",
+      "revision": 1,
+      "milestone": "M1.0i",
+      "category": "character",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "expression": "talking",
+      "fidelity": "Below the approved master; produced by owner decision as a placeholder-grade layout, scale and identity candidate (M1.0i brief §11 override).",
+      "worldScale": "290 world units tall; @1x = 1 px/u, @2x = 2 px/u; feet anchor (100, 304) @1x",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-character-v1.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "29f871c648940c9afb24ddb9743646810806c2ab4bccbce464c9e19c04fbf964",
+        "viewGroup": "view: three-quarter",
+        "attachments": "face-eyes/open, face-brows/raised, face-mouth/talking"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-talking.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "1226f4872e218b14880b5acb90e3e64f5953b8be9cd494f3c25abc0c2d34d3cd",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-talking.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-talking.v1.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "d78cb7a63e47229dcf960d8b32c421f9f605437889f119b924a23d1b39e2c559",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-talking.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority; colours sampled, nothing copied"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-character-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner review and layout/scale studies only. Not on-model production art; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "study.bedroom.characters.v1",
+      "milestone": "M1.0i",
+      "category": "composition-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/bedroom-character-integration-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "c8f89f10c3aaa048471bcb1f32703dc1b66dbdf2d4b4d8aee855fa388c268666"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0i/bedroom-character-integration-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 1440,
+          "sha256": "538a3fdeaa19a85294b238fbcc45ee26895352339c6bde9481f1fbbd762029a7",
+          "shows": "M1.0h room with the v1 Boy (¾ neutral) at CHILD_START and Mom (¾ neutral, mirrored) at MOM_SPOT, contact shadows and study-only window light"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "study.bedroom.composition.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/bedroom/bedroom-composition-study-v2.kra",
+          "relation": "room-only render, layout unchanged"
+        },
+        {
+          "id": "char.boy.three-quarter.neutral.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-character-v1.kra"
+        },
+        {
+          "id": "char.mom.three-quarter.neutral.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-character-v1.kra"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/bedroom-character-integration-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Artwork-only integration review. Phaser gameplay unchanged."
+    },
+    {
+      "id": "review.character-sheet.v1",
+      "milestone": "M1.0i",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/character-review-sheet-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 4000,
+        "sha256": "76f6b9413d1dea4318408a653ff8cc21b59174fa5c24872db2f41b7dfe15804a"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0i/character-review-sheet-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 4000,
+          "sha256": "2ffeeb84026afc5e313c57d80e121e1b15ddbcdf1670948661747ebd997c117f",
+          "shows": "Identity comparison, height line-up, expression comparison, bedroom before/after and mobile framing"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "excerpts copied for comparison; reference file unchanged"
+        },
+        {
+          "id": "working.boy-3q-v1-refined",
+          "repository": "ecosystem-assets",
+          "path": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png"
+        },
+        {
+          "id": "study.bedroom.composition.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.png"
+        },
+        {
+          "id": "study.bedroom.characters.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0i/bedroom-character-integration-v1.png"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/character-review-sheet-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review sheet only. Never shipped."
+    },
+    {
+      "id": "ref.boy.accepted-sheet.v1",
+      "milestone": "M1.0j-B",
+      "category": "character-reference-sheet",
+      "status": "Candidate",
+      "character": "boy",
+      "source": {
+        "path": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7d1a5aa47c1af41b205a638f56f5a5901146bd600f25f194fb50d0e2221f3c03",
+        "colorType": "RGBA8 (sheet-wide alpha ≈ 0.96–0.99; see provenance)",
+        "expectedFilename": "boy-character-reference-v1.png (brief); actual file is character-reference-v1.png",
+        "sheetTitle": "MOMEE · Boy Character — 3/4 View Candidate (v1.1)"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority the accepted designs were compared against"
+        }
+      ],
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "scope": "Boy visual direction as drawn on this sheet (main ¾ figure, its expressions and turnarounds). The sheet also embeds a Mom v1.1 figure, an M1.0i placeholder excerpt and a bedroom mock-up; those are not part of the acceptance.",
+        "recordedOn": "2026-10-24",
+        "evidence": "Owner statement in the M1.0j-B brief (2026-10-24). Not production approval; does not establish rights.",
+        "schemaNote": "Additive field: the manifest schema has no first-class visual-acceptance state. `status` and `approval` keep their existing meanings."
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/m1.0j/character-reference-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Immutable accepted visual reference for Boy asset production. Never shipped; never edited."
+    },
+    {
+      "id": "ref.mom.accepted-sheet.v1-2",
+      "milestone": "M1.0j-B",
+      "category": "character-reference-sheet",
+      "status": "Candidate",
+      "character": "mom",
+      "source": {
+        "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c06cd9abccb81155abd8491b35917125a8e171ffc28b19132f2811f2343e69f7",
+        "colorType": "RGB8 (no alpha)",
+        "sheetTitle": "MOMEE · Mom Character — 3/4 View Candidate (v1.2)"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority the accepted designs were compared against"
+        }
+      ],
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "scope": "Mom v1.2 visual direction (main ¾ figure: slightly more mature face, softer eyes, long wavy side-parted brown hair, pink blouse, beige wide trousers, white shoes, relaxed caring posture; ≈ 3.3 heads as a candidate). The v1.1 comparison figure, the embedded Boy and the bedroom mock-up are not part of the acceptance.",
+        "recordedOn": "2026-10-24",
+        "evidence": "Owner statement in the M1.0j-B brief (2026-10-24). Not production approval; does not establish rights.",
+        "schemaNote": "Additive field: the manifest schema has no first-class visual-acceptance state. `status` and `approval` keep their existing meanings."
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Immutable accepted visual reference for Mom asset production. Never shipped; never edited."
+    },
+    {
+      "id": "extract.boy.three-quarter.accepted.v1",
+      "milestone": "M1.0j-B",
+      "category": "character-extraction",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "three-quarter",
+      "expression": "as drawn on the sheet (Boy: open smile; Mom: gentle closed smile) — no expression layers",
+      "pipelineStage": "2 · extracted full-character image (not layered, not animation-ready)",
+      "worldScale": "200 world units tall; native 514 px = 2.57 px/u; @1x = 1 px/u; @2x = 2 px/u",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png",
+        "format": "png",
+        "width": 306,
+        "height": 538,
+        "sha256": "6be9428afa9e1849bf15247908dc17a722f9509d3e4c8a5524f6703c1df4ea22",
+        "extractedFrom": {
+          "sheet": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+          "crop": [
+            396,
+            100,
+            314,
+            545
+          ],
+          "figureBoundsInCrop": [
+            23,
+            7,
+            272,
+            520
+          ],
+          "feetAnchorInCrop": [
+            135,
+            520
+          ]
+        },
+        "integrity": "73811 opaque figure pixels, 0 changed from the sheet"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-accepted.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "a9d54d361cc5889235ac594c18f8f7a77c380af43cdc4b1eaeccefbdf00c8cc3",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-accepted.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-accepted.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "dec2efc74d9073d9d498ddcb62f64ebccf484d5cec9ec929f9ec836b76dcb62d",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-accepted.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.boy.accepted-sheet.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+          "relation": "pixels extracted non-destructively (panel background keyed, ground shadow separated); nothing repainted"
+        },
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority the accepted designs were compared against"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-accepted-extract-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Extraction candidate for owner review, scale and bedroom studies. Not production-approved; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "working.boy.accepted-layered.v1",
+      "milestone": "M1.0j-B",
+      "category": "character-working-source",
+      "status": "Working",
+      "character": "boy",
+      "rig": "child",
+      "pipelineStage": "3 · layered editing source (reference crop, extracted figure, separated ground shadow, empty cleanup layer, guides). Not separated into parts; not animation-ready.",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-accepted-working-v1.kra",
+        "format": "kra",
+        "width": 306,
+        "height": 538,
+        "sha256": "3f1ecccddb33fee355cb3cbcc142ce0e71c69f8dd2609a57d054871dcc504c8c"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "extract.boy.three-quarter.accepted.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png",
+          "relation": "imported unchanged (pixel-identical layer)"
+        },
+        {
+          "id": "ref.boy.accepted-sheet.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+          "relation": "sheet crop as a locked reference layer"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-accepted-extract-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Non-destructive starting point for cleanup and future part separation by an illustrator."
+    },
+    {
+      "id": "extract.mom.three-quarter.accepted.v1-2",
+      "milestone": "M1.0j-B",
+      "category": "character-extraction",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "expression": "as drawn on the sheet (Boy: open smile; Mom: gentle closed smile) — no expression layers",
+      "pipelineStage": "2 · extracted full-character image (not layered, not animation-ready)",
+      "worldScale": "290 world units tall; native 514 px = 1.77 px/u; @1x = 1 px/u; no @2x (would need 1.13× enlargement)",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png",
+        "format": "png",
+        "width": 246,
+        "height": 538,
+        "sha256": "52de109c857d35d1df55633b3a1abb6847f182a1fc092d5562416981ce9d0a15",
+        "extractedFrom": {
+          "sheet": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "crop": [
+            470,
+            162,
+            280,
+            532
+          ],
+          "figureBoundsInCrop": [
+            27,
+            6,
+            237,
+            519
+          ],
+          "feetAnchorInCrop": [
+            134,
+            519
+          ]
+        },
+        "integrity": "69481 opaque figure pixels, 0 changed from the sheet"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-accepted.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "6324e56f02447589562b003e4968a421f228235b010eb83d0c7bd9bb5b06726a",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-accepted.v1.@1x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "pixels extracted non-destructively (panel background keyed, ground shadow separated); nothing repainted"
+        },
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority the accepted designs were compared against"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-accepted-extract-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Extraction candidate for owner review, scale and bedroom studies. Not production-approved; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "working.mom.accepted-layered.v1",
+      "milestone": "M1.0j-B",
+      "category": "character-working-source",
+      "status": "Working",
+      "character": "mom",
+      "rig": "adult",
+      "pipelineStage": "3 · layered editing source (reference crop, extracted figure, separated ground shadow, empty cleanup layer, guides). Not separated into parts; not animation-ready.",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-accepted-working-v1.kra",
+        "format": "kra",
+        "width": 246,
+        "height": 538,
+        "sha256": "780c078ca1d46d1b1a00256d889bd03d318869e1bcdd76aebeb628399a6c2101"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "extract.mom.three-quarter.accepted.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png",
+          "relation": "imported unchanged (pixel-identical layer)"
+        },
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "sheet crop as a locked reference layer"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-accepted-extract-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Non-destructive starting point for cleanup and future part separation by an illustrator."
+    },
+    {
+      "id": "study.bedroom.accepted-characters.v1",
+      "milestone": "M1.0j-B",
+      "category": "composition-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/bedroom-accepted-characters-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "4cc3266e6c1d7c4b90c88e6d2eef2144dec00db263fd632910b27c32122a4225"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0j/bedroom-accepted-characters-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 1440,
+          "sha256": "00df294aa42e060c72021d78105df4e54941a6752fd46a6738628bc06915b454",
+          "shows": "M1.0h room (unchanged) with the Boy extraction at CHILD_START (200 u) and Mom v1.2 at MOM_SPOT (290 u, study-only 1.13× enlargement), original ground shadows"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "study.bedroom.composition.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/bedroom/bedroom-composition-study-v2.kra",
+          "relation": "room-only render"
+        },
+        {
+          "id": "extract.boy.three-quarter.accepted.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png"
+        },
+        {
+          "id": "extract.mom.three-quarter.accepted.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/bedroom-accepted-characters-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Artwork-only compatibility study. Phaser gameplay unchanged."
+    },
+    {
+      "id": "review.accepted-characters-sheet.v1",
+      "milestone": "M1.0j-B",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/accepted-characters-review-sheet-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 4160,
+        "sha256": "95c444315790c16ca8be6c6de49b9fa6537584117b706345dafe58c80f562e9a"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0j/accepted-characters-review-sheet-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 4160,
+          "sha256": "183e2b2e84c82d34e5af739c5345c713933cceedb313cc93e269b4b46fdfb059",
+          "shows": "Master excerpts, accepted sheets, extraction candidates, M1.0i placeholders, fidelity zooms, bedroom before/after, mobile scale and tiers"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.character-master-v1",
+          "repository": "app-momee",
+          "path": "assets/references/calm-chibi-storybook/characters/character-master-v1.png",
+          "relation": "identity authority the accepted designs were compared against"
+        },
+        {
+          "id": "ref.boy.accepted-sheet.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/character-reference-v1.png"
+        },
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png"
+        },
+        {
+          "id": "study.bedroom.accepted-characters.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0j/bedroom-accepted-characters-v1.png"
+        },
+        {
+          "id": "study.bedroom.characters.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0i/bedroom-character-integration-v1.png"
+        }
+      ],
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/accepted-characters-review-sheet-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review sheet only. Never shipped."
+    },
+    {
+      "id": "extract.boy.three-quarter.accepted-clean.v1",
+      "milestone": "M1.0j-C",
+      "category": "character-extraction",
+      "status": "Candidate",
+      "character": "boy",
+      "rig": "child",
+      "view": "three-quarter",
+      "pipelineStage": "2 · extracted full-character image, edge-cleaned derivative (static use only; not layered, not animation-ready)",
+      "worldScale": "200 world units tall; same native canvas, anchor and tier canvases as extract.boy.three-quarter.accepted.v1",
+      "source": {
+        "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted-clean.v1.native.png",
+        "format": "png",
+        "width": 306,
+        "height": 538,
+        "sha256": "7999af8cb82f49191c77cbf123df382ca67dc9da390c4bcb083090b8e09df5ca",
+        "cleanup": "108 light paper/ringing/stray pixels removed (alpha → 0; 30 speck clusters plus detached strays) and 4 cream-tinted edge pixels recoloured from their dark neighbour; opaque figure pixels recoloured: 0; bounds unchanged"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-accepted-clean.v1.@1x.png",
+          "format": "png",
+          "width": 160,
+          "height": 224,
+          "tier": "@1x",
+          "sha256": "efadedb3f82cc930bcf6531f0ae5759850c2cd6b3198dd780843f5fca95a21ba",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-accepted-clean.v1.@1x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/boy/boy-three-quarter-accepted-clean.v1.@2x.png",
+          "format": "png",
+          "width": 320,
+          "height": 448,
+          "tier": "@2x",
+          "sha256": "27f4dbfd419f2e7bc7bbb0c43ec9252356c0134d8e1769ac2243cc9911cc371f",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/child/boy-three-quarter-accepted-clean.v1.@2x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "extract.boy.three-quarter.accepted.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted.v1.native.png",
+          "relation": "derivative edge cleanup; original kept unchanged"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/boy/boy-accepted-clean-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Static development-preview candidate (owner review, scale and bedroom studies). Not production-approved; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "extract.mom.three-quarter.accepted-clean.v1",
+      "milestone": "M1.0j-C",
+      "category": "character-extraction",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "pipelineStage": "2 · extracted full-character image, edge-cleaned derivative (static use only; not layered, not animation-ready)",
+      "worldScale": "290 world units tall; same native canvas, anchor and tier canvases as extract.mom.three-quarter.accepted.v1-2",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png",
+        "format": "png",
+        "width": 246,
+        "height": 538,
+        "sha256": "d6e92d967aa44b3e851493313a92e09779215eb195da230cbbd36899411b61cd",
+        "cleanup": "6 light paper/ringing/stray pixels removed (alpha → 0; 4 speck clusters plus detached strays) and 0 cream-tinted edge pixels recoloured from their dark neighbour; opaque figure pixels recoloured: 0; bounds unchanged"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-accepted-clean.v1.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "9ae0b9a4d0f6e3620338f71a9abb53a953981c522d8659101098c40151b687ae",
+          "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-accepted-clean.v1.@1x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "extract.mom.three-quarter.accepted.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted.v1.native.png",
+          "relation": "derivative edge cleanup; original kept unchanged"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-accepted-clean-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Static development-preview candidate (owner review, scale and bedroom studies). Not production-approved; no runtime copy, rig or atlas."
+    },
+    {
+      "id": "study.character-scale.accepted.v1",
+      "milestone": "M1.0j-C",
+      "category": "scale-study",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/character-scale-quality-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2720,
+        "sha256": "b6801b8444d9758e35492612ec240e04e90099240bc07624f190cd8c62c3b91b"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0j-c/character-scale-quality-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2720,
+          "sha256": "aa1c020f0441e9d75c390ae625e798d69bb2f756753cc4cb4976030fb143c25d",
+          "shows": "Labelled sheet: line-up, edge cleanup zooms, full bedroom, desktop and phone framings with measured heights"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/lineup.@1x.png",
+          "format": "png",
+          "width": 560,
+          "height": 360,
+          "sha256": "b658caf000abb67efd1e398f89c1a73705c0195633913024db3bca533e828bc5",
+          "shows": "Cleaned @1x tiers on one ground line, 1 px/u, unscaled"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/bedroom-full.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "aa11051414115f7deaab73d7e89baf7f5d0f8537d8b68650e836eb921c939341",
+          "shows": "M1.0h room-only @1x with both cleaned figures at CHILD_START / MOM_SPOT"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/desktop-1280x800-overview.png",
+          "format": "png",
+          "width": 1164,
+          "height": 727,
+          "sha256": "86e36d7bde50eeeca3510c4cd371b67ef46c6f947290bed8ce9a085311efca1b",
+          "shows": "1280×800 overview frame (device zoom 1.10, shown 1:1)"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/phone-portrait-390x844-overview.png",
+          "format": "png",
+          "width": 390,
+          "height": 844,
+          "sha256": "349960ecd828b2c07f4ecb6884b1f45493467adb49d148f2f58a1a79331af95a",
+          "shows": "390×844 overview frame at zoom 0.94"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/phone-portrait-390x844-child-and-mom.png",
+          "format": "png",
+          "width": 333,
+          "height": 720,
+          "sha256": "1e1d4243feef011f5776e913fbe37f00ee43eed99a334b4fd693dc0bf70d4a67",
+          "shows": "390×844 child-and-mom frame (device 1.17, shown 1:1); Boy at Mom's approach (730, 590)"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/phone-landscape-844x390-overview.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "5e750fdeb8c9ea93c3ea1ac5c93ede1321a40b9974cdc173966ff5c420b40cfe",
+          "shows": "844×390 overview at zoom 0.85"
+        },
+        {
+          "path": "projects/momee/review/m1.0j-c/phone-landscape-844x390-child-and-mom.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "e568bc6d605067fe912af69fa9856dfe2e5016eaf7e0b52ad611e996bd88dd53",
+          "shows": "844×390 child-and-mom at zoom 0.85; Boy at Mom's approach"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "extract.boy.three-quarter.accepted-clean.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/boy/boy-three-quarter-accepted-clean.v1.native.png"
+        },
+        {
+          "id": "extract.mom.three-quarter.accepted-clean.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png"
+        },
+        {
+          "id": "study.bedroom.composition.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0h/bedroom-composition-study-v2.room-only.@1x.png",
+          "relation": "room-only @1x render, layout unchanged"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/character-scale-accepted-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Scale and framing verification for owner review. Phaser, camera and layout unchanged."
+    },
+    {
+      "id": "ref.mom.master-candidate.v1",
+      "milestone": "M1.0k-A2",
+      "category": "character-master-candidate",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "source": {
+        "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png",
+        "format": "png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "01af644ed2f98abc4dab93a42e5d1754d9ac12098dc852544d8b37f9a6b10508",
+        "colorType": "RGBA8, sRGB chunk; transparent background; body alpha ≈ 253 (≈ 1% translucent); faint light glow (alpha 1–4) up to 16 px around the figure",
+        "expectedFilename": "mom-three-quarter-master-candidate-v1.png (brief); delivered as mom-3.png",
+        "renamedFrom": "projects/momee/candidates/m1.0k-a/mom-3.png (renamed by the owner between M1.0k-A2 and M1.0k-A3; identical bytes, same SHA-256)"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "identity reference the candidate was generated against (per the M1.0k-A brief; attachment not recorded in the file)"
+        }
+      ],
+      "intakeResult": {
+        "place": "OK (×0.7713, 1504 → 1160 px; downscale only)",
+        "check": "geometry, transparency, edges, strays, shadow PASS; head proportion FAIL (3.68 vs 3.2–3.5); facing FAIL by silhouette tie (0.800 vs 0.801), resolved by head-region evidence as same left-facing turn",
+        "identity": "close (hair, eyes, outfit, palette ΔE00 ≤ 2.6, posture); deviations: ≈ 9% longer body, open toothy smile, slightly fuller face",
+        "recommendation": "revise (minor)"
+      },
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner-review candidate for the Mom production master. Not visually accepted; not production-approved; no exports or runtime copy."
+    },
+    {
+      "id": "review.mom-master-intake.v1",
+      "milestone": "M1.0k-A2",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/mom-master-intake-review-v1.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2600,
+        "sha256": "d5474f19b856c058818ef85a343cb59751fa184105139dc581d971293a7b2a1c"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0k-a2/mom-master-intake-review-v1.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2600,
+          "sha256": "2714f4a53f22912f2e9ba6ef6127926c5aec4e40c6d157a61aae006c244a75d2",
+          "shows": "Labelled review sheet: matched height and head, faces, intake checks, bedroom before/after, phone framing"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/mom-master-candidate-v1.placed-800x1248.png",
+          "format": "png",
+          "width": 800,
+          "height": 1248,
+          "sha256": "4c875806b826d08b0b0f359225c92d99391a75ebbb1d6397a04952bbca7b0505",
+          "shows": "Intake output for review only: de-glowed candidate placed on the 800×1248 master canvas (4 px/u, feet (400, 1216)); not an export"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/bedroom-full.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "b186465561951b4abe27132b5759a46452dd6599e0eee9054128ec4e10497f53",
+          "shows": "M1.0h room @1x: Boy (accepted clean) at CHILD_START, Mom candidate at MOM_SPOT, study-only contact shadow"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/desktop-1280x800-overview.png",
+          "format": "png",
+          "width": 1164,
+          "height": 727,
+          "sha256": "76e6660c0cd212539a4f10fc41f524137b6f85723bd1d1f860c0c82d40547a47",
+          "shows": "1280×800 overview (device 1.10, shown 1:1)"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/phone-portrait-390x844-overview.png",
+          "format": "png",
+          "width": 390,
+          "height": 844,
+          "sha256": "b000b0bd2a72b931aa4e6f59f6699e88547c23abf1b795151190a12c840735dc",
+          "shows": "390×844 overview at 0.94"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/phone-portrait-390x844-child-and-mom.png",
+          "format": "png",
+          "width": 333,
+          "height": 720,
+          "sha256": "828b55879a3f68a983215ca4f33d62967f0d12d1233477fe0dc3fe161b994883",
+          "shows": "390×844 child-and-mom (device 1.17, shown 1:1)"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/phone-landscape-844x390-overview.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "b678a70cb4dbfbd7e82935f7fc058b7b40bf7016b0f1b6d648302e3b1bba7b63",
+          "shows": "844×390 overview at 0.85"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a2/phone-landscape-844x390-child-and-mom.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "43b18fa44548cf67519827023ee38b1a644bc77d36bb3633a86f976e35ecd2ba",
+          "shows": "844×390 child-and-mom at 0.85"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.mom.master-candidate.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png",
+          "relation": "derivative glow trim + downscale placement (review only)"
+        },
+        {
+          "id": "extract.mom.three-quarter.accepted-clean.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png"
+        },
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "excerpts (close-up panel) copied for comparison; file unchanged"
+        },
+        {
+          "id": "study.character-scale.accepted.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0j-c/bedroom-full.@1x.png",
+          "relation": "before renders"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-master-intake-review-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review material only. Never shipped."
+    },
+    {
+      "id": "ref.mom.master-candidate.v2",
+      "milestone": "M1.0k-A3",
+      "category": "character-master-candidate",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "source": {
+        "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png",
+        "format": "png",
+        "width": 1284,
+        "height": 1225,
+        "sha256": "9c4f58d72da49f5acf6b2438db2e52042da5bdd19078890ad32b3596cb3fda1b",
+        "colorType": "RGBA8, sRGB chunk; transparent background; body alpha ≈ 253 (1185 px at 255); faint warm glow (alpha 1–4, 10,378 px) touching the bottom edge; XMP/eXIf from a macOS export (1284×1225 suggests an owner crop)"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "ref.mom.master-candidate.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v1.png",
+          "relation": "revision requested in the M1.0k-A2 report (≈ 3.4 heads, closed smile); generation link not recorded in the file"
+        },
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "identity reference (per brief)"
+        }
+      ],
+      "intakeResult": {
+        "place": "OK (×0.9683, 1198 → 1160 px; downscale only)",
+        "check": "master and both tiers: 12 PASS, 0 FAIL — head proportion 3.42 (3.40–3.44 over the chin reading; @2x 3.43, @1x 3.45); facing left decided automatically (IoU 0.884 vs 0.800 mirrored)",
+        "spec8": "identity: owner judgement; silhouette IoU 0.884 vs ≥ 0.90 (near miss: outline width, same pose); palette by material max ΔE00 3.8 PASS; proportion and eye line (Δ 1.1 %) PASS; edge QC 0 halos / 0 specks / 0 strays PASS; overlap QC and provenance open",
+        "recommendation": "accept as the Mom master candidate for owner visual review (not visually accepted, not production-approved)"
+      },
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "scope": "Mom v2 appearance as drawn in this original illustration (face, eyes, hair, outfit, closed-mouth smile, clasped-hands pose, left-facing ¾).",
+        "recordedOn": "2026-10-24",
+        "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24): the owner reviewed the M1.0k-A3 comparison sheet (review/m1.0k-a3/mom-master-candidate-v2-review.png) and accepted Mom v2's appearance. Not production approval; does not establish rights.",
+        "schemaNote": "Additive field: the manifest schema has no first-class visual-acceptance state. `status` and `approval` keep their existing meanings."
+      },
+      "acceptanceRecord": {
+        "character": "mom",
+        "acceptedVisualVersion": "v2",
+        "visualAcceptanceStatus": "Accepted",
+        "productionApprovalStatus": "Pending",
+        "rightsVerification": "Unverified",
+        "animationReadiness": "Static only",
+        "nativeFacing": "Left-facing ¾",
+        "headProportions": "Approximately 3.42 heads (3.40–3.44; D13 range 3.2–3.5)",
+        "silhouetteException": {
+          "scope": "Mom v2 only (character-specific; the global ≥ 0.90 silhouette guideline in character-master-spec §8.2 is unchanged)",
+          "measured": "IoU 0.884 against the accepted Mom v1.2 extraction at @1x (same pose)",
+          "reason": "Difference is primarily slightly fuller hair and wider trousers (outline width, not pose)",
+          "acceptedBy": "owner",
+          "recordedOn": "2026-10-24",
+          "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24)"
+        },
+        "recordedIn": "M1.0k-A4"
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner-review candidate for the Mom production master. Original kept untouched; derivatives are registered separately."
+    },
+    {
+      "id": "master.mom.three-quarter.candidate.v2",
+      "milestone": "M1.0k-A3",
+      "category": "character-master",
+      "status": "Candidate",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "pipelineStage": "4 · character master candidate — flat single illustration at 4 px/u, one expression (gentle smile). Not layered by slot, hidden overlaps not painted; not animation-ready.",
+      "worldScale": "290 world units tall at 4 px/u (1160 px); canvas 800×1248, feet anchor (400, 1216); tiers @2x 400×624 anchor (200, 608), @1x 200×312 anchor (100, 304)",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+        "format": "png",
+        "width": 800,
+        "height": 1248,
+        "sha256": "b3047c20cd3736dacbd49792e3aeed38dbd4669abfc11caf8fa293837080167a",
+        "derivation": "alpha-only glow trim (deglow.mjs: 7,204 glow px and 31 detached components of 88 px, all alpha ≤ 6, cleared; interior alpha → 255; RGB unchanged) then `momee-character-master.mjs place` (one uniform premultiplied area-average downscale ×0.9683)"
+      },
+      "exports": [
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@2x.png",
+          "format": "png",
+          "width": 400,
+          "height": 624,
+          "tier": "@2x",
+          "sha256": "fdd9834eea41b02e6e37cc34cb9533cca548a4f4153faf71eec6bb9bd2dc7e54",
+            "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-master-candidate.v2.@2x.png"
+        },
+        {
+          "path": "projects/momee/exports/characters/mom/mom-three-quarter-master-candidate.v2.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "tier": "@1x",
+          "sha256": "692d96f901187f66266551e1691181903e71601b5175ccefe1936f943e230cbc",
+            "runtimeDestination": "apps/web/public/game/calm-chibi-storybook/characters/adult/mom-three-quarter-master-candidate.v2.@1x.png"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.mom.master-candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png",
+          "relation": "derivative (glow trim + downscale placement); original unchanged"
+        }
+      ],
+      "intakeResult": {
+        "place": "OK (×0.9683, 1198 → 1160 px; downscale only)",
+        "check": "master and both tiers: 12 PASS, 0 FAIL — head proportion 3.42 (3.40–3.44 over the chin reading; @2x 3.43, @1x 3.45); facing left decided automatically (IoU 0.884 vs 0.800 mirrored)",
+        "spec8": "identity: owner judgement; silhouette IoU 0.884 vs ≥ 0.90 (near miss: outline width, same pose); palette by material max ΔE00 3.8 PASS; proportion and eye line (Δ 1.1 %) PASS; edge QC 0 halos / 0 specks / 0 strays PASS; overlap QC and provenance open",
+        "recommendation": "accept as the Mom master candidate for owner visual review (not visually accepted, not production-approved)"
+      },
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "scope": "Mom v2 appearance as carried by the 800×1248 master candidate and its @2x/@1x tiers (static, single expression). Visual appearance only.",
+        "recordedOn": "2026-10-24",
+        "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24): the owner reviewed the M1.0k-A3 comparison sheet (review/m1.0k-a3/mom-master-candidate-v2-review.png) and accepted Mom v2's appearance. Not production approval; does not establish rights.",
+        "schemaNote": "Additive field: the manifest schema has no first-class visual-acceptance state. `status` and `approval` keep their existing meanings."
+      },
+      "acceptanceRecord": {
+        "character": "mom",
+        "acceptedVisualVersion": "v2",
+        "visualAcceptanceStatus": "Accepted",
+        "productionApprovalStatus": "Pending",
+        "rightsVerification": "Unverified",
+        "animationReadiness": "Static only",
+        "nativeFacing": "Left-facing ¾",
+        "headProportions": "Approximately 3.42 heads (3.40–3.44; D13 range 3.2–3.5)",
+        "silhouetteException": {
+          "scope": "Mom v2 only (character-specific; the global ≥ 0.90 silhouette guideline in character-master-spec §8.2 is unchanged)",
+          "measured": "IoU 0.884 against the accepted Mom v1.2 extraction at @1x (same pose)",
+          "reason": "Difference is primarily slightly fuller hair and wider trousers (outline width, not pose)",
+          "acceptedBy": "owner",
+          "recordedOn": "2026-10-24",
+          "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24)"
+        },
+        "recordedIn": "M1.0k-A4"
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-master-candidate-v2.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Candidate high-resolution Mom master and static tiers for owner review and bedroom studies. No runtime copy, rig, parts or atlas."
+    },
+    {
+      "id": "working.mom.master-candidate.v2",
+      "milestone": "M1.0k-A3",
+      "category": "character-working-source",
+      "status": "Working",
+      "character": "mom",
+      "rig": "adult",
+      "pipelineStage": "4 (candidate) · non-destructive Krita source: hidden locked references (unresampled original v2, accepted v1.2 extraction at native size), the master candidate layer, empty shadow and cleanup layers, hidden guides. No animation layers or rig.",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-master-candidate-v2-working.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "e0d7318c70aeb96453aa764788523f2350ab49ef86f9e49478c78127c0799550"
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "imported unchanged (pixel-identical layer, verified on reopen)"
+        },
+        {
+          "id": "ref.mom.master-candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0k-a/mom-three-quarter-master-candidate-v2.png",
+          "relation": "locked reference layer, whole-pixel translation only (verified on reopen)"
+        },
+        {
+          "id": "extract.mom.three-quarter.accepted-clean.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png",
+          "relation": "locked reference layer at native size (not scaled)"
+        }
+      ],
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "scope": "Mom v2 appearance as imported unchanged into this working source. Visual appearance only; no animation layers exist.",
+        "recordedOn": "2026-10-24",
+        "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24): the owner reviewed the M1.0k-A3 comparison sheet (review/m1.0k-a3/mom-master-candidate-v2-review.png) and accepted Mom v2's appearance. Not production approval; does not establish rights.",
+        "schemaNote": "Additive field: the manifest schema has no first-class visual-acceptance state. `status` and `approval` keep their existing meanings."
+      },
+      "acceptanceRecord": {
+        "character": "mom",
+        "acceptedVisualVersion": "v2",
+        "visualAcceptanceStatus": "Accepted",
+        "productionApprovalStatus": "Pending",
+        "rightsVerification": "Unverified",
+        "animationReadiness": "Static only",
+        "nativeFacing": "Left-facing ¾",
+        "headProportions": "Approximately 3.42 heads (3.40–3.44; D13 range 3.2–3.5)",
+        "silhouetteException": {
+          "scope": "Mom v2 only (character-specific; the global ≥ 0.90 silhouette guideline in character-master-spec §8.2 is unchanged)",
+          "measured": "IoU 0.884 against the accepted Mom v1.2 extraction at @1x (same pose)",
+          "reason": "Difference is primarily slightly fuller hair and wider trousers (outline width, not pose)",
+          "acceptedBy": "owner",
+          "recordedOn": "2026-10-24",
+          "evidence": "Owner statement in the M1.0k-A4 brief (2026-10-24)"
+        },
+        "recordedIn": "M1.0k-A4"
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-master-candidate-v2.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Editing source for owner-approved cleanup and later slot separation by an illustrator."
+    },
+    {
+      "id": "review.mom-master-candidate.v2",
+      "milestone": "M1.0k-A3",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/mom-master-candidate-v2-review.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 3000,
+        "sha256": "046314b4041fc960b5a34bad7ef544adc2ebacb2d807a399f915f862c774bccf"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0k-a3/mom-master-candidate-v2-review.png",
+          "format": "png",
+          "width": 2560,
+          "height": 3000,
+          "sha256": "d30d42bd671a6f74b5eb109314706675600228586e1c5671de6287a1ae2c58f1",
+          "shows": "Labelled review sheet: matched height (v1.2 · v2 · A2 v1), faces at matched head size, intake checks, bedroom before/after, tiers 1:1, silhouette difference, spec §8 status, recommendation"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/silhouette-diff-vs-accepted.@1x.png",
+          "format": "png",
+          "width": 200,
+          "height": 312,
+          "sha256": "b503fc3c1b1d6eeae18d4f5e090595697d4f073bbdc010cb4e6d2b5f32aef2bf",
+          "shows": "Alpha-mask difference at @1x vs the accepted extraction (grey both, red v2 only, blue v1.2 only); IoU 0.884"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/bedroom-full.@1x.png",
+          "format": "png",
+          "width": 1280,
+          "height": 720,
+          "sha256": "83864a085b98cb719478cccaec876baacdea724dcdb7c53e32240d9ccadf7daf",
+          "shows": "M1.0h room @1x: Boy (accepted clean) at CHILD_START, Mom master candidate v2 at MOM_SPOT, study-only contact shadow"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/desktop-1280x800-overview.png",
+          "format": "png",
+          "width": 1164,
+          "height": 727,
+          "sha256": "1e6510490d10ebfa469033994daf671d2baffa782435d02b5daddaff42c8526a",
+          "shows": "1280×800 overview (device 1.10, shown 1:1)"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/phone-portrait-390x844-overview.png",
+          "format": "png",
+          "width": 390,
+          "height": 844,
+          "sha256": "aa395242ddbc2a6c3cd20609c9d9e7e0533c0c9a54e91263408e63c475596b37",
+          "shows": "390×844 overview at 0.94 (hair tips touch the right frame edge, as with the accepted v1.2 cutout)"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/phone-portrait-390x844-child-and-mom.png",
+          "format": "png",
+          "width": 333,
+          "height": 720,
+          "sha256": "500c49f6b104d2dfe6482a69c6af4dd7a31d5a8202cf9967c9903c39e47ae3cd",
+          "shows": "390×844 child-and-mom (device 1.17, shown 1:1)"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/phone-landscape-844x390-overview.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "8a478b49ba3a5e40d7e4dac40c5354f5869ab9a6487d589a8ed62ff0082a0837",
+          "shows": "844×390 overview at 0.85"
+        },
+        {
+          "path": "projects/momee/review/m1.0k-a3/phone-landscape-844x390-child-and-mom.png",
+          "format": "png",
+          "width": 844,
+          "height": 390,
+          "sha256": "296b08c2c998d467bd394b6e935cfbb8ba86dd703449d3c1e265373edf90271a",
+          "shows": "844×390 child-and-mom at 0.85"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png"
+        },
+        {
+          "id": "ref.mom.master-candidate.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0k-a2/mom-master-candidate-v1.placed-800x1248.png",
+          "relation": "A2 placed candidate shown for history"
+        },
+        {
+          "id": "extract.mom.three-quarter.accepted-clean.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-accepted-clean.v1.native.png"
+        },
+        {
+          "id": "ref.mom.accepted-sheet.v1-2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0j/mom-character-reference-v1.2.png",
+          "relation": "close-up panel excerpt; file unchanged"
+        },
+        {
+          "id": "study.character-scale.accepted.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0j-c/bedroom-full.@1x.png",
+          "relation": "before renders"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-master-candidate-v2-review.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review material only. Never shipped."
+    },
+    {
+      "id": "working.mom.head-pilot.v1",
+      "milestone": "M1.0l-A1",
+      "category": "character-working-source",
+      "status": "Working",
+      "character": "mom",
+      "rig": "adult",
+      "view": "three-quarter",
+      "pipelineStage": "4 (pilot) · head-only extraction of the accepted Mom v2 master into slot layers: base (unseparated hair, body, near brow, face rim), body-skin/neck-visible, head-skin/base, face-eyes/open (eye-near, eye-far), face-brows/neutral (far brow), face-mouth/neutral. Empty hidden TO-PAINT placeholders for missing attachments. Not animation-ready.",
+      "source": {
+        "path": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra",
+        "format": "kra",
+        "width": 800,
+        "height": 1248,
+        "sha256": "31cd8669a87ee9740d994ebe693d8df797db6a3d7b6230191a53d43f14c9face",
+        "layers": {
+          "base": {
+            "pixels": 355831,
+            "bbox": [
+              124,
+              56,
+              640,
+              1215
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/base.png",
+            "sha256": "b73aaa2bcbb179265a4ffaefebee90f467a6ae165fe1c775e95c233906d40989"
+          },
+          "body-skin/neck-visible": {
+            "pixels": 2948,
+            "bbox": [
+              362,
+              380,
+              437,
+              472
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/body-skin__neck-visible.png",
+            "sha256": "2a02849d7389d509ccee058d5972d2a40c9a38cbba8d46add4d2254d402c5991"
+          },
+          "head-skin/base": {
+            "pixels": 20872,
+            "bbox": [
+              270,
+              164,
+              539,
+              404
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/head-skin__base.png",
+            "sha256": "79fdafc78d28f975350d7c3df97fad4d0d3b75640a226e7e4be5a1c106040f8f"
+          },
+          "face-mouth/neutral": {
+            "pixels": 1652,
+            "bbox": [
+              398,
+              339,
+              456,
+              366
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/face-mouth__neutral.png",
+            "sha256": "76e18f1e348476de1987231d9689d10e94d43446e60c09403de17bdc732f751c"
+          },
+          "face-eyes/open:eye-near": {
+            "pixels": 6175,
+            "bbox": [
+              332,
+              245,
+              424,
+              326
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-near.png",
+            "sha256": "66c61fddad9fbad1b92241c4a9c422d52f77ee630f60ca245061a4fdb68b0a3f"
+          },
+          "face-eyes/open:eye-far": {
+            "pixels": 4463,
+            "bbox": [
+              461,
+              256,
+              535,
+              334
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/face-eyes__open__eye-far.png",
+            "sha256": "a1877a07888bded5fc995a4776e71b4931c4ab1e7c58664805dddda3efe0ba78"
+          },
+          "face-brows/neutral:brow-far": {
+            "pixels": 1080,
+            "bbox": [
+              493,
+              222,
+              542,
+              254
+            ],
+            "png": "projects/momee/candidates/m1.0l-a1-construction/layers/face-brows__neutral__brow-far.png",
+            "sha256": "d71d4ea4c426432d17a29c8d9234bbb63792210f518c4a9e45f0de0f78f0020f"
+          }
+        },
+        "fidelity": "Krita projection vs master: 0 differing visible pixels, 0 alpha differences; 1125 fully transparent master pixels carry leftover RGB that the layers store as 0 (never rendered). Partition: 0 overlapping, 0 unassigned pixels."
+      },
+      "exports": [],
+      "lineage": [
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "pixel partition: every master pixel copied unchanged into exactly one layer; master kept as a hidden locked reference layer; master file unchanged"
+        }
+      ],
+      "pivots": {
+        "headJoint": [
+          390,
+          398
+        ],
+        "neckBase": [
+          393,
+          425
+        ],
+        "eyeNearCentroid": [
+          380,
+          286
+        ],
+        "eyeFarCentroid": [
+          496,
+          293
+        ],
+        "mouthCentroid": [
+          427,
+          353
+        ],
+        "browFarCentroid": [
+          518,
+          238
+        ],
+        "anchorHeadTop": [
+          446,
+          57
+        ],
+        "anchorFeet": [
+          400,
+          1216
+        ],
+        "coordinateSpace": "800×1248 master canvas, 4 px/u; mirror for right-facing as x' = 800 − x"
+      },
+      "nativeFacing": "left (D15; not mirrored)",
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/characters/mom/mom-head-pilot-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Head-only facial-animation pilot source for owner review. Not animation-ready (missing painted attachments, hair separation and neck extension). No exports, no rig, no runtime copy."
+    },
+    {
+      "id": "review.mom-head-pilot.v1",
+      "milestone": "M1.0l-A1",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/mom-head-pilot-v1-review.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2930,
+        "sha256": "2413ce13666c7e68053fc00f62309a8c80dfb2c00d0d1a1086623da1b033d760"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0l-a1/mom-head-pilot-v1-review.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2930,
+          "sha256": "893b967934adfb66190561354f3c2f94a76b836b9a14a25031a167288c0d6ec0",
+          "shows": "Full review sheet: close-up, inventory, extracted layers, reconstruction, missing-artwork map, animation requirements"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/head-closeup.png",
+          "format": "png",
+          "width": 800,
+          "height": 430,
+          "sha256": "612e542983c95b3599c926477689901c20af71d10912a7a4125a7421c934397c",
+          "shows": "Accepted v2 head, 1:1"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/layer-inventory.png",
+          "format": "png",
+          "width": 1760,
+          "height": 430,
+          "sha256": "df2e5bf7ae766b4f0edde5905e6fe993a2c00dcdc3a2c9d559001910faeb8623",
+          "shows": "Layer table: pixels, bboxes, pivots, extraction safety"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/extracted-layers.png",
+          "format": "png",
+          "width": 2560,
+          "height": 510,
+          "sha256": "132402226c43664ff58fefcd6b7b349d115c222f67822c30963423bbb2619f0d",
+          "shows": "Each extracted layer alone, 1:1"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/neutral-reconstruction.png",
+          "format": "png",
+          "width": 2560,
+          "height": 480,
+          "sha256": "bcf00cd1a404ec9cf5cdc01d77db8c29587fc11ba191c264b69bdef41907a8a5",
+          "shows": "Master vs Krita projection vs difference (0 visible differences)"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/missing-artwork-map.png",
+          "format": "png",
+          "width": 2560,
+          "height": 500,
+          "sha256": "93a511717b8b0ed6e796cb0360ac84eddc92cd62f78ab4f7151c9cde07bc684a",
+          "shows": "Holes under attachments, neck extension, not-separable regions"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a1/facial-animation-requirements.png",
+          "format": "png",
+          "width": 2560,
+          "height": 800,
+          "sha256": "1e2903acee432cb7e7fcf5ad4975d4b28c144412328dd547eccbad39354c364e",
+          "shows": "Blink, talking and idle frame and timing specification; facing notes"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "working.mom.head-pilot.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra"
+        },
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "shown 1:1; file unchanged"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-head-pilot-v1-review.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review material only. Never shipped."
+    },
+    {
+      "id": "ref.mom.facial-animation-concept.v1",
+      "milestone": "M1.0l-A2",
+      "category": "reference-sheet",
+      "status": "Candidate",
+      "character": "mom",
+      "source": {
+        "path": "projects/momee/review/m1.0l-a2/mom-facial-animation-concept-v1.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b1a34b9612f44e04b1e43cbd7305db1c58e8a219cb04700bdc12fdace28c130c",
+        "colorType": "RGBA8, sRGB chunk; XMP Core 6.0.0 + eXIf (macOS writer); no C2PA, no generator tags"
+      },
+      "exports": [],
+      "classification": "reference only — no expression is extractable",
+      "content": "A generated restyle of the M1.0l-A1 review sheet (garbled title). Section 6 holds nine expression thumbnails (eyes open ×2, half-closed ×2, closed; mouth neutral, small open, wide open; raised brow), each ≈ 85–112 × 103 px.",
+      "intakeResult": {
+        "scale": "thumbnails drawn at ×0.36–0.39 of the v2 master; 4 px/u use would need ×2.6–2.8 enlargement (forbidden)",
+        "frameConsistency": "each panel is a separate redraw of the whole face: outside the feature band frames differ from their 'existing' partner by 7.5–11.8 levels mean (open vs open: 12.0); head offset 1–4 px per panel",
+        "style": "eye frames use thick black lashes and a heavy lid line (v2: warm brown lines); mouth frames are on-model in shape",
+        "misleadingContent": "shows a separated near eyebrow (not separable in A1) and labels a redrawn head as '1:1 from master'",
+        "analysis": "projects/momee/candidates/m1.0l-a2-construction/analysis.json"
+      },
+      "lineage": [
+        {
+          "id": "review.mom-head-pilot.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0l-a1/mom-head-pilot-v1-review.png",
+          "relation": "layout and content restyled from this review sheet (inferred from the matching sections and labels)"
+        },
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "identity the thumbnails imitate"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-facial-animation-concept-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Direction reference for expression shapes only. Never extracted, shipped or used as a record of M1.0l-A1 data."
+    },
+    {
+      "id": "review.mom-facial-concept-intake.v1",
+      "milestone": "M1.0l-A2",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/mom-facial-concept-intake-v1-review.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2190,
+        "sha256": "c8271b1019dcdb2c323743604199f1990182e546fe17bc6824ea39097f7a9b9a"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0l-a2/mom-facial-concept-intake-v1-review.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2190,
+          "sha256": "954db85ad6d325b59d71610cf022ed1ae6a9e1e1af8cfef7e90f45049bdd64cc",
+          "shows": "Accepted v2 face and A1 neutral layers (1:1), the concept sheet (×0.5), its nine expression thumbnails (1:1, reference only) beside v2 downscaled to the same scale, extracted candidates (none), missing artwork per expression, readiness (blink, talk, combined: blocked) and the recommended next step"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.mom.facial-animation-concept.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/review/m1.0l-a2/mom-facial-animation-concept-v1.png",
+          "relation": "shown ×0.5 and as native crops; file unchanged"
+        },
+        {
+          "id": "working.mom.head-pilot.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra",
+          "relation": "A1 neutral layers and missing-artwork map"
+        },
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-facial-concept-intake-v1-review.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review material only. Never shipped."
+    },
+    {
+      "id": "ref.mom.eyes-closed-candidate.v1",
+      "milestone": "M1.0l-A3",
+      "category": "expression-candidate",
+      "status": "Candidate",
+      "character": "mom",
+      "view": "three-quarter",
+      "source": {
+        "path": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "499872619181049b8160cacaa541cccfde25f095870a674ac620eb681598b162",
+        "colorType": "RGBA8, sRGB chunk; XMP Core 6.0.0 + eXIf (macOS writer); no C2PA; content alpha 244–254 (no truly transparent assets)"
+      },
+      "exports": [],
+      "classification": "reference only (file); closed-eye design on-model — needs revision",
+      "content": "A generated documentation sheet: full figure, open/closed head close-ups (panels 2–3, ≈ 380×358 px), comparison crops, 'extracted' eyes on a painted checkerboard, overlay, difference panel, validation checklist and notes. Printed claims were verified independently; seven of eight are false.",
+      "intakeResult": {
+        "resolution": "panel 3 = master × 1.23 (downscale ×0.81 fits; no enlargement needed)",
+        "fitResidualOutsideEyes": "panel 3: 12.01; panel 2 ('exact pixels'): 11; a true enlarged master copy: 0.98",
+        "panel3VsPanel2OutsideEyeMasks": {
+          "outsideEyeMasks": 7.28,
+          "insideEyeMasks": 80.04,
+          "pixelsChangedOver10perChannel": 25074,
+          "ofWhichOutsideEyeMasks": 14735
+        },
+        "compositeSeam": {
+          "eyeNear": {
+            "edgePairs": 350,
+            "compositeMeanAbs": 14.3,
+            "masterOwnEdgeMeanAbs": 8.1,
+            "pairsOver25": 44
+          },
+          "eyeFar": {
+            "edgePairs": 308,
+            "compositeMeanAbs": 15.9,
+            "masterOwnEdgeMeanAbs": 2.2,
+            "pairsOver25": 24
+          }
+        },
+        "skinInsideMasksVsRing": {
+          "eyeNear": {
+            "candidateInsideMask": [
+              253,
+              209,
+              176
+            ],
+            "masterRingOutside": [
+              252,
+              202,
+              167
+            ],
+            "insideSkinPixels": 5091
+          },
+          "eyeFar": {
+            "candidateInsideMask": [
+              253,
+              214,
+              181
+            ],
+            "masterRingOutside": [
+              252,
+              203,
+              168
+            ],
+            "insideSkinPixels": 3959
+          }
+        },
+        "lashColourDarkest": {
+          "masterOpenEyes": [
+            12,
+            4,
+            3
+          ],
+          "candidateClosedEyes": [
+            43,
+            16,
+            9
+          ]
+        },
+        "fringeAndCheekContour": "no extra seam at the near-eye fringe; v2 cheek contour outside the far mask and unchanged",
+        "verdict": "composite fails (lighter skin patches show the mask outlines; near-eye patch cuts the blush) → reference only; design passes → revision requested",
+        "analysis": "projects/momee/candidates/m1.0l-a3-construction/analysis.json",
+        "composite": "projects/momee/candidates/m1.0l-a3-construction/composite.json"
+      },
+      "lineage": [
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "identity reference the closed eyes were generated against (per owner)"
+        },
+        {
+          "id": "working.mom.head-pilot.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra",
+          "relation": "A1 eye masks used for the composite test"
+        }
+      ],
+      "generation": {
+        "platform": "ChatGPT",
+        "provider": "OpenAI",
+        "method": "Reference-guided image generation",
+        "model": "not recorded",
+        "prompt": "not recorded",
+        "timestamp": "not recorded"
+      },
+      "visualAcceptanceStatus": "Pending (owner review); recorded as null under the approval contract",
+      "productionApprovalStatus": "Pending (owner review); recorded as null under the approval contract",
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Design reference for Mom's closed eyes only. Not extracted; not a blink frame."
+    },
+    {
+      "id": "review.mom-closed-eye-intake.v1",
+      "milestone": "M1.0l-A3",
+      "category": "review-sheet",
+      "status": "Candidate",
+      "source": {
+        "path": "projects/momee/source/studies/mom-closed-eye-intake-v1-review.kra",
+        "format": "kra",
+        "width": 2560,
+        "height": 2290,
+        "sha256": "9f2485730e214ad791bfde83515a05949cee9a4c00283e1a14f1d23434dbe378"
+      },
+      "exports": [],
+      "reviewRenders": [
+        {
+          "path": "projects/momee/review/m1.0l-a3/mom-closed-eye-intake-v1-review.png",
+          "format": "png",
+          "width": 2560,
+          "height": 2290,
+          "sha256": "210a442d22879054ddfa784b0aa9b01113db1fe5ef788897a48c497352e1b85b",
+          "shows": "v2 face (1:1), the candidate sheet (×0.5), printed claims vs measurements, panel 3 native and fitted (×0.81), composite test on a master copy, ×3 eye inspection zooms (display only), seam/alignment findings, readiness and recommendation"
+        },
+        {
+          "path": "projects/momee/review/m1.0l-a3/closed-eye-composite-test.failed.head-1x.png",
+          "format": "png",
+          "width": 340,
+          "height": 330,
+          "sha256": "0f6f371850c54c4489a62b373641e1ca41a30df4df5e7351823fabc677ec6fac",
+          "shows": "FAILED composite test, head crop 1:1: A1 eye masks filled from the fitted panel 3 on a copy of the master — not a candidate"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ref.mom.eyes-closed-candidate.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/candidates/m1.0l-a3/mom-eyes-closed-candidate-v1.png",
+          "relation": "panels cropped and downscaled; file unchanged"
+        },
+        {
+          "id": "master.mom.three-quarter.candidate.v2",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-three-quarter-master-candidate.v2.master.png",
+          "relation": "copy used for the composite test; file unchanged"
+        },
+        {
+          "id": "working.mom.head-pilot.v1",
+          "repository": "ecosystem-assets",
+          "path": "projects/momee/source/characters/mom/mom-head-pilot-v1-working.kra",
+          "relation": "A1 eye masks"
+        }
+      ],
+      "visualAcceptance": null,
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/candidates/studies/mom-closed-eye-intake-v1-review.provenance.json"
+      },
+      "approval": null,
+      "intendedAppUsage": "Owner art-review material only. Never shipped."
+    },
+    {
+      "id": "ref.momee.soft-storybook-master-reference.v1",
+      "milestone": "M1.1a",
+      "category": "concept-reference",
+      "status": "Candidate",
+      "visualDirection": "soft-storybook-adventure",
+      "characters": [
+        "boy",
+        "girl",
+        "mom",
+        "dad"
+      ],
+      "assetType": "Character and environment concept reference",
+      "source": {
+        "path": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.png",
+        "format": "png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "907a9bd82ed5aec0fe7f50c0494bcdda1d74fddf59a1d51c2b07cd34fb77dd36",
+        "colorType": "RGB8, sRGB chunk, no alpha",
+        "sourceType": "flattened concept illustration (no editable layers; component and animation panels are illustrations)"
+      },
+      "exports": [],
+      "lineage": [],
+      "rigReadiness": "not-ready",
+      "generation": "unknown (not documented; see provenance)",
+      "visualAcceptance": {
+        "state": "owner-accepted-visual-direction",
+        "provisional": true,
+        "scope": "The Soft Storybook Adventure visual direction as drawn on this sheet: character designs, expressions, environments and palette. Provisional: it directs the M1.1 prototypes and is not production art. The component and animation panels are not accepted as assets.",
+        "recordedOn": "2026-10-26",
+        "evidence": "Owner selection of this sheet as the primary visual reference (M1.0m brief). Not production approval; does not establish rights.",
+        "schemaNote": "provisional is an additive boolean; the state names and the three gates are unchanged."
+      },
+      "productionApproval": null,
+      "rights": {
+        "status": "unverified",
+        "provenancePath": "projects/momee/styles/soft-storybook-adventure/references/momee-soft-storybook-master-reference-v1.provenance.json",
+        "note": "Pending verification"
+      },
+      "approval": null,
+      "intendedAppUsage": "Visual reference for the Soft Storybook Adventure direction only. Not a runtime asset, not an export and not an animation source."
+    }
+  ]
+}

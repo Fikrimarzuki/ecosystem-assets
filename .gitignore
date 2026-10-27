@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+/catalog-output/
+/apps/web/node_modules/
+/apps/web/dist/
+/apps/web/.generated/
+
+# Build caches and tool output
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+
+# Disposable test and verification output (approved exports live in projects/*/branding/exports/)
+/checks/
+/test-results/
+/playwright-report/
+
+# Regenerable exports of historical design variants (sources are kept; rebuild with `pnpm build:icons <id> --variant <name>`).
+# This does not touch production exports at projects/<id>/branding/exports/.
+/projects/*/branding/concepts/*/exports/
+
+# Local scratch
+/scratch/
+/tmp/
+*.tmp
+*.temp
+*.log
+
+# Blender backups and autosaves (the .blend source itself is tracked)
+*.blend1
+*.blend2
+*.autosave
+
+# Imported production tools may generate Python caches and local test runs.
+__pycache__/
+*.pyc
+**/test-results/
+**/recheck-results/
+**/browser-results/
+**/restored-test-results/
+**/playwright-report/
+
+# Editor swap/backup files
+*~
+*.swp
+
+# OS-generated files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

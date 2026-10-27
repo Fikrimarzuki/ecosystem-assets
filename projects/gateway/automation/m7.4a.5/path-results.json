@@ -1,0 +1,93 @@
+{
+  "lateRepair": {
+    "previous": {
+      "x": 0.16341095473559974,
+      "y": 0.9878784937337404,
+      "z": 1.4028335766791975
+    },
+    "pivot": {
+      "x": 0.0784534853889487,
+      "y": 0.5630000238418579,
+      "z": 0.8087579749848717
+    },
+    "step": 0.03360000000149012,
+    "expandedBeam": {
+      "min": {
+        "x": -0.2249999976158142,
+        "y": 0.5650000238418579,
+        "z": 0.7050000095367431
+      },
+      "max": {
+        "x": 0.20500000178813935,
+        "y": 0.6749999856948853,
+        "z": 0.8149999713897705
+      }
+    },
+    "planeBounds": {
+      "minX": 0.07867751976664632,
+      "maxX": 0.07905948586416704,
+      "minZ": 0.8112029124835646,
+      "maxZ": 0.8119663069018905
+    },
+    "allMovementBallRaysIntersectBeam": true,
+    "nearCandidates": 515,
+    "nearClear": 0,
+    "minimumVerticalDistanceToUnderside": 0.4228784698918825
+  },
+  "paths": [
+    {
+      "strategy": "direct-early-transition",
+      "boomFailures": 108,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.020890925424482586,
+      "maxStepRatio": 0.3133638813672447,
+      "frames": 200
+    },
+    {
+      "strategy": "existing-yaw-waypoint--0.5",
+      "boomFailures": 77,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.049543434843334726,
+      "maxStepRatio": 0.7431515226500273,
+      "frames": 200
+    },
+    {
+      "strategy": "existing-yaw-waypoint--0.25",
+      "boomFailures": 78,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.0438830977343096,
+      "maxStepRatio": 0.6582464660146508,
+      "frames": 200
+    },
+    {
+      "strategy": "existing-yaw-waypoint-0",
+      "boomFailures": 78,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.041781850848964935,
+      "maxStepRatio": 0.6267277627344846,
+      "frames": 200
+    },
+    {
+      "strategy": "existing-yaw-waypoint-0.25",
+      "boomFailures": 77,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.043883186352366405,
+      "maxStepRatio": 0.6582477952854998,
+      "frames": 200
+    },
+    {
+      "strategy": "existing-yaw-waypoint-0.5",
+      "boomFailures": 74,
+      "sweepFailures": 0,
+      "framingFailures": 0,
+      "maxStep": 0.04954358694980139,
+      "maxStepRatio": 0.7431538042470327,
+      "frames": 200
+    }
+  ]
+}

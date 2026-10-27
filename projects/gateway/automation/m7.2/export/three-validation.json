@@ -1,0 +1,51 @@
+{
+  "threeRevision": "186",
+  "scope": "Offline GLTFLoader + CPU AnimationMixer, Sharp ImageBitmap stand-in, no GPU or Gateway integration",
+  "meshCount": 1,
+  "boneCount": 41,
+  "triangleCount": 10357,
+  "vertexCount": 11188,
+  "defaultBounds": {
+    "min": [
+      -0.44437828878443647,
+      5.861266665595222e-8,
+      -0.37423272752974895
+    ],
+    "max": [
+      0.4531914587438172,
+      1.891089441470219,
+      0.3914058285124888
+    ]
+  },
+  "clips": {
+    "Idle": {
+      "duration": 8.333333015441895,
+      "sampledTimes": [
+        0,
+        1.8333333333333333,
+        4.166666666666667,
+        8.333333333333334
+      ],
+      "boneComparisons": 164,
+      "maxJointPositionError": 7.039066289115257e-7,
+      "meanJointPositionError": 4.4927888141044996e-7,
+      "horizontalRootEndpointDrift": 0
+    },
+    "Walk": {
+      "duration": 1.0333333015441895,
+      "sampledTimes": [
+        0,
+        0.23333333333333334,
+        0.36666666666666664,
+        0.5,
+        0.7666666666666667,
+        1.0333333333333334
+      ],
+      "boneComparisons": 246,
+      "maxJointPositionError": 0.0000012467778936388054,
+      "meanJointPositionError": 4.0338989454249903e-7,
+      "horizontalRootEndpointDrift": 1.146519201468707e-8
+    }
+  },
+  "passed": true
+}

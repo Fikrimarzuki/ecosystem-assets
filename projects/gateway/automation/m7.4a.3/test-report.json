@@ -1,0 +1,201 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Code\\porto-projects\\app-gateway-fe\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "../gateway-assets/automation/m7.4a.3/focused.config.cjs",
+      "tests/universe-exploration-layout.spec.ts",
+      "--grep",
+      "HUD preserves character"
+    ],
+    "configFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3\\focused.config.cjs",
+    "rootDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Code/porto-projects/gateway-assets/automation/m7.4a.3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Code/porto-projects/app-gateway-fe/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "D:\\Code\\porto-projects\\app-gateway-fe\\tests",
+        "snapshotDir": "D:\\Code\\porto-projects\\app-gateway-fe\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3001",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "reducedMotion": "reduce",
+          "channel": "chrome",
+          "headless": false
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Code\\porto-projects\\gateway-assets\\automation\\m7.4a.3/test-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "universe-exploration-layout.spec.ts",
+      "file": "universe-exploration-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "exploration HUD preserves character safe area at 1440px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T08:18:38.368Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "hud-measurements",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJuYW1lIjogImxhdGVzdC1lbnRyeSIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMjQsCiAgICAgICAgInkiOiAxMTIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDY1NC40NDU0MDM4MDg0MjIsCiAgICAgICAgInkiOiA1NjguNTg3Njg0NzUxOTgwNiwKICAgICAgICAicmlnaHQiOiA3NzYuODIwMzI3OTA1NjQzOSwKICAgICAgICAiYm90dG9tIjogNzkwLjk0MzA5MTgzNTk3OTQKICAgICAgfSwKICAgICAgIm92ZXJsYXBwaW5nVmVydGljZXMiOiAwLAogICAgICAib3ZlcmxhcHBpbmdCb290VmVydGljZXMiOiAwLAogICAgICAiY29udHJvbHMiOiBbCiAgICAgICAgewogICAgICAgICAgIngiOiAyNCwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAxNDAuODkwNjI1LAogICAgICAgICAgImhlaWdodCI6IDcxLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMTE3Ny4yODEyNSwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiA2NjIuNjc5Njg3NSwKICAgICAgICAgICJ5IjogNDc0LAogICAgICAgICAgIndpZHRoIjogOTkuNjQwNjI1LAogICAgICAgICAgImhlaWdodCI6IDQ0LjUKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb250U2l6ZSI6IDEyLAogICAgICAib3ZlcmZsb3ciOiBmYWxzZSwKICAgICAgInBvaW50ZXJFdmVudHMiOiAibm9uZSIKICAgIH0KICB9LAogIHsKICAgICJuYW1lIjogImxhdGVzdC1zZXR0bGVkIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAyNCwKICAgICAgICAieSI6IDExMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogNjQwLjE4NzExNjEwMjYzNzksCiAgICAgICAgInkiOiA1MzMuNzMyMjU2MjEyNTcwNSwKICAgICAgICAicmlnaHQiOiA3ODcuMTI4ODAxMzcyMDQxLAogICAgICAgICJib3R0b20iOiA4NjAuNDM3NDE3NjQ2NDMzCiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMjQsCiAgICAgICAgICAieSI6IDIyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDExNzcuMjgxMjUsCiAgICAgICAgICAieSI6IDIyLAogICAgICAgICAgIndpZHRoIjogMjIzLjcxODc1LAogICAgICAgICAgImhlaWdodCI6IDQzLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogNjYyLjY3OTY4NzUsCiAgICAgICAgICAieSI6IDQ3NCwKICAgICAgICAgICJ3aWR0aCI6IDk5LjY0MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJsYXRlc3QtbW92aW5nIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAyNCwKICAgICAgICAieSI6IDExMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogNDc4Ljg4NzUyMzMxMDc1MjY3LAogICAgICAgICJ5IjogODczLjM4MjU3NzQ5NzM4MjYsCiAgICAgICAgInJpZ2h0IjogOTIzLjg4MjYwNjgxMzkzMDEsCiAgICAgICAgImJvdHRvbSI6IDE3NTQuMzM2NzA4ODExODQ2NgogICAgICB9LAogICAgICAib3ZlcmxhcHBpbmdWZXJ0aWNlcyI6IDAsCiAgICAgICJvdmVybGFwcGluZ0Jvb3RWZXJ0aWNlcyI6IDAsCiAgICAgICJjb250cm9scyI6IFsKICAgICAgICB7CiAgICAgICAgICAieCI6IDI0LAogICAgICAgICAgInkiOiAyMiwKICAgICAgICAgICJ3aWR0aCI6IDE0MC44OTA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNzEuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAxMTc3LjI4MTI1LAogICAgICAgICAgInkiOiAyMiwKICAgICAgICAgICJ3aWR0aCI6IDIyMy43MTg3NSwKICAgICAgICAgICJoZWlnaHQiOiA0My41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDY2Mi42Nzk2ODc1LAogICAgICAgICAgInkiOiA0NzQsCiAgICAgICAgICAid2lkdGgiOiA5OS42NDA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNDQuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0sCiAgewogICAgIm5hbWUiOiAidG9vbHMtZW50cnkiLAogICAgImxheW91dCI6IHsKICAgICAgImh1ZCI6IHsKICAgICAgICAieCI6IDI0LAogICAgICAgICJ5IjogMTEyLAogICAgICAgICJ3aWR0aCI6IDMwMCwKICAgICAgICAiaGVpZ2h0IjogNTguMzc1CiAgICAgIH0sCiAgICAgICJjaGFyYWN0ZXIiOiB7CiAgICAgICAgIngiOiA2NDkuMTIzMDczNjM5MDk4NiwKICAgICAgICAieSI6IDQ3OS4xMTQ2NjY4MDgxNzUwNiwKICAgICAgICAicmlnaHQiOiA3ODEuMjQzMzIxMTMyMjEyNSwKICAgICAgICAiYm90dG9tIjogNzIxLjg3NTcxMTMyMDY3MjYKICAgICAgfSwKICAgICAgIm92ZXJsYXBwaW5nVmVydGljZXMiOiAwLAogICAgICAib3ZlcmxhcHBpbmdCb290VmVydGljZXMiOiAwLAogICAgICAiY29udHJvbHMiOiBbCiAgICAgICAgewogICAgICAgICAgIngiOiAyNCwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAxNDAuODkwNjI1LAogICAgICAgICAgImhlaWdodCI6IDcxLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMTE3Ny4yODEyNSwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiA2NTguMjEwOTM3NSwKICAgICAgICAgICJ5IjogNDc0LAogICAgICAgICAgIndpZHRoIjogMTA4LjU3ODEyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJ0b29scy1iZW5jaCIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMjQsCiAgICAgICAgInkiOiAxMTIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDY0My4yMjQwMjM3NTQ5NDg1LAogICAgICAgICJ5IjogNDg5LjQ5MDQ5ODE3NjA1NTA0LAogICAgICAgICJyaWdodCI6IDc3NS41NTYxMDA4MjQ3Mzg3LAogICAgICAgICJib3R0b20iOiA3MjguNzA3MTUwNzQ5MzE0NQogICAgICB9LAogICAgICAib3ZlcmxhcHBpbmdWZXJ0aWNlcyI6IDAsCiAgICAgICJvdmVybGFwcGluZ0Jvb3RWZXJ0aWNlcyI6IDAsCiAgICAgICJjb250cm9scyI6IFsKICAgICAgICB7CiAgICAgICAgICAieCI6IDI0LAogICAgICAgICAgInkiOiAyMiwKICAgICAgICAgICJ3aWR0aCI6IDE0MC44OTA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNzEuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAxMTc3LjI4MTI1LAogICAgICAgICAgInkiOiAyMiwKICAgICAgICAgICJ3aWR0aCI6IDIyMy43MTg3NSwKICAgICAgICAgICJoZWlnaHQiOiA0My41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDY1OC4yMTA5Mzc1LAogICAgICAgICAgInkiOiA0NzQsCiAgICAgICAgICAid2lkdGgiOiAxMDguNTc4MTI1LAogICAgICAgICAgImhlaWdodCI6IDQ0LjUKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb250U2l6ZSI6IDEyLAogICAgICAib3ZlcmZsb3ciOiBmYWxzZSwKICAgICAgInBvaW50ZXJFdmVudHMiOiAibm9uZSIKICAgIH0KICB9LAogIHsKICAgICJuYW1lIjogImZwcy1yZWR1Y2VkIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAyNCwKICAgICAgICAieSI6IDExMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogbnVsbCwKICAgICAgIm92ZXJsYXBwaW5nVmVydGljZXMiOiAwLAogICAgICAib3ZlcmxhcHBpbmdCb290VmVydGljZXMiOiAwLAogICAgICAiY29udHJvbHMiOiBbCiAgICAgICAgewogICAgICAgICAgIngiOiAyNCwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAxNDAuODkwNjI1LAogICAgICAgICAgImhlaWdodCI6IDcxLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMTE3Ny4yODEyNSwKICAgICAgICAgICJ5IjogMjIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0KXQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "585acffa9a65f563df42-c31682f7fd119c183c63",
+          "file": "universe-exploration-layout.spec.ts",
+          "line": 143,
+          "column": 7
+        },
+        {
+          "title": "exploration HUD preserves character safe area at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12584,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T08:18:51.855Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "hud-measurements",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJuYW1lIjogImxhdGVzdC1lbnRyeSIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDMzMS4xMDkwMDc0NjMyMDYyLAogICAgICAgICJ5IjogNDQyLjI2ODY3NTk5NDU0ODYsCiAgICAgICAgInJpZ2h0IjogNDI2LjI5NzEyOTY3NDc5MDMsCiAgICAgICAgImJvdHRvbSI6IDYxNS4xNzI0NTYxNjMxMTI5CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjYuNjc5Njg3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogOTkuNjQwNjI1LAogICAgICAgICAgImhlaWdodCI6IDQ0LjUKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb250U2l6ZSI6IDEyLAogICAgICAib3ZlcmZsb3ciOiBmYWxzZSwKICAgICAgInBvaW50ZXJFdmVudHMiOiAibm9uZSIKICAgIH0KICB9LAogIHsKICAgICJuYW1lIjogImxhdGVzdC1zZXR0bGVkIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAxMiwKICAgICAgICAieSI6IDEwMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogMzIwLjI1NjM2MzI5MDM0MzksCiAgICAgICAgInkiOiA0MTUuMTI1MTg4MzAxNTQxMjQsCiAgICAgICAgInJpZ2h0IjogNDM0LjU0NDYyMjI0NTM1MDg3LAogICAgICAgICJib3R0b20iOiA2NjkuMjI5MTA5MTgxMzI1NAogICAgICB9LAogICAgICAib3ZlcmxhcHBpbmdWZXJ0aWNlcyI6IDAsCiAgICAgICJvdmVybGFwcGluZ0Jvb3RWZXJ0aWNlcyI6IDAsCiAgICAgICJjb250cm9scyI6IFsKICAgICAgICB7CiAgICAgICAgICAieCI6IDEyLAogICAgICAgICAgInkiOiAxMiwKICAgICAgICAgICJ3aWR0aCI6IDE0MC44OTA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNzEuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiA1MTcuMjgxMjUsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMjIzLjcxODc1LAogICAgICAgICAgImhlaWdodCI6IDQzLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMzI2LjY3OTY4NzUsCiAgICAgICAgICAieSI6IDM3NCwKICAgICAgICAgICJ3aWR0aCI6IDk5LjY0MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJsYXRlc3QtbW92aW5nIiwKICAgICJsYXlvdXQiOiB7CiAgICAgICJodWQiOiB7CiAgICAgICAgIngiOiAxMiwKICAgICAgICAieSI6IDEwMiwKICAgICAgICAid2lkdGgiOiAzMDAsCiAgICAgICAgImhlaWdodCI6IDU4LjM3NQogICAgICB9LAogICAgICAiY2hhcmFjdGVyIjogewogICAgICAgICJ4IjogMjM2LjE5MDE1OTg1MzU0NzI3LAogICAgICAgICJ5IjogNjE2Ljc0NzEyOTkwMDI2NDEsCiAgICAgICAgInJpZ2h0IjogNTA2LjU0Njc3MTQ3NTkyNzI0LAogICAgICAgICJib3R0b20iOiAxMTU5Ljc0NjM1MDY3NTExNwogICAgICB9LAogICAgICAib3ZlcmxhcHBpbmdWZXJ0aWNlcyI6IDAsCiAgICAgICJvdmVybGFwcGluZ0Jvb3RWZXJ0aWNlcyI6IDAsCiAgICAgICJjb250cm9scyI6IFsKICAgICAgICB7CiAgICAgICAgICAieCI6IDEyLAogICAgICAgICAgInkiOiAxMiwKICAgICAgICAgICJ3aWR0aCI6IDE0MC44OTA2MjUsCiAgICAgICAgICAiaGVpZ2h0IjogNzEuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiA1MTcuMjgxMjUsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMjIzLjcxODc1LAogICAgICAgICAgImhlaWdodCI6IDQzLjUKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ4IjogMzI2LjY3OTY4NzUsCiAgICAgICAgICAieSI6IDM3NCwKICAgICAgICAgICJ3aWR0aCI6IDk5LjY0MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJ0b29scy1lbnRyeSIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDMyNy4yMDYwNDc0Mjk5MTcyLAogICAgICAgICJ5IjogMzcyLjY0NDkyMjA1ODc0MzIsCiAgICAgICAgInJpZ2h0IjogNDI5Ljk2NjM0NTkzNjM1MjEsCiAgICAgICAgImJvdHRvbSI6IDU2MS40NTg5MDAyODI3Nzg2CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjIuMjEwOTM3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogMTA4LjU3ODEyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJ0b29scy1iZW5jaCIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IHsKICAgICAgICAieCI6IDMyMi41OTU1NzkxMDQzMDAwNCwKICAgICAgICAieSI6IDM4MC43MjUyNTA3MTY0NDMxNiwKICAgICAgICAicmlnaHQiOiA0MjUuNTE5MzczMDI3Nzk5NzYsCiAgICAgICAgImJvdHRvbSI6IDU2Ni43NzIyODk5MzU5NzA3CiAgICAgIH0sCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIngiOiAzMjIuMjEwOTM3NSwKICAgICAgICAgICJ5IjogMzc0LAogICAgICAgICAgIndpZHRoIjogMTA4LjU3ODEyNSwKICAgICAgICAgICJoZWlnaHQiOiA0NC41CiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9udFNpemUiOiAxMiwKICAgICAgIm92ZXJmbG93IjogZmFsc2UsCiAgICAgICJwb2ludGVyRXZlbnRzIjogIm5vbmUiCiAgICB9CiAgfSwKICB7CiAgICAibmFtZSI6ICJmcHMtcmVkdWNlZCIsCiAgICAibGF5b3V0IjogewogICAgICAiaHVkIjogewogICAgICAgICJ4IjogMTIsCiAgICAgICAgInkiOiAxMDIsCiAgICAgICAgIndpZHRoIjogMzAwLAogICAgICAgICJoZWlnaHQiOiA1OC4zNzUKICAgICAgfSwKICAgICAgImNoYXJhY3RlciI6IG51bGwsCiAgICAgICJvdmVybGFwcGluZ1ZlcnRpY2VzIjogMCwKICAgICAgIm92ZXJsYXBwaW5nQm9vdFZlcnRpY2VzIjogMCwKICAgICAgImNvbnRyb2xzIjogWwogICAgICAgIHsKICAgICAgICAgICJ4IjogMTIsCiAgICAgICAgICAieSI6IDEyLAogICAgICAgICAgIndpZHRoIjogMTQwLjg5MDYyNSwKICAgICAgICAgICJoZWlnaHQiOiA3MS41CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAieCI6IDUxNy4yODEyNSwKICAgICAgICAgICJ5IjogMTIsCiAgICAgICAgICAid2lkdGgiOiAyMjMuNzE4NzUsCiAgICAgICAgICAiaGVpZ2h0IjogNDMuNQogICAgICAgIH0KICAgICAgXSwKICAgICAgImZvbnRTaXplIjogMTIsCiAgICAgICJvdmVyZmxvdyI6IGZhbHNlLAogICAgICAicG9pbnRlckV2ZW50cyI6ICJub25lIgogICAgfQogIH0KXQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "585acffa9a65f563df42-2be8be1aecf2c14455a6",
+          "file": "universe-exploration-layout.spec.ts",
+          "line": 143,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-13T08:18:37.655Z",
+    "duration": 27248.606,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,1799 @@
+{
+  "schemaVersion": 1,
+  "kind": "frozen-recovery-snapshot",
+  "capturedDate": "2026-10-23",
+  "sourceManifest": "app-momee/assets/production/morning-routine/manifests/calm-chibi-storybook.json",
+  "sourceManifestSha256": "28f3eb4d00fee78aa74ff38aa233509a4941edc067d4dee53ff391be2111f634",
+  "note": "Historical file-level recovery evidence, including the derived height-lineup output. The app manifest remains authoritative for prior logical records and checksums; this snapshot records current availability only. A pixel SHA-256 is not a file SHA-256. Do not treat a hash match as production approval. No files were copied or regenerated.",
+  "searchedScopes": [
+    "app-momee workspace",
+    "ecosystem-assets incoming/momee",
+    "porto-projects filename search",
+    "porto-backups (empty)",
+    "backup-docs-work (no Momee files)"
+  ],
+  "files": [
+    {
+      "logicalAssetId": "candidate.boy-3quarter-v1",
+      "filename": "boy-3quarter-candidate-v1.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+      "expectedSha256": "4ad863ae134e7aadc8f08d18cea8016b8d07b0c305b6640fc10fe8a90da9e97b",
+      "expectedBytes": 1432048,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "ref.character-master-v1"
+      ],
+      "lastKnownMilestone": "M0.3c.1",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/boy-3quarter-candidate-v1.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "candidate.boy-pajama-v1",
+      "filename": "boy-pajama-candidate-v1.png",
+      "previousAppPath": "assets/production/morning-routine/candidates/boy/boy-pajama-candidate-v1.png",
+      "expectedSha256": "8825e5f338bc943549a3cb54837cdd21a3aaf5afbe3cc7c1ceb52e139e01e6d1",
+      "expectedBytes": 1657138,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-3quarter-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "no; required pajama pixels are not in the available default-outfit candidate"
+    },
+    {
+      "logicalAssetId": "working.boy-3q-v1-keyed",
+      "filename": "boy-3q-v1.keyed.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/boy-3q-v1.keyed.png",
+      "expectedSha256": "740cbf3f49f371211c1efb0315f0ec0a276afabef25c9a743c6c53962b127e53",
+      "expectedBytes": 647052,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "candidate.boy-3quarter-v1"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.keyed.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-3q-v1-refined",
+      "filename": "boy-3q-v1.refined.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png",
+      "expectedSha256": "122e2118d91822ea93b5e16f6092b100fc5317ec128a22fff0da6a4933d59a7e",
+      "expectedBytes": 631032,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-keyed"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/boy-3q-v1.refined.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "01-leg-skin.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/01-leg-skin.png",
+      "expectedSha256": "ccb661185c492e6ca295262d19e7a4dab4b74489f265a62930e394b2fb45e0bc",
+      "expectedBytes": 32492,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/01-leg-skin.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "02-shoes.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/02-shoes.png",
+      "expectedSha256": "e364220a914c55e9f989487c20f076152a86eaa19ff52e6c28be478c66f3bf8d",
+      "expectedBytes": 97523,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/02-shoes.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "03-outfit-bottom.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/03-outfit-bottom.png",
+      "expectedSha256": "c3b6b03698c6e1a56fb3bfe7af129babff78937bf3bc691d6136c7e22cfed1e6",
+      "expectedBytes": 86317,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/03-outfit-bottom.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "04-body-skin.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/04-body-skin.png",
+      "expectedSha256": "c2994f7fc565591e6ce3885b348522dc6abfa6e17ce0169602d298455d1a873b",
+      "expectedBytes": 77866,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/04-body-skin.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "05-outfit-top.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/05-outfit-top.png",
+      "expectedSha256": "9c89d4982fb4fd158ccac2cef523ed10e7ce301ab4b90ae1621775442f34f6b1",
+      "expectedBytes": 120134,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/05-outfit-top.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "06-hair-back.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/06-hair-back.png",
+      "expectedSha256": "91ed4aa21c03ef9f2de3082caa9574c7260e1861635e404ddeec99fe571e9d7e",
+      "expectedBytes": 13635,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/06-hair-back.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "07-head-skin.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/07-head-skin.png",
+      "expectedSha256": "ea7731aa56d2ba84cdf3f95b9711234386499d8196c6e390fd9b114480b62528",
+      "expectedBytes": 111324,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/07-head-skin.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "08-face-blush.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/08-face-blush.png",
+      "expectedSha256": "1c2f7ebb9c24c34bccaefb1c66c8d3e7177b5136f4527e1c41a4509d7fc9881a",
+      "expectedBytes": 18857,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/08-face-blush.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "09-face-eyes.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/09-face-eyes.png",
+      "expectedSha256": "93be4383cbfdf883b64ba7132a7c1eac1fc270f7af315f346a7042c9db0d67cc",
+      "expectedBytes": 34693,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/09-face-eyes.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "10-face-brows-mouth.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/10-face-brows-mouth.png",
+      "expectedSha256": "479e17b48b0288243ffe3603b9d73c9c6215c663a557702eb50224c67ddd42b9",
+      "expectedBytes": 10378,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/10-face-brows-mouth.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "11-hair-front.png",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/11-hair-front.png",
+      "expectedSha256": "2d08edb53da3b3d92e0adc7d254dfbd83d6db41b37621111122b7ba41c0b4100",
+      "expectedBytes": 172567,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "PNG header of SHA-256-matched file",
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/11-hair-front.png",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-layers-v1",
+      "filename": "layers.json",
+      "previousAppPath": "assets/.local-assets/m0.3c.1/boy/work/layers/layers.json",
+      "expectedSha256": "a80cc36ead9cdbee4ddeb72ec2780903b25dc88f373173c6a856bad4a0fc5a1a",
+      "expectedBytes": 5751,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-3q-v1-refined"
+      ],
+      "lastKnownMilestone": "M0.3c.1b",
+      "availability": "hash-matched-in-intake",
+      "matchedSharedPath": "incoming/momee/local-assets/m0.3c.1/boy/work/layers/layers.json",
+      "reconstruction": "not needed; byte-identical file exists in intake"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "01-foot-back-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/01-foot-back-skin.png",
+      "expectedSha256": "cac9624a516c9dd8f34c8c99523edcac532bf8dfe43f1e2b4bfb2e09050cbfdd",
+      "expectedBytes": 12947,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "02-slipper-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/02-slipper-back.png",
+      "expectedSha256": "36bbbac2e7c3085cf6ceacba128d049b1026d85cbd67f7ce8bfc996c90d5addd",
+      "expectedBytes": 37145,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "03-trouser-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/03-trouser-back.png",
+      "expectedSha256": "ef44d334ffe31777c08881a56df89dbf5b1c0306d618f5c652fcdb17a1db66a5",
+      "expectedBytes": 81250,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "04-foot-front-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/04-foot-front-skin.png",
+      "expectedSha256": "1711a5821493b2390b77da7b06e88200613abaa973177f560612645960c30070",
+      "expectedBytes": 9676,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "05-slipper-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/05-slipper-front.png",
+      "expectedSha256": "37083ea25461374d28bd4581c911150b1cd90223db3d136e2386befe58d81d18",
+      "expectedBytes": 39920,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "06-trouser-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/06-trouser-front.png",
+      "expectedSha256": "4fac039923723b0df1a9c3918b1ddb5e589f648c94f1031a25ae36d87ae0d02c",
+      "expectedBytes": 82570,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "07-hand-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/07-hand-back.png",
+      "expectedSha256": "70568b0d2c3c968aeaa19a9c8f4ef9dae6e3e4cca437cd868398bcfe84fcdbe4",
+      "expectedBytes": 26246,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "08-sleeve-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/08-sleeve-back.png",
+      "expectedSha256": "067e111249dc6dd2a3be82e992b9866efc68677cdc08251b6e9f771c84ebad42",
+      "expectedBytes": 35829,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "09-neck.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/09-neck.png",
+      "expectedSha256": "221998c2813fc86c698c59885318d7defbe7d99c886a120b7b8b8a51221ed707",
+      "expectedBytes": 18934,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "10-jacket.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/10-jacket.png",
+      "expectedSha256": "6a303b8527008a753e3a15a8572fb8c3b41b62173ace7c13f4a54eb3e42a623a",
+      "expectedBytes": 134322,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "11-hair-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/11-hair-back.png",
+      "expectedSha256": "9df82ec8a34b9f5fda971bef504a295768e14efa0e6be09e332c99705209e142",
+      "expectedBytes": 13584,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "12-head-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/12-head-skin.png",
+      "expectedSha256": "dab008370150ed8393fc0e5c11dbe648c93abe2f9f0d9fb63b879dfc65e17f6d",
+      "expectedBytes": 110531,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "13-face-blush.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/13-face-blush.png",
+      "expectedSha256": "6ddeae005592ef6b23d01259ae71b3d3de3056a38c173c4e6dfd45fb67176470",
+      "expectedBytes": 18722,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "14-face-eyes.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/14-face-eyes.png",
+      "expectedSha256": "de8aa679b6a654d893a0e3da314779f3643e98f949c496dddb95f7f3379cc79c",
+      "expectedBytes": 36940,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "15-face-brows-mouth.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/15-face-brows-mouth.png",
+      "expectedSha256": "56ed0e288f688ce1f07b40bbc7708cc8a87f35c52a6531847bd76b9f7ca3ce21",
+      "expectedBytes": 10438,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "16-hair-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/16-hair-front.png",
+      "expectedSha256": "b5c5e6b6536c8d8b5b0dd712c0cb4ee0441025eb198dd7f4b0168916706055e0",
+      "expectedBytes": 191521,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "17-hand-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/17-hand-front.png",
+      "expectedSha256": "20d15bd2fdfd62bf223b1e7a968701e9d93675f6bbabaa87d1c630b0ac04a5e0",
+      "expectedBytes": 32028,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "18-sleeve-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/18-sleeve-front.png",
+      "expectedSha256": "26d62e7016fe58613829e8c1b8ba006e22d85dfee87421f07889eebc2092b45b",
+      "expectedBytes": 56750,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-layers-v1",
+      "filename": "layers.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/layers/layers.json",
+      "expectedSha256": "7d9805022250d23e3ba35db133845bec64c6dc4596ef656fdd2a0bf4e265ced6",
+      "expectedBytes": 7772,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "candidate.boy-pajama-v1",
+        "working.boy-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-rig-v1",
+      "filename": "rig.v1.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/rig/rig.v1.json",
+      "expectedSha256": "c7fc18309c6213025064e72e18a0ec0cb8a5b8bc86cc2b071e2d45e329529c41",
+      "expectedBytes": 11335,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-rig-v1",
+      "filename": "parts.v1.@1x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/rig/parts.v1.@1x.png",
+      "expectedSha256": "190c55070e7403470cb12035e6a36e1ffd6d965ab4d85a2e37bd6014873c2dd9",
+      "expectedBytes": 42412,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        256
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-rig-v1",
+      "filename": "parts.v1.@1x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/rig/parts.v1.@1x.json",
+      "expectedSha256": "72cf522b72bf5cfc6c1efb17c0777865f22cd63d1bf0d3c611a872deb5428341",
+      "expectedBytes": 6197,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-rig-v1",
+      "filename": "parts.v1.@2x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/rig/parts.v1.@2x.png",
+      "expectedSha256": "70ff4664be0870a721bcd9178cd56a7ac8d0931529836f3d4710aeb46bcb8adb",
+      "expectedBytes": 124838,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        512
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-rig-v1",
+      "filename": "parts.v1.@2x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1/rig/parts.v1.@2x.json",
+      "expectedSha256": "e0375f844b08a440a3adbcb4a2e7f3d2234833db90baf57a72e8fda21da67b7e",
+      "expectedBytes": 6233,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3a",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "01-foot-back-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/01-foot-back-skin.png",
+      "expectedSha256": "cac9624a516c9dd8f34c8c99523edcac532bf8dfe43f1e2b4bfb2e09050cbfdd",
+      "expectedBytes": 12947,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "02-slipper-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/02-slipper-back.png",
+      "expectedSha256": "36bbbac2e7c3085cf6ceacba128d049b1026d85cbd67f7ce8bfc996c90d5addd",
+      "expectedBytes": 37145,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "03-trouser-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/03-trouser-back.png",
+      "expectedSha256": "f97a8dfbfa53318d7f9c3a423a4e8df9d5c84edcc5bdbff643d0e5d146e4126e",
+      "expectedBytes": 91271,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "04-foot-front-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/04-foot-front-skin.png",
+      "expectedSha256": "1711a5821493b2390b77da7b06e88200613abaa973177f560612645960c30070",
+      "expectedBytes": 9676,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "05-slipper-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/05-slipper-front.png",
+      "expectedSha256": "37083ea25461374d28bd4581c911150b1cd90223db3d136e2386befe58d81d18",
+      "expectedBytes": 39920,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "06-trouser-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/06-trouser-front.png",
+      "expectedSha256": "27007095f6499e46aabba33a6f8bb3780c7ff1a2374fc25635a184fdce21eb2b",
+      "expectedBytes": 92351,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "07-hand-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/07-hand-back.png",
+      "expectedSha256": "0a4a0944540ed5454b1008dfd8eeaf07c67bfdc0700b0056ab57a6dce4ab0ae1",
+      "expectedBytes": 27920,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "08-sleeve-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/08-sleeve-back.png",
+      "expectedSha256": "b71492f5002f60366d52e5ea6135c71907bf010443e059f28973e7528cf039fb",
+      "expectedBytes": 42539,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "09-neck.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/09-neck.png",
+      "expectedSha256": "fef56f46e138f80f812222c3f01407d307bc6c09b2d60f43db4e80b66a469652",
+      "expectedBytes": 20137,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "10-jacket.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/10-jacket.png",
+      "expectedSha256": "6084c80249abff9174a42d5d92fbd3487e5f72c3b48d9388a4ee6a71a5f6200f",
+      "expectedBytes": 140619,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "11-hair-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/11-hair-back.png",
+      "expectedSha256": "9df82ec8a34b9f5fda971bef504a295768e14efa0e6be09e332c99705209e142",
+      "expectedBytes": 13584,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "12-head-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/12-head-skin.png",
+      "expectedSha256": "dab008370150ed8393fc0e5c11dbe648c93abe2f9f0d9fb63b879dfc65e17f6d",
+      "expectedBytes": 110531,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "13-face-blush.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/13-face-blush.png",
+      "expectedSha256": "6ddeae005592ef6b23d01259ae71b3d3de3056a38c173c4e6dfd45fb67176470",
+      "expectedBytes": 18722,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "14-face-eyes.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/14-face-eyes.png",
+      "expectedSha256": "de8aa679b6a654d893a0e3da314779f3643e98f949c496dddb95f7f3379cc79c",
+      "expectedBytes": 36940,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "15-face-brows-mouth.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/15-face-brows-mouth.png",
+      "expectedSha256": "56ed0e288f688ce1f07b40bbc7708cc8a87f35c52a6531847bd76b9f7ca3ce21",
+      "expectedBytes": 10438,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "16-hair-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/16-hair-front.png",
+      "expectedSha256": "b5c5e6b6536c8d8b5b0dd712c0cb4ee0441025eb198dd7f4b0168916706055e0",
+      "expectedBytes": 191521,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "17-hand-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/17-hand-front.png",
+      "expectedSha256": "1f3c11df16e36127884b29016f3826491fc119743347ca4db95e1182eca40fc1",
+      "expectedBytes": 34274,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "18-sleeve-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/18-sleeve-front.png",
+      "expectedSha256": "26d62e7016fe58613829e8c1b8ba006e22d85dfee87421f07889eebc2092b45b",
+      "expectedBytes": 56750,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-layers-v1",
+      "filename": "layers.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/layers/layers.json",
+      "expectedSha256": "2ded0579f8cdfb41b7ecd902ac2c1a4fc97d5618067ccf2a7449841ce3e706d6",
+      "expectedBytes": 7614,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-rig-v1",
+      "filename": "rig.v1.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/rig/rig.v1.json",
+      "expectedSha256": "d819198f880311373fef5ffe243be646d29496e3b31f93eff57383515f696224",
+      "expectedBytes": 12983,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-rig-v1",
+      "filename": "parts.v1.@1x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/rig/parts.v1.@1x.png",
+      "expectedSha256": "125e1fd6722539dc258b929cc808d85eec8f23ccd85e463fd08cadfdbaab28bf",
+      "expectedBytes": 43372,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        256
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-rig-v1",
+      "filename": "parts.v1.@1x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/rig/parts.v1.@1x.json",
+      "expectedSha256": "843bc92b640661d3c14f53addfb17dd8de2f31dd2165a52c8ea0ab9ac1d9b5dd",
+      "expectedBytes": 6196,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-rig-v1",
+      "filename": "parts.v1.@2x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/rig/parts.v1.@2x.png",
+      "expectedSha256": "9d3f9b7ad9f0c8a591abca689aae0842f43e2eac4d51c97de8b3028c426566d2",
+      "expectedBytes": 130139,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        512
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-spike-rig-v1",
+      "filename": "parts.v1.@2x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-spike/rig/parts.v1.@2x.json",
+      "expectedSha256": "443d3ef3f1d3be5d3eeec0f7483b01a70f4b8f49a27eacad9b6236d58164a70a",
+      "expectedBytes": 6230,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "01-foot-back-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/01-foot-back-skin.png",
+      "expectedSha256": "cac9624a516c9dd8f34c8c99523edcac532bf8dfe43f1e2b4bfb2e09050cbfdd",
+      "expectedBytes": 12947,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "02-slipper-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/02-slipper-back.png",
+      "expectedSha256": "36bbbac2e7c3085cf6ceacba128d049b1026d85cbd67f7ce8bfc996c90d5addd",
+      "expectedBytes": 37145,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "03-trouser-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/03-trouser-back.png",
+      "expectedSha256": "f97a8dfbfa53318d7f9c3a423a4e8df9d5c84edcc5bdbff643d0e5d146e4126e",
+      "expectedBytes": 91271,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "04-foot-front-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/04-foot-front-skin.png",
+      "expectedSha256": "1711a5821493b2390b77da7b06e88200613abaa973177f560612645960c30070",
+      "expectedBytes": 9676,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "05-slipper-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/05-slipper-front.png",
+      "expectedSha256": "37083ea25461374d28bd4581c911150b1cd90223db3d136e2386befe58d81d18",
+      "expectedBytes": 39920,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "06-trouser-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/06-trouser-front.png",
+      "expectedSha256": "27007095f6499e46aabba33a6f8bb3780c7ff1a2374fc25635a184fdce21eb2b",
+      "expectedBytes": 92351,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "07-hand-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/07-hand-back.png",
+      "expectedSha256": "0a4a0944540ed5454b1008dfd8eeaf07c67bfdc0700b0056ab57a6dce4ab0ae1",
+      "expectedBytes": 27920,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "08-shoulder-cap-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/08-shoulder-cap-back.png",
+      "expectedSha256": "b7e7476c2b5dac2ee5aea78f0cc3097abbfaba8370c5c5fc7df4b654a1d007f2",
+      "expectedBytes": 10680,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "09-sleeve-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/09-sleeve-back.png",
+      "expectedSha256": "b71492f5002f60366d52e5ea6135c71907bf010443e059f28973e7528cf039fb",
+      "expectedBytes": 42539,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "10-neck.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/10-neck.png",
+      "expectedSha256": "fef56f46e138f80f812222c3f01407d307bc6c09b2d60f43db4e80b66a469652",
+      "expectedBytes": 20137,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "11-jacket.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/11-jacket.png",
+      "expectedSha256": "6084c80249abff9174a42d5d92fbd3487e5f72c3b48d9388a4ee6a71a5f6200f",
+      "expectedBytes": 140619,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "12-hair-back.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/12-hair-back.png",
+      "expectedSha256": "9df82ec8a34b9f5fda971bef504a295768e14efa0e6be09e332c99705209e142",
+      "expectedBytes": 13584,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "13-head-skin.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/13-head-skin.png",
+      "expectedSha256": "dab008370150ed8393fc0e5c11dbe648c93abe2f9f0d9fb63b879dfc65e17f6d",
+      "expectedBytes": 110531,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "14-face-blush.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/14-face-blush.png",
+      "expectedSha256": "6ddeae005592ef6b23d01259ae71b3d3de3056a38c173c4e6dfd45fb67176470",
+      "expectedBytes": 18722,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "15-face-eyes.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/15-face-eyes.png",
+      "expectedSha256": "de8aa679b6a654d893a0e3da314779f3643e98f949c496dddb95f7f3379cc79c",
+      "expectedBytes": 36940,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "16-face-brows-mouth.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/16-face-brows-mouth.png",
+      "expectedSha256": "56ed0e288f688ce1f07b40bbc7708cc8a87f35c52a6531847bd76b9f7ca3ce21",
+      "expectedBytes": 10438,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "17-hair-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/17-hair-front.png",
+      "expectedSha256": "b5c5e6b6536c8d8b5b0dd712c0cb4ee0441025eb198dd7f4b0168916706055e0",
+      "expectedBytes": 191521,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "18-hand-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/18-hand-front.png",
+      "expectedSha256": "1f3c11df16e36127884b29016f3826491fc119743347ca4db95e1182eca40fc1",
+      "expectedBytes": 34274,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "19-sleeve-front.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/19-sleeve-front.png",
+      "expectedSha256": "26d62e7016fe58613829e8c1b8ba006e22d85dfee87421f07889eebc2092b45b",
+      "expectedBytes": 56750,
+      "format": "png",
+      "expectedDimensions": [
+        1254,
+        1254
+      ],
+      "dimensionEvidence": "M0.6b reports and cutout parameters; binary unavailable",
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-layers-v1",
+      "filename": "layers.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/layers/layers.json",
+      "expectedSha256": "b92d8dd0f38098faa5e06849d3fc7411ac9b6961128da93fa19f5af70f1eef8e",
+      "expectedBytes": 7897,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-spike-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-rig-v1",
+      "filename": "rig.v1.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/rig/rig.v1.json",
+      "expectedSha256": "162e8810fe7868771036c6f49c595ed01fff19d75e6a59b88be7c1151829432c",
+      "expectedBytes": 12444,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-final-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-rig-v1",
+      "filename": "parts.v1.@1x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/rig/parts.v1.@1x.png",
+      "expectedSha256": "f5279104ec8efb9bdaeda701f46b481c723575951627db3ca3ce8aca9020e611",
+      "expectedBytes": 43565,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        256
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-repair-final-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-rig-v1",
+      "filename": "parts.v1.@1x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/rig/parts.v1.@1x.json",
+      "expectedSha256": "2ff89566a4eca19d42b03896abbafd8248323dd22c202c18fa2ea7c3edc13850",
+      "expectedBytes": 6532,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-final-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-rig-v1",
+      "filename": "parts.v1.@2x.png",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/rig/parts.v1.@2x.png",
+      "expectedSha256": "9150852fa1d6935c85b9e0a87a0445bf376a0e8a516a1ac034f19727369072ef",
+      "expectedBytes": 130634,
+      "format": "png",
+      "expectedDimensions": [
+        256,
+        512
+      ],
+      "dimensionEvidence": "docs/design/boy-pajama-cutout-preparation.md \u00a74; later variants not independently verified",
+      "parents": [
+        "working.boy-pajama-repair-final-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "working.boy-pajama-repair-final-rig-v1",
+      "filename": "parts.v1.@2x.json",
+      "previousAppPath": "assets/production/morning-routine/sources/characters/boy/pajama-v1-repair-final/rig/parts.v1.@2x.json",
+      "expectedSha256": "018397a440b17a6d40069af9ad75173dd11197cf7e15ddcd73686ef41f34d4f6",
+      "expectedBytes": 6572,
+      "format": "json",
+      "expectedDimensions": null,
+      "dimensionEvidence": null,
+      "parents": [
+        "working.boy-pajama-repair-final-layers-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.3b.2",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "conditional only after the pajama candidate or an exact source is recovered; no regeneration attempted"
+    },
+    {
+      "logicalAssetId": "ref.height-lineup-v1",
+      "filename": "height-lineup-v1.png",
+      "previousAppPath": "assets/production/morning-routine/review/height-lineup-v1.png",
+      "fileRole": "derived-review-output",
+      "expectedSha256": null,
+      "expectedPixelSha256": "0f915c2153d98c451f6cedc495f0eef4a8be87cee1bac60007b8f31b0b635450",
+      "expectedBytes": null,
+      "format": "png",
+      "expectedDimensions": [
+        1410,
+        1115
+      ],
+      "dimensionEvidence": "assets/production/morning-routine/review/height-lineup-v1.derivation.json output",
+      "parents": [
+        "ref.character-master-v1"
+      ],
+      "lastKnownMilestone": "M0.6b.1",
+      "availability": "unavailable",
+      "matchedSharedPath": null,
+      "reconstruction": "documented script and master are present, so a new diagram is possible; byte-identical PNG is not assured, and no regeneration was attempted"
+    }
+  ]
+}

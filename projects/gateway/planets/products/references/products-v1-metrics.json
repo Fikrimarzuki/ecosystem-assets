@@ -1,0 +1,828 @@
+{
+  "file": "D:/Code/porto-projects/gateway-assets/planets/products/exports/products-v1.glb",
+  "bytes": 1311460,
+  "sha256": "3178ba73ed5b4a153dd1991e924034c84c3712b39ee99dc4d60bf884cf29d654",
+  "repeatSha256": null,
+  "reproducible": null,
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v5.2.40",
+    "version": "2.0"
+  },
+  "extensionsUsed": [],
+  "extensionsRequired": [],
+  "counts": {
+    "nodes": 37,
+    "meshes": 21,
+    "meshNodes": 21,
+    "anchors": 16,
+    "materials": 2,
+    "accessors": 84,
+    "triangles": 16290,
+    "vertices": 37132,
+    "cameras": 0,
+    "images": 0,
+    "textures": 0,
+    "samplers": 0,
+    "animations": 0,
+    "skins": 0
+  },
+  "materials": [
+    {
+      "name": "ProductsDiorama",
+      "roughness": 0.8199999928474426,
+      "metallic": 0.07999999821186066,
+      "emissive": null,
+      "extensions": []
+    },
+    {
+      "name": "ProductsAccent",
+      "roughness": 0.8199999928474426,
+      "metallic": 0.07999999821186066,
+      "emissive": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "extensions": []
+    }
+  ],
+  "bounds": [
+    [
+      -6.3369,
+      -3.8837,
+      -5.9052
+    ],
+    [
+      6.3369,
+      5.9239,
+      5.9052
+    ]
+  ],
+  "extent": 6.6503,
+  "center": [
+    0,
+    1.0201,
+    0
+  ],
+  "meshes": [
+    {
+      "name": "CARD_ARENA",
+      "triangles": 292,
+      "vertices": 540,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "card-arena",
+        "footprint_radius": 1.0924999999999998,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "CULINARY_SPIRE",
+      "triangles": 1032,
+      "vertices": 1912,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "culinary-spire",
+        "footprint_radius": 0.62,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "INNOVATION_PLAZA",
+      "triangles": 446,
+      "vertices": 796,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "role": "environment:innovation-plaza",
+        "footprint_radius": 1,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "INVENTORY_DEPOT",
+      "triangles": 276,
+      "vertices": 528,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "inventory-depot",
+        "footprint_radius": 1.035,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "ORBITAL_RING",
+      "triangles": 1304,
+      "vertices": 2728,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "role": "environment:orbital-ring",
+        "footprint_radius": 6.7,
+        "products_layer": "PRODUCTS_ORBIT"
+      }
+    },
+    {
+      "name": "PLANNER_ATRIUM",
+      "triangles": 282,
+      "vertices": 556,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "planner-atrium",
+        "footprint_radius": 0.9774999999999999,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "PRODUCTS_ACCENTS_GLOW",
+      "triangles": 2256,
+      "vertices": 4272,
+      "materials": [
+        "ProductsAccent"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_ACCENTS"
+      }
+    },
+    {
+      "name": "PRODUCTS_DECORATIONS_STATIC",
+      "triangles": 3416,
+      "vertices": 6932,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_DECORATIONS"
+      }
+    },
+    {
+      "name": "PRODUCTS_LAKE_WATER",
+      "triangles": 52,
+      "vertices": 84,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_TERRAIN"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_ARENA_DEPOT",
+      "triangles": 98,
+      "vertices": 196,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_ATRIUM_DEPOT",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_ATRIUM_SPIRE",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PAVILION_ARENA",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PAVILION_SPIRE",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PLAZA_ATRIUM",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PLAZA_LAB",
+      "triangles": 46,
+      "vertices": 92,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PLAZA_LANDING",
+      "triangles": 46,
+      "vertices": 92,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_PATH_PLAZA_PAVILION",
+      "triangles": 62,
+      "vertices": 124,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_PATHS"
+      }
+    },
+    {
+      "name": "PRODUCTS_TERRAIN",
+      "triangles": 5120,
+      "vertices": 15360,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "products_layer": "PRODUCTS_TERRAIN"
+      }
+    },
+    {
+      "name": "PROTOTYPE_LAB",
+      "triangles": 276,
+      "vertices": 564,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "prototype-lab",
+        "footprint_radius": 0.8049999999999999,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    },
+    {
+      "name": "WEDDING_PAVILION",
+      "triangles": 976,
+      "vertices": 1736,
+      "materials": [
+        "ProductsDiorama"
+      ],
+      "extras": {
+        "structure_id": "wedding-pavilion",
+        "footprint_radius": 1.0924999999999998,
+        "products_layer": "PRODUCTS_BUILDINGS"
+      }
+    }
+  ],
+  "structures": [
+    {
+      "structure_id": "card-arena",
+      "node": "CARD_ARENA",
+      "footprint_radius": 1.0924999999999998,
+      "position": [
+        2.9871,
+        2.1419,
+        -2.0916
+      ],
+      "radius": 4.2291
+    },
+    {
+      "structure_id": "culinary-spire",
+      "node": "CULINARY_SPIRE",
+      "footprint_radius": 0.62,
+      "position": [
+        0.3538,
+        3.6021,
+        2.0066
+      ],
+      "radius": 4.1384
+    },
+    {
+      "environment": "innovation-plaza",
+      "node": "INNOVATION_PLAZA",
+      "footprint_radius": 1,
+      "position": [
+        0,
+        -0.2774,
+        4.2197
+      ],
+      "radius": 4.2288
+    },
+    {
+      "structure_id": "inventory-depot",
+      "node": "INVENTORY_DEPOT",
+      "footprint_radius": 1.035,
+      "position": [
+        -3.3344,
+        1.2432,
+        -2.3348
+      ],
+      "radius": 4.2561
+    },
+    {
+      "environment": "orbital-ring",
+      "node": "ORBITAL_RING",
+      "footprint_radius": 6.7,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radius": 0
+    },
+    {
+      "structure_id": "planner-atrium",
+      "node": "PLANNER_ATRIUM",
+      "footprint_radius": 0.9774999999999999,
+      "position": [
+        -3.2659,
+        1.5142,
+        2.2868
+      ],
+      "radius": 4.2647
+    },
+    {
+      "structure_id": "prototype-lab",
+      "node": "PROTOTYPE_LAB",
+      "footprint_radius": 0.8049999999999999,
+      "position": [
+        -1.2677,
+        -2.0116,
+        3.4831
+      ],
+      "radius": 4.2173
+    },
+    {
+      "structure_id": "wedding-pavilion",
+      "node": "WEDDING_PAVILION",
+      "footprint_radius": 1.0924999999999998,
+      "position": [
+        3.4681,
+        1.249,
+        2.1671
+      ],
+      "radius": 4.276
+    }
+  ],
+  "anchors": [
+    {
+      "name": "PRODUCTS_ANCHOR_focus_card_arena",
+      "role": "focus:card-arena",
+      "radius": null,
+      "extras": {
+        "role": "focus:card-arena"
+      },
+      "position": [
+        3.6147,
+        2.6512,
+        -2.5311
+      ],
+      "distance": 5.148,
+      "up": [
+        0.69,
+        0.539,
+        -0.483
+      ],
+      "forward": [
+        0.555,
+        0.034,
+        0.831
+      ],
+      "camera": false,
+      "upDotRadial": 0.9996
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_focus_culinary_spire",
+      "role": "focus:culinary-spire",
+      "radius": null,
+      "extras": {
+        "role": "focus:culinary-spire"
+      },
+      "position": [
+        0.5168,
+        5.4805,
+        2.9311
+      ],
+      "distance": 6.2366,
+      "up": [
+        0.079,
+        0.891,
+        0.448
+      ],
+      "forward": [
+        -0.032,
+        -0.447,
+        0.894
+      ],
+      "camera": false,
+      "upDotRadial": 1.0001
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_focus_inventory_depot",
+      "role": "focus:inventory-depot",
+      "radius": null,
+      "extras": {
+        "role": "focus:inventory-depot"
+      },
+      "position": [
+        -3.7834,
+        1.4327,
+        -2.6492
+      ],
+      "distance": 4.8358,
+      "up": [
+        -0.778,
+        0.313,
+        -0.545
+      ],
+      "forward": [
+        -0.48,
+        0.262,
+        0.837
+      ],
+      "camera": false,
+      "upDotRadial": 1
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_focus_planner_atrium",
+      "role": "focus:planner-atrium",
+      "radius": null,
+      "extras": {
+        "role": "focus:planner-atrium"
+      },
+      "position": [
+        -3.8679,
+        1.8301,
+        2.7084
+      ],
+      "distance": 5.0641,
+      "up": [
+        -0.757,
+        0.381,
+        0.53
+      ],
+      "forward": [
+        0.436,
+        -0.309,
+        0.845
+      ],
+      "camera": false,
+      "upDotRadial": 0.9993
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_focus_prototype_lab",
+      "role": "focus:prototype-lab",
+      "radius": null,
+      "extras": {
+        "role": "focus:prototype-lab"
+      },
+      "position": [
+        -1.4863,
+        -2.4041,
+        4.0836
+      ],
+      "distance": 4.9664,
+      "up": [
+        -0.295,
+        -0.507,
+        0.81
+      ],
+      "forward": [
+        0.447,
+        0.676,
+        0.586
+      ],
+      "camera": false,
+      "upDotRadial": 0.9997
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_focus_wedding_pavilion",
+      "role": "focus:wedding-pavilion",
+      "radius": null,
+      "extras": {
+        "role": "focus:wedding-pavilion"
+      },
+      "position": [
+        4.2696,
+        1.5757,
+        2.668
+      ],
+      "distance": 5.2755,
+      "up": [
+        0.805,
+        0.316,
+        0.503
+      ],
+      "forward": [
+        -0.437,
+        -0.258,
+        0.862
+      ],
+      "camera": false,
+      "upDotRadial": 1.0003
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_card_arena",
+      "role": "interaction:card-arena",
+      "radius": null,
+      "extras": {
+        "role": "interaction:card-arena"
+      },
+      "position": [
+        3.7527,
+        2.1883,
+        -0.9444
+      ],
+      "distance": 4.4457,
+      "up": [
+        0.831,
+        0.515,
+        -0.209
+      ],
+      "forward": [
+        0.317,
+        -0.129,
+        0.94
+      ],
+      "camera": false,
+      "upDotRadial": 0.9994
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_culinary_spire",
+      "role": "interaction:culinary-spire",
+      "radius": null,
+      "extras": {
+        "role": "interaction:culinary-spire"
+      },
+      "position": [
+        0.3254,
+        3.2068,
+        2.8146
+      ],
+      "distance": 4.2792,
+      "up": [
+        0.073,
+        0.769,
+        0.635
+      ],
+      "forward": [
+        -0.05,
+        -0.633,
+        0.773
+      ],
+      "camera": false,
+      "upDotRadial": 0.9995
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_inventory_depot",
+      "role": "interaction:inventory-depot",
+      "radius": null,
+      "extras": {
+        "role": "interaction:inventory-depot"
+      },
+      "position": [
+        -3.9072,
+        1.5566,
+        -1.3279
+      ],
+      "distance": 4.4105,
+      "up": [
+        -0.879,
+        0.372,
+        -0.299
+      ],
+      "forward": [
+        -0.253,
+        0.168,
+        0.953
+      ],
+      "camera": false,
+      "upDotRadial": 1
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_planner_atrium",
+      "role": "interaction:planner-atrium",
+      "radius": null,
+      "extras": {
+        "role": "interaction:planner-atrium"
+      },
+      "position": [
+        -2.7687,
+        1.1608,
+        3.2617
+      ],
+      "distance": 4.433,
+      "up": [
+        -0.622,
+        0.277,
+        0.732
+      ],
+      "forward": [
+        0.621,
+        -0.396,
+        0.677
+      ],
+      "camera": false,
+      "upDotRadial": 0.9996
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_prototype_lab",
+      "role": "interaction:prototype-lab",
+      "radius": null,
+      "extras": {
+        "role": "interaction:prototype-lab"
+      },
+      "position": [
+        -0.8338,
+        -1.3568,
+        4.069
+      ],
+      "distance": 4.3695,
+      "up": [
+        -0.19,
+        -0.328,
+        0.925
+      ],
+      "forward": [
+        0.506,
+        0.775,
+        0.379
+      ],
+      "camera": false,
+      "upDotRadial": 0.9995
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_interaction_wedding_pavilion",
+      "role": "interaction:wedding-pavilion",
+      "radius": null,
+      "extras": {
+        "role": "interaction:wedding-pavilion"
+      },
+      "position": [
+        2.8681,
+        0.895,
+        3.3583
+      ],
+      "distance": 4.5062,
+      "up": [
+        0.635,
+        0.211,
+        0.743
+      ],
+      "forward": [
+        -0.666,
+        -0.339,
+        0.665
+      ],
+      "camera": false,
+      "upDotRadial": 0.9998
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_lander_arrival",
+      "role": "lander-arrival",
+      "radius": 0.3,
+      "extras": {
+        "role": "lander-arrival",
+        "radius": 0.3
+      },
+      "position": [
+        2.0475,
+        -1.8527,
+        3.8509
+      ],
+      "distance": 4.7386,
+      "up": [
+        0.428,
+        -0.412,
+        0.805
+      ],
+      "forward": [
+        -0.58,
+        0.558,
+        0.594
+      ],
+      "camera": false,
+      "upDotRadial": 1.0002
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_landing",
+      "role": "landing",
+      "radius": 0.3,
+      "extras": {
+        "role": "landing",
+        "radius": 0.3
+      },
+      "position": [
+        1.8142,
+        -1.6173,
+        3.412
+      ],
+      "distance": 4.1891,
+      "up": [
+        0.429,
+        -0.407,
+        0.807
+      ],
+      "forward": [
+        -0.585,
+        0.555,
+        0.591
+      ],
+      "camera": false,
+      "upDotRadial": 1.0002
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_minigame_candidate",
+      "role": "minigame-candidate",
+      "radius": 0.35,
+      "extras": {
+        "role": "minigame-candidate",
+        "radius": 0.35
+      },
+      "position": [
+        0,
+        0.321,
+        4.2642
+      ],
+      "distance": 4.2763,
+      "up": [
+        0,
+        0.08,
+        0.997
+      ],
+      "forward": [
+        0,
+        -0.997,
+        0.08
+      ],
+      "camera": false,
+      "upDotRadial": 1.0002
+    },
+    {
+      "name": "PRODUCTS_ANCHOR_spawn",
+      "role": "spawn",
+      "radius": null,
+      "extras": {
+        "role": "spawn"
+      },
+      "position": [
+        1.6277,
+        -1.4663,
+        3.5921
+      ],
+      "distance": 4.2075,
+      "up": [
+        0.384,
+        -0.368,
+        0.847
+      ],
+      "forward": [
+        -0.679,
+        0.509,
+        0.529
+      ],
+      "camera": false,
+      "upDotRadial": 0.9999
+    }
+  ],
+  "warnings": []
+}

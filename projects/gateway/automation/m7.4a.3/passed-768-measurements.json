@@ -1,0 +1,243 @@
+[
+  {
+    "name": "latest-entry",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": {
+        "x": 331.1391413429341,
+        "y": 442.2680496304365,
+        "right": 426.32687352170666,
+        "bottom": 615.172068277557
+      },
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        },
+        {
+          "x": 326.6796875,
+          "y": 374,
+          "width": 99.640625,
+          "height": 44.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  },
+  {
+    "name": "latest-settled",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": {
+        "x": 320.25551742107035,
+        "y": 415.12548941904214,
+        "right": 434.54462586555064,
+        "bottom": 669.2291106020597
+      },
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        },
+        {
+          "x": 326.6796875,
+          "y": 374,
+          "width": 99.640625,
+          "height": 44.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  },
+  {
+    "name": "latest-moving",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": {
+        "x": 232.55122931429145,
+        "y": 617.9474197692325,
+        "right": 507.431315073202,
+        "bottom": 1144.101697059908
+      },
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        },
+        {
+          "x": 326.6796875,
+          "y": 374,
+          "width": 99.640625,
+          "height": 44.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  },
+  {
+    "name": "tools-entry",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": {
+        "x": 327.17835510814206,
+        "y": 372.6517000597463,
+        "right": 429.94445803046705,
+        "bottom": 561.4589657392567
+      },
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        },
+        {
+          "x": 322.2109375,
+          "y": 374,
+          "width": 108.578125,
+          "height": 44.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  },
+  {
+    "name": "tools-bench",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": {
+        "x": 322.5962057909887,
+        "y": 380.72495586738137,
+        "right": 425.51999891514873,
+        "bottom": 566.7722921537857
+      },
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        },
+        {
+          "x": 322.2109375,
+          "y": 374,
+          "width": 108.578125,
+          "height": 44.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  },
+  {
+    "name": "fps-reduced",
+    "layout": {
+      "hud": {
+        "x": 12,
+        "y": 102,
+        "width": 300,
+        "height": 58.375
+      },
+      "character": null,
+      "overlappingVertices": 0,
+      "overlappingBootVertices": 0,
+      "controls": [
+        {
+          "x": 12,
+          "y": 12,
+          "width": 140.890625,
+          "height": 71.5
+        },
+        {
+          "x": 517.28125,
+          "y": 12,
+          "width": 223.71875,
+          "height": 43.5
+        }
+      ],
+      "fontSize": 12,
+      "overflow": false,
+      "pointerEvents": "none"
+    }
+  }
+]

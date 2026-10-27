@@ -1,0 +1,60 @@
+{
+  "radius": 4.2,
+  "radiusInH": 14.000000000000002,
+  "scaleHint": null,
+  "extent": 5.909144585372316,
+  "hallFootprint": 0.8737408438933191,
+  "towerFootprint": 0.4242640855706679,
+  "monumentFootprint": 0.29626370361076626,
+  "hallHeight": 1.3600000143051147,
+  "towerHeight": 1.7350000143051147,
+  "terraces": [
+    {
+      "id": "terrace-hall",
+      "radius": 1.013740843893319,
+      "top": -0.04346210568234418,
+      "blend": 0.4631045324201733,
+      "rimBerm": 0.06562393807002355,
+      "curvatureDrop": 0.12417744480669768,
+      "kerb": 0.015
+    },
+    {
+      "id": "terrace-tower",
+      "radius": 0.784264085570668,
+      "top": -0.025855302990628236,
+      "blend": 0.45,
+      "rimBerm": 0.032989032413283895,
+      "curvatureDrop": 0.07387229425893782,
+      "kerb": 0.015
+    }
+  ],
+  "pathWidths": {
+    "loop": 0.4,
+    "spur-hall": 0.30000000000000004,
+    "spur-tower": 0.30000000000000004,
+    "spur-marker": 0.30000000000000004,
+    "spur-pond": 0.30000000000000004
+  },
+  "pathClearance": 0.4507349830680527,
+  "pathClearanceAt": "spur-hall \u2194 accent-floating-book",
+  "buildingGap": 1.2989367449343923,
+  "buildingGapAt": "academy-hall \u2194 book-monument",
+  "structureGap": 0.427254217453392,
+  "structureGapAt": "academy-hall \u2194 academy-shrubs-left",
+  "obstacleGap": 0.427254217453392,
+  "obstacleGapAt": "academy-hall \u2194 academy-shrubs-left",
+  "landingClear": 0.3747979619465013,
+  "landingFlatness": 0.010727986869317974,
+  "maxRouteSlopeDegrees": 14.147986947547523,
+  "maxRouteSlopeAt": "spur-hall",
+  "maxRouteStep": 0.01500713660645793,
+  "anchorReach": {
+    "hall": 0.0,
+    "tower": 0.0,
+    "monument": 0.0
+  },
+  "hallToTowerArc": 3.0426465177539317,
+  "skippedDecor": [],
+  "obstacleCount": 42,
+  "decorativeReliefOnPaths": 0.0
+}

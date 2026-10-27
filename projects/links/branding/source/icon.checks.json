@@ -1,0 +1,18 @@
+{
+  "comment": "Per-icon expectations read by scripts/verify-icons.mjs. Structural proxies for small-size legibility; they do not replace looking at the contact sheet. opticalShift moves the bounding box up-right so the hub's extra mass sits on the visual centre.",
+  "glyphComponents": 1,
+  "opticalShift": [12, -12],
+  "smallSize": [
+    { "size": 32, "scanY": 0.27, "runs": 2 },
+    { "size": 32, "scanX": 0.625, "runs": 2 },
+    { "size": 32, "scanX": 0.3, "runs": 1 },
+    { "size": 16, "scanY": 0.27, "runs": 2 },
+    { "size": 16, "scanX": 0.625, "runs": 2 },
+    { "size": 16, "scanX": 0.3, "runs": 1 }
+  ],
+  "colorProbes": [
+    { "svg": "favicon.svg", "at": [174, 338], "expect": "#f5b83d" },
+    { "svg": "favicon.svg", "at": [386, 338], "expect": "#ffffff" },
+    { "svg": "icon.svg", "at": [188, 324], "expect": "#f5b83d" }
+  ]
+}

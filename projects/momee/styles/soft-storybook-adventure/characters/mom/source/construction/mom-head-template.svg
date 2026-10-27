@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="780" height="880" viewBox="0 0 780 880" id="mom-head">
+  <title>Momee — Mom head and hair prototype (Soft Storybook Adventure)</title>
+  <defs>
+    <linearGradient id="hairBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a15d35"/>
+      <stop offset="0.5" stop-color="#93522f"/>
+      <stop offset="1" stop-color="#84462a"/>
+    </linearGradient>
+    <linearGradient id="hairLock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a5634"/>
+      <stop offset="1" stop-color="#84452a"/>
+    </linearGradient>
+    <linearGradient id="hairFringe" x1="1" y1="0" x2="0" y2="0.6">
+      <stop offset="0" stop-color="#a86339"/>
+      <stop offset="1" stop-color="#955330"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="372" cy="300" r="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffeedd"/>
+      <stop offset="0.62" stop-color="#fde0c3"/>
+      <stop offset="1" stop-color="#f3c3a0"/>
+    </radialGradient>
+    <linearGradient id="neck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b18d"/>
+      <stop offset="0.4" stop-color="#f6d0b0"/>
+      <stop offset="1" stop-color="#fbdcc1"/>
+    </linearGradient>
+    <radialGradient id="blush" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5947f" stop-opacity="0.5"/>
+      <stop offset="0.6" stop-color="#f6a08c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f6a08c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.78" r="0.7">
+      <stop offset="0" stop-color="#d48d55"/>
+      <stop offset="0.28" stop-color="#a95a2a"/>
+      <stop offset="0.62" stop-color="#6d3116"/>
+      <stop offset="1" stop-color="#3a1408"/>
+    </radialGradient>
+    <linearGradient id="streakL" x1="214" y1="190" x2="356" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e3a073" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#eaab7c" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#e3a073" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="streakR" x1="482" y1="86" x2="598" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e3a073" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#e3a073" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#e3a073" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9976a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d9976a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#d9976a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eaa877" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#eaa877" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#eaa877" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clipEyeL"><path d="M 286 337 C 286 310 302 297 321 297 C 341 297 356 311 356 337 C 356 362 341 376 321 376 C 301 376 286 362 286 337 Z"/></clipPath>
+    <clipPath id="clipEyeR"><path d="M 420 339 C 420 312 435 299 454 299 C 473 299 487 313 487 339 C 487 364 473 378 454 378 C 434 378 420 364 420 339 Z"/></clipPath>
+  </defs>
+
+  <!-- ===== hair-back: one soft mass (editable silhouette), wave troughs, strand lines and sheen glints ===== -->
+  <g id="hair-back" inkscape:groupmode="layer" inkscape:label="hair-back">
+    <path id="hair-back-fill" fill="url(#hairBase)" d="<!--SILHOUETTE-->"/>
+    <path id="hair-back-inner-shadow" fill="#5f2b1b" opacity="0.4" d="M 268 300 C 250 360 248 420 262 470 C 270 498 292 512 316 522 C 294 536 278 556 268 582 C 250 552 240 520 238 480 C 234 420 244 356 268 300 Z M 506 300 C 524 360 526 420 512 470 C 504 498 482 512 460 522 C 482 536 498 556 508 582 C 526 552 536 520 538 480 C 542 420 532 356 506 300 Z"/>
+    <g id="hair-back-troughs" fill="#5a2818" opacity="0.33">
+      <!--TROUGHS-->
+    </g>
+    <g id="hair-back-strands" fill="none" stroke="#5a2818" stroke-width="1.8" stroke-linecap="round" opacity="0.45">
+      <!--STRANDS-->
+    </g>
+    <g id="hair-back-glints" fill="url(#glint)" opacity="0.75">
+      <!--GLINTS-->
+    </g>
+    <path id="hair-back-outline" fill="none" stroke="#673222" stroke-width="2.1" stroke-linejoin="round" d="<!--SILHOUETTE-->"/>
+  </g>
+
+  <!-- ===== neck preview (reference only; the collar belongs to the future torso) ===== -->
+  <g id="neck-preview" inkscape:groupmode="layer" inkscape:label="neck-preview">
+    <path id="neck" fill="url(#neck)" d="M 350 440 C 352 480 350 512 346 540 C 366 552 404 552 424 540 C 420 512 418 480 420 440 Z"/>
+    <path id="neck-outline" fill="none" stroke="#b47257" stroke-width="2" stroke-linecap="round" d="M 350 452 C 352 488 350 514 346 540 M 420 452 C 418 488 420 514 424 540"/>
+  </g>
+
+  <!-- ===== head: ears, face base (top edge = hairline), shading, blush, nose ===== -->
+  <g id="head" inkscape:groupmode="layer" inkscape:label="head">
+    <g id="ears">
+      <path id="ear-left" fill="#fbd5b4" stroke="#b47257" stroke-width="2.2" stroke-linejoin="round" d="M 262 330 C 238 318 218 332 220 356 C 222 382 242 396 266 390 Z"/>
+      <path id="ear-left-inner" fill="none" stroke="#e29c80" stroke-width="2" stroke-linecap="round" d="M 250 346 C 238 349 236 362 243 372"/>
+      <path id="ear-right" fill="#fbd5b4" stroke="#b47257" stroke-width="2.2" stroke-linejoin="round" d="M 512 332 C 536 320 556 334 554 358 C 552 384 532 398 508 392 Z"/>
+      <path id="ear-right-inner" fill="none" stroke="#e29c80" stroke-width="2" stroke-linecap="round" d="M 524 348 C 536 351 538 364 531 374"/>
+    </g>
+    <path id="face-base" fill="url(#skin)" d="M 252 300 C 248 354 254 398 272 426 C 298 461 340 480 387 480 C 434 480 476 461 502 426 C 520 398 526 354 522 300 C 520 270 515 250 507 232 C 495 202 480 180 463 165 C 420 172 340 192 290 232 C 268 252 256 274 252 300 Z"/>
+    <path id="face-outline" fill="none" stroke="#b47257" stroke-width="2.3" stroke-linecap="round" d="M 253 318 C 252 362 256 400 272 426 C 298 461 340 480 387 480 C 434 480 476 461 502 426 C 520 398 526 354 522 300 C 520 276 517 262 513 250"/>
+    <path id="face-shade-under-hair" fill="#e8b28e" opacity="0.55" d="M 256 312 C 270 292 288 280 304 274 C 340 250 392 224 428 206 C 446 196 458 184 464 170 C 486 186 504 212 514 246 C 502 230 488 216 470 206 C 436 230 382 256 330 282 C 300 296 276 306 256 312 Z"/>
+    <path id="face-shade-jaw" fill="#f3c19d" opacity="0.45" d="M 280 434 C 306 464 344 477 387 477 C 430 477 468 464 494 434 C 470 455 432 469 387 469 C 342 469 304 455 280 434 Z"/>
+    <g id="blush">
+      <ellipse id="blush-left" cx="292" cy="396" rx="42" ry="24" fill="url(#blush)"/>
+      <ellipse id="blush-right" cx="482" cy="398" rx="42" ry="24" fill="url(#blush)"/>
+    </g>
+    <g id="nose">
+      <path id="nose-line" fill="none" stroke="#d58e72" stroke-width="2.2" stroke-linecap="round" d="M 382 384 C 386 388 392 388 395 385"/>
+    </g>
+  </g>
+
+  <!-- ===== facial features: replaceable for blink, talk and expressions ===== -->
+  <g id="facial-features" inkscape:groupmode="layer" inkscape:label="facial-features">
+    <g id="eyebrows">
+      <path id="brow-left" fill="#7a3f27" d="M 296 287 C 304 277 320 272 338 274 C 322 276 308 281 299 289 Z"/>
+      <path id="brow-right" fill="#7a3f27" d="M 480 289 C 472 279 456 274 438 276 C 454 278 468 283 477 291 Z"/>
+    </g>
+    <g id="eyes">
+      <g id="eye-left">
+        <path id="eye-left-white" fill="#fff9f3" d="M 286 337 C 286 310 302 297 321 297 C 341 297 356 311 356 337 C 356 362 341 376 321 376 C 301 376 286 362 286 337 Z"/>
+        <g id="eye-left-iris-group" clip-path="url(#clipEyeL)">
+          <ellipse id="eye-left-iris" cx="323" cy="341" rx="31" ry="34" fill="url(#iris)"/>
+          <ellipse id="eye-left-pupil" cx="324" cy="343" rx="12" ry="15" fill="#25100a"/>
+          <path id="eye-left-lid-shadow" fill="#4d1d0e" opacity="0.4" d="M 282 296 L 360 296 L 360 318 C 340 306 302 306 282 324 Z"/>
+        </g>
+        <ellipse id="eye-left-highlight" cx="309" cy="321" rx="9" ry="10" fill="#ffffff"/>
+        <circle id="eye-left-highlight-small" cx="338" cy="358" r="4" fill="#ffffff" opacity="0.85"/>
+        <path id="eye-left-lash" fill="#371409" d="M 283 336 C 280 316 296 298 318 295 C 338 292 356 302 361 318 C 352 309 336 303 319 304 C 302 306 291 318 289 333 Z M 285 330 C 280 329 277 326 276 322 C 280 324 284 325 288 324 Z"/>
+        <path id="eye-left-lower" fill="none" stroke="#8a4630" stroke-width="1.6" stroke-linecap="round" opacity="0.55" d="M 293 362 C 301 372 312 376 323 377"/>
+      </g>
+      <g id="eye-right">
+        <path id="eye-right-white" fill="#fff9f3" d="M 420 339 C 420 312 435 299 454 299 C 473 299 487 313 487 339 C 487 364 473 378 454 378 C 434 378 420 364 420 339 Z"/>
+        <g id="eye-right-iris-group" clip-path="url(#clipEyeR)">
+          <ellipse id="eye-right-iris" cx="452" cy="343" rx="30" ry="34" fill="url(#iris)"/>
+          <ellipse id="eye-right-pupil" cx="451" cy="345" rx="12" ry="15" fill="#25100a"/>
+          <path id="eye-right-lid-shadow" fill="#4d1d0e" opacity="0.4" d="M 492 298 L 414 298 L 414 320 C 434 308 470 308 492 326 Z"/>
+        </g>
+        <ellipse id="eye-right-highlight" cx="438" cy="323" rx="9" ry="10" fill="#ffffff"/>
+        <circle id="eye-right-highlight-small" cx="466" cy="360" r="4" fill="#ffffff" opacity="0.85"/>
+        <path id="eye-right-lash" fill="#371409" d="M 490 338 C 493 318 478 300 456 297 C 436 294 418 304 413 320 C 422 311 438 305 455 306 C 472 308 483 320 485 335 Z M 489 332 C 494 331 497 328 498 324 C 494 326 490 327 486 326 Z"/>
+        <path id="eye-right-lower" fill="none" stroke="#8a4630" stroke-width="1.6" stroke-linecap="round" opacity="0.55" d="M 481 364 C 473 374 462 378 451 379"/>
+      </g>
+    </g>
+    <g id="mouth">
+      <path id="mouth-fill" fill="#ea8a78" d="M 371 409 C 379 417 395 418 403 409 C 395 413 379 413 371 409 Z"/>
+      <path id="mouth-line" fill="none" stroke="#ad5443" stroke-width="2.5" stroke-linecap="round" d="M 366 405 C 375 415 399 416 408 404"/>
+    </g>
+  </g>
+
+  <!-- ===== hair-front: the side-part fringe sweep and the short right-temple lock ===== -->
+  <g id="hair-front" inkscape:groupmode="layer" inkscape:label="hair-front">
+    <path id="fringe-sweep" fill="url(#hairFringe)" d="M 470 118 C 430 112 360 124 310 156 C 270 182 244 222 236 268 C 232 300 236 326 246 342 C 250 347 255 345 257 339 C 263 312 274 290 292 272 C 326 246 378 222 418 202 C 442 190 458 176 466 160 C 470 146 472 132 470 118 Z"/>
+    <path id="temple-lock-right" fill="url(#hairFringe)" d="M 464 158 C 484 180 496 212 502 246 C 508 274 512 298 512 320 C 528 294 536 256 532 220 C 528 182 506 150 470 126 Z"/>
+    <path id="hair-front-outline" fill="none" stroke="#673222" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" d="M 246 342 C 250 347 255 345 257 339 C 263 312 274 290 292 272 C 326 246 378 222 418 202 C 442 190 458 176 466 160 C 484 180 496 212 502 246 C 508 274 512 298 512 320"/>
+    <g id="hair-front-strands" fill="none" stroke="#5f2b1b" stroke-linecap="round" opacity="0.55">
+      <path stroke-width="2" d="M 452 136 C 404 150 346 180 306 218 C 286 238 272 262 262 292"/>
+      <path stroke-width="1.8" d="M 444 160 C 404 178 360 202 326 232"/>
+      <path stroke-width="1.8" d="M 478 152 C 494 174 504 204 508 240"/>
+    </g>
+  </g>
+
+  <!-- ===== highlights: glossy storybook sheen, kept separate so hair colour can change later ===== -->
+  <g id="highlights" inkscape:groupmode="layer" inkscape:label="highlights">
+    <path id="sheen-crown-left" fill="url(#streakL)" d="M 214 176 C 244 124 296 92 356 80 C 314 98 270 128 240 166 C 230 178 222 188 214 196 Z"/>
+    <path id="sheen-crown-right" fill="url(#streakR)" d="M 482 86 C 530 96 570 124 598 168 C 586 158 566 140 540 124 C 520 110 500 98 482 86 Z"/>
+    <path id="sheen-fringe-1" fill="#e9a676" opacity="0.7" d="M 330 168 C 362 146 404 130 446 124 C 414 138 380 154 350 176 C 336 186 326 196 318 206 C 318 192 322 178 330 168 Z"/>
+    <path id="sheen-fringe-2" fill="#f4c49b" opacity="0.6" d="M 380 150 C 400 140 422 134 440 132 C 424 140 404 150 388 158 Z"/>
+    <path id="sheen-temple" fill="#eaa978" opacity="0.6" d="M 484 156 C 498 172 506 192 510 212 C 500 198 492 182 482 168 Z"/>
+  </g>
+</svg>

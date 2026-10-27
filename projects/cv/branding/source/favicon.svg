@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CV favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#0b1b36"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#4a6a96" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="#25c79f" d="M396 244.7L396 378.5L278.8 378.5L275.9 335.2Z"/>
+    <path fill="#5bf2c2" d="M117.4 118.4L253.6 229L396 117.5L396 191.1L238 309.7L177.4 256.2L177.4 378.5L117.4 378.5Z"/>
+  </g>
+</svg>

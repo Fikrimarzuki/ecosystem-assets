@@ -1,0 +1,85 @@
+{
+ "panels": {
+  "p2-open-closeup": [
+   365,
+   43,
+   745,
+   400
+  ],
+  "p3-closed-closeup": [
+   774,
+   43,
+   1152,
+   400
+  ],
+  "p4-open-crop": [
+   1182,
+   43,
+   1511,
+   201
+  ],
+  "p4-closed-crop": [
+   1182,
+   230,
+   1511,
+   401
+  ],
+  "p6-overlay": [
+   993,
+   498,
+   1279,
+   695
+  ],
+  "p9-open-detail": [
+   710,
+   801,
+   884,
+   940
+  ],
+  "p9-closed-detail": [
+   909,
+   801,
+   1082,
+   940
+  ]
+ },
+ "fit_p2_open_vs_master": {
+  "f": 0.81,
+  "ox": 269,
+  "oy": 129,
+  "outside": 11,
+  "inside": 26.36,
+  "nOut": 67576,
+  "nIn": 10638
+ },
+ "fit_p3_closed_vs_master": {
+  "f": 0.8,
+  "ox": 270,
+  "oy": 132,
+  "outside": 12.01,
+  "inside": 84.04,
+  "nOut": 67019,
+  "nIn": 10638
+ },
+ "p3_vs_p2_sameScale": {
+  "outsideEyeMasks": 7.28,
+  "insideEyeMasks": 80.04,
+  "pixelsChangedOver10perChannel": 25074,
+  "ofWhichOutsideEyeMasks": 14735
+ },
+ "lashColour": {
+  "masterOpenEyes": [
+   12,
+   4,
+   3
+  ],
+  "candidateClosedEyes": [
+   43,
+   16,
+   9
+  ]
+ },
+ "enlargementNeeded": {
+  "p3": "none (panel is downscaled ×0.8 to reach the master)"
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "comment": "Per-icon expectations read by scripts/verify-icons.mjs. Structural proxies for small-size legibility; they do not replace looking at the contact sheet. opticalShift moves the fan's bounding box down so its top-heavy mass (the wide blade tips) sits on the visual centre. At favicon sizes the five blades overlap into one solid wedge, so the run rules assert it stays one unbroken piece; the blades are told apart by colour, which the colour probes pin at each blade tip.",
+  "glyphComponents": 1,
+  "opticalShift": [0, 16],
+  "smallSize": [
+    { "size": 32, "scanY": 0.5, "runs": 1 },
+    { "size": 32, "scanX": 0.5, "runs": 1 },
+    { "size": 32, "scanY": 0.78, "runs": 1 },
+    { "size": 16, "scanY": 0.5, "runs": 1 },
+    { "size": 16, "scanX": 0.5, "runs": 1 },
+    { "size": 16, "scanY": 0.78, "runs": 1 }
+  ],
+  "colorProbes": [
+    { "svg": "favicon.svg", "at": [94, 193], "expect": "#3cc8a4" },
+    { "svg": "favicon.svg", "at": [162, 164], "expect": "#f6b321" },
+    { "svg": "favicon.svg", "at": [236, 156], "expect": "#2f5bea" },
+    { "svg": "favicon.svg", "at": [309, 169], "expect": "#f3b6c4" },
+    { "svg": "favicon.svg", "at": [394, 221], "expect": "#e8553e" },
+    { "svg": "favicon.svg", "at": [227, 407], "expect": "#f1eef8" },
+    { "svg": "icon.svg", "at": [108, 198], "expect": "#3cc8a4" },
+    { "svg": "icon.svg", "at": [172, 172], "expect": "#f6b321" },
+    { "svg": "icon.svg", "at": [241, 166], "expect": "#2f5bea" },
+    { "svg": "icon.svg", "at": [308, 180], "expect": "#f3b6c4" },
+    { "svg": "icon.svg", "at": [383, 226], "expect": "#e8553e" },
+    { "svg": "icon.svg", "at": [228, 378], "expect": "#f1eef8" }
+  ]
+}

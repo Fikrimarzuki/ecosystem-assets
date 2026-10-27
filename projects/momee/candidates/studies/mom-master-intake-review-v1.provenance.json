@@ -1,0 +1,36 @@
+{
+  "milestone": "M1.0k-A2",
+  "createdOn": "2026-10-24",
+  "creator": "Claude Code (claude-opus-5-5)",
+  "assetId": "review.mom-master-intake.v1",
+  "toolVersions": {
+    "node": "24.21.0 (no new dependencies)",
+    "krita": "5.3.4.1 via krita_mcp 1.0.0 (review sheet layout only)"
+  },
+  "method": [
+    "deglow.mjs (derivative, alpha only): glow pixels alpha ≤ 4 and ≥ 3 px from the solid figure → 0 (10,604 px); 1 detached 15 px stray removed; interior alpha ≥ 240 at ≥ 4 px inside → 255, other alpha × 255/253 capped. RGB of kept pixels unchanged; composites differ from the original by ≤ 13 levels (mean ≤ 0.5).",
+    "scripts/momee-character-master.mjs place (unchanged tool): ×0.7713 downscale onto 800×1248, soles row 1215, feet x 400.",
+    "scripts/momee-character-master.mjs check (unchanged tool) with chin landmark row 371.",
+    "Supplementary identity evidence (palette.mjs, head-region facing test) — see identity-measurements.json.",
+    "candidates/m1.0j-c-construction/scale_renders.mjs for bedroom renders (downscale only; study-only elliptical contact shadow under Mom, since the candidate correctly has no baked shadow).",
+    "sheet_k2.py lays out the review sheet in Krita; every image downscaled or 1:1."
+  ],
+  "constructionScripts": {
+    "path": "projects/momee/candidates/m1.0k-a2-construction/",
+    "files": {
+      "deglow.mjs": "2c6652bb28c936b8347fa0dec6cf0b201eaca5ffe1ee1e87773c0003b5708b26",
+      "palette.mjs": "a2f076e7292e665b09d678b20a2cbc408b40283706badc1efffdb1986903335f",
+      "sheet_k2.py": "48f7df5dd88edcbfab3f09fa2ebd072af9b57c2d6385390051644724c073f8c9",
+      "scale.config.json": "3788baa44b978a6420cc434cfaf59ad01c90664681f040ffea968b075d0064ec",
+      "scale-report.json": "00233eb51b44429b08bc15370178f76bbae76c5cadb179fcfe5e49f51f5f7832",
+      "check-report.txt": "93d35ec1400ff780728d12a31c8e13637c2cc72f9a5e16052580db5b79b13cf3",
+      "place-report.txt": "ac8277c78c133cc0e2332e2c2ba93c190739c3e8ab0a073278abbdf6c1e5d628",
+      "deglow-report.json": "b2fbd423bdecd0e94db5671d6409aef1198bfcaa15b0555eb7f34252cdbf0a25",
+      "identity-measurements.json": "705cf509bc1f7ec67d73bb851111b399c55c80a03a7d4d9d8fbd2e4aa1587380"
+    }
+  },
+  "externalArtworkUsed": "The owner-supplied candidate and accepted references only.",
+  "generativeModelUsed": "None in this milestone.",
+  "rightsStatus": "unverified",
+  "approval": null
+}

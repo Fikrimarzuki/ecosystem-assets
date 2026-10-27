@@ -1,0 +1,581 @@
+{
+  "results": [
+    {
+      "name": "global-balanced-1.1",
+      "sizes": {
+        "latest": [
+          3.6,
+          3.04
+        ],
+        "games": [
+          3.6,
+          3.04
+        ],
+        "learning": [
+          4,
+          3.4
+        ],
+        "tools": [
+          4,
+          3.4
+        ],
+        "after-hours": [
+          4,
+          3.4
+        ],
+        "platforms": [
+          4.4,
+          3.72
+        ]
+      },
+      "orbit": 1.1,
+      "station": [
+        {
+          "world": "latest",
+          "gap": 0.428831122335561,
+          "time": 260
+        },
+        {
+          "world": "games",
+          "gap": 1.036723863716551,
+          "time": 518
+        },
+        {
+          "world": "learning",
+          "gap": 1.1218937072152866,
+          "time": 15
+        },
+        {
+          "world": "tools",
+          "gap": 1.1127639926772237,
+          "time": 316
+        },
+        {
+          "world": "after-hours",
+          "gap": 1.3711660237289385,
+          "time": 216
+        },
+        {
+          "world": "platforms",
+          "gap": 0.5183828884526508,
+          "time": 113
+        }
+      ],
+      "pairs": [
+        {
+          "a": "latest",
+          "b": "games",
+          "gap": 0.3065472408795518,
+          "time": 27
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "gap": 6.614309796374043,
+          "time": 88
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "gap": 0.3566796574203965,
+          "time": 357
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "gap": 6.808965533100925,
+          "time": 189
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "gap": 8.280369884004676,
+          "time": 139
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "gap": 1.0926269570675935,
+          "time": 265
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "gap": 7.515877269064255,
+          "time": 285
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "gap": 10.067715452722215,
+          "time": 344
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "gap": 6.77079947364754,
+          "time": 302
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "gap": 9.788269038226472,
+          "time": 446
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "gap": 7.819860573508319,
+          "time": 401
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "gap": 0.6643974368774647,
+          "time": 213
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "gap": 1.6119052632483386,
+          "time": 117
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "gap": 7.098949307418006,
+          "time": 79
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "gap": 1.2987803687856787,
+          "time": 174
+        }
+      ],
+      "views": [
+        {
+          "w": 1150,
+          "h": 740,
+          "clip": 59,
+          "maxOverlap": 0.015508509760346097,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.0007616897050495372,
+          "labelOverlap": 0,
+          "labelClip": 48,
+          "zoomRequired": 1.0269870259296114
+        },
+        {
+          "w": 688,
+          "h": 570,
+          "clip": 257,
+          "maxOverlap": 0.015508509760346054,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.0007616897050495405,
+          "labelOverlap": 0,
+          "labelClip": 160,
+          "zoomRequired": 1.0464554342690473
+        },
+        {
+          "w": 592,
+          "h": 570,
+          "clip": 388,
+          "maxOverlap": 0.015508509760346005,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.000761689705049519,
+          "labelOverlap": 0,
+          "labelClip": 0,
+          "zoomRequired": 1.0961052793751938
+        }
+      ]
+    },
+    {
+      "name": "global-balanced-1.1-zoom1.1",
+      "sizes": {
+        "latest": [
+          3.6,
+          3.04
+        ],
+        "games": [
+          3.6,
+          3.04
+        ],
+        "learning": [
+          4,
+          3.4
+        ],
+        "tools": [
+          4,
+          3.4
+        ],
+        "after-hours": [
+          4,
+          3.4
+        ],
+        "platforms": [
+          4.4,
+          3.72
+        ]
+      },
+      "orbit": 1.1,
+      "zoom": 1.1,
+      "station": [
+        {
+          "world": "latest",
+          "gap": 0.428831122335561,
+          "time": 260
+        },
+        {
+          "world": "games",
+          "gap": 1.036723863716551,
+          "time": 518
+        },
+        {
+          "world": "learning",
+          "gap": 1.1218937072152866,
+          "time": 15
+        },
+        {
+          "world": "tools",
+          "gap": 1.1127639926772237,
+          "time": 316
+        },
+        {
+          "world": "after-hours",
+          "gap": 1.3711660237289385,
+          "time": 216
+        },
+        {
+          "world": "platforms",
+          "gap": 0.5183828884526508,
+          "time": 113
+        }
+      ],
+      "pairs": [
+        {
+          "a": "latest",
+          "b": "games",
+          "gap": 0.3065472408795518,
+          "time": 27
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "gap": 6.614309796374043,
+          "time": 88
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "gap": 0.3566796574203965,
+          "time": 357
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "gap": 6.808965533100925,
+          "time": 189
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "gap": 8.280369884004676,
+          "time": 139
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "gap": 1.0926269570675935,
+          "time": 265
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "gap": 7.515877269064255,
+          "time": 285
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "gap": 10.067715452722215,
+          "time": 344
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "gap": 6.77079947364754,
+          "time": 302
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "gap": 9.788269038226472,
+          "time": 446
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "gap": 7.819860573508319,
+          "time": 401
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "gap": 0.6643974368774647,
+          "time": 213
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "gap": 1.6119052632483386,
+          "time": 117
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "gap": 7.098949307418006,
+          "time": 79
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "gap": 1.2987803687856787,
+          "time": 174
+        }
+      ],
+      "views": [
+        {
+          "w": 1150,
+          "h": 740,
+          "clip": 0,
+          "maxOverlap": 0.015508509760346071,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.0007616897050495296,
+          "labelOverlap": 0,
+          "labelClip": 0,
+          "zoomRequired": 1.0269870259296114
+        },
+        {
+          "w": 688,
+          "h": 570,
+          "clip": 0,
+          "maxOverlap": 0.01550850976034608,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.0007616897050495204,
+          "labelOverlap": 0,
+          "labelClip": 0,
+          "zoomRequired": 1.046455434269047
+        },
+        {
+          "w": 592,
+          "h": 570,
+          "clip": 0,
+          "maxOverlap": 0.015508509760346064,
+          "pair": "latest/tools",
+          "phase": 368,
+          "stationOverlap": 0.0007616897050495394,
+          "labelOverlap": 0,
+          "labelClip": 0,
+          "zoomRequired": 1.0961052793751935
+        }
+      ]
+    },
+    {
+      "name": "global-full-1.35",
+      "sizes": {
+        "latest": [
+          5.2,
+          4.4
+        ],
+        "games": [
+          5.2,
+          4.4
+        ],
+        "learning": [
+          5.2,
+          4.4
+        ],
+        "tools": [
+          5.2,
+          4.4
+        ],
+        "after-hours": [
+          5.2,
+          4.4
+        ],
+        "platforms": [
+          6.4,
+          5.2
+        ]
+      },
+      "orbit": 1.35,
+      "station": [
+        {
+          "world": "latest",
+          "gap": 1.6224887157030856,
+          "time": 267
+        },
+        {
+          "world": "games",
+          "gap": 1.7352321953303815,
+          "time": 516
+        },
+        {
+          "world": "learning",
+          "gap": 2.2639106607972974,
+          "time": 14
+        },
+        {
+          "world": "tools",
+          "gap": 2.2314944824226273,
+          "time": 316
+        },
+        {
+          "world": "after-hours",
+          "gap": 2.572919146151802,
+          "time": 215
+        },
+        {
+          "world": "platforms",
+          "gap": 0.9804001369324545,
+          "time": 108
+        }
+      ],
+      "pairs": [
+        {
+          "a": "latest",
+          "b": "games",
+          "gap": 0.21177879525721752,
+          "time": 13
+        },
+        {
+          "a": "latest",
+          "b": "learning",
+          "gap": 8.527393573496235,
+          "time": 78
+        },
+        {
+          "a": "latest",
+          "b": "tools",
+          "gap": 0.6854763169429741,
+          "time": 215
+        },
+        {
+          "a": "latest",
+          "b": "after-hours",
+          "gap": 8.788805416095986,
+          "time": 179
+        },
+        {
+          "a": "latest",
+          "b": "platforms",
+          "gap": 10.121758516857334,
+          "time": 127
+        },
+        {
+          "a": "games",
+          "b": "learning",
+          "gap": 1.2742965962034525,
+          "time": 408
+        },
+        {
+          "a": "games",
+          "b": "tools",
+          "gap": 9.14786884956965,
+          "time": 407
+        },
+        {
+          "a": "games",
+          "b": "after-hours",
+          "gap": 12.325029076018202,
+          "time": 353
+        },
+        {
+          "a": "games",
+          "b": "platforms",
+          "gap": 7.9811210617667125,
+          "time": 315
+        },
+        {
+          "a": "learning",
+          "b": "tools",
+          "gap": 12.379462097257523,
+          "time": 451
+        },
+        {
+          "a": "learning",
+          "b": "after-hours",
+          "gap": 9.944847945599328,
+          "time": 276
+        },
+        {
+          "a": "learning",
+          "b": "platforms",
+          "gap": 0.4572077887071802,
+          "time": 202
+        },
+        {
+          "a": "tools",
+          "b": "after-hours",
+          "gap": 2.2201158032452106,
+          "time": 108
+        },
+        {
+          "a": "tools",
+          "b": "platforms",
+          "gap": 8.546017568379739,
+          "time": 70
+        },
+        {
+          "a": "after-hours",
+          "b": "platforms",
+          "gap": 1.1025530124598264,
+          "time": 184
+        }
+      ],
+      "views": [
+        {
+          "w": 1150,
+          "h": 740,
+          "clip": 1166,
+          "maxOverlap": 0.03303317254115214,
+          "pair": "learning/platforms",
+          "phase": 195,
+          "stationOverlap": 0,
+          "labelOverlap": 0,
+          "labelClip": 499,
+          "zoomRequired": 1.2381113000805575
+        },
+        {
+          "w": 688,
+          "h": 570,
+          "clip": 2393,
+          "maxOverlap": 0.033033172541152074,
+          "pair": "learning/platforms",
+          "phase": 195,
+          "stationOverlap": 0,
+          "labelOverlap": 0,
+          "labelClip": 753,
+          "zoomRequired": 1.4027573699527434
+        },
+        {
+          "w": 592,
+          "h": 570,
+          "clip": 2128,
+          "maxOverlap": 0.03303317254115211,
+          "pair": "learning/platforms",
+          "phase": 195,
+          "stationOverlap": 0,
+          "labelOverlap": 0,
+          "labelClip": 765,
+          "zoomRequired": 1.4693122215583516
+        }
+      ]
+    }
+  ]
+}

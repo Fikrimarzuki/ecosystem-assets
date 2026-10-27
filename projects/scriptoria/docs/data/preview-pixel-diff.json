@@ -1,0 +1,290 @@
+{
+ "textured/front": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 1.0,
+   "pctPixelsOver10": 0.37
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.27,
+   "pctPixelsOver10": 1.02
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 1.42,
+   "pctPixelsOver10": 1.41
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 3.29,
+   "pctPixelsOver10": 6.6
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.75,
+   "pctPixelsOver10": 10.99
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 5.69,
+   "pctPixelsOver10": 13.75
+  }
+ },
+ "textured/three-quarter": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 0.96,
+   "pctPixelsOver10": 0.35
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.2,
+   "pctPixelsOver10": 0.85
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 1.33,
+   "pctPixelsOver10": 1.21
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 3.13,
+   "pctPixelsOver10": 5.98
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.65,
+   "pctPixelsOver10": 10.62
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 5.4,
+   "pctPixelsOver10": 13.34
+  }
+ },
+ "textured/side": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 0.94,
+   "pctPixelsOver10": 0.24
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.19,
+   "pctPixelsOver10": 0.69
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 1.34,
+   "pctPixelsOver10": 1.18
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 3.22,
+   "pctPixelsOver10": 6.82
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.92,
+   "pctPixelsOver10": 11.23
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 5.7,
+   "pctPixelsOver10": 13.72
+  }
+ },
+ "textured/back": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 0.63,
+   "pctPixelsOver10": 0.11
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 0.78,
+   "pctPixelsOver10": 0.41
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 0.87,
+   "pctPixelsOver10": 0.72
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 1.54,
+   "pctPixelsOver10": 1.94
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.39,
+   "pctPixelsOver10": 3.72
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.85,
+   "pctPixelsOver10": 4.82
+  }
+ },
+ "textured/face": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 1.62,
+   "pctPixelsOver10": 1.69
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.96,
+   "pctPixelsOver10": 2.96
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 2.21,
+   "pctPixelsOver10": 4.03
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.29,
+   "pctPixelsOver10": 8.74
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 6.02,
+   "pctPixelsOver10": 14.14
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 7.31,
+   "pctPixelsOver10": 17.62
+  }
+ },
+ "textured/face-three-quarter": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 1.45,
+   "pctPixelsOver10": 1.54
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.83,
+   "pctPixelsOver10": 2.88
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 2.03,
+   "pctPixelsOver10": 3.78
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 3.72,
+   "pctPixelsOver10": 7.77
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 5.57,
+   "pctPixelsOver10": 15.6
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 6.71,
+   "pctPixelsOver10": 18.55
+  }
+ },
+ "textured/wrist": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 0.34,
+   "pctPixelsOver10": 0.49
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 0.39,
+   "pctPixelsOver10": 0.69
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 0.44,
+   "pctPixelsOver10": 0.84
+  }
+ },
+ "clay/front": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 1.15,
+   "pctPixelsOver10": 2.34
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.75,
+   "pctPixelsOver10": 4.98
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 2.13,
+   "pctPixelsOver10": 6.75
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 1.15,
+   "pctPixelsOver10": 2.34
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 1.75,
+   "pctPixelsOver10": 4.98
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.13,
+   "pctPixelsOver10": 6.75
+  }
+ },
+ "clay/three-quarter": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 1.14,
+   "pctPixelsOver10": 2.1
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.78,
+   "pctPixelsOver10": 4.99
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 2.14,
+   "pctPixelsOver10": 6.65
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 1.14,
+   "pctPixelsOver10": 2.1
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 1.78,
+   "pctPixelsOver10": 4.99
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.14,
+   "pctPixelsOver10": 6.65
+  }
+ },
+ "clay/face": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 2.68,
+   "pctPixelsOver10": 6.25
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 3.94,
+   "pctPixelsOver10": 11.05
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 4.77,
+   "pctPixelsOver10": 14.69
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.68,
+   "pctPixelsOver10": 6.25
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 3.94,
+   "pctPixelsOver10": 11.05
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.77,
+   "pctPixelsOver10": 14.69
+  }
+ },
+ "clay/face-three-quarter": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 2.89,
+   "pctPixelsOver10": 6.41
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 4.32,
+   "pctPixelsOver10": 13.02
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 5.16,
+   "pctPixelsOver10": 16.59
+  },
+  "40k-decimate-only": {
+   "meanAbsDiffOnCharacter": 2.89,
+   "pctPixelsOver10": 6.41
+  },
+  "25k-decimate-only": {
+   "meanAbsDiffOnCharacter": 4.32,
+   "pctPixelsOver10": 13.02
+  },
+  "20k-decimate-only": {
+   "meanAbsDiffOnCharacter": 5.16,
+   "pctPixelsOver10": 16.59
+  }
+ },
+ "clay/wrist": {
+  "40k": {
+   "meanAbsDiffOnCharacter": 0.79,
+   "pctPixelsOver10": 2.43
+  },
+  "25k": {
+   "meanAbsDiffOnCharacter": 1.08,
+   "pctPixelsOver10": 3.68
+  },
+  "20k": {
+   "meanAbsDiffOnCharacter": 1.26,
+   "pctPixelsOver10": 4.45
+  }
+ }
+}

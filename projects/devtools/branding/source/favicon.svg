@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>DevTools favicon</title>
+  <g id="bg"><rect width="512" height="512" rx="112" fill="#09113a"/><rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="#4468c8" stroke-width="28"/></g>
+  <g id="glyph" transform="translate(256 256) scale(1.2) translate(-256 -256)">
+    <path fill="#5b9bff" fill-rule="evenodd" d="M127 129A3 3 0 0 1 130 126L382 126A3 3 0 0 1 385 129L385 189A3 3 0 0 1 382 192L336 192A3 3 0 0 0 333 195L333 340.8A3 3 0 0 1 332.1 342.9L289.9 385.1A3 3 0 0 1 287.8 386L130 386A3 3 0 0 1 127 383ZM189 193.8A1.8 1.8 0 0 1 190.8 192L233.9 192A1.8 1.8 0 0 1 235.5 193L268.6 255.2A1.8 1.8 0 0 1 268.6 256.8L235.5 319A1.8 1.8 0 0 1 233.9 320L190.8 320A1.8 1.8 0 0 1 189 318.2Z"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "assetId": "ref.boy.accepted-sheet.v1",
+  "recordedOn": "2026-10-24",
+  "recordedBy": "Claude Code (claude-opus-5-5), M1.0j-B",
+  "file": {
+    "path": "projects/momee/candidates/m1.0j/character-reference-v1.png",
+    "sha256": "7d1a5aa47c1af41b205a638f56f5a5901146bd600f25f194fb50d0e2221f3c03",
+    "bytes": 2705842,
+    "format": "PNG, 1536x1024, 8-bit RGBA (colour type 6), non-interlaced",
+    "colourSpace": "sRGB (sRGB chunk; sips reports sRGB IEC61966-2.1)",
+    "alpha": "Sheet-wide translucency: 1,572,864 of 1,572,864 pixels are below 255 (mostly 244–252; 0–1 in a few areas). Viewed and extracted as composited over its own panel colour."
+  },
+  "metadata": {
+    "pngChunks": "IHDR, sRGB (perceptual), eXIf (80 bytes: Orientation 1, PixelXDimension 1536, PixelYDimension 1024), iTXt XMP (tiff:Orientation 1 only), IDAT, IEND",
+    "c2pa": "none (no caBX chunk)",
+    "generatorMetadata": "none present"
+  },
+  "content": "Reference sheet titled 'MOMEE · Boy Character — 3/4 View Candidate (v1.1)': master excerpts, new ¾ candidate (main figure), ¾ expressions (neutral/happy/talking), head close-ups, palette and detail swatches, turnaround comparison, scale reference with a Mom figure (v1.1-like), bedroom integration mock-up, mobile framing and a comparison with the M1.0i procedural placeholder. The title strip shows doubled/ghosted text.",
+  "filenameNote": "The M1.0j-B brief expected boy-character-reference-v1.png; the file present is character-reference-v1.png. Identified as the Boy reference by its content, not its name.",
+  "generation": {
+    "tool": "not recorded",
+    "model": "not recorded",
+    "prompt": "not recorded",
+    "seed": "not recorded",
+    "date": "not recorded (file mtime is a copy time, not a creation time)",
+    "attachedReferences": "not recorded",
+    "observation": "Sheet layout and labels match the M1.0i review-sheet conventions and quote M1.0i outputs (scale 200u/290u, 2.5/3.09 heads, 'Comparison with procedural v1'), so it was most likely produced with an image tool from M1.0i material. This is an inference, not a recorded fact."
+  },
+  "lineage": [
+    "ref.character-master-v1 (stated on the sheet: 'Based closely on the approved Character Master v1')"
+  ],
+  "ownerDecision": "Accepted as the Boy's visual direction (owner, M1.0j-B brief, 2026-10-24). Not production approval.",
+  "rightsStatus": "unverified",
+  "approval": null,
+  "immutability": "Never edit, re-export or re-save. Derivatives live elsewhere and cite this SHA-256."
+}

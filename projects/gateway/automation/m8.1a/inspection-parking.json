@@ -1,0 +1,1106 @@
+{
+  "method": "Reduced-motion holding attitude, all600nominal1second phases, world and station closed triangle contacts. Actual surface minimum only near aggregate AABBgap<=.2; minimum established from included nearby parts. Inspection phase0,12yaw/pitch combinations, mesh+parkedrocket; Canvas split65%desktop/58%tablet; compares unchanged scale*2 and hypothetical half-diagonal extent fit. No browser pointer/readability or selection acceptance.",
+  "results": [
+    {
+      "name": "tools-3.6",
+      "reducedMotionParkingActualContacts": 0,
+      "minReducedParkingSurfaceGap": 0.5169165153198929,
+      "inspection": [
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7749948519815367,
+          "maxAbsNDCY": 0.7582488472661979
+        },
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7749948519815367,
+          "maxAbsNDCY": 0.7582488472661979
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.720076703474674,
+          "maxAbsNDCY": 0.4961061097895861
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.720076703474674,
+          "maxAbsNDCY": 0.4961061097895861
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7194179277224413,
+          "maxAbsNDCY": 0.4288480104492919
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7194179277224413,
+          "maxAbsNDCY": 0.4288480104492919
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.8485258029225224,
+          "maxAbsNDCY": 0.7771233887959955
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.8485258029225224,
+          "maxAbsNDCY": 0.7771233887959955
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7897495952578172,
+          "maxAbsNDCY": 0.5239408206466769
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7897495952578172,
+          "maxAbsNDCY": 0.5239408206466769
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7893707335192786,
+          "maxAbsNDCY": 0.45585842349473765
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7893707335192786,
+          "maxAbsNDCY": 0.45585842349473765
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7720305781133308,
+          "maxAbsNDCY": 0.6221913136971078
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7720305781133308,
+          "maxAbsNDCY": 0.6221913136971078
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7088833809940798,
+          "maxAbsNDCY": 0.4182459268357329
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7088833809940798,
+          "maxAbsNDCY": 0.4182459268357329
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7061266864947058,
+          "maxAbsNDCY": 0.36386448026357815
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7061266864947058,
+          "maxAbsNDCY": 0.36386448026357815
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0379578975100197,
+          "maxAbsNDCY": 0.887614657953489
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.8588417442028329,
+          "maxAbsNDCY": 0.7601854181168519
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9446549025179015,
+          "maxAbsNDCY": 0.603191200857577
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.7912348240093489,
+          "maxAbsNDCY": 0.515133761716964
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9410434890869758,
+          "maxAbsNDCY": 0.5259348906985567
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.7897153737483001,
+          "maxAbsNDCY": 0.4488109957813569
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.8142206409683477,
+          "maxAbsNDCY": 0.6806839292275477
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.8142206409683477,
+          "maxAbsNDCY": 0.6806839292275477
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7542972241383903,
+          "maxAbsNDCY": 0.45592479187101603
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7542972241383903,
+          "maxAbsNDCY": 0.45592479187101603
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.753044942097584,
+          "maxAbsNDCY": 0.3959854318408798
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.753044942097584,
+          "maxAbsNDCY": 0.3959854318408798
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7494229132569863,
+          "maxAbsNDCY": 0.6179484737170763
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.7494229132569863,
+          "maxAbsNDCY": 0.6179484737170763
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.6850257597254241,
+          "maxAbsNDCY": 0.41413698472340044
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.6850257597254241,
+          "maxAbsNDCY": 0.41413698472340044
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.6836298350091643,
+          "maxAbsNDCY": 0.3597452946287886
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.6836298350091643,
+          "maxAbsNDCY": 0.3597452946287886
+        }
+      ]
+    },
+    {
+      "name": "global-balanced-1.1",
+      "reducedMotionParkingActualContacts": 0,
+      "minReducedParkingSurfaceGap": 0.5592342115768939,
+      "inspection": [
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9582299371067792,
+          "maxAbsNDCY": 0.7975925109731249
+        },
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.7983385322793478,
+          "maxAbsNDCY": 0.652131427202367
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.8843903612168388,
+          "maxAbsNDCY": 0.4961061097895859
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.7417898106632914,
+          "maxAbsNDCY": 0.42178042358993256
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.882088595972661,
+          "maxAbsNDCY": 0.43056698573839725
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.7411171592307083,
+          "maxAbsNDCY": 0.36777662014467016
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0296497184452433,
+          "maxAbsNDCY": 0.8922821031518259
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.8598748760900475,
+          "maxAbsNDCY": 0.7473251720661892
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9551856538486716,
+          "maxAbsNDCY": 0.5938005835631134
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.8023489400251326,
+          "maxAbsNDCY": 0.5075046599444579
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9539321223374103,
+          "maxAbsNDCY": 0.51809687399879
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.3559286916203557,
+          "fitDistanceRatio": 1.1779643458101778,
+          "maxAbsNDCX": 0.8024833279258874,
+          "maxAbsNDCY": 0.44242080212545026
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0514836156552372,
+          "maxAbsNDCY": 0.8513282815615402
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7669115534024278,
+          "maxAbsNDCY": 0.6148692750185355
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9514978252936246,
+          "maxAbsNDCY": 0.5332822683584115
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7052285624901447,
+          "maxAbsNDCY": 0.40077542608476757
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9443782599398138,
+          "maxAbsNDCY": 0.4590020015921643
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7027469621240295,
+          "maxAbsNDCY": 0.34560980779697176
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.1287494190013576,
+          "maxAbsNDCY": 0.9737711084231858
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.8243288431711081,
+          "maxAbsNDCY": 0.720228780437541
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0232335695558457,
+          "maxAbsNDCY": 0.6342762720413316
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.761884683661073,
+          "maxAbsNDCY": 0.4888964895263649
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0179386953565757,
+          "maxAbsNDCY": 0.5536876730042138
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7608191309114164,
+          "maxAbsNDCY": 0.4261500151298019
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0852024471611852,
+          "maxAbsNDCY": 0.9334635746938785
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.8003155104516916,
+          "maxAbsNDCY": 0.6638036858089751
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9971339547742655,
+          "maxAbsNDCY": 0.5654327371144464
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7440414782375454,
+          "maxAbsNDCY": 0.4232065955854322
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9934293609581144,
+          "maxAbsNDCY": 0.4795401854986335
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.6248809496813372,
+          "fitDistanceRatio": 1.3124404748406686,
+          "maxAbsNDCX": 0.7434720116468176,
+          "maxAbsNDCY": 0.3687381643390388
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.120898499940803,
+          "maxAbsNDCY": 0.9236515738482555
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1.4404513181638596,
+          "maxAbsNDCX": 0.7282806137841974,
+          "maxAbsNDCY": 0.6053466882094548
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.0028667547717254,
+          "maxAbsNDCY": 0.5796405031400478
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1.4404513181638596,
+          "maxAbsNDCX": 0.6684162879559836,
+          "maxAbsNDCY": 0.3952269942113359
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 0.9926128104615947,
+          "maxAbsNDCY": 0.49882649048603156
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 2.8809026363277193,
+          "fitDistanceRatio": 1.4404513181638596,
+          "maxAbsNDCX": 0.6676538322911851,
+          "maxAbsNDCY": 0.340971717841283
+        }
+      ]
+    },
+    {
+      "name": "global-full-1",
+      "reducedMotionParkingActualContacts": 448,
+      "minReducedParkingSurfaceGap": 0,
+      "inspection": [
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.311400198627474,
+          "maxAbsNDCY": 1.1639472817768683
+        },
+        {
+          "world": "latest",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.720463204533903,
+          "maxAbsNDCY": 0.5922611710366289
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.1944932227767069,
+          "maxAbsNDCY": 0.6892109537952201
+        },
+        {
+          "world": "latest",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.6722067800221216,
+          "maxAbsNDCY": 0.3842089699301251
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.1874704153615154,
+          "maxAbsNDCY": 0.5812891233931178
+        },
+        {
+          "world": "latest",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.6723047811872216,
+          "maxAbsNDCY": 0.3310703388419854
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.370441173501932,
+          "maxAbsNDCY": 1.3047149994659648
+        },
+        {
+          "world": "games",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7635549620830131,
+          "maxAbsNDCY": 0.6490336482645267
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.2626901434559004,
+          "maxAbsNDCY": 0.7587968144478263
+        },
+        {
+          "world": "games",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7167827687034765,
+          "maxAbsNDCY": 0.43333700422248045
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.258866010503179,
+          "maxAbsNDCY": 0.6366755926009713
+        },
+        {
+          "world": "games",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7180109471829065,
+          "maxAbsNDCY": 0.3783172651476006
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.3347892493780484,
+          "maxAbsNDCY": 1.117234213630584
+        },
+        {
+          "world": "learning",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7146706916257193,
+          "maxAbsNDCY": 0.5870392899909573
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.1903881987482814,
+          "maxAbsNDCY": 0.6739027266118445
+        },
+        {
+          "world": "learning",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.6595782589694871,
+          "maxAbsNDCY": 0.3804342551865562
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.177298962792911,
+          "maxAbsNDCY": 0.5770586008045311
+        },
+        {
+          "world": "learning",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.6578563018929722,
+          "maxAbsNDCY": 0.32758291459557826
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.4107382041383212,
+          "maxAbsNDCY": 1.275123042232864
+        },
+        {
+          "world": "tools",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7613893276345159,
+          "maxAbsNDCY": 0.6437984146727259
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.2663990637045286,
+          "maxAbsNDCY": 0.7497768074331592
+        },
+        {
+          "world": "tools",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7077855121685134,
+          "maxAbsNDCY": 0.4386117288747537
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.2544642722579167,
+          "maxAbsNDCY": 0.6343474645496379
+        },
+        {
+          "world": "tools",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7075015875502465,
+          "maxAbsNDCY": 0.38269821975038665
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.350827171707918,
+          "maxAbsNDCY": 1.2203583783132528
+        },
+        {
+          "world": "after-hours",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.7428194183010141,
+          "maxAbsNDCY": 0.6173877681463213
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.2313490201051416,
+          "maxAbsNDCY": 0.7197512735757331
+        },
+        {
+          "world": "after-hours",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.6933455833100222,
+          "maxAbsNDCY": 0.38605625685328215
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.2243419545614818,
+          "maxAbsNDCY": 0.6058263349375366
+        },
+        {
+          "world": "after-hours",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 3.4058772731852804,
+          "fitDistanceRatio": 1.7029386365926402,
+          "maxAbsNDCX": 0.693518141636468,
+          "maxAbsNDCY": 0.3342440965224274
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": false,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.6334275925397503,
+          "maxAbsNDCY": 1.3853563901568002
+        },
+        {
+          "world": "platforms",
+          "width": 747.5,
+          "height": 740,
+          "dimensionAware": true,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 2.0615528128088303,
+          "maxAbsNDCX": 0.6791438286625108,
+          "maxAbsNDCY": 0.5817200757683624
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.4175663581065612,
+          "maxAbsNDCY": 0.8254189392127047
+        },
+        {
+          "world": "platforms",
+          "width": 399.04,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 2.0615528128088303,
+          "maxAbsNDCX": 0.6261308800931418,
+          "maxAbsNDCY": 0.37696191160216225
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": false,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 1,
+          "maxAbsNDCX": 1.3929519361345468,
+          "maxAbsNDCY": 0.7046526334728065
+        },
+        {
+          "world": "platforms",
+          "width": 343.36,
+          "height": 570,
+          "dimensionAware": true,
+          "extent": 4.123105625617661,
+          "fitDistanceRatio": 2.0615528128088303,
+          "maxAbsNDCX": 0.6253595029907826,
+          "maxAbsNDCY": 0.32458741249837586
+        }
+      ]
+    }
+  ]
+}
